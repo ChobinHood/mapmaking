@@ -2117,7 +2117,7 @@
       <unitPlacement unitType="wizard" territory="Lorien" quantity="2" owner="Elves"/>
       <unitPlacement unitType="eagles" territory="Lorien" quantity="2" owner="Elves"/>
       <unitPlacement unitType="tower" territory="Lorien" quantity="3" owner="Elves"/>
-      <unitPlacement unitType="ents" territory="Fangorn" quantity="10" owner="Elves"/>
+      <unitPlacement unitType="ents" territory="Fangorn" quantity="8" owner="Elves"/>
       <unitPlacement unitType="ents" territory="E. Mirkwood" quantity="1" owner="Elves"/>
       <unitPlacement unitType="ents" territory="W. Mirkwood" quantity="1" owner="Elves"/>
       <unitPlacement unitType="ents" territory="N. Mirkwood" quantity="1" owner="Elves"/>
@@ -2164,12 +2164,12 @@
       <unitPlacement unitType="castle" territory="Helms Deep" quantity="1" owner="Rohan"/>
       <unitPlacement unitType="tower" territory="Helms Deep" quantity="3" owner="Rohan"/>
       <unitPlacement unitType="fortifications" territory="Helms Deep" quantity="8" owner="Rohan"/>
-      <unitPlacement unitType="lightCavalry" territory="E. Emnet" quantity="3" owner="Rohan"/>
-      <unitPlacement unitType="heavyCavalry" territory="E. Emnet" quantity="4" owner="Rohan"/>
+      <unitPlacement unitType="lightCavalry" territory="E. Emnet" quantity="4" owner="Rohan"/>
+      <unitPlacement unitType="heavyCavalry" territory="E. Emnet" quantity="3" owner="Rohan"/>
       <unitPlacement unitType="spearInfantry" territory="Eastfold" quantity="4" owner="Rohan"/>
       <unitPlacement unitType="heavyCavalry" territory="Eastfold" quantity="3" owner="Rohan"/>
       <unitPlacement unitType="spearInfantry" territory="Helms Deep" quantity="2" owner="Rohan"/>
-      <unitPlacement unitType="spearInfantry" territory="Westfold" quantity="4" owner="Rohan"/>
+      <unitPlacement unitType="spearInfantry" territory="Westfold" quantity="6" owner="Rohan"/>
       <unitPlacement unitType="lightCavalry" territory="Westfold" quantity="2" owner="Rohan"/>
       <!-- Mordor Lands -->
       <unitPlacement unitType="castle" territory="Barad Dur" quantity="1" owner="Mordor"/>
@@ -2198,13 +2198,13 @@
       <unitPlacement unitType="siegeTower" territory="Dol Goldur" quantity="1" owner="Mordor"/>
       <unitPlacement unitType="trolls" territory="Dol Goldur" quantity="2" owner="Mordor"/>
       <unitPlacement unitType="castle" territory="Isengard" quantity="1" owner="Saruman"/>
-      <unitPlacement unitType="tower" territory="Isengard" quantity="1" owner="Saruman"/>
-      <unitPlacement unitType="fortifications" territory="Isengard" quantity="4" owner="Saruman"/>
+      <unitPlacement unitType="tower" territory="Isengard" quantity="2" owner="Saruman"/>
+      <unitPlacement unitType="fortifications" territory="Isengard" quantity="5" owner="Saruman"/>
       <unitPlacement unitType="orcs" territory="Isengard" quantity="4" owner="Saruman"/>
-      <unitPlacement unitType="urukhai" territory="Isengard" quantity="10" owner="Saruman"/>
-      <unitPlacement unitType="raiders" territory="S. Dunland" quantity="4" owner="Saruman"/>
-      <unitPlacement unitType="raiders" territory="N. Dunland" quantity="4" owner="Saruman"/>
-      <unitPlacement unitType="wargs" territory="Isengard" quantity="6" owner="Saruman"/>
+      <unitPlacement unitType="urukhai" territory="Isengard" quantity="8" owner="Saruman"/>
+      <unitPlacement unitType="raiders" territory="S. Dunland" quantity="6" owner="Saruman"/>
+      <unitPlacement unitType="raiders" territory="N. Dunland" quantity="2" owner="Saruman"/>
+      <unitPlacement unitType="wargs" territory="Isengard" quantity="4" owner="Saruman"/>
       <unitPlacement unitType="wargs" territory="Dol Goldur" quantity="4" owner="Goblins"/>
       <unitPlacement unitType="wizard" territory="Isengard" quantity="1" owner="Saruman"/>
       <unitPlacement unitType="castle" territory="Rhun" quantity="1" owner="Rhun"/>
