@@ -2256,8 +2256,7 @@
       <unitPlacement unitType="wargs" territory="S. Caves" quantity="1" owner="Goblins"/>
       <!-- Neutral Lands -->
       <unitPlacement unitType="castle" territory="Lonely Mtn." quantity="1" owner="Dwarves"/>
-      <unitPlacement unitType="fortifications" territory="Lonely Mtn." quantity="6" owner="Dwarves"/>
-      <unitPlacement unitType="tower" territory="Lonely Mtn." quantity="1" owner="Dwarves"/>
+      <unitPlacement unitType="fortifications" territory="Lonely Mtn." quantity="8" owner="Dwarves"/>
       <unitPlacement unitType="axeInfantry" territory="Lonely Mtn." quantity="6" owner="Dwarves"/>
       <unitPlacement unitType="cannon" territory="Lonely Mtn." quantity="2" owner="Dwarves"/>
       <unitPlacement unitType="axeInfantry" territory="Iron Hills" quantity="3" owner="Dwarves"/>
