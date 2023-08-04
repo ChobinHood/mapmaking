@@ -2117,7 +2117,7 @@
       <unitPlacement unitType="wizard" territory="Lorien" quantity="2" owner="Elves"/>
       <unitPlacement unitType="eagles" territory="Lorien" quantity="2" owner="Elves"/>
       <unitPlacement unitType="tower" territory="Lorien" quantity="3" owner="Elves"/>
-      <unitPlacement unitType="ents" territory="Fangorn" quantity="8" owner="Elves"/>
+      <unitPlacement unitType="ents" territory="Fangorn" quantity="10" owner="Elves"/>
       <unitPlacement unitType="ents" territory="E. Mirkwood" quantity="1" owner="Elves"/>
       <unitPlacement unitType="ents" territory="W. Mirkwood" quantity="1" owner="Elves"/>
       <unitPlacement unitType="ents" territory="N. Mirkwood" quantity="1" owner="Elves"/>
@@ -2200,11 +2200,11 @@
       <unitPlacement unitType="castle" territory="Isengard" quantity="1" owner="Saruman"/>
       <unitPlacement unitType="tower" territory="Isengard" quantity="2" owner="Saruman"/>
       <unitPlacement unitType="fortifications" territory="Isengard" quantity="5" owner="Saruman"/>
-      <unitPlacement unitType="orcs" territory="Isengard" quantity="3" owner="Saruman"/>
+      <unitPlacement unitType="orcs" territory="Isengard" quantity="2" owner="Saruman"/>
       <unitPlacement unitType="urukhai" territory="Isengard" quantity="4" owner="Saruman"/>
       <unitPlacement unitType="urukhai" territory="N. Dunland" quantity="4" owner="Saruman"/>
       <unitPlacement unitType="raiders" territory="S. Dunland" quantity="6" owner="Saruman"/>
-      <unitPlacement unitType="raiders" territory="N. Dunland" quantity="3" owner="Saruman"/>
+      <unitPlacement unitType="raiders" territory="N. Dunland" quantity="4" owner="Saruman"/>
       <unitPlacement unitType="wargs" territory="Isengard" quantity="4" owner="Saruman"/>
       <unitPlacement unitType="wargs" territory="Dol Goldur" quantity="4" owner="Goblins"/>
       <unitPlacement unitType="wizard" territory="Isengard" quantity="1" owner="Saruman"/>
