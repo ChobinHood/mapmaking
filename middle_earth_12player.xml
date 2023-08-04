@@ -2067,7 +2067,7 @@
       <territoryOwner territory="Nurn" owner="Mordor"/>
       <territoryOwner territory="Barad Dur" owner="Mordor"/>
       <territoryOwner territory="Isengard" owner="Saruman"/>
-      <territoryOwner territory="S. Dunland"owner="Saruman"/>
+      <territoryOwner territory="S. Dunland" owner="Saruman"/>
       <territoryOwner territory="N. Dunland" owner="Saruman"/>
       <!-- Haradrim Lands -->
       <territoryOwner territory="Harad Road" owner="Haradrim"/>
