@@ -815,8 +815,8 @@
   <production>
     <!-- Unit Production Cost -->
     <productionRule name="buyFortifications">
-      <cost resource="PUs" quantity="3"/>
-      <result resourceOrUnit="fortifications" quantity="2"/>
+      <cost resource="PUs" quantity="2"/>
+      <result resourceOrUnit="fortifications" quantity="1"/>
     </productionRule>
     <productionRule name="buyTower">
       <cost resource="PUs" quantity="5"/>
@@ -827,28 +827,28 @@
       <result resourceOrUnit="castle" quantity="1"/>
     </productionRule>
     <productionRule name="buySpearInfantry">
-      <cost resource="PUs" quantity="3"/>
-      <result resourceOrUnit="spearInfantry" quantity="1"/>
+      <cost resource="PUs" quantity="7"/>
+      <result resourceOrUnit="spearInfantry" quantity="2"/>
     </productionRule>
     <productionRule name="buyCorsairs">
       <cost resource="PUs" quantity="4"/>
       <result resourceOrUnit="corsairs" quantity="1"/>
     </productionRule>
     <productionRule name="buyTowerGuard">
-      <cost resource="PUs" quantity="4"/>
-      <result resourceOrUnit="towerGuard" quantity="1"/>
+      <cost resource="PUs" quantity="9"/>
+      <result resourceOrUnit="towerGuard" quantity="2"/>
     </productionRule>
     <productionRule name="buyLightCavalry">
-      <cost resource="PUs" quantity="4"/>
+      <cost resource="PUs" quantity="5"/>
       <result resourceOrUnit="lightCavalry" quantity="1"/>
     </productionRule>
     <productionRule name="buyHeavyCavalry">
-      <cost resource="PUs" quantity="5"/>
+      <cost resource="PUs" quantity="7"/>
       <result resourceOrUnit="heavyCavalry" quantity="1"/>
     </productionRule>
     <productionRule name="buyTrebuche">
-      <cost resource="PUs" quantity="4"/>
-      <result resourceOrUnit="trebuche" quantity="1"/>
+      <cost resource="PUs" quantity="9"/>
+      <result resourceOrUnit="trebuche" quantity="2"/>
     </productionRule>
     <productionRule name="buyCaravel">
       <cost resource="PUs" quantity="5"/>
@@ -859,7 +859,7 @@
       <result resourceOrUnit="galleon" quantity="1"/>
     </productionRule>
     <productionRule name="buyOliphant">
-      <cost resource="PUs" quantity="12"/>
+      <cost resource="PUs" quantity="13"/>
       <result resourceOrUnit="oliphant" quantity="1"/>
     </productionRule>
     <productionRule name="buyHobbits">
@@ -867,7 +867,7 @@
       <result resourceOrUnit="hobbits" quantity="1"/>
     </productionRule>
     <productionRule name="buyHunters">
-      <cost resource="PUs" quantity="4"/>
+      <cost resource="PUs" quantity="5"/>
       <result resourceOrUnit="hunters" quantity="1"/>
     </productionRule>
     <productionRule name="buyWizard">
@@ -875,15 +875,15 @@
       <result resourceOrUnit="wizard" quantity="1"/>
     </productionRule>
     <productionRule name="buyGriffin">
-      <cost resource="PUs" quantity="7"/>
+      <cost resource="PUs" quantity="8"/>
       <result resourceOrUnit="griffin" quantity="1"/>
     </productionRule>
     <productionRule name="buyEagles">
-      <cost resource="PUs" quantity="6"/>
+      <cost resource="PUs" quantity="9"/>
       <result resourceOrUnit="eagles" quantity="1"/>
     </productionRule>
     <productionRule name="buyCutter">
-      <cost resource="PUs" quantity="6"/>
+      <cost resource="PUs" quantity="8"/>
       <result resourceOrUnit="cutter" quantity="1"/>
     </productionRule>
     <productionRule name="buyClipper">
@@ -895,8 +895,8 @@
       <result resourceOrUnit="orcs" quantity="1"/>
     </productionRule>
     <productionRule name="buyUrukhai">
-      <cost resource="PUs" quantity="5"/>
-      <result resourceOrUnit="urukhai" quantity="1"/>
+      <cost resource="PUs" quantity="9"/>
+      <result resourceOrUnit="urukhai" quantity="2"/>
     </productionRule>
     <productionRule name="buyTrolls">
       <cost resource="PUs" quantity="6"/>
@@ -907,7 +907,7 @@
       <result resourceOrUnit="siegeTower" quantity="1"/>
     </productionRule>
     <productionRule name="buyNazgul">
-      <cost resource="PUs" quantity="27"/>
+      <cost resource="PUs" quantity="17"/>
       <result resourceOrUnit="nazgul" quantity="1"/>
     </productionRule>
     <productionRule name="buyTrireme">
@@ -919,19 +919,19 @@
       <result resourceOrUnit="battleship" quantity="1"/>
     </productionRule>
     <productionRule name="buyStabbers">
-      <cost resource="PUs" quantity="2"/>
-      <result resourceOrUnit="stabbers" quantity="1"/>
+      <cost resource="PUs" quantity="5"/>
+      <result resourceOrUnit="stabbers" quantity="2"/>
     </productionRule>
     <productionRule name="buyShooters">
-      <cost resource="PUs" quantity="2"/>
-      <result resourceOrUnit="shooters" quantity="1"/>
+      <cost resource="PUs" quantity="5"/>
+      <result resourceOrUnit="shooters" quantity="2"/>
     </productionRule>
     <productionRule name="buyWargs">
-      <cost resource="PUs" quantity="5"/>
+      <cost resource="PUs" quantity="4"/>
       <result resourceOrUnit="wargs" quantity="1"/>
     </productionRule>
     <productionRule name="buyBalrog">
-      <cost resource="PUs" quantity="22"/>
+      <cost resource="PUs" quantity="18"/>
       <result resourceOrUnit="balrog" quantity="1"/>
     </productionRule>
     <productionRule name="buyCatapult">
@@ -939,7 +939,7 @@
       <result resourceOrUnit="catapult" quantity="1"/>
     </productionRule>
     <productionRule name="buyBats">
-      <cost resource="PUs" quantity="5"/>
+      <cost resource="PUs" quantity="4"/>
       <result resourceOrUnit="bats" quantity="1"/>
     </productionRule>
     <productionRule name="buyRaft">
@@ -955,15 +955,15 @@
       <result resourceOrUnit="barge" quantity="1"/>
     </productionRule>
     <productionRule name="buyArchers">
-      <cost resource="PUs" quantity="3"/>
-      <result resourceOrUnit="archers" quantity="1"/>
+      <cost resource="PUs" quantity="7"/>
+      <result resourceOrUnit="archers" quantity="2"/>
     </productionRule>
     <productionRule name="buyBerzerkers">
-      <cost resource="PUs" quantity="5"/>
+      <cost resource="PUs" quantity="4"/>
       <result resourceOrUnit="berzerkers" quantity="1"/>
     </productionRule>
     <productionRule name="buyCannon">
-      <cost resource="PUs" quantity="5"/>
+      <cost resource="PUs" quantity="4"/>
       <result resourceOrUnit="cannon" quantity="1"/>
     </productionRule>
     <productionRule name="buyMortar">
@@ -979,7 +979,7 @@
       <result resourceOrUnit="axeInfantry" quantity="1"/>
     </productionRule>
     <productionRule name="buyZepplin">
-      <cost resource="PUs" quantity="8"/>
+      <cost resource="PUs" quantity="6"/>
       <result resourceOrUnit="zepplin" quantity="1"/>
     </productionRule>
     <productionRule name="buyGreatship">
@@ -995,8 +995,8 @@
                         <result resourceOrUnit="peasants" quantity="1"/>
                 </productionRule>-->
     <productionRule name="buyRaiders">
-      <cost resource="PUs" quantity="4"/>
-      <result resourceOrUnit="raiders" quantity="1"/>
+      <cost resource="PUs" quantity="7"/>
+      <result resourceOrUnit="raiders" quantity="2"/>
     </productionRule>
     <productionRule name="buyRaiderCavalry">
       <cost resource="PUs" quantity="5"/>
@@ -1011,19 +1011,19 @@
       <result resourceOrUnit="xbowInfantry" quantity="1"/>
     </productionRule>
     <productionRule name="buyChariotArchers">
-      <cost resource="PUs" quantity="5"/>
-      <result resourceOrUnit="chariotArchers" quantity="1"/>
+      <cost resource="PUs" quantity="9"/>
+      <result resourceOrUnit="chariotArchers" quantity="2"/>
     </productionRule>
     <productionRule name="buyWarChariot">
-      <cost resource="PUs" quantity="6"/>
-      <result resourceOrUnit="warChariot" quantity="1"/>
+      <cost resource="PUs" quantity="9"/>
+      <result resourceOrUnit="warChariot" quantity="2"/>
     </productionRule>
     <productionRule name="buyWarWagon">
       <cost resource="PUs" quantity="8"/>
       <result resourceOrUnit="warWagon" quantity="1"/>
     </productionRule>
     <productionRule name="buyEnts">
-      <cost resource="PUs" quantity="5"/>
+      <cost resource="PUs" quantity="6"/>
       <result resourceOrUnit="ents" quantity="1"/>
     </productionRule>
     <productionRule name="buyUndead">
@@ -1033,7 +1033,6 @@
     <productionFrontier name="gondorProduction">
       <frontierRules name="buySpearInfantry"/>
       <frontierRules name="buyTowerGuard"/>
-      <frontierRules name="buyHeavyCavalry"/>
       <frontierRules name="buyTrebuche"/>
       <frontierRules name="buyRaft"/>
       <frontierRules name="buyCaravel"/>
@@ -1041,12 +1040,12 @@
       <frontierRules name="buyCastle"/>
       <frontierRules name="buyTower"/>
       <frontierRules name="buyFortifications"/>
+      <frontierRules name="buyArchers"/>    
     </productionFrontier>
     <productionFrontier name="daleProduction">
       <frontierRules name="buySpearInfantry"/>
       <frontierRules name="buyArchers"/>
       <frontierRules name="buyLightCavalry"/>
-      <frontierRules name="buyHeavyCavalry"/>
       <frontierRules name="buyTrebuche"/>
       <frontierRules name="buyRaft"/>
       <frontierRules name="buyCaravel"/>
@@ -1091,6 +1090,7 @@
       <frontierRules name="buyCastle"/>
       <frontierRules name="buyTower"/>
       <frontierRules name="buyFortifications"/>
+      <frontierRules name="buyArchers"/>
     </productionFrontier>
     <productionFrontier name="haradrimProduction">
       <frontierRules name="buySpearInfantry"/>
@@ -1103,6 +1103,7 @@
       <frontierRules name="buyCastle"/>
       <frontierRules name="buyTower"/>
       <frontierRules name="buyFortifications"/>
+      <frontierRules name="buyArchers"/>
     </productionFrontier>
     <productionFrontier name="elfProduction">
       <frontierRules name="buyHobbits"/>
@@ -1116,6 +1117,7 @@
       <frontierRules name="buyCastle"/>
       <frontierRules name="buyTower"/>
       <frontierRules name="buyFortifications"/>
+      <frontierRules name="buyEnts"/>
     </productionFrontier>
     <productionFrontier name="mordorProduction">
       <frontierRules name="buyOrcs"/>
@@ -1128,6 +1130,7 @@
       <frontierRules name="buyCastle"/>
       <frontierRules name="buyTower"/>
       <frontierRules name="buyFortifications"/>
+      <frontierRules name="buyShooters"/>
     </productionFrontier>
     <productionFrontier name="goblinProduction">
       <frontierRules name="buyStabbers"/>
@@ -1197,10 +1200,10 @@
 		</technology>
   <attachmentList>
     <attachment name="unitAttachment" attachTo="fortifications" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
-      <option name="defense" value="1"/>
+      <option name="defense" value="2"/>
     </attachment>
     <attachment name="unitAttachment" attachTo="tower" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
-      <option name="defense" value="4"/>
+      <option name="defense" value="5"/>
     </attachment>
     <attachment name="unitAttachment" attachTo="castle" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
       <option name="isFactory" value="true"/>
@@ -1216,7 +1219,7 @@
       <option name="movement" value="1"/>
       <option name="transportCost" value="1"/>
       <option name="attack" value="1"/>
-      <option name="defense" value="1"/>
+      <option name="defense" value="2"/>
       <option name="artillerySupportable" value="true"/>
     </attachment>
     <attachment name="unitAttachment" attachTo="towerGuard" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
@@ -1248,10 +1251,10 @@
       <option name="canBlitz" value="true"/>
     </attachment>
     <attachment name="unitAttachment" attachTo="lightCavalry" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
-      <option name="movement" value="3"/>
+      <option name="movement" value="2"/>
       <option name="transportCost" value="1"/>
-      <option name="attack" value="2"/>
-      <option name="defense" value="1"/>
+      <option name="attack" value="3"/>
+      <option name="defense" value="2"/>
       <option name="canBlitz" value="true"/>
     </attachment>
     <attachment name="unitAttachment" attachTo="chariotArchers" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
@@ -1265,15 +1268,16 @@
     <attachment name="unitAttachment" attachTo="warChariot" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
       <option name="movement" value="2"/>
       <option name="transportCost" value="1"/>
-      <option name="attack" value="4"/>
+      <option name="attack" value="3"/>
       <option name="defense" value="1"/>
       <option name="canBlitz" value="true"/>
+      <option name="artillerySupportable" value="true"/>
     </attachment>
     <attachment name="unitAttachment" attachTo="warWagon" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
       <option name="movement" value="2"/>
       <option name="transportCost" value="2"/>
-      <option name="attack" value="4"/>
-      <option name="defense" value="4"/>
+      <option name="attack" value="5"/>
+      <option name="defense" value="3"/>
       <option name="canBlitz" value="true"/>
     </attachment>
     <attachment name="unitAttachment" attachTo="raiderCavalry" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
@@ -1286,8 +1290,8 @@
     <attachment name="unitAttachment" attachTo="heavyCavalry" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
       <option name="movement" value="2"/>
       <option name="transportCost" value="2"/>
-      <option name="attack" value="3"/>
-      <option name="defense" value="2"/>
+      <option name="attack" value="4"/>
+      <option name="defense" value="3"/>
       <option name="canBlitz" value="true"/>
     </attachment>
     <attachment name="unitAttachment" attachTo="oliphant" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
@@ -1295,7 +1299,7 @@
       <option name="transportCost" value="2"/>
       <option name="hitPoints" value="2"/>
       <option name="attack" value="3"/>
-      <option name="defense" value="2"/>
+      <option name="defense" value="3"/>
       <option name="canBlitz" value="true"/>
     </attachment>
     <attachment name="unitAttachment" attachTo="trebuche" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
@@ -1375,35 +1379,35 @@
     </attachment>
     <attachment name="unitAttachment" attachTo="ents" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
       <option name="movement" value="1"/>
-      <option name="attack" value="3"/>
-      <option name="defense" value="3"/>
+      <option name="attack" value="2"/>
+      <option name="defense" value="4"/>
     </attachment>
     <attachment name="unitAttachment" attachTo="wizard" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
       <option name="movement" value="2"/>
       <option name="transportCost" value="1"/>
-      <option name="attack" value="4"/>
-      <option name="defense" value="4"/>
+      <option name="attack" value="3"/>
+      <option name="defense" value="5"/>
       <option name="canBlitz" value="true"/>
     </attachment>
     <attachment name="unitAttachment" attachTo="griffin" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
       <option name="movement" value="4"/>
       <option name="isAir" value="true"/>
-      <option name="attack" value="3"/>
-      <option name="defense" value="3"/>
+      <option name="attack" value="4"/>
+      <option name="defense" value="2"/>
       <!--<option name="carrierCost" value="1"/>-->
     </attachment>
     <attachment name="unitAttachment" attachTo="zepplin" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
       <option name="movement" value="3"/>
       <option name="isAir" value="true"/>
       <option name="attack" value="3"/>
-      <option name="defense" value="1"/>
+      <option name="defense" value="2"/>
       <!--<option name="carrierCost" value="1"/>-->
     </attachment>
     <attachment name="unitAttachment" attachTo="eagles" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
       <option name="movement" value="6"/>
       <option name="isAir" value="true"/>
-      <option name="attack" value="2"/>
-      <option name="defense" value="2"/>
+      <option name="attack" value="3"/>
+      <option name="defense" value="3"/>
       <!--<option name="carrierCost" value="1"/>-->
     </attachment>
     <attachment name="unitAttachment" attachTo="swanBoat" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
@@ -1439,7 +1443,7 @@
       <option name="movement" value="1"/>
       <option name="transportCost" value="1"/>
       <option name="attack" value="3"/>
-      <option name="defense" value="2"/>
+      <option name="defense" value="1"/>
       <option name="artillerySupportable" value="true"/>
     </attachment>
     <attachment name="unitAttachment" attachTo="phalanx" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
@@ -1465,7 +1469,7 @@
       <option name="canBlitz" value="true"/>
     </attachment>
     <attachment name="unitAttachment" attachTo="trolls" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
-      <option name="movement" value="2"/>
+      <option name="movement" value="1"/>
       <option name="transportCost" value="2"/>
       <option name="attack" value="3"/>
       <option name="defense" value="3"/>
@@ -1482,7 +1486,7 @@
     <attachment name="unitAttachment" attachTo="cannon" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
       <option name="movement" value="1"/>
       <option name="transportCost" value="2"/>
-      <option name="attack" value="3"/>
+      <option name="attack" value="2"/>
       <option name="defense" value="2"/>
       <option name="artillery" value="true"/>
     </attachment>
@@ -1540,11 +1544,10 @@
       <option name="canBlitz" value="true"/>
     </attachment>
     <attachment name="unitAttachment" attachTo="balrog" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
-      <option name="movement" value="4"/>
+      <option name="movement" value="1"/>
       <option name="hitPoints" value="2"/>
       <option name="attack" value="5"/>
-      <option name="defense" value="3"/>
-      <option name="isAir" value="true"/>
+      <option name="defense" value="4"/>
       <!--<option name="carrierCost" value="6"/>-->
       <!--<option name="isStrategicBomber" value="true"/>-->
     </attachment>
