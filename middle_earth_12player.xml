@@ -1133,7 +1133,6 @@
       <frontierRules name="buyCastle"/>
       <frontierRules name="buyTower"/>
       <frontierRules name="buyFortifications"/>
-      <frontierRules name="buyShooters"/>
     </productionFrontier>
     <productionFrontier name="goblinProduction">
       <frontierRules name="buyStabbers"/>
@@ -2198,13 +2197,13 @@
       <unitPlacement unitType="tower" territory="Barad Dur" quantity="1" owner="Mordor"/>
       <unitPlacement unitType="fortifications" territory="Barad Dur" quantity="6" owner="Mordor"/>
       <unitPlacement unitType="nazgul" territory="Barad Dur" quantity="9" owner="Mordor"/>
-      <unitPlacement unitType="orcs" territory="Barad Dur" quantity="8" owner="Mordor"/>
+      <unitPlacement unitType="orcs" territory="Barad Dur" quantity="10" owner="Mordor"/>
       <unitPlacement unitType="trolls" territory="Barad Dur" quantity="2" owner="Mordor"/>
       <unitPlacement unitType="castle" territory="Udun" quantity="1" owner="Mordor"/>
       <unitPlacement unitType="tower" territory="Udun" quantity="2" owner="Mordor"/>
       <unitPlacement unitType="fortifications" territory="Udun" quantity="4" owner="Mordor"/>
       <unitPlacement unitType="orcs" territory="Udun" quantity="6" owner="Mordor"/>
-      <unitPlacement unitType="siegeTower" territory="Udun" quantity="1" owner="Mordor"/>
+      <unitPlacement unitType="siegeTower" territory="Udun" quantity="3" owner="Mordor"/>
       <unitPlacement unitType="trolls" territory="Udun" quantity="1" owner="Mordor"/>
       <unitPlacement unitType="warChariot" territory="Rhun" quantity="3" owner="Rhun"/>
       <unitPlacement unitType="castle" territory="Minas Morgul" quantity="1" owner="Mordor"/>
@@ -2214,12 +2213,11 @@
       <unitPlacement unitType="siegeTower" territory="Minas Morgul" quantity="6" owner="Mordor"/>
       <unitPlacement unitType="trolls" territory="Minas Morgul" quantity="3" owner="Mordor"/>
       <unitPlacement unitType="orcs" territory="Gorgoroth" quantity="6" owner="Mordor"/>
-      <unitPlacement unitType="shooters" territory="Dol Goldur" quantity="3" owner="Mordor"/>
       <unitPlacement unitType="castle" territory="Dol Goldur" quantity="1" owner="Mordor"/>
       <unitPlacement unitType="tower" territory="Dol Goldur" quantity="1" owner="Mordor"/>
       <unitPlacement unitType="fortifications" territory="Dol Goldur" quantity="4" owner="Mordor"/>
-      <unitPlacement unitType="orcs" territory="Dol Goldur" quantity="4" owner="Mordor"/>
-      <unitPlacement unitType="siegeTower" territory="Dol Goldur" quantity="1" owner="Mordor"/>
+      <unitPlacement unitType="orcs" territory="Dol Goldur" quantity="7" owner="Mordor"/>
+      <unitPlacement unitType="siegeTower" territory="Dol Goldur" quantity="2" owner="Mordor"/>
       <unitPlacement unitType="trolls" territory="Dol Goldur" quantity="1" owner="Mordor"/>
       <unitPlacement unitType="castle" territory="Isengard" quantity="1" owner="Saruman"/>
       <unitPlacement unitType="tower" territory="Isengard" quantity="1" owner="Saruman"/>
@@ -2241,12 +2239,14 @@
       <unitPlacement unitType="warWagon" territory="Rhun" quantity="3" owner="Rhun"/>
       <!-- Haradrim Lands -->
       <unitPlacement unitType="castle" territory="City of Corsairs" quantity="1" owner="Haradrim"/>
-      <unitPlacement unitType="fortifications" territory="City of Corsairs" quantity="2" owner="Haradrim"/>
+      <unitPlacement unitType="fortifications" territory="City of Corsairs" quantity="4" owner="Haradrim"/>
       <unitPlacement unitType="corsairs" territory="City of Corsairs" quantity="5" owner="Haradrim"/>
       <unitPlacement unitType="spearInfantry" territory="City of Corsairs" quantity="5" owner="Haradrim"/>
       <unitPlacement unitType="corsairs" territory="Umbar" quantity="2" owner="Haradrim"/>
       <unitPlacement unitType="spearInfantry" territory="Umbar" quantity="4" owner="Haradrim"/>
       <unitPlacement unitType="oliphant" territory="Umbar" quantity="2" owner="Haradrim"/>
+      <unitPlacement unitType="castle" territory="Umbar" quantity="1" owner="Haradrim"/>
+      <unitPlacement unitType="fortifications" territory="Umbar" quantity="3" owner="Haradrim"/>
       <unitPlacement unitType="spearInfantry" territory="N. Haradwaith" quantity="2" owner="Haradrim"/>
       <unitPlacement unitType="oliphant" territory="N. Haradwaith" quantity="1" owner="Haradrim"/>
       <unitPlacement unitType="spearInfantry" territory="Harad Road" quantity="4" owner="Haradrim"/>
