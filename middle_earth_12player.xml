@@ -2197,7 +2197,7 @@
       <unitPlacement unitType="castle" territory="Barad Dur" quantity="1" owner="Mordor"/>
       <unitPlacement unitType="tower" territory="Barad Dur" quantity="1" owner="Mordor"/>
       <unitPlacement unitType="fortifications" territory="Barad Dur" quantity="6" owner="Mordor"/>
-      <unitPlacement unitType="nazgul" territory="Barad Dur" quantity="6" owner="Mordor"/>
+      <unitPlacement unitType="nazgul" territory="Barad Dur" quantity="9" owner="Mordor"/>
       <unitPlacement unitType="orcs" territory="Barad Dur" quantity="8" owner="Mordor"/>
       <unitPlacement unitType="trolls" territory="Barad Dur" quantity="2" owner="Mordor"/>
       <unitPlacement unitType="castle" territory="Udun" quantity="1" owner="Mordor"/>
@@ -2214,12 +2214,11 @@
       <unitPlacement unitType="siegeTower" territory="Minas Morgul" quantity="8" owner="Mordor"/>
       <unitPlacement unitType="trolls" territory="Minas Morgul" quantity="3" owner="Mordor"/>
       <unitPlacement unitType="orcs" territory="Gorgoroth" quantity="6" owner="Mordor"/>
-      <unitPlacement unitType="nazgul" territory="Dol Goldur" quantity="3" owner="Mordor"/>
-      <unitPlacement unitType="shooters" territory="Dol Goldur" quantity="2" owner="Mordor"/>
+      <unitPlacement unitType="shooters" territory="Dol Goldur" quantity="3" owner="Mordor"/>
       <unitPlacement unitType="castle" territory="Dol Goldur" quantity="1" owner="Mordor"/>
       <unitPlacement unitType="tower" territory="Dol Goldur" quantity="1" owner="Mordor"/>
       <unitPlacement unitType="fortifications" territory="Dol Goldur" quantity="4" owner="Mordor"/>
-      <unitPlacement unitType="orcs" territory="Dol Goldur" quantity="3" owner="Mordor"/>
+      <unitPlacement unitType="orcs" territory="Dol Goldur" quantity="4" owner="Mordor"/>
       <unitPlacement unitType="siegeTower" territory="Dol Goldur" quantity="1" owner="Mordor"/>
       <unitPlacement unitType="trolls" territory="Dol Goldur" quantity="1" owner="Mordor"/>
       <unitPlacement unitType="castle" territory="Isengard" quantity="1" owner="Saruman"/>
@@ -2231,7 +2230,7 @@
       <unitPlacement unitType="orcs" territory="Wold" quantity="4" owner="Saruman"/>
       <unitPlacement unitType="raiders" territory="S. Dunland" quantity="4" owner="Saruman"/>
       <unitPlacement unitType="raiders" territory="N. Dunland" quantity="4" owner="Saruman"/>
-      <unitPlacement unitType="wargs" territory="Isengard" quantity="5" owner="Saruman"/>
+      <unitPlacement unitType="wargs" territory="Isengard" quantity="4" owner="Saruman"/>
       <unitPlacement unitType="wizard" territory="Isengard" quantity="1" owner="Saruman"/>
       <unitPlacement unitType="castle" territory="Rhun" quantity="1" owner="Rhun"/>
       <unitPlacement unitType="fortifications" territory="Rhun" quantity="2" owner="Rhun"/>
@@ -2298,16 +2297,19 @@
       <unitPlacement unitType="spearInfantry" territory="N. Dale" quantity="2" owner="Dale"/>
       <unitPlacement unitType="lightCavalry" territory="N. Dale" quantity="2" owner="Dale"/>
       <unitPlacement unitType="archers" territory="S. Dale" quantity="1" owner="Dale"/>
-      <unitPlacement unitType="spearInfantry" territory="Bree" quantity="3" owner="Freefolk"/>
+      <unitPlacement unitType="spearInfantry" territory="Bree" quantity="2" owner="Freefolk"/>
       <unitPlacement unitType="castle" territory="Bree" quantity="1" owner="Freefolk"/>
       <unitPlacement unitType="fortifications" territory="Bree" quantity="4" owner="Freefolk"/>
-      <unitPlacement unitType="archers" territory="Bree" quantity="2" owner="Freefolk"/>
+      <unitPlacement unitType="archers" territory="Bree" quantity="1" owner="Freefolk"/>
+      <unitPlacement unitType="archers" territory="S. Downs" quantity="1" owner="Freefolk"/>
+      <unitPlacement unitType="spearInfantry" territory="S. Downs" quantity="1" owner="Freefolk"/>
       <unitPlacement unitType="archers" territory="Breelands" quantity="1" owner="Freefolk"/>
       <unitPlacement unitType="lightCavalry" territory="Breelands" quantity="1" owner="Freefolk"/>
+      <unitPlacement unitType="spearInfantry" territory="Breelands" quantity="1" owner="Freefolk"/>
       <unitPlacement unitType="hobbits" territory="Hobbiton" quantity="3" owner="Freefolk"/>
       <unitPlacement unitType="castle" territory="Hobbiton" quantity="1" owner="Freefolk"/>
       <unitPlacement unitType="hobbits" territory="Shire" quantity="3" owner="Freefolk"/>
-      <unitPlacement unitType="spearInfantry" territory="Fornost" quantity="2" owner="Freefolk"/>
+      <unitPlacement unitType="spearInfantry" territory="Fornost" quantity="1" owner="Freefolk"/>
       <unitPlacement unitType="castle" territory="Fornost" quantity="1" owner="Freefolk"/>
       <unitPlacement unitType="archers" territory="Fornost" quantity="1" owner="Freefolk"/>
       <unitPlacement unitType="spearInfantry" territory="S. Arthedain" quantity="1" owner="Freefolk"/>
