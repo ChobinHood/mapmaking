@@ -2066,7 +2066,6 @@
       <territoryOwner territory="Westfold" owner="Rohan"/>
       <territoryOwner territory="E. Emnet" owner="Rohan"/>
       <territoryOwner territory="Helms Deep" owner="Rohan"/>
-      <territoryOwner territory="Wold" owner="Rohan"/>
       <!-- Mordor Lands -->
       <territoryOwner territory="N. Rhun" owner="Rhun"/>
       <territoryOwner territory="Rhun" owner="Rhun"/>
@@ -2081,6 +2080,7 @@
       <territoryOwner territory="Isengard" owner="Saruman"/>
       <territoryOwner territory="S. Dunland" owner="Saruman"/>
       <territoryOwner territory="N. Dunland" owner="Saruman"/>
+      <territoryOwner territory="Wold" owner="Saruman"/>    
       <!-- Haradrim Lands -->
       <territoryOwner territory="Harad Road" owner="Haradrim"/>
       <territoryOwner territory="City of Corsairs" owner="Haradrim"/>
@@ -2117,28 +2117,29 @@
       <unitPlacement unitType="tower" territory="Rivendell" quantity="2" owner="Elves"/>
       <unitPlacement unitType="fortifications" territory="Rivendell" quantity="12" owner="Elves"/>
       <unitPlacement unitType="hunters" territory="Rivendell" quantity="6" owner="Elves"/>
+      <unitPlacement unitType="Hero" territory="Rivendell" quantity="1" owner="Elves"/>
       <unitPlacement unitType="wizard" territory="Rivendell" quantity="1" owner="Elves"/>
-      <unitPlacement unitType="hobbits" territory="Drimrill Dale" quantity="4" owner="Elves"/>
-      <unitPlacement unitType="Hero" territory="Drimrill Dale" quantity="4" owner="Elves"/>
-      <unitPlacement unitType="wizard" territory="Drimrill Dale" quantity="1" owner="Elves"/>
+      <unitPlacement unitType="hobbits" territory="E. Emnet" quantity="4" owner="Elves"/>
+      <unitPlacement unitType="Hero" territory="E. Emnet" quantity="4" owner="Elves"/>
       <unitPlacement unitType="castle" territory="High Mirkwood" quantity="1" owner="Elves"/>
       <unitPlacement unitType="tower" territory="High Mirkwood" quantity="1" owner="Elves"/>
       <unitPlacement unitType="fortifications" territory="High Mirkwood" quantity="2" owner="Elves"/>
-      <unitPlacement unitType="wizard" territory="High Mirkwood" quantity="2" owner="Elves"/>
+      <unitPlacement unitType="wizard" territory="High Mirkwood" quantity="1" owner="Elves"/>
+      <unitPlacement unitType="Hero" territory="High Mirkwood" quantity="1" owner="Elves"/> 
       <unitPlacement unitType="hunters" territory="High Mirkwood" quantity="6" owner="Elves"/>
       <unitPlacement unitType="castle" territory="Lorien" quantity="1" owner="Elves"/>
       <unitPlacement unitType="hunters" territory="Lorien" quantity="6" owner="Elves"/>
       <unitPlacement unitType="wizard" territory="Lorien" quantity="2" owner="Elves"/>
-      <unitPlacement unitType="eagles" territory="Lorien" quantity="2" owner="Elves"/>
       <unitPlacement unitType="tower" territory="Lorien" quantity="3" owner="Elves"/>
       <unitPlacement unitType="ents" territory="Fangorn" quantity="8" owner="Elves"/>
+      <unitPlacement unitType="Hero" territory="Fangorn" quantity="1" owner="Elves"/>    
       <unitPlacement unitType="ents" territory="E. Mirkwood" quantity="1" owner="Elves"/>
       <unitPlacement unitType="ents" territory="W. Mirkwood" quantity="1" owner="Elves"/>
       <unitPlacement unitType="ents" territory="N. Mirkwood" quantity="1" owner="Elves"/>
-      <unitPlacement unitType="ents" territory="High Mirkwood" quantity="1" owner="Elves"/>
+      <unitPlacement unitType="ents" territory="High Mirkwood" quantity="2" owner="Elves"/>
       <unitPlacement unitType="eagles" territory="W. Mirkwood" quantity="1" owner="Elves"/>
       <unitPlacement unitType="hunters" territory="N. Mirkwood" quantity="2" owner="Elves"/>
-      <unitPlacement unitType="eagles" territory="E. Mirkwood" quantity="1" owner="Elves"/>
+      <unitPlacement unitType="eagles" territory="E. Mirkwood" quantity="2" owner="Elves"/>
       <unitPlacement unitType="ents" territory="S. Mirkwood" quantity="2" owner="Elves"/>
       <unitPlacement unitType="hunters" territory="S. Mirkwood" quantity="2" owner="Elves"/>
       <!-- Gondor Lands -->
@@ -2217,8 +2218,9 @@
       <unitPlacement unitType="castle" territory="Isengard" quantity="1" owner="Saruman"/>
       <unitPlacement unitType="tower" territory="Isengard" quantity="1" owner="Saruman"/>
       <unitPlacement unitType="fortifications" territory="Isengard" quantity="6" owner="Saruman"/>
-      <unitPlacement unitType="orcs" territory="Isengard" quantity="8" owner="Saruman"/>
-      <unitPlacement unitType="urukhai" territory="Isengard" quantity="12" owner="Saruman"/>
+      <unitPlacement unitType="orcs" territory="Isengard" quantity="5" owner="Saruman"/>
+      <unitPlacement unitType="urukhai" territory="Isengard" quantity="9" owner="Saruman"/>
+      <unitPlacement unitType="urukhai" territory="Wold" quantity="6" owner="Saruman"/>
       <unitPlacement unitType="raiders" territory="S. Dunland" quantity="4" owner="Saruman"/>
       <unitPlacement unitType="raiders" territory="N. Dunland" quantity="4" owner="Saruman"/>
       <unitPlacement unitType="wargs" territory="Isengard" quantity="5" owner="Saruman"/>
