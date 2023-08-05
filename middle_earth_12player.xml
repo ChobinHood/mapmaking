@@ -2284,9 +2284,9 @@
       <!-- Neutral Lands -->
       <unitPlacement unitType="castle" territory="Lonely Mtn." quantity="1" owner="Dwarves"/>
       <unitPlacement unitType="fortifications" territory="Lonely Mtn." quantity="10" owner="Dwarves"/>
-      <unitPlacement unitType="axeInfantry" territory="Lonely Mtn." quantity="5" owner="Dwarves"/>
+      <unitPlacement unitType="axeInfantry" territory="Lonely Mtn." quantity="4" owner="Dwarves"/>
       <unitPlacement unitType="cannon" territory="Lonely Mtn." quantity="2" owner="Dwarves"/>
-      <unitPlacement unitType="axeInfantry" territory="Iron Hills" quantity="5" owner="Dwarves"/>
+      <unitPlacement unitType="axeInfantry" territory="Iron Hills" quantity="6" owner="Dwarves"/>
       <unitPlacement unitType="phalanx" territory="Iron Hills" quantity="2" owner="Dwarves"/>
       <unitPlacement unitType="castle" territory="Iron Hills" quantity="1" owner="Dwarves"/>
       <unitPlacement unitType="fortifications" territory="Iron Hills" quantity="8" owner="Dwarves"/>
