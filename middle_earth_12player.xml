@@ -1019,8 +1019,8 @@
       <result resourceOrUnit="chariotArchers" quantity="2"/>
     </productionRule>
     <productionRule name="buyWarChariot">
-      <cost resource="PUs" quantity="9"/>
-      <result resourceOrUnit="warChariot" quantity="2"/>
+      <cost resource="PUs" quantity="5"/>
+      <result resourceOrUnit="warChariot" quantity="1"/>
     </productionRule>
     <productionRule name="buyWarWagon">
       <cost resource="PUs" quantity="8"/>
@@ -1280,8 +1280,8 @@
     <attachment name="unitAttachment" attachTo="warChariot" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
       <option name="movement" value="2"/>
       <option name="transportCost" value="1"/>
-      <option name="attack" value="4"/>
-      <option name="defense" value="1"/>
+      <option name="attack" value="3"/>
+      <option name="defense" value="2"/>
       <option name="canBlitz" value="true"/>
       <option name="artillerySupportable" value="true"/>
     </attachment>
@@ -2289,7 +2289,7 @@
       <unitPlacement unitType="axeInfantry" territory="Iron Hills" quantity="5" owner="Dwarves"/>
       <unitPlacement unitType="phalanx" territory="Iron Hills" quantity="2" owner="Dwarves"/>
       <unitPlacement unitType="castle" territory="Iron Hills" quantity="1" owner="Dwarves"/>
-      <unitPlacement unitType="fortifications" territory="Iron Hills" quantity="6" owner="Dwarves"/>
+      <unitPlacement unitType="fortifications" territory="Iron Hills" quantity="8" owner="Dwarves"/>
       <unitPlacement unitType="phalanx" territory="Lonely Mtn." quantity="2" owner="Dwarves"/>
       <unitPlacement unitType="spearInfantry" territory="Lake Town" quantity="5" owner="Dale"/>
       <unitPlacement unitType="archers" territory="Lake Town" quantity="3" owner="Dale"/>
