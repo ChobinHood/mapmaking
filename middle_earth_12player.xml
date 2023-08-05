@@ -1212,6 +1212,8 @@
       <option name="movement" value="2"/>
       <option name="canBlitz" value="true"/>
       <option name="hitPoints" value="2"/>
+      <option name="transportCost" value="1"/> 
+      <option name="artillery" value="true"/>    
     </attachment>
     <attachment name="unitAttachment" attachTo="tower" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
       <option name="defense" value="5"/>
@@ -2119,8 +2121,9 @@
       <unitPlacement unitType="hunters" territory="Rivendell" quantity="6" owner="Elves"/>
       <unitPlacement unitType="Hero" territory="Rivendell" quantity="1" owner="Elves"/>
       <unitPlacement unitType="wizard" territory="Rivendell" quantity="1" owner="Elves"/>
-      <unitPlacement unitType="hobbits" territory="E. Emnet" quantity="4" owner="Elves"/>
-      <unitPlacement unitType="Hero" territory="E. Emnet" quantity="4" owner="Elves"/>
+      <unitPlacement unitType="hobbits" territory="Middle Anduin" quantity="4" owner="Elves"/>
+      <unitPlacement unitType="raft" territory="Middle Anduin" quantity="8" owner="Elves"/> 
+      <unitPlacement unitType="Hero" territory="Middle Anduin" quantity="4" owner="Elves"/>
       <unitPlacement unitType="castle" territory="High Mirkwood" quantity="1" owner="Elves"/>
       <unitPlacement unitType="tower" territory="High Mirkwood" quantity="1" owner="Elves"/>
       <unitPlacement unitType="fortifications" territory="High Mirkwood" quantity="2" owner="Elves"/>
@@ -2181,12 +2184,14 @@
       <unitPlacement unitType="castle" territory="Helms Deep" quantity="1" owner="Rohan"/>
       <unitPlacement unitType="tower" territory="Helms Deep" quantity="3" owner="Rohan"/>
       <unitPlacement unitType="fortifications" territory="Helms Deep" quantity="8" owner="Rohan"/>
-      <unitPlacement unitType="lightCavalry" territory="E. Emnet" quantity="4" owner="Rohan"/>
-      <unitPlacement unitType="heavyCavalry" territory="E. Emnet" quantity="3" owner="Rohan"/>
-      <unitPlacement unitType="spearInfantry" territory="Eastfold" quantity="4" owner="Rohan"/>
-      <unitPlacement unitType="heavyCavalry" territory="Eastfold" quantity="3" owner="Rohan"/>
+      <unitPlacement unitType="lightCavalry" territory="E. Emnet" quantity="1" owner="Rohan"/>
+      <unitPlacement unitType="heavyCavalry" territory="E. Emnet" quantity="1" owner="Rohan"/>
+      <unitPlacement unitType="spearInfantry" territory="E. Emnet" quantity="4" owner="Rohan"/>
+      <unitPlacement unitType="lightCavalry" territory="Eastfold" quantity="3" owner="Rohan"/>
+      <unitPlacement unitType="spearInfantry" territory="Eastfold" quantity="2" owner="Rohan"/>
+      <unitPlacement unitType="heavyCavalry" territory="Eastfold" quantity="4" owner="Rohan"/>
       <unitPlacement unitType="spearInfantry" territory="Helms Deep" quantity="3" owner="Rohan"/>
-      <unitPlacement unitType="spearInfantry" territory="Westfold" quantity="6" owner="Rohan"/>
+      <unitPlacement unitType="spearInfantry" territory="Westfold" quantity="5" owner="Rohan"/>
       <unitPlacement unitType="lightCavalry" territory="Westfold" quantity="2" owner="Rohan"/>
       <!-- Mordor Lands -->
       <unitPlacement unitType="castle" territory="Barad Dur" quantity="1" owner="Mordor"/>
@@ -2220,7 +2225,8 @@
       <unitPlacement unitType="fortifications" territory="Isengard" quantity="6" owner="Saruman"/>
       <unitPlacement unitType="orcs" territory="Isengard" quantity="5" owner="Saruman"/>
       <unitPlacement unitType="urukhai" territory="Isengard" quantity="9" owner="Saruman"/>
-      <unitPlacement unitType="urukhai" territory="Wold" quantity="6" owner="Saruman"/>
+      <unitPlacement unitType="urukhai" territory="Wold" quantity="8" owner="Saruman"/>
+      <unitPlacement unitType="orcs" territory="Wold" quantity="4" owner="Saruman"/>
       <unitPlacement unitType="raiders" territory="S. Dunland" quantity="4" owner="Saruman"/>
       <unitPlacement unitType="raiders" territory="N. Dunland" quantity="4" owner="Saruman"/>
       <unitPlacement unitType="wargs" territory="Isengard" quantity="5" owner="Saruman"/>
@@ -2269,11 +2275,11 @@
       <unitPlacement unitType="shooters" territory="N. Caves" quantity="2" owner="Goblins"/>
       <unitPlacement unitType="wargs" territory="N. Caves" quantity="2" owner="Goblins"/>
       <unitPlacement unitType="bats" territory="N. Caves" quantity="2" owner="Goblins"/>
-      <unitPlacement unitType="fortifications" territory="N. Caves" quantity="4" owner="Goblins"/>
+      <unitPlacement unitType="fortifications" territory="N. Caves" quantity="6" owner="Goblins"/>
       <unitPlacement unitType="castle" territory="S. Caves" quantity="1" owner="Goblins"/>
       <unitPlacement unitType="stabbers" territory="S. Caves" quantity="4" owner="Goblins"/>
       <unitPlacement unitType="shooters" territory="S. Caves" quantity="3" owner="Goblins"/>
-      <unitPlacement unitType="fortifications" territory="S. Caves" quantity="4" owner="Goblins"/>
+      <unitPlacement unitType="fortifications" territory="S. Caves" quantity="6" owner="Goblins"/>
       <unitPlacement unitType="wargs" territory="S. Caves" quantity="1" owner="Goblins"/>
       <!-- Neutral Lands -->
       <unitPlacement unitType="castle" territory="Lonely Mtn." quantity="1" owner="Dwarves"/>
