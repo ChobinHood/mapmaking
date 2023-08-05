@@ -1290,8 +1290,8 @@
     <attachment name="unitAttachment" attachTo="warWagon" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
       <option name="movement" value="2"/>
       <option name="transportCost" value="2"/>
-      <option name="attack" value="5"/>
-      <option name="defense" value="3"/>
+      <option name="attack" value="4"/>
+      <option name="defense" value="4"/>
       <option name="canBlitz" value="true"/>
     </attachment>
     <attachment name="unitAttachment" attachTo="raiderCavalry" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
@@ -2122,7 +2122,7 @@
       <unitPlacement unitType="Hero" territory="Rivendell" quantity="1" owner="Elves"/>
       <unitPlacement unitType="wizard" territory="Rivendell" quantity="1" owner="Elves"/>
       <unitPlacement unitType="hobbits" territory="Middle Anduin" quantity="4" owner="Elves"/>
-      <unitPlacement unitType="raft" territory="Middle Anduin" quantity="8" owner="Elves"/> 
+      <unitPlacement unitType="clipper" territory="Middle Anduin" quantity="3" owner="Elves"/> 
       <unitPlacement unitType="Hero" territory="Middle Anduin" quantity="4" owner="Elves"/>
       <unitPlacement unitType="castle" territory="High Mirkwood" quantity="1" owner="Elves"/>
       <unitPlacement unitType="tower" territory="High Mirkwood" quantity="1" owner="Elves"/>
@@ -2192,7 +2192,7 @@
       <unitPlacement unitType="heavyCavalry" territory="Eastfold" quantity="4" owner="Rohan"/>
       <unitPlacement unitType="spearInfantry" territory="Helms Deep" quantity="3" owner="Rohan"/>
       <unitPlacement unitType="spearInfantry" territory="Westfold" quantity="5" owner="Rohan"/>
-      <unitPlacement unitType="lightCavalry" territory="Westfold" quantity="2" owner="Rohan"/>
+      <unitPlacement unitType="heavyCavalry" territory="Westfold" quantity="2" owner="Rohan"/>
       <!-- Mordor Lands -->
       <unitPlacement unitType="castle" territory="Barad Dur" quantity="1" owner="Mordor"/>
       <unitPlacement unitType="tower" territory="Barad Dur" quantity="1" owner="Mordor"/>
@@ -2204,7 +2204,7 @@
       <unitPlacement unitType="orcs" territory="Udun" quantity="8" owner="Mordor"/>
       <unitPlacement unitType="siegeTower" territory="Udun" quantity="3" owner="Mordor"/>
       <unitPlacement unitType="trolls" territory="Udun" quantity="1" owner="Mordor"/>
-      <unitPlacement unitType="warChariot" territory="S. Rhun" quantity="3" owner="Rhun"/>
+      <unitPlacement unitType="warChariot" territory="Rhun" quantity="3" owner="Rhun"/>
       <unitPlacement unitType="castle" territory="Minas Morgul" quantity="1" owner="Mordor"/>
       <unitPlacement unitType="tower" territory="Minas Morgul" quantity="4" owner="Mordor"/>
       <unitPlacement unitType="fortifications" territory="Minas Morgul" quantity="4" owner="Mordor"/>
@@ -2234,11 +2234,9 @@
       <unitPlacement unitType="castle" territory="Rhun" quantity="1" owner="Rhun"/>
       <unitPlacement unitType="fortifications" territory="Rhun" quantity="2" owner="Rhun"/>
       <unitPlacement unitType="spearInfantry" territory="Rhun" quantity="14" owner="Rhun"/>
-      <unitPlacement unitType="spearInfantry" territory="N. Rhun" quantity="1" owner="Rhun"/>
-      <unitPlacement unitType="chariotArchers" territory="N. Rhun" quantity="4" owner="Rhun"/>
+      <unitPlacement unitType="chariotArchers" territory="N. Rhun" quantity="6" owner="Rhun"/>
       <unitPlacement unitType="warChariot" territory="N. Rhun" quantity="4" owner="Rhun"/>
-      <unitPlacement unitType="chariotArchers" territory="S. Rhun" quantity="4" owner="Rhun"/>
-      <unitPlacement unitType="chariotArchers" territory="Rhun" quantity="4" owner="Rhun"/>
+      <unitPlacement unitType="chariotArchers" territory="Rhun" quantity="7" owner="Rhun"/>
       <unitPlacement unitType="warWagon" territory="Rhun" quantity="3" owner="Rhun"/>
       <!-- Haradrim Lands -->
       <unitPlacement unitType="castle" territory="City of Corsairs" quantity="1" owner="Haradrim"/>
