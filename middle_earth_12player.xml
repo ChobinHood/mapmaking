@@ -2206,9 +2206,9 @@
       <unitPlacement unitType="castle" territory="Udun" quantity="1" owner="Mordor"/>
       <unitPlacement unitType="tower" territory="Udun" quantity="2" owner="Mordor"/>
       <unitPlacement unitType="fortifications" territory="Udun" quantity="4" owner="Mordor"/>
-      <unitPlacement unitType="orcs" territory="Udun" quantity="6" owner="Mordor"/>
-      <unitPlacement unitType="siegeTower" territory="Udun" quantity="3" owner="Mordor"/>
-      <unitPlacement unitType="trolls" territory="Udun" quantity="1" owner="Mordor"/>
+      <unitPlacement unitType="orcs" territory="Udun" quantity="8" owner="Mordor"/>
+      <unitPlacement unitType="siegeTower" territory="Udun" quantity="1" owner="Mordor"/>
+      <unitPlacement unitType="trolls" territory="Udun" quantity="2" owner="Mordor"/>
       <unitPlacement unitType="warChariot" territory="Rhun" quantity="3" owner="Rhun"/>
       <unitPlacement unitType="castle" territory="Minas Morgul" quantity="1" owner="Mordor"/>
       <unitPlacement unitType="Hero" territory="Minas Morgul" quantity="1" owner="Mordor"/>
@@ -2222,7 +2222,7 @@
       <unitPlacement unitType="tower" territory="Dol Goldur" quantity="1" owner="Mordor"/>
       <unitPlacement unitType="fortifications" territory="Dol Goldur" quantity="4" owner="Mordor"/>
       <unitPlacement unitType="nazgul" territory="Dol Goldur" quantity="1" owner="Mordor"/>
-      <unitPlacement unitType="orcs" territory="Dol Goldur" quantity="5" owner="Mordor"/>
+      <unitPlacement unitType="orcs" territory="Dol Goldur" quantity="6" owner="Mordor"/>
       <unitPlacement unitType="siegeTower" territory="Dol Goldur" quantity="1" owner="Mordor"/>
       <unitPlacement unitType="trolls" territory="Dol Goldur" quantity="1" owner="Mordor"/>
       <unitPlacement unitType="castle" territory="Isengard" quantity="1" owner="Saruman"/>
@@ -2271,20 +2271,20 @@
       <!-- Goblin Lands -->
       <unitPlacement unitType="castle" territory="Moria" quantity="1" owner="Goblins"/>
       <unitPlacement unitType="fortifications" territory="Moria" quantity="10" owner="Goblins"/>
-      <unitPlacement unitType="stabbers" territory="Moria" quantity="4" owner="Goblins"/>
+      <unitPlacement unitType="stabbers" territory="Moria" quantity="6" owner="Goblins"/>
       <unitPlacement unitType="shooters" territory="Moria" quantity="8" owner="Goblins"/>
       <unitPlacement unitType="trolls" territory="Moria" quantity="2" owner="Goblins"/>
       <unitPlacement unitType="balrog" territory="Moria" quantity="1" owner="Goblins"/>
       <unitPlacement unitType="wargs" territory="Moria" quantity="2" owner="Goblins"/>
       <unitPlacement unitType="bats" territory="Moria" quantity="3" owner="Goblins"/>
       <unitPlacement unitType="castle" territory="N. Caves" quantity="1" owner="Goblins"/>
-      <unitPlacement unitType="stabbers" territory="N. Caves" quantity="2" owner="Goblins"/>
+      <unitPlacement unitType="stabbers" territory="N. Caves" quantity="3" owner="Goblins"/>
       <unitPlacement unitType="shooters" territory="N. Caves" quantity="3" owner="Goblins"/>
       <unitPlacement unitType="wargs" territory="N. Caves" quantity="2" owner="Goblins"/>
       <unitPlacement unitType="bats" territory="N. Caves" quantity="2" owner="Goblins"/>
       <unitPlacement unitType="fortifications" territory="N. Caves" quantity="6" owner="Goblins"/>
       <unitPlacement unitType="castle" territory="S. Caves" quantity="1" owner="Goblins"/>
-      <unitPlacement unitType="stabbers" territory="S. Caves" quantity="2" owner="Goblins"/>
+      <unitPlacement unitType="stabbers" territory="S. Caves" quantity="3" owner="Goblins"/>
       <unitPlacement unitType="shooters" territory="S. Caves" quantity="3" owner="Goblins"/>
       <unitPlacement unitType="fortifications" territory="S. Caves" quantity="6" owner="Goblins"/>
       <unitPlacement unitType="wargs" territory="S. Caves" quantity="2" owner="Goblins"/>
@@ -2303,6 +2303,7 @@
       <unitPlacement unitType="spearInfantry" territory="Lake Town" quantity="5" owner="Dale"/>
       <unitPlacement unitType="archers" territory="Lake Town" quantity="3" owner="Dale"/>
       <unitPlacement unitType="castle" territory="Lake Town" quantity="1" owner="Dale"/>
+      <unitPlacement unitType="Hero" territory="Lake Town" quantity="1" owner="Dale"/>
       <unitPlacement unitType="fortifications" territory="Lake Town" quantity="6" owner="Dale"/>
       <unitPlacement unitType="spearInfantry" territory="N. Dale" quantity="3" owner="Dale"/>
       <unitPlacement unitType="lightCavalry" territory="N. Dale" quantity="2" owner="Dale"/>
