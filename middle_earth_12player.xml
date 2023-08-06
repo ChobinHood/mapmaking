@@ -2156,6 +2156,7 @@
       <unitPlacement unitType="archers" territory="E. Osg." quantity="2" owner="Gondor"/>
       <unitPlacement unitType="fortifications" territory="E. Osg." quantity="2" owner="Gondor"/>
       <unitPlacement unitType="castle" territory="W. Osg." quantity="1" owner="Gondor"/>
+      <unitPlacement unitType="Hero" territory="W. Osg." quantity="1" owner="Gondor"/>    
       <unitPlacement unitType="spearInfantry" territory="W. Osg." quantity="2" owner="Gondor"/>
       <unitPlacement unitType="trebuche" territory="W. Osg." quantity="2" owner="Gondor"/>
       <unitPlacement unitType="fortifications" territory="W. Osg." quantity="4" owner="Gondor"/>
@@ -2168,6 +2169,7 @@
       <unitPlacement unitType="fortifications" territory="Andrast" quantity="6" owner="Gondor"/>
       <unitPlacement unitType="spearInfantry" territory="Andrast" quantity="3" owner="Gondor"/>
       <unitPlacement unitType="towerGuard" territory="Andrast" quantity="1" owner="Gondor"/>
+      <unitPlacement unitType="Hero" territory="Andrast" quantity="1" owner="Gondor"/> 	    
       <unitPlacement unitType="spearInfantry" territory="Tolfolas" quantity="1" owner="Gondor"/>
       <unitPlacement unitType="undead" territory="Paths of the Dead" quantity="10" owner="Gondor"/>
       <unitPlacement unitType="spearInfantry" territory="Belfalas" quantity="1" owner="Gondor"/>
@@ -2188,6 +2190,7 @@
       <unitPlacement unitType="spearInfantry" territory="E. Emnet" quantity="4" owner="Rohan"/>
       <unitPlacement unitType="lightCavalry" territory="Eastfold" quantity="3" owner="Rohan"/>
       <unitPlacement unitType="spearInfantry" territory="Eastfold" quantity="2" owner="Rohan"/>
+      <unitPlacement unitType="Hero" territory="Eastfold" quantity="2" owner="Rohan"/>
       <unitPlacement unitType="heavyCavalry" territory="Eastfold" quantity="4" owner="Rohan"/>
       <unitPlacement unitType="spearInfantry" territory="Helms Deep" quantity="2" owner="Rohan"/>
       <unitPlacement unitType="spearInfantry" territory="Westfold" quantity="5" owner="Rohan"/>
@@ -2199,6 +2202,7 @@
       <unitPlacement unitType="nazgul" territory="Barad Dur" quantity="8" owner="Mordor"/>
       <unitPlacement unitType="orcs" territory="Barad Dur" quantity="10" owner="Mordor"/>
       <unitPlacement unitType="trolls" territory="Barad Dur" quantity="1" owner="Mordor"/>
+      <unitPlacement unitType="Hero" territory="Barad Dur" quantity="1" owner="Mordor"/>
       <unitPlacement unitType="castle" territory="Udun" quantity="1" owner="Mordor"/>
       <unitPlacement unitType="tower" territory="Udun" quantity="2" owner="Mordor"/>
       <unitPlacement unitType="fortifications" territory="Udun" quantity="4" owner="Mordor"/>
@@ -2207,6 +2211,7 @@
       <unitPlacement unitType="trolls" territory="Udun" quantity="1" owner="Mordor"/>
       <unitPlacement unitType="warChariot" territory="Rhun" quantity="3" owner="Rhun"/>
       <unitPlacement unitType="castle" territory="Minas Morgul" quantity="1" owner="Mordor"/>
+      <unitPlacement unitType="Hero" territory="Minas Morgul" quantity="1" owner="Mordor"/>
       <unitPlacement unitType="tower" territory="Minas Morgul" quantity="4" owner="Mordor"/>
       <unitPlacement unitType="fortifications" territory="Minas Morgul" quantity="4" owner="Mordor"/>
       <unitPlacement unitType="orcs" territory="Minas Morgul" quantity="10" owner="Mordor"/>
@@ -2227,6 +2232,7 @@
       <unitPlacement unitType="urukhai" territory="Isengard" quantity="9" owner="Saruman"/>
       <unitPlacement unitType="urukhai" territory="Wold" quantity="8" owner="Saruman"/>
       <unitPlacement unitType="orcs" territory="Wold" quantity="4" owner="Saruman"/>
+      <unitPlacement unitType="Hero" territory="Wold" quantity="1" owner="Saruman"/>
       <unitPlacement unitType="raiders" territory="S. Dunland" quantity="4" owner="Saruman"/>
       <unitPlacement unitType="raiders" territory="N. Dunland" quantity="4" owner="Saruman"/>
       <unitPlacement unitType="wargs" territory="Isengard" quantity="4" owner="Saruman"/>
@@ -2237,7 +2243,7 @@
       <unitPlacement unitType="chariotArchers" territory="N. Rhun" quantity="4" owner="Rhun"/>
       <unitPlacement unitType="spearInfantry" territory="N. Rhun" quantity="3" owner="Rhun"/>
       <unitPlacement unitType="warChariot" territory="N. Rhun" quantity="4" owner="Rhun"/>
-      <unitPlacement unitType="chariotArchers" territory="Rhun" quantity="5" owner="Rhun"/>
+      <unitPlacement unitType="chariotArchers" territory="Rhun" quantity="6" owner="Rhun"/>
       <unitPlacement unitType="warWagon" territory="Rhun" quantity="3" owner="Rhun"/>
       <!-- Haradrim Lands -->
       <unitPlacement unitType="castle" territory="City of Corsairs" quantity="1" owner="Haradrim"/>
@@ -2254,8 +2260,8 @@
       <unitPlacement unitType="spearInfantry" territory="Harad Road" quantity="4" owner="Haradrim"/>
       <unitPlacement unitType="oliphant" territory="Harad Road" quantity="2" owner="Haradrim"/>
       <unitPlacement unitType="galleon" territory="Bay of Harad" quantity="4" owner="Haradrim"/>
-      <unitPlacement unitType="galleon" territory="Harnen" quantity="1" owner="Haradrim"/>
-      <unitPlacement unitType="caravel" territory="Umbar Peninsula Coast" quantity="3" owner="Haradrim"/>
+      <unitPlacement unitType="galleon" territory="Harnen" quantity="2" owner="Haradrim"/>
+      <unitPlacement unitType="caravel" territory="Umbar Peninsula Coast" quantity="2" owner="Haradrim"/>
       <unitPlacement unitType="raiders" territory="Khand" quantity="4" owner="Khand"/>
       <unitPlacement unitType="raiderCavalry" territory="S. Khand" quantity="2" owner="Khand"/>
       <unitPlacement unitType="warWolves" territory="S. Khand" quantity="5" owner="Khand"/>
@@ -2270,26 +2276,28 @@
       <unitPlacement unitType="trolls" territory="Moria" quantity="2" owner="Goblins"/>
       <unitPlacement unitType="balrog" territory="Moria" quantity="1" owner="Goblins"/>
       <unitPlacement unitType="wargs" territory="Moria" quantity="2" owner="Goblins"/>
-      <unitPlacement unitType="bats" territory="Moria" quantity="2" owner="Goblins"/>
+      <unitPlacement unitType="bats" territory="Moria" quantity="3" owner="Goblins"/>
       <unitPlacement unitType="castle" territory="N. Caves" quantity="1" owner="Goblins"/>
       <unitPlacement unitType="stabbers" territory="N. Caves" quantity="2" owner="Goblins"/>
       <unitPlacement unitType="shooters" territory="N. Caves" quantity="3" owner="Goblins"/>
-      <unitPlacement unitType="wargs" territory="N. Caves" quantity="1" owner="Goblins"/>
+      <unitPlacement unitType="wargs" territory="N. Caves" quantity="2" owner="Goblins"/>
       <unitPlacement unitType="bats" territory="N. Caves" quantity="2" owner="Goblins"/>
       <unitPlacement unitType="fortifications" territory="N. Caves" quantity="6" owner="Goblins"/>
       <unitPlacement unitType="castle" territory="S. Caves" quantity="1" owner="Goblins"/>
       <unitPlacement unitType="stabbers" territory="S. Caves" quantity="2" owner="Goblins"/>
       <unitPlacement unitType="shooters" territory="S. Caves" quantity="3" owner="Goblins"/>
       <unitPlacement unitType="fortifications" territory="S. Caves" quantity="6" owner="Goblins"/>
-      <unitPlacement unitType="wargs" territory="S. Caves" quantity="1" owner="Goblins"/>
+      <unitPlacement unitType="wargs" territory="S. Caves" quantity="2" owner="Goblins"/>
       <!-- Neutral Lands -->
       <unitPlacement unitType="castle" territory="Lonely Mtn." quantity="1" owner="Dwarves"/>
+      <unitPlacement unitType="Hero" territory="Lonely Mtn." quantity="1" owner="Dwarves"/>
       <unitPlacement unitType="fortifications" territory="Lonely Mtn." quantity="10" owner="Dwarves"/>
       <unitPlacement unitType="axeInfantry" territory="Lonely Mtn." quantity="4" owner="Dwarves"/>
       <unitPlacement unitType="cannon" territory="Lonely Mtn." quantity="2" owner="Dwarves"/>
       <unitPlacement unitType="axeInfantry" territory="Iron Hills" quantity="6" owner="Dwarves"/>
       <unitPlacement unitType="phalanx" territory="Iron Hills" quantity="2" owner="Dwarves"/>
       <unitPlacement unitType="castle" territory="Iron Hills" quantity="1" owner="Dwarves"/>
+      <unitPlacement unitType="Hero" territory="Iron Hills" quantity="1" owner="Dwarves"/>
       <unitPlacement unitType="fortifications" territory="Iron Hills" quantity="8" owner="Dwarves"/>
       <unitPlacement unitType="phalanx" territory="Lonely Mtn." quantity="2" owner="Dwarves"/>
       <unitPlacement unitType="spearInfantry" territory="Lake Town" quantity="5" owner="Dale"/>
