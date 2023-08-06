@@ -1570,7 +1570,7 @@
       <option name="artillery" value="true"/>
     </attachment>
     <attachment name="unitAttachment" attachTo="bats" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
-      <option name="movement" value="4"/>
+      <option name="movement" value="3"/>
       <option name="isAir" value="true"/>
       <option name="attack" value="2"/>
       <option name="defense" value="1"/>
@@ -2276,12 +2276,12 @@
       <unitPlacement unitType="trolls" territory="Moria" quantity="2" owner="Goblins"/>
       <unitPlacement unitType="balrog" territory="Moria" quantity="1" owner="Goblins"/>
       <unitPlacement unitType="wargs" territory="Moria" quantity="2" owner="Goblins"/>
-      <unitPlacement unitType="bats" territory="Moria" quantity="3" owner="Goblins"/>
+      <unitPlacement unitType="bats" territory="Moria" quantity="2" owner="Goblins"/>
       <unitPlacement unitType="castle" territory="N. Caves" quantity="1" owner="Goblins"/>
       <unitPlacement unitType="stabbers" territory="N. Caves" quantity="3" owner="Goblins"/>
       <unitPlacement unitType="shooters" territory="N. Caves" quantity="3" owner="Goblins"/>
       <unitPlacement unitType="wargs" territory="N. Caves" quantity="2" owner="Goblins"/>
-      <unitPlacement unitType="bats" territory="N. Caves" quantity="2" owner="Goblins"/>
+      <unitPlacement unitType="bats" territory="N. Caves" quantity="3" owner="Goblins"/>
       <unitPlacement unitType="fortifications" territory="N. Caves" quantity="6" owner="Goblins"/>
       <unitPlacement unitType="castle" territory="S. Caves" quantity="1" owner="Goblins"/>
       <unitPlacement unitType="stabbers" territory="S. Caves" quantity="3" owner="Goblins"/>
