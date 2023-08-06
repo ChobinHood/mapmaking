@@ -971,8 +971,8 @@
       <result resourceOrUnit="cannon" quantity="1"/>
     </productionRule>
     <productionRule name="buyMortar">
-      <cost resource="PUs" quantity="6"/>
-      <result resourceOrUnit="mortar" quantity="1"/>
+      <cost resource="PUs" quantity="11"/>
+      <result resourceOrUnit="mortar" quantity="2"/>
     </productionRule>
     <productionRule name="buyPhalanx">
       <cost resource="PUs" quantity="11"/>
@@ -1505,7 +1505,7 @@
       <option name="movement" value="1"/>
       <option name="transportCost" value="2"/>
       <option name="attack" value="4"/>
-      <option name="defense" value="2"/>
+      <option name="defense" value="1"/>
       <option name="artillery" value="true"/>
     </attachment>
     <attachment name="unitAttachment" attachTo="nazgul" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
@@ -2173,10 +2173,9 @@
       <unitPlacement unitType="spearInfantry" territory="Tolfolas" quantity="1" owner="Gondor"/>
       <unitPlacement unitType="undead" territory="Paths of the Dead" quantity="10" owner="Gondor"/>
       <unitPlacement unitType="spearInfantry" territory="Belfalas" quantity="1" owner="Gondor"/>
-      <unitPlacement unitType="galleon" territory="Lefnui" quantity="1" owner="Gondor"/>
-      <unitPlacement unitType="galleon" territory="Morthond" quantity="1" owner="Gondor"/>
+      <unitPlacement unitType="galleon" territory="Lefnui" quantity="2" owner="Gondor"/>
+      <unitPlacement unitType="galleon" territory="Morthond" quantity="2" owner="Gondor"/>
       <unitPlacement unitType="galleon" territory="Gilrain" quantity="1" owner="Gondor"/>
-      <unitPlacement unitType="galleon" territory="S. Gondor Coast" quantity="2" owner="Gondor"/>
       <unitPlacement unitType="caravel" territory="S. Gondor Coast" quantity="3" owner="Gondor"/>
       <unitPlacement unitType="spearInfantry" territory="S. Gondor" quantity="1" owner="Gondor"/>
       <!-- Rohan Lands-->
@@ -2261,7 +2260,7 @@
       <unitPlacement unitType="oliphant" territory="Harad Road" quantity="2" owner="Haradrim"/>
       <unitPlacement unitType="galleon" territory="Bay of Harad" quantity="4" owner="Haradrim"/>
       <unitPlacement unitType="galleon" territory="Harnen" quantity="2" owner="Haradrim"/>
-      <unitPlacement unitType="caravel" territory="Umbar Peninsula Coast" quantity="2" owner="Haradrim"/>
+      <unitPlacement unitType="caravel" territory="Umbar Peninsula Coast" quantity="3" owner="Haradrim"/>
       <unitPlacement unitType="raiders" territory="Khand" quantity="4" owner="Khand"/>
       <unitPlacement unitType="raiderCavalry" territory="S. Khand" quantity="2" owner="Khand"/>
       <unitPlacement unitType="warWolves" territory="S. Khand" quantity="5" owner="Khand"/>
@@ -2285,9 +2284,10 @@
       <unitPlacement unitType="fortifications" territory="N. Caves" quantity="6" owner="Goblins"/>
       <unitPlacement unitType="castle" territory="S. Caves" quantity="1" owner="Goblins"/>
       <unitPlacement unitType="stabbers" territory="S. Caves" quantity="3" owner="Goblins"/>
-      <unitPlacement unitType="shooters" territory="S. Caves" quantity="3" owner="Goblins"/>
+      <unitPlacement unitType="shooters" territory="S. Caves" quantity="4" owner="Goblins"/>
       <unitPlacement unitType="fortifications" territory="S. Caves" quantity="6" owner="Goblins"/>
       <unitPlacement unitType="wargs" territory="S. Caves" quantity="2" owner="Goblins"/>
+      <unitPlacement unitType="trolls" territory="S. Caves" quantity="2" owner="Goblins"/>
       <!-- Neutral Lands -->
       <unitPlacement unitType="castle" territory="Lonely Mtn." quantity="1" owner="Dwarves"/>
       <unitPlacement unitType="Hero" territory="Lonely Mtn." quantity="1" owner="Dwarves"/>
@@ -2297,7 +2297,6 @@
       <unitPlacement unitType="axeInfantry" territory="Iron Hills" quantity="6" owner="Dwarves"/>
       <unitPlacement unitType="phalanx" territory="Iron Hills" quantity="2" owner="Dwarves"/>
       <unitPlacement unitType="castle" territory="Iron Hills" quantity="1" owner="Dwarves"/>
-      <unitPlacement unitType="Hero" territory="Iron Hills" quantity="1" owner="Dwarves"/>
       <unitPlacement unitType="fortifications" territory="Iron Hills" quantity="8" owner="Dwarves"/>
       <unitPlacement unitType="phalanx" territory="Lonely Mtn." quantity="2" owner="Dwarves"/>
       <unitPlacement unitType="spearInfantry" territory="Lake Town" quantity="5" owner="Dale"/>
