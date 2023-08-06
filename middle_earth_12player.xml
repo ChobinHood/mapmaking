@@ -1044,7 +1044,8 @@
       <frontierRules name="buyCastle"/>
       <frontierRules name="buyTower"/>
       <frontierRules name="buyFortifications"/>
-      <frontierRules name="buyArchers"/>    
+      <frontierRules name="buyArchers"/> 
+      <frontierRules name="buyLightCavalry"/>
     </productionFrontier>
     <productionFrontier name="daleProduction">
       <frontierRules name="buySpearInfantry"/>
