@@ -2237,8 +2237,8 @@
       <unitPlacement unitType="wargs" territory="Isengard" quantity="4" owner="Saruman"/>
       <unitPlacement unitType="wizard" territory="Isengard" quantity="1" owner="Saruman"/>
       <unitPlacement unitType="castle" territory="Rhun" quantity="1" owner="Rhun"/>
-      <unitPlacement unitType="fortifications" territory="Rhun" quantity="2" owner="Rhun"/>
-      <unitPlacement unitType="spearInfantry" territory="Rhun" quantity="9" owner="Rhun"/>
+      <unitPlacement unitType="fortifications" territory="Rhun" quantity="4" owner="Rhun"/>
+      <unitPlacement unitType="spearInfantry" territory="Rhun" quantity="12" owner="Rhun"/>
       <unitPlacement unitType="chariotArchers" territory="N. Rhun" quantity="4" owner="Rhun"/>
       <unitPlacement unitType="spearInfantry" territory="N. Rhun" quantity="2" owner="Rhun"/>
       <unitPlacement unitType="warChariot" territory="N. Rhun" quantity="4" owner="Rhun"/>
