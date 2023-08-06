@@ -2176,7 +2176,7 @@
       <unitPlacement unitType="galleon" territory="Lefnui" quantity="2" owner="Gondor"/>
       <unitPlacement unitType="galleon" territory="Morthond" quantity="2" owner="Gondor"/>
       <unitPlacement unitType="galleon" territory="Gilrain" quantity="1" owner="Gondor"/>
-      <unitPlacement unitType="caravel" territory="S. Gondor Coast" quantity="3" owner="Gondor"/>
+      <unitPlacement unitType="caravel" territory="S. Gondor Coast" quantity="5" owner="Gondor"/>
       <unitPlacement unitType="spearInfantry" territory="S. Gondor" quantity="1" owner="Gondor"/>
       <!-- Rohan Lands-->
       <unitPlacement unitType="castle" territory="Eastfold" quantity="1" owner="Rohan"/>
@@ -2199,9 +2199,8 @@
       <unitPlacement unitType="tower" territory="Barad Dur" quantity="1" owner="Mordor"/>
       <unitPlacement unitType="fortifications" territory="Barad Dur" quantity="6" owner="Mordor"/>
       <unitPlacement unitType="nazgul" territory="Barad Dur" quantity="8" owner="Mordor"/>
-      <unitPlacement unitType="orcs" territory="Barad Dur" quantity="10" owner="Mordor"/>
+      <unitPlacement unitType="orcs" territory="Barad Dur" quantity="8" owner="Mordor"/>
       <unitPlacement unitType="trolls" territory="Barad Dur" quantity="1" owner="Mordor"/>
-      <unitPlacement unitType="Hero" territory="Barad Dur" quantity="1" owner="Mordor"/>
       <unitPlacement unitType="castle" territory="Udun" quantity="1" owner="Mordor"/>
       <unitPlacement unitType="tower" territory="Udun" quantity="2" owner="Mordor"/>
       <unitPlacement unitType="fortifications" territory="Udun" quantity="4" owner="Mordor"/>
@@ -2213,24 +2212,24 @@
       <unitPlacement unitType="Hero" territory="Minas Morgul" quantity="1" owner="Mordor"/>
       <unitPlacement unitType="tower" territory="Minas Morgul" quantity="4" owner="Mordor"/>
       <unitPlacement unitType="fortifications" territory="Minas Morgul" quantity="4" owner="Mordor"/>
-      <unitPlacement unitType="orcs" territory="Minas Morgul" quantity="10" owner="Mordor"/>
-      <unitPlacement unitType="siegeTower" territory="Minas Morgul" quantity="6" owner="Mordor"/>
-      <unitPlacement unitType="trolls" territory="Minas Morgul" quantity="3" owner="Mordor"/>
+      <unitPlacement unitType="orcs" territory="Minas Morgul" quantity="8" owner="Mordor"/>
+      <unitPlacement unitType="siegeTower" territory="Minas Morgul" quantity="5" owner="Mordor"/>
+      <unitPlacement unitType="trolls" territory="Minas Morgul" quantity="2" owner="Mordor"/>
       <unitPlacement unitType="orcs" territory="Gorgoroth" quantity="6" owner="Mordor"/>
       <unitPlacement unitType="castle" territory="Dol Goldur" quantity="1" owner="Mordor"/>
       <unitPlacement unitType="tower" territory="Dol Goldur" quantity="1" owner="Mordor"/>
       <unitPlacement unitType="fortifications" territory="Dol Goldur" quantity="4" owner="Mordor"/>
       <unitPlacement unitType="nazgul" territory="Dol Goldur" quantity="1" owner="Mordor"/>
-      <unitPlacement unitType="orcs" territory="Dol Goldur" quantity="6" owner="Mordor"/>
+      <unitPlacement unitType="orcs" territory="Dol Goldur" quantity="8" owner="Mordor"/>
       <unitPlacement unitType="siegeTower" territory="Dol Goldur" quantity="1" owner="Mordor"/>
       <unitPlacement unitType="trolls" territory="Dol Goldur" quantity="1" owner="Mordor"/>
       <unitPlacement unitType="castle" territory="Isengard" quantity="1" owner="Saruman"/>
       <unitPlacement unitType="tower" territory="Isengard" quantity="1" owner="Saruman"/>
       <unitPlacement unitType="fortifications" territory="Isengard" quantity="6" owner="Saruman"/>
-      <unitPlacement unitType="orcs" territory="Isengard" quantity="5" owner="Saruman"/>
-      <unitPlacement unitType="urukhai" territory="Isengard" quantity="9" owner="Saruman"/>
+      <unitPlacement unitType="orcs" territory="Isengard" quantity="3" owner="Saruman"/>
+      <unitPlacement unitType="urukhai" territory="Isengard" quantity="8" owner="Saruman"/>
       <unitPlacement unitType="urukhai" territory="Wold" quantity="8" owner="Saruman"/>
-      <unitPlacement unitType="orcs" territory="Wold" quantity="4" owner="Saruman"/>
+      <unitPlacement unitType="orcs" territory="Wold" quantity="3" owner="Saruman"/>
       <unitPlacement unitType="Hero" territory="Wold" quantity="1" owner="Saruman"/>
       <unitPlacement unitType="raiders" territory="S. Dunland" quantity="4" owner="Saruman"/>
       <unitPlacement unitType="raiders" territory="N. Dunland" quantity="4" owner="Saruman"/>
@@ -2258,11 +2257,11 @@
       <unitPlacement unitType="oliphant" territory="N. Haradwaith" quantity="1" owner="Haradrim"/>
       <unitPlacement unitType="spearInfantry" territory="Harad Road" quantity="4" owner="Haradrim"/>
       <unitPlacement unitType="oliphant" territory="Harad Road" quantity="2" owner="Haradrim"/>
-      <unitPlacement unitType="galleon" territory="Bay of Harad" quantity="4" owner="Haradrim"/>
-      <unitPlacement unitType="galleon" territory="Harnen" quantity="2" owner="Haradrim"/>
+      <unitPlacement unitType="galleon" territory="Bay of Harad" quantity="3" owner="Haradrim"/>
+      <unitPlacement unitType="galleon" territory="Harnen" quantity="3" owner="Haradrim"/>
       <unitPlacement unitType="caravel" territory="Umbar Peninsula Coast" quantity="3" owner="Haradrim"/>
-      <unitPlacement unitType="raiders" territory="Khand" quantity="4" owner="Khand"/>
-      <unitPlacement unitType="raiderCavalry" territory="S. Khand" quantity="2" owner="Khand"/>
+      <unitPlacement unitType="raiders" territory="Khand" quantity="2" owner="Khand"/>
+      <unitPlacement unitType="raiderCavalry" territory="S. Khand" quantity="4" owner="Khand"/>
       <unitPlacement unitType="warWolves" territory="S. Khand" quantity="5" owner="Khand"/>
       <unitPlacement unitType="xbowInfantry" territory="Khand" quantity="4" owner="Khand"/>
       <unitPlacement unitType="castle" territory="Khand" quantity="1" owner="Khand"/>
@@ -2304,6 +2303,7 @@
       <unitPlacement unitType="castle" territory="Lake Town" quantity="1" owner="Dale"/>
       <unitPlacement unitType="Hero" territory="Lake Town" quantity="1" owner="Dale"/>
       <unitPlacement unitType="fortifications" territory="Lake Town" quantity="6" owner="Dale"/>
+      <unitPlacement unitType="lightCavalry" territory="Lake Town" quantity="1" owner="Dale"/>    
       <unitPlacement unitType="spearInfantry" territory="N. Dale" quantity="3" owner="Dale"/>
       <unitPlacement unitType="lightCavalry" territory="N. Dale" quantity="2" owner="Dale"/>
       <unitPlacement unitType="archers" territory="S. Dale" quantity="1" owner="Dale"/>
