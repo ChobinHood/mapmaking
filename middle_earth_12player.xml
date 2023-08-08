@@ -856,55 +856,55 @@
       <cost resource="PUs" quantity="16"/>
       <result resourceOrUnit="Halbarad" quantity="1"/>
     </productionRule>
-	  <productionRule name="Farmer Maggot">
+    <productionRule name="Farmer Maggot">
       <cost resource="PUs" quantity="5"/>
       <result resourceOrUnit="Farmer Maggot" quantity="1"/>
     </productionRule>
-	  <productionRule name="Elladan and Ellrohir">
+    <productionRule name="Elladan and Ellrohir">
       <cost resource="PUs" quantity="16"/>
       <result resourceOrUnit="Elladan and Ellrohir" quantity="1"/>
     </productionRule>
-	  <productionRule name="Cirdan">
+    <productionRule name="Cirdan">
       <cost resource="PUs" quantity="9"/>
       <result resourceOrUnit="Cirdan" quantity="1"/>
     </productionRule>
-	  <productionRule name="Elrond">
+    <productionRule name="Elrond">
       <cost resource="PUs" quantity="21"/>
       <result resourceOrUnit="Elrond" quantity="1"/>
-          </productionRule>
-	  <productionRule name="Glorfindel">
+    </productionRule>
+    <productionRule name="Glorfindel">
       <cost resource="PUs" quantity="20"/>
       <result resourceOrUnit="Glorfindel" quantity="1"/>
     </productionRule>
-	  <productionRule name="Arwen">
+    <productionRule name="Arwen">
       <cost resource="PUs" quantity="9"/>
       <result resourceOrUnit="Arwen" quantity="1"/>
     </productionRule>
-	  <productionRule name="Galadriel">
+    <productionRule name="Galadriel">
       <cost resource="PUs" quantity="16"/>
       <result resourceOrUnit="Galadriel" quantity="1"/>
     </productionRule>
-	  <productionRule name="Celeborn">
+    <productionRule name="Celeborn">
       <cost resource="PUs" quantity="14"/>
       <result resourceOrUnit="Celeborn" quantity="1"/>
     </productionRule>
-	  <productionRule name="Saruman">
+    <productionRule name="Saruman">
       <cost resource="PUs" quantity="16"/>
       <result resourceOrUnit="Saruman" quantity="1"/>
     </productionRule>
-	  <productionRule name="Lurtz">
+    <productionRule name="Lurtz">
       <cost resource="PUs" quantity="20"/>
       <result resourceOrUnit="Lurtz" quantity="1"/>
     </productionRule>
-	  <productionRule name="Eomer">
+    <productionRule name="Eomer">
       <cost resource="PUs" quantity="17"/>
       <result resourceOrUnit="Eomer" quantity="1"/>
     </productionRule>
-	  <productionRule name="Theoden">
+    <productionRule name="Theoden">
       <cost resource="PUs" quantity="9"/>
       <result resourceOrUnit="Theoden" quantity="1"/>
     </productionRule>
-	  <productionRule name="Eowyn">
+    <productionRule name="Eowyn">
       <cost resource="PUs" quantity="9"/>
       <result resourceOrUnit="Eowyn" quantity="1"/>
     </productionRule>
@@ -912,79 +912,79 @@
       <cost resource="PUs" quantity="9"/>
       <result resourceOrUnit="Gamling" quantity="1"/>
     </productionRule>
-	  <productionRule name="Boromir">
+    <productionRule name="Boromir">
       <cost resource="PUs" quantity="10"/>
       <result resourceOrUnit="Boromir" quantity="1"/>
     </productionRule>
-	  <productionRule name="Aragorn">
+    <productionRule name="Aragorn">
       <cost resource="PUs" quantity="22"/>
       <result resourceOrUnit="Aragorn" quantity="1"/>
     </productionRule>
-	  <productionRule name="Legolas">
+    <productionRule name="Legolas">
       <cost resource="PUs" quantity="18"/>
       <result resourceOrUnit="Legolas" quantity="1"/>
     </productionRule>
-	  <productionRule name="Gimli">
+    <productionRule name="Gimli">
       <cost resource="PUs" quantity="16"/>
       <result resourceOrUnit="Gimli" quantity="1"/>
     </productionRule>
-	  <productionRule name="Frodo and Sam">
+    <productionRule name="Frodo and Sam">
       <cost resource="PUs" quantity="5"/>
       <result resourceOrUnit="Frodo and Sam" quantity="1"/>
     </productionRule>
-	  <productionRule name="Merry and Pippin">
+    <productionRule name="Merry and Pippin">
       <cost resource="PUs" quantity="3"/>
       <result resourceOrUnit="Merry and Pippin" quantity="1"/>
     </productionRule>
-	  <productionRule name="Gandalf the White">
+    <productionRule name="Gandalf the White">
       <cost resource="PUs" quantity="19"/>
       <result resourceOrUnit="Gandalf the White" quantity="1"/>
     </productionRule>
-	  <productionRule name="Faramir">
+    <productionRule name="Faramir">
       <cost resource="PUs" quantity="16"/>
       <result resourceOrUnit="Faramir" quantity="1"/>
     </productionRule>
-	  <productionRule name="Prince Imrahil">
+    <productionRule name="Prince Imrahil">
       <cost resource="PUs" quantity="17"/>
       <result resourceOrUnit="Prince Imrahil" quantity="1"/>
     </productionRule>
-	  <productionRule name="King of The Dead">
+    <productionRule name="King of The Dead">
       <cost resource="PUs" quantity="15"/>
       <result resourceOrUnit="King of The Dead" quantity="1"/>
     </productionRule>
-	  <productionRule name="Gothmog">
+    <productionRule name="Gothmog">
       <cost resource="PUs" quantity="17"/>
       <result resourceOrUnit="Gothmog" quantity="1"/>
     </productionRule>
-	  <productionRule name="Shagrat">
+    <productionRule name="Shagrat">
       <cost resource="PUs" quantity="16"/>
       <result resourceOrUnit="Shagrat" quantity="1"/>
     </productionRule>
-          <productionRule name="Gorbag">
+    <productionRule name="Gorbag">
       <cost resource="PUs" quantity="7"/>
       <result resourceOrUnit="Gorbag" quantity="1"/>
     </productionRule>
-          <productionRule name="Witch King">
+    <productionRule name="Witch King">
       <cost resource="PUs" quantity="20"/>
       <result resourceOrUnit="Witch King" quantity="1"/>
     </productionRule>
-	  <productionRule name="Dain">
+    <productionRule name="Dain">
       <cost resource="PUs" quantity="17"/>
       <result resourceOrUnit="Dain" quantity="1"/>
     </productionRule>
-	  <productionRule name="Brand">
+    <productionRule name="Brand">
       <cost resource="PUs" quantity="15"/>
       <result resourceOrUnit="Brand" quantity="1"/>
     </productionRule>
-	  <productionRule name="Thorin III">
+    <productionRule name="Thorin III">
       <cost resource="PUs" quantity="15"/>
       <result resourceOrUnit="Thorin III" quantity="1"/>
     </productionRule>
-	  <productionRule name="Thranduil">
+    <productionRule name="Thranduil">
       <cost resource="PUs" quantity="20"/>
       <result resourceOrUnit="Thranduil" quantity="1"/>
     </productionRule>
-	  <productionRule name="Tauriel">
+    <productionRule name="Tauriel">
       <cost resource="PUs" quantity="15"/>
       <result resourceOrUnit="Tauriel" quantity="1"/>
     </productionRule>
@@ -999,6 +999,7 @@
     <productionRule name="Gwaihir">
       <cost resource="PUs" quantity="10"/>
       <result resourceOrUnit="Gwaihir" quantity="1"/>
+     </productionRule>
      <productionRule name="Treebeard">
       <cost resource="PUs" quantity="17"/>
       <result resourceOrUnit="Treebeard" quantity="1"/>
@@ -2845,6 +2846,7 @@
       <unitPlacement unitType="hobbits" territory="Hobbiton" quantity="3" owner="Freefolk"/>
       <unitPlacement unitType="castle" territory="Hobbiton" quantity="1" owner="Freefolk"/>
       <unitPlacement unitType="hobbits" territory="Shire" quantity="3" owner="Freefolk"/>
+      <unitPlacement unitType="Farmer Maggot" territory="Shire" quantity="1" owner="Freefolk"/>
       <unitPlacement unitType="spearInfantry" territory="Fornost" quantity="1" owner="Freefolk"/>
       <unitPlacement unitType="Halbarad" territory="Fornost" quantity="1" owner="Freefolk"/>
       <unitPlacement unitType="Elladan and Ellrohir" territory="Fornost" quantity="2" owner="Freefolk"/>
