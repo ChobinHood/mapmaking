@@ -948,9 +948,9 @@
       <cost resource="PUs" quantity="17"/>
       <result resourceOrUnit="Prince Imrahil" quantity="1"/>
     </productionRule>
-    <productionRule name="King of The Dead">
+    <productionRule name="King of the Dead">
       <cost resource="PUs" quantity="15"/>
-      <result resourceOrUnit="King of The Dead" quantity="1"/>
+      <result resourceOrUnit="King of the Dead" quantity="1"/>
     </productionRule>
     <productionRule name="Gothmog">
       <cost resource="PUs" quantity="17"/>
