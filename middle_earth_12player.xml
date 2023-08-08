@@ -2255,16 +2255,16 @@
       <option name="production" value="6"/>
     </attachment>
     <attachment name="territoryAttachment" attachTo="Haradwaith" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
-      <option name="production" value="1"/>
+      <option name="production" value="2"/>
     </attachment>
     <attachment name="territoryAttachment" attachTo="N. Haradwaith" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="2"/>
     </attachment>
     <attachment name="territoryAttachment" attachTo="W. Haradwaith" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
-      <option name="production" value="1"/>
+      <option name="production" value="2"/>
     </attachment>
     <attachment name="territoryAttachment" attachTo="Far Harad" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
-      <option name="production" value="2"/>
+      <option name="production" value="4"/>
     </attachment>
     <!-- Goblin Lands -->
     <attachment name="territoryAttachment" attachTo="N. Caves" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
@@ -2618,7 +2618,7 @@
       <unitPlacement unitType="castle" territory="Rivendell" quantity="1" owner="Elves"/>
       <unitPlacement unitType="tower" territory="Rivendell" quantity="2" owner="Elves"/>
       <unitPlacement unitType="fortifications" territory="Rivendell" quantity="12" owner="Elves"/>
-      <unitPlacement unitType="hunters" territory="Rivendell" quantity="6" owner="Elves"/>
+      <unitPlacement unitType="hunters" territory="Rivendell" quantity="5" owner="Elves"/>
       <unitPlacement unitType="Elrond" territory="Rivendell" quantity="1" owner="Elves"/>
       <unitPlacement unitType="Glorfindel" territory="Rivendell" quantity="1" owner="Elves"/>
       <unitPlacement unitType="Arwen" territory="Rivendell" quantity="1" owner="Elves"/>
@@ -2633,9 +2633,9 @@
       <unitPlacement unitType="fortifications" territory="High Mirkwood" quantity="2" owner="Elves"/>
       <unitPlacement unitType="Thranduil" territory="High Mirkwood" quantity="1" owner="Elves"/>
       <unitPlacement unitType="Tauriel" territory="High Mirkwood" quantity="1" owner="Elves"/> 
-      <unitPlacement unitType="hunters" territory="High Mirkwood" quantity="6" owner="Elves"/>
+      <unitPlacement unitType="hunters" territory="High Mirkwood" quantity="5" owner="Elves"/>
       <unitPlacement unitType="castle" territory="Lorien" quantity="1" owner="Elves"/>
-      <unitPlacement unitType="hunters" territory="Lorien" quantity="6" owner="Elves"/>
+      <unitPlacement unitType="hunters" territory="Lorien" quantity="5" owner="Elves"/>
       <unitPlacement unitType="Galadriel" territory="Lorien" quantity="1" owner="Elves"/>
       <unitPlacement unitType="Celeborn" territory="Lorien" quantity="1" owner="Elves"/>
       <unitPlacement unitType="tower" territory="Lorien" quantity="3" owner="Elves"/>
@@ -2676,7 +2676,7 @@
       <unitPlacement unitType="fortifications" territory="Anfalas" quantity="5" owner="Gondor"/>
       <unitPlacement unitType="spearInfantry" territory="Anfalas" quantity="3" owner="Gondor"/>
       <unitPlacement unitType="lightCavalry" territory="Anfalas" quantity="2" owner="Gondor"/>
-      <unitPlacement unitType="archers" territory="Anfalas" quantity="2" owner="Gondor"/>
+      <unitPlacement unitType="archers" territory="Anfalas" quantity="1" owner="Gondor"/>
       <unitPlacement unitType="castle" territory="Andrast" quantity="1" owner="Gondor"/>
       <unitPlacement unitType="fortifications" territory="Andrast" quantity="6" owner="Gondor"/>
       <unitPlacement unitType="spearInfantry" territory="Andrast" quantity="3" owner="Gondor"/>
@@ -2701,7 +2701,7 @@
       <unitPlacement unitType="heavyCavalry" territory="E. Emnet" quantity="1" owner="Rohan"/>
       <unitPlacement unitType="Boromir" territory="E. Emnet" quantity="1" owner="Gondor"/>
       <unitPlacement unitType="spearInfantry" territory="E. Emnet" quantity="2" owner="Rohan"/>
-      <unitPlacement unitType="lightCavalry" territory="Eastfold" quantity="3" owner="Rohan"/>
+      <unitPlacement unitType="lightCavalry" territory="Eastfold" quantity="1" owner="Rohan"/>
       <unitPlacement unitType="spearInfantry" territory="Eastfold" quantity="2" owner="Rohan"/>
       <unitPlacement unitType="Theoden" territory="Eastfold" quantity="1" owner="Rohan"/>
       <unitPlacement unitType="Eomer" territory="Eastfold" quantity="1" owner="Rohan"/>
@@ -2716,15 +2716,15 @@
       <unitPlacement unitType="tower" territory="Barad Dur" quantity="1" owner="Mordor"/>
       <unitPlacement unitType="fortifications" territory="Barad Dur" quantity="6" owner="Mordor"/>
       <unitPlacement unitType="nazgul" territory="Barad Dur" quantity="7" owner="Mordor"/>
-      <unitPlacement unitType="orcs" territory="Barad Dur" quantity="6" owner="Mordor"/>
+      <unitPlacement unitType="orcs" territory="Barad Dur" quantity="8" owner="Mordor"/>
       <unitPlacement unitType="trolls" territory="Barad Dur" quantity="1" owner="Mordor"/>
       <unitPlacement unitType="Gorbag" territory="Barad Dur" quantity="1" owner="Mordor"/>
       <unitPlacement unitType="Shagrat" territory="Barad Dur" quantity="1" owner="Mordor"/>
       <unitPlacement unitType="castle" territory="Udun" quantity="1" owner="Mordor"/>
       <unitPlacement unitType="tower" territory="Udun" quantity="2" owner="Mordor"/>
       <unitPlacement unitType="fortifications" territory="Udun" quantity="4" owner="Mordor"/>
-      <unitPlacement unitType="orcs" territory="Udun" quantity="6" owner="Mordor"/>
-      <unitPlacement unitType="siegeTower" territory="Udun" quantity="1" owner="Mordor"/>
+      <unitPlacement unitType="orcs" territory="Udun" quantity="8" owner="Mordor"/>
+      <unitPlacement unitType="siegeTower" territory="Udun" quantity="2" owner="Mordor"/>
       <unitPlacement unitType="trolls" territory="Udun" quantity="2" owner="Mordor"/>
       <unitPlacement unitType="warChariot" territory="Rhun" quantity="3" owner="Rhun"/>
       <unitPlacement unitType="castle" territory="Minas Morgul" quantity="1" owner="Mordor"/>
@@ -2747,22 +2747,21 @@
       <unitPlacement unitType="castle" territory="Isengard" quantity="1" owner="Saruman"/>
       <unitPlacement unitType="tower" territory="Isengard" quantity="1" owner="Saruman"/>
       <unitPlacement unitType="fortifications" territory="Isengard" quantity="6" owner="Saruman"/>
-      <unitPlacement unitType="orcs" territory="Isengard" quantity="3" owner="Saruman"/>
-      <unitPlacement unitType="urukhai" territory="Isengard" quantity="8" owner="Saruman"/>
-      <unitPlacement unitType="urukhai" territory="Wold" quantity="9" owner="Saruman"/>
-      <unitPlacement unitType="orcs" territory="Wold" quantity="3" owner="Saruman"/>
+      <unitPlacement unitType="orcs" territory="Isengard" quantity="8" owner="Saruman"/>
+      <unitPlacement unitType="urukhai" territory="Isengard" quantity="10" owner="Saruman"/>
+      <unitPlacement unitType="urukhai" territory="Wold" quantity="8" owner="Saruman"/>
       <unitPlacement unitType="Lurtz" territory="Wold" quantity="1" owner="Saruman"/>
       <unitPlacement unitType="raiders" territory="S. Dunland" quantity="6" owner="Saruman"/>
-      <unitPlacement unitType="raiders" territory="N. Dunland" quantity="4" owner="Saruman"/>
+      <unitPlacement unitType="raiders" territory="N. Dunland" quantity="6" owner="Saruman"/>
       <unitPlacement unitType="wargs" territory="Isengard" quantity="4" owner="Saruman"/>
       <unitPlacement unitType="wizard" territory="Isengard" quantity="1" owner="Saruman"/>
       <unitPlacement unitType="castle" territory="Rhun" quantity="1" owner="Rhun"/>
       <unitPlacement unitType="fortifications" territory="Rhun" quantity="6" owner="Rhun"/>
-      <unitPlacement unitType="spearInfantry" territory="Rhun" quantity="12" owner="Rhun"/>
+      <unitPlacement unitType="spearInfantry" territory="Rhun" quantity="15" owner="Rhun"/>
       <unitPlacement unitType="chariotArchers" territory="N. Rhun" quantity="4" owner="Rhun"/>
-      <unitPlacement unitType="spearInfantry" territory="N. Rhun" quantity="2" owner="Rhun"/>
-      <unitPlacement unitType="warChariot" territory="N. Rhun" quantity="4" owner="Rhun"/>
-      <unitPlacement unitType="chariotArchers" territory="Rhun" quantity="6" owner="Rhun"/>
+      <unitPlacement unitType="spearInfantry" territory="N. Rhun" quantity="3" owner="Rhun"/>
+      <unitPlacement unitType="warChariot" territory="N. Rhun" quantity="3" owner="Rhun"/>
+      <unitPlacement unitType="chariotArchers" territory="Rhun" quantity="5" owner="Rhun"/>
       <unitPlacement unitType="warWagon" territory="Rhun" quantity="3" owner="Rhun"/>
       <!-- Haradrim Lands -->
       <unitPlacement unitType="castle" territory="City of Corsairs" quantity="1" owner="Haradrim"/>
@@ -2829,7 +2828,6 @@
       <unitPlacement unitType="spearInfantry" territory="N. Dale" quantity="3" owner="Dale"/>
       <unitPlacement unitType="lightCavalry" territory="N. Dale" quantity="2" owner="Dale"/>
       <unitPlacement unitType="archers" territory="S. Dale" quantity="1" owner="Dale"/>
-      <unitPlacement unitType="castle" territory="Carrock" quantity="1" owner="Dale"/>
       <unitPlacement unitType="archers" territory="Carrock" quantity="2" owner="Dale"/>
       <unitPlacement unitType="fortifications" territory="Carrock" quantity="2" owner="Dale"/>
       <unitPlacement unitType="spearInfantry" territory="S. Dale" quantity="2" owner="Dale"/>
@@ -2842,9 +2840,9 @@
       <unitPlacement unitType="archers" territory="Breelands" quantity="1" owner="Freefolk"/>
       <unitPlacement unitType="lightCavalry" territory="Breelands" quantity="1" owner="Freefolk"/>
       <unitPlacement unitType="spearInfantry" territory="Breelands" quantity="1" owner="Freefolk"/>
-      <unitPlacement unitType="hobbits" territory="Hobbiton" quantity="3" owner="Freefolk"/>
+      <unitPlacement unitType="hobbits" territory="Hobbiton" quantity="1" owner="Freefolk"/>
       <unitPlacement unitType="castle" territory="Hobbiton" quantity="1" owner="Freefolk"/>
-      <unitPlacement unitType="hobbits" territory="Shire" quantity="3" owner="Freefolk"/>
+      <unitPlacement unitType="hobbits" territory="Shire" quantity="1" owner="Freefolk"/>
       <unitPlacement unitType="Farmer Maggot" territory="Shire" quantity="1" owner="Freefolk"/>
       <unitPlacement unitType="spearInfantry" territory="Fornost" quantity="1" owner="Freefolk"/>
       <unitPlacement unitType="Halbarad" territory="Fornost" quantity="1" owner="Freefolk"/>
@@ -2876,7 +2874,7 @@
       <resourceGiven player="Rohan" resource="PUs" quantity="20"/>
       <resourceGiven player="Goblins" resource="PUs" quantity="16"/>
       <resourceGiven player="Elves" resource="PUs" quantity="23"/>
-      <resourceGiven player="Haradrim" resource="PUs" quantity="22"/>
+      <resourceGiven player="Haradrim" resource="PUs" quantity="26"/>
       <resourceGiven player="Gondor" resource="PUs" quantity="33"/>
       <resourceGiven player="Rhun" resource="PUs" quantity="16"/>
       <resourceGiven player="Dale" resource="PUs" quantity="11"/>
