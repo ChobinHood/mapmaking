@@ -22,7 +22,7 @@
     <territory name="W. Osg."/>
     <territory name="Minas Tirith"/>
     <territory name="Anorien"/>
-    <territory name="Lossarnach"/>
+    <territory name="arnach"/>
     <territory name="Lebennin"/>
     <territory name="S. Gondor"/>
     <territory name="Tolfolas"/>
@@ -228,14 +228,14 @@
     <connection t1="S. Ithilien" t2="E. Osg."/>
     <connection t1="E. Osg." t2="W. Osg."/>
     <connection t1="W. Osg." t2="Anorien"/>
-    <connection t1="W. Osg." t2="Lossarnach"/>
+    <connection t1="W. Osg." t2="arnach"/>
     <connection t1="Minas Tirith" t2="Anorien"/>
-    <connection t1="Minas Tirith" t2="Lossarnach"/>
+    <connection t1="Minas Tirith" t2="arnach"/>
     <connection t1="Anorien" t2="Eastfold"/>
     <connection t1="Anorien" t2="E. Emnet"/>
     <connection t1="Anorien" t2="Dead Marshes"/>
-    <connection t1="Anorien" t2="Lossarnach"/>
-    <connection t1="Lossarnach" t2="Lebennin"/>
+    <connection t1="Anorien" t2="arnach"/>
+    <connection t1="arnach" t2="Lebennin"/>
     <connection t1="Lebennin" t2="Belfalas"/>
     <connection t1="Lebennin" t2="Lamedon"/>
     <connection t1="S. Gondor" t2="Debatable Land"/>
@@ -418,7 +418,7 @@
     <connection t1="Anduin Mouth" t2="E. Osg."/>
     <connection t1="Anduin Mouth" t2="W. Osg."/>
     <connection t1="Anduin Mouth" t2="Lower Anduin"/>
-    <connection t1="Anduin Mouth" t2="Lossarnach"/>
+    <connection t1="Anduin Mouth" t2="arnach"/>
     <connection t1="Anduin Mouth" t2="Lebennin"/>
     <connection t1="Anduin Mouth" t2="Gilrain"/>
     <connection t1="Anduin Mouth" t2="Harad Road"/>
@@ -815,19 +815,19 @@
   <production>
     <!-- Unit Production Cost -->
     <productionRule name="buyFortifications">
-      <cost resource="PUs" quantity="2"/>
-      <result resourceOrUnit="fortifications" quantity="1"/>
+      <cost resource="PUs" quantity="3"/>
+      <result resourceOrUnit="fortifications" quantity="2"/>
     </productionRule>
     <productionRule name="buyHero">
       <cost resource="PUs" quantity="17"/>
       <result resourceOrUnit="Hero" quantity="1"/>
     </productionRule>
     <productionRule name="buyTower">
-      <cost resource="PUs" quantity="5"/>
+      <cost resource="PUs" quantity="4"/>
       <result resourceOrUnit="tower" quantity="1"/>
     </productionRule>
     <productionRule name="buyCastle">
-      <cost resource="PUs" quantity="8"/>
+      <cost resource="PUs" quantity="10"/>
       <result resourceOrUnit="castle" quantity="1"/>
     </productionRule>
     <productionRule name="buySpearInfantry">
@@ -839,8 +839,8 @@
       <result resourceOrUnit="corsairs" quantity="2"/>
     </productionRule>
     <productionRule name="buyTowerGuard">
-      <cost resource="PUs" quantity="9"/>
-      <result resourceOrUnit="towerGuard" quantity="2"/>
+      <cost resource="PUs" quantity="5"/>
+      <result resourceOrUnit="towerGuard" quantity="1"/>
     </productionRule>
     <productionRule name="buyLightCavalry">
       <cost resource="PUs" quantity="5"/>
@@ -931,7 +931,7 @@
       <result resourceOrUnit="shooters" quantity="2"/>
     </productionRule>
     <productionRule name="buyWargs">
-      <cost resource="PUs" quantity="7"/>
+      <cost resource="PUs" quantity="9"/>
       <result resourceOrUnit="wargs" quantity="2"/>
     </productionRule>
     <productionRule name="buyBalrog">
@@ -983,7 +983,7 @@
       <result resourceOrUnit="axeInfantry" quantity="2"/>
     </productionRule>
     <productionRule name="buyZepplin">
-      <cost resource="PUs" quantity="6"/>
+      <cost resource="PUs" quantity="5"/>
       <result resourceOrUnit="zepplin" quantity="1"/>
     </productionRule>
     <productionRule name="buyGreatship">
@@ -1110,11 +1110,9 @@
       <frontierRules name="buyFortifications"/>
     </productionFrontier>
     <productionFrontier name="elfProduction">
-      <frontierRules name="buyHobbits"/>
       <frontierRules name="buyHunters"/>
       <frontierRules name="buyWizard"/>
       <frontierRules name="buyEagles"/>
-      <frontierRules name="buyGriffin"/>
       <frontierRules name="buySwanBoat"/>
       <frontierRules name="buyCutter"/>
       <frontierRules name="buyClipper"/>
@@ -1122,6 +1120,7 @@
       <frontierRules name="buyTower"/>
       <frontierRules name="buyFortifications"/>
       <frontierRules name="buyEnts"/>
+      <frontierRules name="buyArchers"/>
     </productionFrontier>
     <productionFrontier name="mordorProduction">
       <frontierRules name="buyOrcs"/>
@@ -1214,10 +1213,11 @@
       <option name="artillery" value="true"/>    
     </attachment>
     <attachment name="unitAttachment" attachTo="tower" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
-      <option name="defense" value="5"/>
+      <option name="defense" value="6"/>
     </attachment>
     <attachment name="unitAttachment" attachTo="castle" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
       <option name="isFactory" value="true"/>
+      <option name="defense" value="5"/>
     </attachment>
     <attachment name="unitAttachment" attachTo="spearInfantry" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
       <option name="movement" value="1"/>
@@ -1229,15 +1229,15 @@
     <attachment name="unitAttachment" attachTo="undead" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
       <option name="movement" value="1"/>
       <option name="transportCost" value="1"/>
-      <option name="attack" value="1"/>
-      <option name="defense" value="2"/>
+      <option name="attack" value="2"/>
+      <option name="defense" value="1"/>
       <option name="artillerySupportable" value="true"/>
     </attachment>
     <attachment name="unitAttachment" attachTo="towerGuard" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
       <option name="movement" value="1"/>
       <option name="transportCost" value="1"/>
-      <option name="attack" value="2"/>
-      <option name="defense" value="3"/>
+      <option name="attack" value="1"/>
+      <option name="defense" value="4"/>
       <option name="artillerySupportable" value="true"/>
     </attachment>
     <attachment name="unitAttachment" attachTo="corsairs" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
@@ -1291,6 +1291,7 @@
       <option name="attack" value="4"/>
       <option name="defense" value="4"/>
       <option name="canBlitz" value="true"/>
+      <option name="artillerySupportable" value="true"/>
     </attachment>
     <attachment name="unitAttachment" attachTo="raiderCavalry" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
       <option name="movement" value="3"/>
@@ -1308,12 +1309,13 @@
       <option name="artillery" value="true"/>
     </attachment>
     <attachment name="unitAttachment" attachTo="oliphant" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
-      <option name="movement" value="2"/>
+      <option name="movement" value="1"/>
       <option name="transportCost" value="2"/>
       <option name="hitPoints" value="2"/>
       <option name="attack" value="3"/>
       <option name="defense" value="3"/>
       <option name="canBlitz" value="true"/>
+      <option name="artillery" value="true"/>
     </attachment>
     <attachment name="unitAttachment" attachTo="trebuche" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
       <option name="movement" value="1"/>
@@ -1373,8 +1375,8 @@
       <option name="transportCost" value="1"/>
       <option name="attack" value="2"/>
       <option name="defense" value="3"/>
-      <option name="artillery" value="true"/>
       <option name="canBlitz" value="true"/>
+      <option name="artillerySupportable" value="true"/>
     </attachment>
     <attachment name="unitAttachment" attachTo="xbowInfantry" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
       <option name="movement" value="1"/>
@@ -1401,6 +1403,7 @@
       <option name="attack" value="3"/>
       <option name="defense" value="5"/>
       <option name="canBlitz" value="true"/>
+      <option name="artillery" value="true"/>
     </attachment>
     <attachment name="unitAttachment" attachTo="griffin" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
       <option name="movement" value="4"/>
@@ -1410,10 +1413,11 @@
       <!--<option name="carrierCost" value="1"/>-->
     </attachment>
     <attachment name="unitAttachment" attachTo="zepplin" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
-      <option name="movement" value="3"/>
+      <option name="movement" value="2"/>
       <option name="isAir" value="true"/>
-      <option name="attack" value="3"/>
+      <option name="attack" value="2"/>
       <option name="defense" value="2"/>
+      <option name="artillery" value="true"/>
       <!--<option name="carrierCost" value="1"/>-->
     </attachment>
     <attachment name="unitAttachment" attachTo="eagles" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
@@ -1549,9 +1553,9 @@
       <option name="artillery" value="true"/>
     </attachment>
     <attachment name="unitAttachment" attachTo="wargs" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
-      <option name="movement" value="3"/>
+      <option name="movement" value="2"/>
       <option name="transportCost" value="1"/>
-      <option name="attack" value="2"/>
+      <option name="attack" value="3"/>
       <option name="defense" value="1"/>
       <option name="canBlitz" value="true"/>
     </attachment>
@@ -1624,7 +1628,7 @@
     <attachment name="territoryAttachment" attachTo="Anorien" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="1"/>
     </attachment>
-    <attachment name="territoryAttachment" attachTo="Lossarnach" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+    <attachment name="territoryAttachment" attachTo="arnach" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="2"/>
     </attachment>
     <attachment name="territoryAttachment" attachTo="W. Osg." javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
@@ -2045,7 +2049,7 @@
       <territoryOwner territory="Rhudaur" owner="Elves"/>
       <!-- Gondor Lands -->
       <territoryOwner territory="Anorien" owner="Gondor"/>
-      <territoryOwner territory="Lossarnach" owner="Gondor"/>
+      <territoryOwner territory="arnach" owner="Gondor"/>
       <territoryOwner territory="Lebennin" owner="Gondor"/>
       <territoryOwner territory="Minas Tirith" owner="Gondor"/>
       <territoryOwner territory="E. Osg." owner="Gondor"/>
@@ -2118,9 +2122,9 @@
       <unitPlacement unitType="hunters" territory="Rivendell" quantity="6" owner="Elves"/>
       <unitPlacement unitType="Hero" territory="Rivendell" quantity="1" owner="Elves"/>
       <unitPlacement unitType="wizard" territory="Rivendell" quantity="1" owner="Elves"/>
-      <unitPlacement unitType="hobbits" territory="Middle Anduin" quantity="4" owner="Elves"/>
-      <unitPlacement unitType="clipper" territory="Middle Anduin" quantity="3" owner="Elves"/> 
-      <unitPlacement unitType="Hero" territory="Middle Anduin" quantity="4" owner="Elves"/>
+      <unitPlacement unitType="hobbits" territory="Middle Anduin" quantity="4" owner="Rohan"/>
+      <unitPlacement unitType="clipper" territory="Middle Anduin" quantity="3" owner="Rohan"/> 
+      <unitPlacement unitType="Hero" territory="Middle Anduin" quantity="3" owner="Rohan"/>
       <unitPlacement unitType="castle" territory="High Mirkwood" quantity="1" owner="Elves"/>
       <unitPlacement unitType="tower" territory="High Mirkwood" quantity="1" owner="Elves"/>
       <unitPlacement unitType="fortifications" territory="High Mirkwood" quantity="2" owner="Elves"/>
@@ -2187,12 +2191,13 @@
       <unitPlacement unitType="fortifications" territory="Helms Deep" quantity="8" owner="Rohan"/>
       <unitPlacement unitType="lightCavalry" territory="E. Emnet" quantity="1" owner="Rohan"/>
       <unitPlacement unitType="heavyCavalry" territory="E. Emnet" quantity="1" owner="Rohan"/>
+      <unitPlacement unitType="Hero" territory="E. Emnet" quantity="1" owner="Gondor"/>
       <unitPlacement unitType="spearInfantry" territory="E. Emnet" quantity="4" owner="Rohan"/>
       <unitPlacement unitType="lightCavalry" territory="Eastfold" quantity="3" owner="Rohan"/>
-      <unitPlacement unitType="spearInfantry" territory="Eastfold" quantity="2" owner="Rohan"/>
+      <unitPlacement unitType="spearInfantry" territory="Eastfold" quantity="3" owner="Rohan"/>
       <unitPlacement unitType="Hero" territory="Eastfold" quantity="2" owner="Rohan"/>
       <unitPlacement unitType="heavyCavalry" territory="Eastfold" quantity="4" owner="Rohan"/>
-      <unitPlacement unitType="spearInfantry" territory="Helms Deep" quantity="2" owner="Rohan"/>
+      <unitPlacement unitType="spearInfantry" territory="Helms Deep" quantity="3" owner="Rohan"/>
       <unitPlacement unitType="spearInfantry" territory="Westfold" quantity="5" owner="Rohan"/>
       <unitPlacement unitType="heavyCavalry" territory="Westfold" quantity="2" owner="Rohan"/>
       <!-- Mordor Lands -->
@@ -2232,12 +2237,12 @@
       <unitPlacement unitType="urukhai" territory="Wold" quantity="9" owner="Saruman"/>
       <unitPlacement unitType="orcs" territory="Wold" quantity="3" owner="Saruman"/>
       <unitPlacement unitType="Hero" territory="Wold" quantity="1" owner="Saruman"/>
-      <unitPlacement unitType="raiders" territory="S. Dunland" quantity="4" owner="Saruman"/>
+      <unitPlacement unitType="raiders" territory="S. Dunland" quantity="6" owner="Saruman"/>
       <unitPlacement unitType="raiders" territory="N. Dunland" quantity="4" owner="Saruman"/>
       <unitPlacement unitType="wargs" territory="Isengard" quantity="4" owner="Saruman"/>
       <unitPlacement unitType="wizard" territory="Isengard" quantity="1" owner="Saruman"/>
       <unitPlacement unitType="castle" territory="Rhun" quantity="1" owner="Rhun"/>
-      <unitPlacement unitType="fortifications" territory="Rhun" quantity="4" owner="Rhun"/>
+      <unitPlacement unitType="fortifications" territory="Rhun" quantity="6" owner="Rhun"/>
       <unitPlacement unitType="spearInfantry" territory="Rhun" quantity="12" owner="Rhun"/>
       <unitPlacement unitType="chariotArchers" territory="N. Rhun" quantity="4" owner="Rhun"/>
       <unitPlacement unitType="spearInfantry" territory="N. Rhun" quantity="2" owner="Rhun"/>
@@ -2271,7 +2276,7 @@
       <unitPlacement unitType="castle" territory="Moria" quantity="1" owner="Goblins"/>
       <unitPlacement unitType="fortifications" territory="Moria" quantity="10" owner="Goblins"/>
       <unitPlacement unitType="stabbers" territory="Moria" quantity="6" owner="Goblins"/>
-      <unitPlacement unitType="shooters" territory="Moria" quantity="8" owner="Goblins"/>
+      <unitPlacement unitType="shooters" territory="Moria" quantity="6" owner="Goblins"/>
       <unitPlacement unitType="trolls" territory="Moria" quantity="2" owner="Goblins"/>
       <unitPlacement unitType="balrog" territory="Moria" quantity="1" owner="Goblins"/>
       <unitPlacement unitType="wargs" territory="Moria" quantity="2" owner="Goblins"/>
@@ -2284,7 +2289,7 @@
       <unitPlacement unitType="fortifications" territory="N. Caves" quantity="6" owner="Goblins"/>
       <unitPlacement unitType="castle" territory="S. Caves" quantity="1" owner="Goblins"/>
       <unitPlacement unitType="stabbers" territory="S. Caves" quantity="3" owner="Goblins"/>
-      <unitPlacement unitType="shooters" territory="S. Caves" quantity="4" owner="Goblins"/>
+      <unitPlacement unitType="shooters" territory="S. Caves" quantity="3" owner="Goblins"/>
       <unitPlacement unitType="fortifications" territory="S. Caves" quantity="6" owner="Goblins"/>
       <unitPlacement unitType="wargs" territory="S. Caves" quantity="2" owner="Goblins"/>
       <unitPlacement unitType="trolls" territory="S. Caves" quantity="2" owner="Goblins"/>
