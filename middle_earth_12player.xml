@@ -683,25 +683,40 @@
     <unit name="warChariot"/>
     <unit name="warWagon"/>
     <unit name="Hero"/>
-    <unit name="Hero"/>
 	  <unit name="Halbarad"/>
-	  <unit name="Elladan"/>
-	  <unit name="Ellrohir"/>
+	  <unit name="Farmer Maggot"/>
+	  <unit name="Elladan and Ellrohir"/>
+	  <unit name="Cirdan"/>
 	  <unit name="Elrond"/>
+	  <unit name="Glorfindel"/>
 	  <unit name="Arwen"/>
-	  <unit name="Hero"/>
-	  <unit name="Hero"/>
-	  <unit name="Hero"/>
-	  <unit name="Hero"/>
-	  <unit name="Hero"/>
-	  <unit name="Hero"/>
-	  <unit name="Hero"/>
-	  <unit name="Hero"/>
-	  <unit name="Hero"/>
-	  <unit name="Hero"/>
-	  <unit name="Hero"/>
-	  <unit name="Hero"/>
-	  <unit name="Hero"/>
+	  <unit name="Galadriel"/>
+	  <unit name="Celeborn"/>
+	  <unit name="Saruman"/>
+	  <unit name="Lurtz"/>
+	  <unit name="Eomer"/>
+	  <unit name="Theoden"/>
+	  <unit name="Eowyn"/>
+	  <unit name="Gamling"/>
+	  <unit name="Boromir"/>
+	  <unit name="Aragorn"/>
+	  <unit name="Legolas"/>
+	  <unit name="Gimli"/>
+	  <unit name="Frodo and Sam"/>
+	  <unit name="Merry and Pippin"/>
+	  <unit name="Gandalf the White"/>
+	  <unit name="Faramir"/>
+	  <unit name="Prince Imrahil"/>
+	  <unit name="King of the Dead"/>
+	  <unit name="Gothmog"/>
+	  <unit name="Shagrat"/>
+	  <unit name="Gorbag"/>
+	  <unit name="Witch King"/>
+	  <unit name="Dain Ironfoot"/>
+	  <unit name="Brand"/>
+	  <unit name="Thorin III/>
+	  <unit name="Thranduil"/>
+	  <unit name="Tauriel"/>
     <!--<unit name="peasants"/>
                 <unit name="wraith"/>
                 <unit name="giant"/>-->
@@ -833,7 +848,143 @@
   </gamePlay>
   <production>
     <!-- Unit Production Cost -->
-    <productionRule name="buyFortifications">
+    <productionRule name="Halbarad">
+      <cost resource="PUs" quantity="10"/>
+      <result resourceOrUnit="Halbarad" quantity="1"/>
+    </productionRule>
+	  <productionRule name="Farmer Maggot">
+      <cost resource="PUs" quantity="5"/>
+      <result resourceOrUnit="Farmer Maggot" quantity="1"/>
+    </productionRule>
+	  <productionRule name="Elladan and Ellrohir">
+      <cost resource="PUs" quantity="10"/>
+      <result resourceOrUnit="Elladan and Ellrohir" quantity="1"/>
+    </productionRule>
+	  <productionRule name="Cirdan">
+      <cost resource="PUs" quantity="8"/>
+      <result resourceOrUnit="Cirdan" quantity="1"/>
+    </productionRule>
+	  <productionRule name="Elrond">
+      <cost resource="PUs" quantity="12"/>
+      <result resourceOrUnit="Elrond" quantity="1"/>
+          </productionRule>
+	  <productionRule name="Glorfindel">
+      <cost resource="PUs" quantity="12"/>
+      <result resourceOrUnit="Glorfindel" quantity="1"/>
+    </productionRule>
+	  <productionRule name="Arwen">
+      <cost resource="PUs" quantity="8"/>
+      <result resourceOrUnit="Arwen" quantity="1"/>
+    </productionRule>
+	  <productionRule name="Galadriel">
+      <cost resource="PUs" quantity="14"/>
+      <result resourceOrUnit="Galadriel" quantity="1"/>
+    </productionRule>
+	  <productionRule name="Celeborn">
+      <cost resource="PUs" quantity="10"/>
+      <result resourceOrUnit="Celeborn" quantity="1"/>
+    </productionRule>
+	  <productionRule name="Saruman">
+      <cost resource="PUs" quantity="12"/>
+      <result resourceOrUnit="Saruman" quantity="1"/>
+    </productionRule>
+	  <productionRule name="Lurtz">
+      <cost resource="PUs" quantity="10"/>
+      <result resourceOrUnit="Lurtz" quantity="1"/>
+    </productionRule>
+	  <productionRule name="Eomer">
+      <cost resource="PUs" quantity="12"/>
+      <result resourceOrUnit="Eomer" quantity="1"/>
+    </productionRule>
+	  <productionRule name="Theoden">
+      <cost resource="PUs" quantity="10"/>
+      <result resourceOrUnit="Theoden" quantity="1"/>
+    </productionRule>
+	  <productionRule name="Eowyn">
+      <cost resource="PUs" quantity="8"/>
+      <result resourceOrUnit="Eowyn" quantity="1"/>
+    </productionRule>
+	  <productionRule name="Gamling">
+      <cost resource="PUs" quantity="8"/>
+      <result resourceOrUnit="Gamling" quantity="1"/>
+    </productionRule>
+	  <productionRule name="Boromir">
+      <cost resource="PUs" quantity="8"/>
+      <result resourceOrUnit="Boromir" quantity="1"/>
+    </productionRule>
+	  <productionRule name="Aragorn">
+      <cost resource="PUs" quantity="8"/>
+      <result resourceOrUnit="Aragorn" quantity="1"/>
+    </productionRule>
+	  <productionRule name="Legolas">
+      <cost resource="PUs" quantity="8"/>
+      <result resourceOrUnit="Legolas" quantity="1"/>
+    </productionRule>
+	  <productionRule name="Gimli">
+      <cost resource="PUs" quantity="8"/>
+      <result resourceOrUnit="Gimli" quantity="1"/>
+    </productionRule>
+	  <productionRule name="Frodo and Sam">
+      <cost resource="PUs" quantity="8"/>
+      <result resourceOrUnit="Frodo and Sam" quantity="1"/>
+    </productionRule>
+	  <productionRule name="Merry and Pippin">
+      <cost resource="PUs" quantity="8"/>
+      <result resourceOrUnit="Merry and Pippin" quantity="1"/>
+    </productionRule>
+	  <productionRule name="Gandalf the White">
+      <cost resource="PUs" quantity="8"/>
+      <result resourceOrUnit="Gandalf the White" quantity="1"/>
+    </productionRule>
+	  <productionRule name="Faramir">
+      <cost resource="PUs" quantity="8"/>
+      <result resourceOrUnit="Faramir" quantity="1"/>
+    </productionRule>
+	  <productionRule name="Prince Imrahil">
+      <cost resource="PUs" quantity="8"/>
+      <result resourceOrUnit="Prince Imrahil" quantity="1"/>
+    </productionRule>
+	  <productionRule name="King of The Dead">
+      <cost resource="PUs" quantity="8"/>
+      <result resourceOrUnit="King of The Dead" quantity="1"/>
+    </productionRule>
+	  <productionRule name="Gothmog">
+      <cost resource="PUs" quantity="8"/>
+      <result resourceOrUnit="Gothmog" quantity="1"/>
+    </productionRule>
+	  <productionRule name="Shagrat">
+      <cost resource="PUs" quantity="8"/>
+      <result resourceOrUnit="Shagrat" quantity="1"/>
+    </productionRule>
+          <productionRule name="Gorbag">
+      <cost resource="PUs" quantity="8"/>
+      <result resourceOrUnit="Gorbag" quantity="1"/>
+    </productionRule>
+          <productionRule name="Witch King">
+      <cost resource="PUs" quantity="8"/>
+      <result resourceOrUnit="Witch King" quantity="1"/>
+    </productionRule>
+	  <productionRule name="King Dain">
+      <cost resource="PUs" quantity="8"/>
+      <result resourceOrUnit="King Dain" quantity="1"/>
+    </productionRule>
+	  <productionRule name="King Brand">
+      <cost resource="PUs" quantity="8"/>
+      <result resourceOrUnit="King Brand" quantity="1"/>
+    </productionRule>
+	  <productionRule name="Thorin III">
+      <cost resource="PUs" quantity="8"/>
+      <result resourceOrUnit="Thorin III" quantity="1"/>
+    </productionRule>
+	  <productionRule name="Thranduil">
+      <cost resource="PUs" quantity="8"/>
+      <result resourceOrUnit="Thranduil" quantity="1"/>
+    </productionRule>
+	  <productionRule name="Tauriel">
+      <cost resource="PUs" quantity="8"/>
+      <result resourceOrUnit="Tauriel" quantity="1"/>
+    </productionRule>
+    <productionRule name="fortifications">
       <cost resource="PUs" quantity="3"/>
       <result resourceOrUnit="fortifications" quantity="2"/>
     </productionRule>
@@ -1219,6 +1370,155 @@
   <technology>
 		</technology>
   <attachmentList>
+  <attachment name="unitAttachment" attachTo="Halbarad" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+      <option name="movement" value="3"/>
+      <option name="transportCost" value="1"/>
+      <option name="attack" value="3"/>
+      <option name="defense" value="4"/>
+      <option name="hitPoints" value="2"/>
+      <option name="canBlitz" value="true"/>
+      <option name="artillery" value="true"/> 
+<attachment name="unitAttachment" attachTo="Farmer Maggot" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+      <option name="movement" value="1"/>
+      <option name="transportCost" value="1"/>
+      <option name="attack" value="2"/>
+      <option name="defense" value="3"/>
+      <option name="artillerySupportable" value="true"/>
+<attachment name="unitAttachment" attachTo="Elladan and Ellrohir" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+      <option name="movement" value="2"/>
+      <option name="transportCost" value="1"/>
+      <option name="attack" value="4"/>
+      <option name="defense" value="4"/>
+      <option name="artillerySupportable" value="true"/>
+      <option name="hitPoints" value="2"/>
+      <option name="canBlitz" value="true"/>
+<attachment name="unitAttachment" attachTo="Cirdan" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+      <option name="movement" value="1"/>
+      <option name="transportCost" value="1"/>
+      <option name="attack" value="3"/>
+      <option name="defense" value="5"/>
+      <option name="artillery" value="true"/> 
+<attachment name="unitAttachment" attachTo="Elrond" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+      <option name="movement" value="2"/>
+      <option name="transportCost" value="1"/>
+      <option name="attack" value="6"/>
+      <option name="defense" value="6"/>
+      <option name="hitPoints" value="2"/>
+      <option name="canBlitz" value="true"/>
+      <option name="artillery" value="true"/> 
+<attachment name="unitAttachment" attachTo="Glorfindel" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+      <option name="movement" value="2"/>
+      <option name="transportCost" value="1"/>
+      <option name="attack" value="5"/>
+      <option name="defense" value="5"/>
+      <option name="hitPoints" value="2"/>
+      <option name="canBlitz" value="true"/> 
+<attachment name="unitAttachment" attachTo="Arwen" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+      <option name="movement" value="3"/>
+      <option name="transportCost" value="1"/>
+      <option name="attack" value="3"/>
+      <option name="defense" value="5"/>
+      <option name="canBlitz" value="true"/>
+     <option name="artillery" value="true"/> 
+<attachment name="unitAttachment" attachTo="Galadriel" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+      <option name="movement" value="1"/>
+      <option name="transportCost" value="1"/>
+      <option name="attack" value="3"/>
+      <option name="defense" value="8"/>
+      <option name="artillery" value="true"/>
+      <option name="hitPoints" value="2"/>
+<attachment name="unitAttachment" attachTo="Celeborn" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+      <option name="movement" value="1"/>
+      <option name="transportCost" value="1"/>
+      <option name="attack" value="4"/>
+      <option name="defense" value="5"/>
+      <option name="artillerySupportable" value="true"/>
+      <option name="hitPoints" value="2"/>
+<attachment name="unitAttachment" attachTo="Saruman" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+      <option name="movement" value="2"/>
+      <option name="transportCost" value="1"/>
+      <option name="attack" value="4"/>
+      <option name="defense" value="6"/>
+      <option name="hitPoints" value="2"/>
+      <option name="canBlitz" value="true"/>
+      <option name="artillery" value="true"/>
+<attachment name="unitAttachment" attachTo="Lurtz" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+      <option name="movement" value="2"/>
+      <option name="transportCost" value="1"/>
+      <option name="attack" value="5"/>
+      <option name="defense" value="5"/>
+      <option name="hitPoints" value="2"/>
+      <option name="canBlitz" value="true"/>
+      <option name="artillery" value="true"/> 
+<attachment name="unitAttachment" attachTo="Eomer" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+      <option name="movement" value="2"/>
+      <option name="transportCost" value="1"/>
+      <option name="attack" value="5"/>
+      <option name="defense" value="4"/>
+      <option name="hitPoints" value="2"/>
+      <option name="canBlitz" value="true"/>
+      <option name="artillery" value="true"/> 
+<attachment name="unitAttachment" attachTo="Theoden" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+      <option name="movement" value="2"/>
+      <option name="transportCost" value="1"/>
+      <option name="attack" value="5"/>
+      <option name="defense" value="3"/>
+      <option name="canBlitz" value="true"/>
+      <option name="artillery" value="true"/> 
+<attachment name="unitAttachment" attachTo="Eowyn" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+      <option name="movement" value="2"/>
+      <option name="transportCost" value="1"/>
+      <option name="attack" value="4"/>
+      <option name="defense" value="3"/>
+      <option name="canBlitz" value="true"/>
+<attachment name="unitAttachment" attachTo="Gamling" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+      <option name="movement" value="2"/>
+      <option name="transportCost" value="1"/>
+      <option name="attack" value="4"/>
+      <option name="defense" value="4"/>
+      <option name="hitPoints" value="2"/>
+      <option name="canBlitz" value="true"/>
+      <option name="artillery" value="true"/> 
+<attachment name="unitAttachment" attachTo="Boromir" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+      <option name="movement" value="1"/>
+      <option name="transportCost" value="1"/>
+      <option name="attack" value="1"/>
+      <option name="defense" value="2"/>
+      <option name="artillerySupportable" value="true"/>
+      <option name="hitPoints" value="2"/>
+      <option name="canBlitz" value="true"/>
+     <option name="artillery" value="true"/> 
+<attachment name="unitAttachment" attachTo="Aragorn" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+      <option name="movement" value="2"/>
+      <option name="transportCost" value="1"/>
+      <option name="attack" value="6"/>
+      <option name="defense" value="8"/>
+      <option name="hitPoints" value="2"/>
+      <option name="canBlitz" value="true"/>
+      <option name="artillery" value="true"/> 
+<attachment name="unitAttachment" attachTo="spearInfantry" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+      <option name="movement" value="1"/>
+      <option name="transportCost" value="1"/>
+      <option name="attack" value="1"/>
+      <option name="defense" value="2"/>
+      <option name="artillerySupportable" value="true"/>
+      <option name="hitPoints" value="2"/>
+      <option name="canBlitz" value="true"/>
+     <option name="artillery" value="true"/> 
+				<attachment name="unitAttachment" attachTo="spearInfantry" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+      <option name="movement" value="1"/>
+      <option name="transportCost" value="1"/>
+      <option name="attack" value="1"/>
+      <option name="defense" value="2"/>
+      <option name="artillerySupportable" value="true"/>
+      <option name="hitPoints" value="2"/>
+      <option name="canBlitz" value="true"/>
+     <option name="artillery" value="true"/> 
+
+
+
+
+	    
     <attachment name="unitAttachment" attachTo="fortifications" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
       <option name="defense" value="2"/>
     </attachment>
