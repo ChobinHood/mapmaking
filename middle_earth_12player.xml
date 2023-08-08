@@ -2730,6 +2730,7 @@
       <unitPlacement unitType="castle" territory="Minas Morgul" quantity="1" owner="Mordor"/>
       <unitPlacement unitType="Gothmog" territory="Minas Morgul" quantity="1" owner="Mordor"/>
       <unitPlacement unitType="Witch King" territory="Minas Morgul" quantity="1" owner="Mordor"/>
+      <unitPlacement unitType="Shelob" territory="Gorgoroth" quantity="1" owner="Mordor"/>
       <unitPlacement unitType="tower" territory="Minas Morgul" quantity="4" owner="Mordor"/>
       <unitPlacement unitType="fortifications" territory="Minas Morgul" quantity="4" owner="Mordor"/>
       <unitPlacement unitType="orcs" territory="Minas Morgul" quantity="8" owner="Mordor"/>
