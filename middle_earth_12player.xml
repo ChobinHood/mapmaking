@@ -629,7 +629,7 @@
     <alliance player="Freefolk" alliance="Good"/>
   </playerList>
   <unitList>
-    <unit name="fortifications"/>
+    <unit name="Fortifications"/>
     <unit name="archers"/>
     <unit name="caravel"/>
     <unit name="castle"/>
@@ -1004,9 +1004,9 @@
       <cost resource="PUs" quantity="17"/>
       <result resourceOrUnit="Treebeard" quantity="1"/>
     </productionRule>
-    <productionRule name="fortifications">
+    <productionRule name="buyFortifications">
       <cost resource="PUs" quantity="3"/>
-      <result resourceOrUnit="fortifications" quantity="2"/>
+      <result resourceOrUnit="Fortifications" quantity="2"/>
     </productionRule>
     <productionRule name="buyHero">
       <cost resource="PUs" quantity="17"/>
@@ -1699,7 +1699,7 @@
       <option name="defense" value="6"/>
       <option name="hitPoints" value="2"/>
 </attachment>
-    <attachment name="unitAttachment" attachTo="fortifications" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+    <attachment name="unitAttachment" attachTo="Fortifications" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
       <option name="defense" value="2"/>
     </attachment>
     <attachment name="unitAttachment" attachTo="Hero" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
