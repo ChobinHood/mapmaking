@@ -1621,7 +1621,6 @@
 </attachment>
 <attachment name="unitAttachment" attachTo="Witch King" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
       <option name="movement" value="4"/>
-      <option name="transportCost" value="1"/>
       <option name="attack" value="6"/>
       <option name="defense" value="4"/>
       <option name="artillery" value="true"/>
