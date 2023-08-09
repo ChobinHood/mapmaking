@@ -2523,36 +2523,36 @@
 	</attachment>
 <attachment name="objectiveAttachment_Rhun_2_Erebor" attachTo="Rhun" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
       <option name="objectiveValue" value="5"/>
-      <option name="directOwnershipTerritories" value="Lonely Mtn." count="1"/>
+      <option name="alliedOwnershipTerritories" value="Lonely Mtn." count="1"/>
 	</attachment>
 <attachment name="objectiveAttachment_Dale_1_Kingdom_of_Dale" attachTo="Dale" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
       <option name="objectiveValue" value="5"/>
-      <option name="directOwnershipTerritories" value="N. Dale:S. Dale" count="2"/>
+      <option name="alliedOwnershipTerritories" value="N. Dale:S. Dale" count="2"/>
 	</attachment>
 <attachment name="objectiveAttachment_Dwarves_1_Trade" attachTo="Dwarves" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
       <option name="objectiveValue" value="5"/>
-      <option name="directOwnershipTerritories" value="N. Dale:Iron Hills" count="2"/>
+      <option name="alliedOwnershipTerritories" value="N. Dale:Iron Hills" count="2"/>
 	</attachment>
 <attachment name="objectiveAttachment_Dwarves_2_Mithril" attachTo="Dwarves" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
       <option name="objectiveValue" value="10"/>
-      <option name="directPresenceTerritories" value="Moria" count="1"/>
+      <option name="alliedPresenceTerritories" value="Moria" count="1"/>
       <option name="unitPresence" value="ANY" count="1"/>
 	</attachment>
 <attachment name="objectiveAttachment_Elves_1_Rings_of_Power" attachTo="Elves" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
       <option name="objectiveValue" value="5"/>
-      <option name="directOwnershipTerritories" value="Rivendell:Lorien:S. Arthedain" count="3"/>
+      <option name="alliedOwnershipTerritories" value="Rivendell:Lorien:S. Arthedain" count="3"/>
 	</attachment>
 <attachment name="objectiveAttachment_Goblins_1_Rings_of_Power" attachTo="Goblins" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
       <option name="objectiveValue" value="5"/>
-      <option name="directOwnershipTerritories" value="Rivendell:Lorien" count="each"/>
+      <option name="alliedOwnershipTerritories" value="Rivendell:Lorien" count="each"/>
 	</attachment>
 <attachment name="objectiveAttachment_Goblins_2_Cave_Systems" attachTo="Goblins" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
       <option name="objectiveValue" value="5"/>
-      <option name="directOwnershipTerritories" value="N. Caves:S. Caves:Moria" count="3"/>
+      <option name="alliedOwnershipTerritories" value="N. Caves:S. Caves:Moria" count="3"/>
         </attachment>
 <attachment name="objectiveAttachment_Saruman_1_Dunland" attachTo="Saruman" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
       <option name="objectiveValue" value="5"/>
-      <option name="directOwnershipTerritories" value="N. Dunland:S. Dunland" count="2"/>
+      <option name="alliedOwnershipTerritories" value="N. Dunland:S. Dunland" count="2"/>
 	</attachment>
 <attachment name="objectiveAttachment_Rohan_1_Saruman" attachTo="Rohan" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
       <option name="objectiveValue" value="10"/>
@@ -2560,7 +2560,7 @@
 	</attachment>
 <attachment name="objectiveAttachment_Gondor_1_Pride_of_Denethor" attachTo="Gondor" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
       <option name="objectiveValue" value="3"/>
-      <option name="directOwnershipTerritories" value="W. Osg.:E. Osg." count="each"/>
+      <option name="alliedOwnershipTerritories" value="W. Osg.:E. Osg." count="each"/>
         </attachment>
 <attachment name="objectiveAttachment_Harad_1_Spoils_of_War" attachTo="Mordor" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
       <option name="objectiveValue" value="2"/>
@@ -2576,7 +2576,7 @@
         </attachment>
 <attachment name="objectiveAttachment_Freefolk_1_Northmen" attachTo="Saruman" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
       <option name="objectiveValue" value="2"/>
-      <option name="directOwnershipTerritories" value="Lond Daer:Tharbad" count="each"/>
+      <option name="alliedOwnershipTerritories" value="Lond Daer:Tharbad" count="each"/>
 	</attachment>
   </attachmentList>
   <initialize>
