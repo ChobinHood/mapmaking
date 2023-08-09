@@ -2215,7 +2215,7 @@
     </attachment>
     <!-- Haradrim Lands -->
     <attachment name="territoryAttachment" attachTo="Harad Road" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
-      <option name="production" value="2"/>
+      <option name="production" value="1"/>
     </attachment>
     <attachment name="territoryAttachment" attachTo="Umbar" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="4"/>
@@ -2237,7 +2237,7 @@
       <option name="victoryCity" value="1"/>
     </attachment>
     <attachment name="territoryAttachment" attachTo="S. Khand" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
-      <option name="production" value="5"/>
+      <option name="production" value="4"/>
     </attachment>
     <attachment name="territoryAttachment" attachTo="Haradwaith" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="1"/>
@@ -2666,7 +2666,7 @@
       <unitPlacement unitType="tower" territory="Rivendell" quantity="2" owner="Elves"/>
       <unitPlacement unitType="fortifications" territory="Rivendell" quantity="12" owner="Elves"/>
       <unitPlacement unitType="hunters" territory="Rivendell" quantity="3" owner="Elves"/>
-      <unitPlacement unitType="archers" territory="Rivendell" quantity="2" owner="Elves"/>
+      <unitPlacement unitType="archers" territory="Rivendell" quantity="3" owner="Elves"/>
       <unitPlacement unitType="Elrond" territory="Rivendell" quantity="1" owner="Elves"/>
       <unitPlacement unitType="Glorfindel" territory="Rivendell" quantity="1" owner="Elves"/>
       <unitPlacement unitType="Arwen" territory="Rivendell" quantity="1" owner="Elves"/>
@@ -2682,10 +2682,10 @@
       <unitPlacement unitType="Thranduil" territory="High Mirkwood" quantity="1" owner="Elves"/>
       <unitPlacement unitType="Tauriel" territory="High Mirkwood" quantity="1" owner="Elves"/> 
       <unitPlacement unitType="hunters" territory="High Mirkwood" quantity="3" owner="Elves"/>
-      <unitPlacement unitType="archers" territory="High Mirkwood" quantity="2" owner="Elves"/>
+      <unitPlacement unitType="archers" territory="High Mirkwood" quantity="3" owner="Elves"/>
       <unitPlacement unitType="castle" territory="Lorien" quantity="1" owner="Elves"/>
       <unitPlacement unitType="hunters" territory="Lorien" quantity="3" owner="Elves"/>
-      <unitPlacement unitType="archers" territory="Lorien" quantity="2" owner="Elves"/>
+      <unitPlacement unitType="archers" territory="Lorien" quantity="3" owner="Elves"/>
       <unitPlacement unitType="Galadriel" territory="Lorien" quantity="1" owner="Elves"/>
       <unitPlacement unitType="Celeborn" territory="Lorien" quantity="1" owner="Elves"/>
       <unitPlacement unitType="tower" territory="Lorien" quantity="3" owner="Elves"/>
@@ -2927,11 +2927,11 @@
       <resourceGiven player="Rohan" resource="PUs" quantity="19"/>
       <resourceGiven player="Goblins" resource="PUs" quantity="16"/>
       <resourceGiven player="Elves" resource="PUs" quantity="26"/>
-      <resourceGiven player="Haradrim" resource="PUs" quantity="21"/>
+      <resourceGiven player="Haradrim" resource="PUs" quantity="20"/>
       <resourceGiven player="Gondor" resource="PUs" quantity="36"/>
       <resourceGiven player="Rhun" resource="PUs" quantity="13"/>
       <resourceGiven player="Dale" resource="PUs" quantity="11"/>
-      <resourceGiven player="Khand" resource="PUs" quantity="14"/>
+      <resourceGiven player="Khand" resource="PUs" quantity="13"/>
       <resourceGiven player="Dwarves" resource="PUs" quantity="16"/>
     </resourceInitialize>
   </initialize>
