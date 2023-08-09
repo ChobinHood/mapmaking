@@ -2178,7 +2178,7 @@
       <option name="production" value="3"/>
     </attachment>
     <attachment name="territoryAttachment" attachTo="Rhun" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
-      <option name="production" value="6"/>
+      <option name="production" value="8"/>
       <option name="capital" value="Rhun"/>
       <option name="victoryCity" value="1"/>
     </attachment>
@@ -2811,7 +2811,7 @@
       <unitPlacement unitType="spearInfantry" territory="Rhun" quantity="14" owner="Rhun"/>
       <unitPlacement unitType="chariotArchers" territory="N. Rhun" quantity="4" owner="Rhun"/>
       <unitPlacement unitType="spearInfantry" territory="N. Rhun" quantity="2" owner="Rhun"/>
-      <unitPlacement unitType="warChariot" territory="N. Rhun" quantity="2" owner="Rhun"/>
+      <unitPlacement unitType="warChariot" territory="N. Rhun" quantity="3" owner="Rhun"/>
       <unitPlacement unitType="chariotArchers" territory="Rhun" quantity="4" owner="Rhun"/>
       <unitPlacement unitType="warWagon" territory="Rhun" quantity="3" owner="Rhun"/>
       <!-- Haradrim Lands -->
@@ -2929,7 +2929,7 @@
       <resourceGiven player="Elves" resource="PUs" quantity="26"/>
       <resourceGiven player="Haradrim" resource="PUs" quantity="20"/>
       <resourceGiven player="Gondor" resource="PUs" quantity="36"/>
-      <resourceGiven player="Rhun" resource="PUs" quantity="11"/>
+      <resourceGiven player="Rhun" resource="PUs" quantity="13"/>
       <resourceGiven player="Dale" resource="PUs" quantity="11"/>
       <resourceGiven player="Khand" resource="PUs" quantity="13"/>
       <resourceGiven player="Dwarves" resource="PUs" quantity="16"/>
