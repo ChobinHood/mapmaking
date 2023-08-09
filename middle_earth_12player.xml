@@ -2562,7 +2562,7 @@
       <option name="objectiveValue" value="3"/>
       <option name="alliedOwnershipTerritories" value="W. Osg.:E. Osg." count="each"/>
         </attachment>
-<attachment name="objectiveAttachment_Harad_1_Spoils_of_War" attachTo="Mordor" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
+<attachment name="objectiveAttachment_Harad_1_Spoils_of_War" attachTo="Harad" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
       <option name="objectiveValue" value="2"/>
       <option name="alliedOwnershipTerritories" value="Andrast:Anfalas:Lossarnach:Minas Tirith" count="each"/>
         </attachment>
@@ -2574,7 +2574,7 @@
       <option name="objectiveValue" value="2"/>
       <option name="alliedOwnershipTerritories" value="Nurn:S. Rhun:Harad Road" count="each"/>
         </attachment>
-<attachment name="objectiveAttachment_Freefolk_1_Northmen" attachTo="Saruman" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
+<attachment name="objectiveAttachment_Freefolk_1_Northmen" attachTo="Freefolk" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
       <option name="objectiveValue" value="2"/>
       <option name="alliedOwnershipTerritories" value="Lond Daer:Tharbad" count="each"/>
 	</attachment>
