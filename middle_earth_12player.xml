@@ -2621,12 +2621,12 @@
       <unitPlacement unitType="Elrond" territory="Rivendell" quantity="1" owner="Elves"/>
       <unitPlacement unitType="Glorfindel" territory="Rivendell" quantity="1" owner="Elves"/>
       <unitPlacement unitType="Arwen" territory="Rivendell" quantity="1" owner="Elves"/>
-      <unitPlacement unitType="Frodo and Sam" territory="Middle Anduin" quantity="2" owner="Rohan"/>
-      <unitPlacement unitType="Merry and Pippin" territory="Middle Anduin" quantity="2" owner="Rohan"/>
-      <unitPlacement unitType="raft" territory="Middle Anduin" quantity="7" owner="Rohan"/>
-      <unitPlacement unitType="Aragorn" territory="Middle Anduin" quantity="1" owner="Rohan"/>
-      <unitPlacement unitType="Legolas" territory="Middle Anduin" quantity="1" owner="Rohan"/>
-      <unitPlacement unitType="Gimli" territory="Middle Anduin" quantity="1" owner="Rohan"/>
+      <unitPlacement unitType="Frodo and Sam" territory="Middle Anduin" quantity="2" owner="Elves"/>
+      <unitPlacement unitType="Merry and Pippin" territory="Middle Anduin" quantity="2" owner="Elves"/>
+      <unitPlacement unitType="raft" territory="Middle Anduin" quantity="7" owner="Elves"/>
+      <unitPlacement unitType="Aragorn" territory="Middle Anduin" quantity="1" owner="Elves"/>
+      <unitPlacement unitType="Legolas" territory="Middle Anduin" quantity="1" owner="Elves"/>
+      <unitPlacement unitType="Gimli" territory="Middle Anduin" quantity="1" owner="Elves"/>
       <unitPlacement unitType="castle" territory="High Mirkwood" quantity="1" owner="Elves"/>
       <unitPlacement unitType="tower" territory="High Mirkwood" quantity="1" owner="Elves"/>
       <unitPlacement unitType="fortifications" territory="High Mirkwood" quantity="2" owner="Elves"/>
