@@ -183,16 +183,13 @@
     <!-- Territory Connections -->
     <!-- Elf Lands -->
     <connection t1="Rivendell" t2="Rhudaur"/>
-    <connection t1="Rivendell" t2="Eregion"/>
     <connection t1="High Mirkwood" t2="Carrock"/>
     <connection t1="High Mirkwood" t2="N. Mirkwood"/>
     <connection t1="High Mirkwood" t2="Lake Town"/>
-    <connection t1="High Mirkwood" t2="Lonely Mtn."/>
     <connection t1="High Mirkwood" t2="Withered Heath"/>
     <connection t1="N. Mirkwood" t2="Carrock"/>
     <connection t1="N. Mirkwood" t2="W. Mirkwood"/>
     <connection t1="N. Mirkwood" t2="E. Mirkwood"/>
-    <connection t1="N. Mirkwood" t2="Lake Town"/>
     <connection t1="N. Mirkwood" t2="N. Dale"/>
     <connection t1="W. Mirkwood" t2="Carrock"/>
     <connection t1="W. Mirkwood" t2="Gladden"/>
@@ -257,7 +254,6 @@
     <connection t1="Westfold" t2="Wold"/>
     <connection t1="Westfold" t2="Adorn"/>
     <connection t1="Westfold" t2="S. Dunland"/>
-    <connection t1="Westfold" t2="Isengard"/>
     <connection t1="Westfold" t2="Eastfold"/>
     <!-- Mordor Lands -->
     <connection t1="Nurn" t2="Central Mordor"/>
@@ -304,9 +300,10 @@
     <connection t1="Umbar" t2="Debatable Land"/>
     <!-- Goblin Lands -->
     <connection t1="N. Caves" t2="Eregion"/>
-    <connection t1="N. Caves" t2="Anduin West Bank"/>
     <connection t1="N. Caves" t2="Drimrill Dale"/>
     <connection t1="Moria" t2="Eregion"/>
+    <connection t1="Moria" t2="N. Caves"/>
+    <connection t1="Moria" t2="S. Caves"/>
     <connection t1="Moria" t2="Drimrill Dale"/>
     <connection t1="Moria" t2="Celebran"/>
     <connection t1="S. Caves" t2="N. Dunland"/>
@@ -319,7 +316,6 @@
     <connection t1="S. Brown Lands" t2="Wold"/>
     <connection t1="S. Brown Lands" t2="N. Brown Lands"/>
     <connection t1="S. Brown Lands" t2="S. Rhovanion"/>
-    <connection t1="N. Brown Lands" t2="Wold"/>
     <connection t1="N. Brown Lands" t2="Anduin East Bank"/>
     <connection t1="N. Brown Lands" t2="Rhovanion"/>
     <connection t1="N. Brown Lands" t2="S. Rhovanion"/>
@@ -334,9 +330,6 @@
     <connection t1="Bight" t2="Celduin"/>
     <connection t1="Celduin" t2="S. Dale"/>
     <connection t1="Celduin" t2="N. Dale"/>
-    <connection t1="Anduin East Bank" t2="Wold"/>
-    <connection t1="Anduin East Bank" t2="Celebran"/>
-    <connection t1="Anduin East Bank" t2="Drimrill Dale"/>
     <connection t1="Anduin East Bank" t2="Gladden"/>
     <connection t1="Gladden" t2="Drimrill Dale"/>
     <connection t1="Gladden" t2="Carrock"/>
@@ -351,7 +344,6 @@
     <connection t1="N. Dale" t2="Withered Heath"/>
     <connection t1="Lake Town" t2="Lonely Mtn."/>
     <connection t1="Lonely Mtn." t2="Withered Heath"/>
-    <connection t1="Druwaith Laur" t2="Enedwaith Coast"/>
     <connection t1="Druwaith Laur" t2="Enedwaith"/>
     <connection t1="Druwaith Laur" t2="Angren Bank"/>
     <connection t1="Druwaith Laur" t2="Enedwaith"/>
@@ -370,17 +362,13 @@
     <connection t1="N. Enedwaith" t2="Lond Daer"/>
     <connection t1="N. Enedwaith" t2="Tharbad"/>
     <connection t1="N. Enedwaith" t2="Eregion"/>
-    <connection t1="N. Enedwaith" t2="Minhiriath"/>
     <connection t1="N. Enedwaith" t2="Cardolan"/>
-    <connection t1="Minhiriath" t2="Lond Daer"/>
-    <connection t1="Eregion" t2="Tharbad"/>
     <connection t1="Eregion" t2="Cardolan"/>
     <connection t1="Eregion" t2="Rhudaur"/>
     <connection t1="Tharbad" t2="Cardolan"/>
     <connection t1="Minhiriath" t2="Cardolan"/>
     <connection t1="Minhiriath" t2="S. Downs"/>
     <connection t1="Minhiriath" t2="Shire"/>
-    <connection t1="Minhiriath" t2="S. Arthedain"/>
     <connection t1="Cardolan" t2="S. Downs"/>
     <connection t1="Cardolan" t2="E. Arnor"/>
     <connection t1="Cardolan" t2="Rhudaur"/>
@@ -572,7 +560,8 @@
     <connection t1="White Downs" t2="Hobbiton"/>
     <connection t1="Upper Brandywine" t2="Shire"/>
     <connection t1="Midgewater" t2="Bree"/>
-    <connection t1="N. Misty Mtns." t2="N. Caves"/>
+    <connection t1="N. Misty Mtns." t2="Rivendell"/>
+    <connection t1="N. Misty Mtns." t2="Anduin West Bank"/>
     <connection t1="Misty Mtns." t2="Moria"/>
     <connection t1="Misty Mtns. Peaks" t2="Moria"/>
     <connection t1="S. Misty Mtns." t2="S. Caves"/>
@@ -593,7 +582,6 @@
     <connection t1="Rhun Hills" t2="S. Rhun"/>
     <connection t1="Iron Hills" t2="Withered Heath"/>
     <connection t1="Iron Hills" t2="N. Dale"/>
-    <connection t1="Iron Hills" t2="N. Rhun"/>
     <connection t1="Mtns. of Mirkwood" t2="N. Mirkwood"/>
   </map>
   <resourceList>
@@ -965,7 +953,7 @@
       <result resourceOrUnit="Gorbag" quantity="1"/>
     </productionRule>
     <productionRule name="Witch King">
-      <cost resource="PUs" quantity="20"/>
+      <cost resource="PUs" quantity="25"/>
       <result resourceOrUnit="Witch King" quantity="1"/>
     </productionRule>
     <productionRule name="Dain">
@@ -1009,7 +997,7 @@
       <result resourceOrUnit="fortifications" quantity="2"/>
     </productionRule>
     <productionRule name="buyHero">
-      <cost resource="PUs" quantity="17"/>
+      <cost resource="PUs" quantity="14"/>
       <result resourceOrUnit="Hero" quantity="1"/>
     </productionRule>
     <productionRule name="buyTower">
@@ -1029,8 +1017,8 @@
       <result resourceOrUnit="corsairs" quantity="2"/>
     </productionRule>
     <productionRule name="buyTowerGuard">
-      <cost resource="PUs" quantity="6"/>
-      <result resourceOrUnit="towerGuard" quantity="1"/>
+      <cost resource="PUs" quantity="11"/>
+      <result resourceOrUnit="towerGuard" quantity="2"/>
     </productionRule>
     <productionRule name="buyLightCavalry">
       <cost resource="PUs" quantity="5"/>
@@ -1053,7 +1041,7 @@
       <result resourceOrUnit="galleon" quantity="1"/>
     </productionRule>
     <productionRule name="buyOliphant">
-      <cost resource="PUs" quantity="13"/>
+      <cost resource="PUs" quantity="12"/>
       <result resourceOrUnit="oliphant" quantity="1"/>
     </productionRule>
     <productionRule name="buyHobbits">
@@ -1101,7 +1089,7 @@
       <result resourceOrUnit="siegeTower" quantity="2"/>
     </productionRule>
     <productionRule name="buyNazgul">
-      <cost resource="PUs" quantity="15"/>
+      <cost resource="PUs" quantity="19"/>
       <result resourceOrUnit="nazgul" quantity="1"/>
     </productionRule>
     <productionRule name="buyTrireme">
@@ -1173,7 +1161,7 @@
       <result resourceOrUnit="axeInfantry" quantity="2"/>
     </productionRule>
     <productionRule name="buyZepplin">
-      <cost resource="PUs" quantity="5"/>
+      <cost resource="PUs" quantity="6"/>
       <result resourceOrUnit="zepplin" quantity="1"/>
     </productionRule>
     <productionRule name="buyGreatship">
@@ -1217,7 +1205,7 @@
       <result resourceOrUnit="warWagon" quantity="1"/>
     </productionRule>
     <productionRule name="buyEnts">
-      <cost resource="PUs" quantity="6"/>
+      <cost resource="PUs" quantity="7"/>
       <result resourceOrUnit="ents" quantity="1"/>
     </productionRule>
     <productionRule name="buyUndead">
@@ -1733,7 +1721,7 @@
     <attachment name="unitAttachment" attachTo="towerGuard" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
       <option name="movement" value="1"/>
       <option name="transportCost" value="1"/>
-      <option name="attack" value="3"/>
+      <option name="attack" value="2"/>
       <option name="defense" value="4"/>
       <option name="artillerySupportable" value="true"/>
     </attachment>
@@ -1892,7 +1880,7 @@
     <attachment name="unitAttachment" attachTo="ents" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
       <option name="movement" value="1"/>
       <option name="attack" value="3"/>
-      <option name="defense" value="4"/>
+      <option name="defense" value="5"/>
     </attachment>
     <attachment name="unitAttachment" attachTo="wizard" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
       <option name="movement" value="2"/>
@@ -1912,9 +1900,8 @@
     <attachment name="unitAttachment" attachTo="zepplin" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
       <option name="movement" value="3"/>
       <option name="isAir" value="true"/>
-      <option name="attack" value="2"/>
+      <option name="attack" value="3"/>
       <option name="defense" value="2"/>
-      <option name="artillery" value="true"/>
       <!--<option name="carrierCost" value="1"/>-->
     </attachment>
     <attachment name="unitAttachment" attachTo="eagles" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
@@ -1985,8 +1972,8 @@
     <attachment name="unitAttachment" attachTo="trolls" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
       <option name="movement" value="1"/>
       <option name="transportCost" value="2"/>
-      <option name="attack" value="5"/>
-      <option name="defense" value="2"/>
+      <option name="attack" value="4"/>
+      <option name="defense" value="3"/>
     </attachment>
     <attachment name="unitAttachment" attachTo="siegeTower" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
       <option name="movement" value="1"/>
@@ -2234,7 +2221,7 @@
       <option name="production" value="4"/>
     </attachment>
     <attachment name="territoryAttachment" attachTo="City of Corsairs" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
-      <option name="production" value="8"/>
+      <option name="production" value="6"/>
       <option name="capital" value="Haradrim"/>
       <option name="victoryCity" value="1"/>
     </attachment>
@@ -2262,7 +2249,7 @@
       <option name="production" value="2"/>
     </attachment>
     <attachment name="territoryAttachment" attachTo="Far Harad" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
-      <option name="production" value="4"/>
+      <option name="production" value="3"/>
     </attachment>
     <!-- Goblin Lands -->
     <attachment name="territoryAttachment" attachTo="N. Caves" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
@@ -2298,7 +2285,7 @@
       <option name="production" value="2"/>
     </attachment>
     <attachment name="territoryAttachment" attachTo="S. Arthedain" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
-      <option name="production" value="1"/>
+      <option name="production" value="2"/>
     </attachment>
     <attachment name="territoryAttachment" attachTo="S. Downs" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="1"/>
@@ -2420,7 +2407,7 @@
       <option name="production" value="1"/>
     </attachment>
     <attachment name="territoryAttachment" attachTo="Wold" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
-      <option name="production" value="0"/>
+      <option name="production" value="1"/>
     </attachment>
     <attachment name="territoryAttachment" attachTo="Anduin East Bank" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="1"/>
@@ -2480,7 +2467,6 @@
     </attachment>
     <attachment name="territoryAttachment" attachTo="N. Misty Mtns." javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="0"/>
-      <option name="isImpassable" value="true"/>
     </attachment>
     <attachment name="territoryAttachment" attachTo="Misty Mtns." javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="0"/>
@@ -2530,6 +2516,14 @@
       <option name="canalName" value="Osgilliath Canal"/>
       <option name="landTerritories" value="W. Osg.:E. Osg."/>
     </attachment>
+<!--National Objectives-->
+
+<attachment name="objectiveAttachment_Germans_1_Trade_with_Russia" attachTo="Germans" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
+      <option name="objectiveValue" value="5"/>
+      <option name="atWarPlayers" value="Russians" count="0"/>
+
+
+
   </attachmentList>
   <initialize>
     <ownerInitialize>
@@ -2606,7 +2600,7 @@
       <territoryOwner territory="Shire" owner="Freefolk"/>
       <territoryOwner territory="Hobbiton" owner="Freefolk"/>
       <territoryOwner territory="S. Downs" owner="Freefolk"/>
-      <territoryOwner territory="S. Arthedain" owner="Freefolk"/>
+      <territoryOwner territory="S. Arthedain" owner="Elves"/>
       <territoryOwner territory="Fornost" owner="Freefolk"/>
       <territoryOwner territory="Arnor" owner="Freefolk"/>
       <territoryOwner territory="Lonely Mtn." owner="Dwarves"/>
@@ -2661,6 +2655,7 @@
       <unitPlacement unitType="towerGuard" territory="Minas Tirith" quantity="6" owner="Gondor"/>
       <unitPlacement unitType="lightCavalry" territory="Minas Tirith" quantity="3" owner="Gondor"/>
       <unitPlacement unitType="trebuche" territory="Minas Tirith" quantity="3" owner="Gondor"/>
+      <unitPlacement unitType="fortifications" territory="Anorien" quantity="5" owner="Gondor"/>
       <unitPlacement unitType="castle" territory="E. Osg." quantity="1" owner="Gondor"/>
       <unitPlacement unitType="spearInfantry" territory="E. Osg." quantity="3" owner="Gondor"/>
       <unitPlacement unitType="lightCavalry" territory="E. Osg." quantity="1" owner="Gondor"/>
@@ -2669,7 +2664,7 @@
       <unitPlacement unitType="castle" territory="W. Osg." quantity="1" owner="Gondor"/>
       <unitPlacement unitType="Faramir" territory="W. Osg." quantity="1" owner="Gondor"/>    
       <unitPlacement unitType="spearInfantry" territory="W. Osg." quantity="2" owner="Gondor"/>
-      <unitPlacement unitType="trebuche" territory="W. Osg." quantity="2" owner="Gondor"/>
+      <unitPlacement unitType="archers" territory="W. Osg." quantity="3" owner="Gondor"/>
       <unitPlacement unitType="fortifications" territory="W. Osg." quantity="4" owner="Gondor"/>
       <unitPlacement unitType="castle" territory="Anfalas" quantity="1" owner="Gondor"/>
       <unitPlacement unitType="fortifications" territory="Anfalas" quantity="5" owner="Gondor"/>
@@ -2849,9 +2844,11 @@
       <unitPlacement unitType="hunters" territory="Fornost" quantity="3" owner="Freefolk"/> 
       <unitPlacement unitType="castle" territory="Fornost" quantity="1" owner="Freefolk"/>
       <unitPlacement unitType="archers" territory="Fornost" quantity="1" owner="Freefolk"/>
-      <unitPlacement unitType="spearInfantry" territory="S. Arthedain" quantity="1" owner="Freefolk"/>
+      <unitPlacement unitType="hunters" territory="S. Arthedain" quantity="2" owner="Elves"/>
       <unitPlacement unitType="Cirdan" territory="S. Arthedain" quantity="1" owner="Elves"/>
-      <unitPlacement unitType="archers" territory="S. Arthedain" quantity="1" owner="Freefolk"/>
+      <unitPlacement unitType="Castle" territory="S. Arthedain" quantity="1" owner="Elves"/>
+      <unitPlacement unitType="Clipper" territory="Lower Brandywine" quantity="2" owner="Elves"/>
+      <unitPlacement unitType="archers" territory="S. Arthedain" quantity="2" owner="Elves"/>
       <unitPlacement unitType="spearInfantry" territory="Lond Daer" quantity="3"/>
       <unitPlacement unitType="castle" territory="Lond Daer" quantity="1"/>
       <unitPlacement unitType="fortifications" territory="Lond Daer" quantity="2"/>
@@ -2868,11 +2865,11 @@
     </unitInitialize>
     <resourceInitialize>
       <resourceGiven player="Saruman" resource="PUs" quantity="16"/>
-      <resourceGiven player="Freefolk" resource="PUs" quantity="14"/>
+      <resourceGiven player="Freefolk" resource="PUs" quantity="13"/>
       <resourceGiven player="Mordor" resource="PUs" quantity="32"/>
       <resourceGiven player="Rohan" resource="PUs" quantity="20"/>
       <resourceGiven player="Goblins" resource="PUs" quantity="16"/>
-      <resourceGiven player="Elves" resource="PUs" quantity="24"/>
+      <resourceGiven player="Elves" resource="PUs" quantity="26"/>
       <resourceGiven player="Haradrim" resource="PUs" quantity="27"/>
       <resourceGiven player="Gondor" resource="PUs" quantity="35"/>
       <resourceGiven player="Rhun" resource="PUs" quantity="16"/>
