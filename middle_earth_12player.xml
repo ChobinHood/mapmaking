@@ -1029,7 +1029,7 @@
       <result resourceOrUnit="corsairs" quantity="2"/>
     </productionRule>
     <productionRule name="buyTowerGuard">
-      <cost resource="PUs" quantity="5"/>
+      <cost resource="PUs" quantity="6"/>
       <result resourceOrUnit="towerGuard" quantity="1"/>
     </productionRule>
     <productionRule name="buyLightCavalry">
@@ -1165,8 +1165,8 @@
       <result resourceOrUnit="mortar" quantity="2"/>
     </productionRule>
     <productionRule name="buyPhalanx">
-      <cost resource="PUs" quantity="11"/>
-      <result resourceOrUnit="phalanx" quantity="2"/>
+      <cost resource="PUs" quantity="6"/>
+      <result resourceOrUnit="phalanx" quantity="1"/>
     </productionRule>
     <productionRule name="buyAxeInfantry">
       <cost resource="PUs" quantity="7"/>
@@ -1733,7 +1733,7 @@
     <attachment name="unitAttachment" attachTo="towerGuard" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
       <option name="movement" value="1"/>
       <option name="transportCost" value="1"/>
-      <option name="attack" value="1"/>
+      <option name="attack" value="3"/>
       <option name="defense" value="4"/>
       <option name="artillerySupportable" value="true"/>
     </attachment>
@@ -1786,9 +1786,9 @@
       <option name="movement" value="2"/>
       <option name="transportCost" value="2"/>
       <option name="attack" value="4"/>
-      <option name="defense" value="4"/>
+      <option name="defense" value="5"/>
       <option name="canBlitz" value="true"/>
-      <option name="artillerySupportable" value="true"/>
+      <option name="artillery" value="true"/>
     </attachment>
     <attachment name="unitAttachment" attachTo="raiderCavalry" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
       <option name="movement" value="3"/>
@@ -1891,7 +1891,7 @@
     </attachment>
     <attachment name="unitAttachment" attachTo="ents" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
       <option name="movement" value="1"/>
-      <option name="attack" value="2"/>
+      <option name="attack" value="3"/>
       <option name="defense" value="4"/>
     </attachment>
     <attachment name="unitAttachment" attachTo="wizard" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
@@ -1964,7 +1964,7 @@
       <option name="movement" value="1"/>
       <option name="transportCost" value="1"/>
       <option name="attack" value="2"/>
-      <option name="defense" value="4"/>
+      <option name="defense" value="5"/>
       <option name="artillerySupportable" value="true"/>
     </attachment>
     <attachment name="unitAttachment" attachTo="orcs" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
@@ -1985,9 +1985,8 @@
     <attachment name="unitAttachment" attachTo="trolls" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
       <option name="movement" value="1"/>
       <option name="transportCost" value="2"/>
-      <option name="attack" value="4"/>
+      <option name="attack" value="5"/>
       <option name="defense" value="2"/>
-      <option name="artillerySupportable" value="true"/>
     </attachment>
     <attachment name="unitAttachment" attachTo="siegeTower" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
       <option name="movement" value="1"/>
@@ -2566,6 +2565,7 @@
       <territoryOwner territory="Westfold" owner="Rohan"/>
       <territoryOwner territory="E. Emnet" owner="Rohan"/>
       <territoryOwner territory="Helms Deep" owner="Rohan"/>
+      <territoryOwner territory="S. Brown Lands" owner="Rohan"/>
       <!-- Mordor Lands -->
       <territoryOwner territory="N. Rhun" owner="Rhun"/>
       <territoryOwner territory="Rhun" owner="Rhun"/>
@@ -2622,11 +2622,11 @@
       <unitPlacement unitType="Glorfindel" territory="Rivendell" quantity="1" owner="Elves"/>
       <unitPlacement unitType="Arwen" territory="Rivendell" quantity="1" owner="Elves"/>
       <unitPlacement unitType="Frodo and Sam" territory="Middle Anduin" quantity="2" owner="Elves"/>
-      <unitPlacement unitType="Merry and Pippin" territory="Middle Anduin" quantity="2" owner="Elves"/>
-      <unitPlacement unitType="raft" territory="Middle Anduin" quantity="7" owner="Elves"/>
-      <unitPlacement unitType="Aragorn" territory="Middle Anduin" quantity="1" owner="Elves"/>
-      <unitPlacement unitType="Legolas" territory="Middle Anduin" quantity="1" owner="Elves"/>
-      <unitPlacement unitType="Gimli" territory="Middle Anduin" quantity="1" owner="Elves"/>
+      <unitPlacement unitType="Merry and Pippin" territory="Eastfold" quantity="2" owner="Elves"/>
+      <unitPlacement unitType="clipper" territory="Middle Anduin" quantity="1" owner="Elves"/>
+      <unitPlacement unitType="Aragorn" territory="Eastfold" quantity="1" owner="Elves"/>
+      <unitPlacement unitType="Legolas" territory="Eastfold" quantity="1" owner="Elves"/>
+      <unitPlacement unitType="Gimli" territory="Eastfold" quantity="1" owner="Elves"/>
       <unitPlacement unitType="castle" territory="High Mirkwood" quantity="1" owner="Elves"/>
       <unitPlacement unitType="tower" territory="High Mirkwood" quantity="1" owner="Elves"/>
       <unitPlacement unitType="fortifications" territory="High Mirkwood" quantity="2" owner="Elves"/>
@@ -2641,7 +2641,7 @@
       <unitPlacement unitType="fortifications" territory="Lorien" quantity="3" owner="Elves"/>
       <unitPlacement unitType="ents" territory="Fangorn" quantity="6" owner="Elves"/>
       <unitPlacement unitType="Treebeard" territory="Fangorn" quantity="1" owner="Elves"/>
-      <unitPlacement unitType="Gandalf the White" territory="Fangorn" quantity="1" owner="Elves"/>    
+      <unitPlacement unitType="Gandalf the White" territory="S. Brown Lands" quantity="1" owner="Rohan"/>    
       <unitPlacement unitType="ents" territory="E. Mirkwood" quantity="1" owner="Elves"/>
       <unitPlacement unitType="ents" territory="W. Mirkwood" quantity="1" owner="Elves"/>
       <unitPlacement unitType="ents" territory="N. Mirkwood" quantity="1" owner="Elves"/>
@@ -2703,10 +2703,10 @@
       <unitPlacement unitType="lightCavalry" territory="Eastfold" quantity="1" owner="Rohan"/>
       <unitPlacement unitType="spearInfantry" territory="Eastfold" quantity="3" owner="Rohan"/>
       <unitPlacement unitType="Theoden" territory="Eastfold" quantity="1" owner="Rohan"/>
-      <unitPlacement unitType="Eomer" territory="Eastfold" quantity="1" owner="Rohan"/>
+      <unitPlacement unitType="Eomer" territory="S. Brown Lands" quantity="1" owner="Rohan"/>
       <unitPlacement unitType="Gamling" territory="Eastfold" quantity="1" owner="Rohan"/>
       <unitPlacement unitType="Eowyn" territory="Eastfold" quantity="1" owner="Rohan"/>
-      <unitPlacement unitType="heavyCavalry" territory="Eastfold" quantity="3" owner="Rohan"/>
+      <unitPlacement unitType="heavyCavalry" territory="S. Brown Lands" quantity="4" owner="Rohan"/>
       <unitPlacement unitType="spearInfantry" territory="Helms Deep" quantity="3" owner="Rohan"/>
       <unitPlacement unitType="spearInfantry" territory="Westfold" quantity="5" owner="Rohan"/>
       <unitPlacement unitType="heavyCavalry" territory="Westfold" quantity="1" owner="Rohan"/>
