@@ -2556,7 +2556,7 @@
 	</attachment>
 <attachment name="objectiveAttachment_Gondor_1_Pride_of_Denethor" attachTo="Gondor" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
       <option name="objectiveValue" value="3"/>
-      <option name="directOwnershipTerritories" value="W. Osg:E. Osg" count="each"/>
+      <option name="directOwnershipTerritories" value="W. Osg.:E. Osg." count="each"/>
         </attachment>
 <attachment name="objectiveAttachment_Harad_1_Spoils_of_War" attachTo="Mordor" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
       <option name="objectiveValue" value="2"/>
