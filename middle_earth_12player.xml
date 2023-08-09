@@ -2562,7 +2562,7 @@
       <option name="objectiveValue" value="3"/>
       <option name="alliedOwnershipTerritories" value="W. Osg.:E. Osg." count="each"/>
         </attachment>
-<attachment name="objectiveAttachment_Harad_1_Spoils_of_War" attachTo="Harad" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
+<attachment name="objectiveAttachment_Haradrim_1_Spoils_of_War" attachTo="Haradrim" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
       <option name="objectiveValue" value="2"/>
       <option name="alliedOwnershipTerritories" value="Andrast:Anfalas:Lossarnach:Minas Tirith" count="each"/>
         </attachment>
