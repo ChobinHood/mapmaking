@@ -2203,7 +2203,7 @@
       <option name="production" value="6"/>
     </attachment>
     <attachment name="territoryAttachment" attachTo="Udun" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
-      <option name="production" value="3"/>
+      <option name="production" value="2"/>
     </attachment>
     <attachment name="territoryAttachment" attachTo="Barad Dur" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="6"/>
@@ -2923,7 +2923,7 @@
     <resourceInitialize>
       <resourceGiven player="Saruman" resource="PUs" quantity="14"/>
       <resourceGiven player="Freefolk" resource="PUs" quantity="13"/>
-      <resourceGiven player="Mordor" resource="PUs" quantity="29"/>
+      <resourceGiven player="Mordor" resource="PUs" quantity="28"/>
       <resourceGiven player="Rohan" resource="PUs" quantity="19"/>
       <resourceGiven player="Goblins" resource="PUs" quantity="16"/>
       <resourceGiven player="Elves" resource="PUs" quantity="26"/>
