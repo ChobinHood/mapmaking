@@ -1409,8 +1409,8 @@
 <attachment name="unitAttachment" attachTo="Elladan and Ellrohir" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
       <option name="movement" value="2"/>
       <option name="transportCost" value="1"/>
-      <option name="attack" value="6"/>
-      <option name="defense" value="4"/>
+      <option name="attack" value="5"/>
+      <option name="defense" value="5"/>
       <option name="hitPoints" value="2"/>
       <option name="canBlitz" value="true"/>
 </attachment>
@@ -1492,8 +1492,8 @@
 <attachment name="unitAttachment" attachTo="Theoden" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
       <option name="movement" value="2"/>
       <option name="transportCost" value="1"/>
-      <option name="attack" value="6"/>
-      <option name="defense" value="3"/>
+      <option name="attack" value="5"/>
+      <option name="defense" value="4"/>
       <option name="canBlitz" value="true"/>
 </attachment>
 <attachment name="unitAttachment" attachTo="Eowyn" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
@@ -2622,11 +2622,11 @@
       <unitPlacement unitType="Glorfindel" territory="Rivendell" quantity="1" owner="Elves"/>
       <unitPlacement unitType="Arwen" territory="Rivendell" quantity="1" owner="Elves"/>
       <unitPlacement unitType="Frodo and Sam" territory="Middle Anduin" quantity="2" owner="Elves"/>
-      <unitPlacement unitType="Merry and Pippin" territory="Eastfold" quantity="2" owner="Elves"/>
-      <unitPlacement unitType="clipper" territory="Middle Anduin" quantity="1" owner="Elves"/>
-      <unitPlacement unitType="Aragorn" territory="Eastfold" quantity="1" owner="Elves"/>
-      <unitPlacement unitType="Legolas" territory="Eastfold" quantity="1" owner="Elves"/>
-      <unitPlacement unitType="Gimli" territory="Eastfold" quantity="1" owner="Elves"/>
+      <unitPlacement unitType="Merry and Pippin" territory="Eastfold" quantity="2" owner="Rohan"/>
+      <unitPlacement unitType="clipper" territory="Middle Anduin" quantity="2" owner="Elves"/>
+      <unitPlacement unitType="Aragorn" territory="Eastfold" quantity="1" owner="Rohan"/>
+      <unitPlacement unitType="Legolas" territory="Eastfold" quantity="1" owner="Rohan"/>
+      <unitPlacement unitType="Gimli" territory="Eastfold" quantity="1" owner="Rohan"/>
       <unitPlacement unitType="castle" territory="High Mirkwood" quantity="1" owner="Elves"/>
       <unitPlacement unitType="tower" territory="High Mirkwood" quantity="1" owner="Elves"/>
       <unitPlacement unitType="fortifications" territory="High Mirkwood" quantity="2" owner="Elves"/>
@@ -2699,7 +2699,7 @@
       <unitPlacement unitType="lightCavalry" territory="E. Emnet" quantity="1" owner="Rohan"/>
       <unitPlacement unitType="heavyCavalry" territory="E. Emnet" quantity="1" owner="Rohan"/>
       <unitPlacement unitType="Boromir" territory="E. Emnet" quantity="1" owner="Gondor"/>
-      <unitPlacement unitType="spearInfantry" territory="E. Emnet" quantity="1" owner="Rohan"/>
+      <unitPlacement unitType="spearInfantry" territory="E. Emnet" quantity="2" owner="Rohan"/>
       <unitPlacement unitType="lightCavalry" territory="Eastfold" quantity="1" owner="Rohan"/>
       <unitPlacement unitType="spearInfantry" territory="Eastfold" quantity="3" owner="Rohan"/>
       <unitPlacement unitType="Theoden" territory="Eastfold" quantity="1" owner="Rohan"/>
@@ -2709,7 +2709,7 @@
       <unitPlacement unitType="heavyCavalry" territory="S. Brown Lands" quantity="5" owner="Rohan"/>
       <unitPlacement unitType="spearInfantry" territory="Helms Deep" quantity="3" owner="Rohan"/>
       <unitPlacement unitType="spearInfantry" territory="Westfold" quantity="5" owner="Rohan"/>
-      <unitPlacement unitType="heavyCavalry" territory="Westfold" quantity="1" owner="Rohan"/>
+      <unitPlacement unitType="heavyCavalry" territory="Westfold" quantity="2" owner="Rohan"/>
       <!-- Mordor Lands -->
       <unitPlacement unitType="castle" territory="Barad Dur" quantity="1" owner="Mordor"/>
       <unitPlacement unitType="tower" territory="Barad Dur" quantity="1" owner="Mordor"/>
@@ -2746,13 +2746,13 @@
       <unitPlacement unitType="castle" territory="Isengard" quantity="1" owner="Saruman"/>
       <unitPlacement unitType="tower" territory="Isengard" quantity="1" owner="Saruman"/>
       <unitPlacement unitType="fortifications" territory="Isengard" quantity="6" owner="Saruman"/>
-      <unitPlacement unitType="orcs" territory="Isengard" quantity="8" owner="Saruman"/>
-      <unitPlacement unitType="urukhai" territory="Isengard" quantity="12" owner="Saruman"/>
+      <unitPlacement unitType="orcs" territory="Isengard" quantity="6" owner="Saruman"/>
+      <unitPlacement unitType="urukhai" territory="Isengard" quantity="20" owner="Saruman"/>
       <unitPlacement unitType="urukhai" territory="Wold" quantity="6" owner="Saruman"/>
       <unitPlacement unitType="Lurtz" territory="Wold" quantity="1" owner="Saruman"/>
-      <unitPlacement unitType="raiders" territory="S. Dunland" quantity="6" owner="Saruman"/>
-      <unitPlacement unitType="raiders" territory="N. Dunland" quantity="6" owner="Saruman"/>
-      <unitPlacement unitType="wargs" territory="Isengard" quantity="5" owner="Saruman"/>
+      <unitPlacement unitType="raiders" territory="S. Dunland" quantity="3" owner="Saruman"/>
+      <unitPlacement unitType="raiders" territory="N. Dunland" quantity="3" owner="Saruman"/>
+      <unitPlacement unitType="wargs" territory="Isengard" quantity="3" owner="Saruman"/>
       <unitPlacement unitType="wizard" territory="Isengard" quantity="1" owner="Saruman"/>
       <unitPlacement unitType="castle" territory="Rhun" quantity="1" owner="Rhun"/>
       <unitPlacement unitType="fortifications" territory="Rhun" quantity="6" owner="Rhun"/>
