@@ -2699,14 +2699,14 @@
       <unitPlacement unitType="lightCavalry" territory="E. Emnet" quantity="1" owner="Rohan"/>
       <unitPlacement unitType="heavyCavalry" territory="E. Emnet" quantity="1" owner="Rohan"/>
       <unitPlacement unitType="Boromir" territory="E. Emnet" quantity="1" owner="Gondor"/>
-      <unitPlacement unitType="spearInfantry" territory="E. Emnet" quantity="2" owner="Rohan"/>
+      <unitPlacement unitType="spearInfantry" territory="E. Emnet" quantity="1" owner="Rohan"/>
       <unitPlacement unitType="lightCavalry" territory="Eastfold" quantity="1" owner="Rohan"/>
       <unitPlacement unitType="spearInfantry" territory="Eastfold" quantity="3" owner="Rohan"/>
       <unitPlacement unitType="Theoden" territory="Eastfold" quantity="1" owner="Rohan"/>
       <unitPlacement unitType="Eomer" territory="S. Brown Lands" quantity="1" owner="Rohan"/>
       <unitPlacement unitType="Gamling" territory="Eastfold" quantity="1" owner="Rohan"/>
       <unitPlacement unitType="Eowyn" territory="Eastfold" quantity="1" owner="Rohan"/>
-      <unitPlacement unitType="heavyCavalry" territory="S. Brown Lands" quantity="4" owner="Rohan"/>
+      <unitPlacement unitType="heavyCavalry" territory="S. Brown Lands" quantity="5" owner="Rohan"/>
       <unitPlacement unitType="spearInfantry" territory="Helms Deep" quantity="3" owner="Rohan"/>
       <unitPlacement unitType="spearInfantry" territory="Westfold" quantity="5" owner="Rohan"/>
       <unitPlacement unitType="heavyCavalry" territory="Westfold" quantity="1" owner="Rohan"/>
@@ -2747,12 +2747,12 @@
       <unitPlacement unitType="tower" territory="Isengard" quantity="1" owner="Saruman"/>
       <unitPlacement unitType="fortifications" territory="Isengard" quantity="6" owner="Saruman"/>
       <unitPlacement unitType="orcs" territory="Isengard" quantity="8" owner="Saruman"/>
-      <unitPlacement unitType="urukhai" territory="Isengard" quantity="10" owner="Saruman"/>
-      <unitPlacement unitType="urukhai" territory="Wold" quantity="8" owner="Saruman"/>
+      <unitPlacement unitType="urukhai" territory="Isengard" quantity="12" owner="Saruman"/>
+      <unitPlacement unitType="urukhai" territory="Wold" quantity="6" owner="Saruman"/>
       <unitPlacement unitType="Lurtz" territory="Wold" quantity="1" owner="Saruman"/>
       <unitPlacement unitType="raiders" territory="S. Dunland" quantity="6" owner="Saruman"/>
-      <unitPlacement unitType="raiders" territory="N. Dunland" quantity="4" owner="Saruman"/>
-      <unitPlacement unitType="wargs" territory="Isengard" quantity="4" owner="Saruman"/>
+      <unitPlacement unitType="raiders" territory="N. Dunland" quantity="6" owner="Saruman"/>
+      <unitPlacement unitType="wargs" territory="Isengard" quantity="5" owner="Saruman"/>
       <unitPlacement unitType="wizard" territory="Isengard" quantity="1" owner="Saruman"/>
       <unitPlacement unitType="castle" territory="Rhun" quantity="1" owner="Rhun"/>
       <unitPlacement unitType="fortifications" territory="Rhun" quantity="6" owner="Rhun"/>
