@@ -2896,7 +2896,7 @@
       <unitPlacement unitType="hunters" territory="S. Arthedain" quantity="1" owner="Elves"/>
       <unitPlacement unitType="Cirdan" territory="S. Arthedain" quantity="1" owner="Elves"/>
       <unitPlacement unitType="castle" territory="S. Arthedain" quantity="1" owner="Elves"/>
-      <unitPlacement unitType="clipper" territory="Lower Brandywine" quantity="2" owner="Elves"/>
+      <unitPlacement unitType="clipper" territory="Lower Brandywine" quantity="1" owner="Elves"/>
       <unitPlacement unitType="archers" territory="S. Arthedain" quantity="2" owner="Elves"/>
       <unitPlacement unitType="spearInfantry" territory="Lond Daer" quantity="3"/>
       <unitPlacement unitType="castle" territory="Lond Daer" quantity="1"/>
