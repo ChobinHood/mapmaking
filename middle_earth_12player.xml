@@ -2259,7 +2259,7 @@
       <option name="production" value="3"/>
     </attachment>
     <attachment name="territoryAttachment" attachTo="Moria" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
-      <option name="production" value="10"/>
+      <option name="production" value="8"/>
       <option name="capital" value="Goblins"/>
       <option name="victoryCity" value="1"/>
     </attachment>
@@ -2707,12 +2707,16 @@
       <!-- Gondor Lands -->
       <unitPlacement unitType="castle" territory="Minas Tirith" quantity="1" owner="Gondor"/>
       <unitPlacement unitType="tower" territory="Minas Tirith" quantity="4" owner="Gondor"/>
-      <unitPlacement unitType="fortifications" territory="Minas Tirith" quantity="7" owner="Gondor"/>
+      <unitPlacement unitType="fortifications" territory="Minas Tirith" quantity="10" owner="Gondor"/>
       <unitPlacement unitType="spearInfantry" territory="Minas Tirith" quantity="3" owner="Gondor"/>
       <unitPlacement unitType="towerGuard" territory="Minas Tirith" quantity="6" owner="Gondor"/>
       <unitPlacement unitType="lightCavalry" territory="Minas Tirith" quantity="3" owner="Gondor"/>
       <unitPlacement unitType="trebuche" territory="Minas Tirith" quantity="3" owner="Gondor"/>
       <unitPlacement unitType="fortifications" territory="Anorien" quantity="5" owner="Gondor"/>
+      <unitPlacement unitType="fortifications" territory="Lossarnach" quantity="4" owner="Gondor"/>
+      <unitPlacement unitType="fortifications" territory="Lebennin" quantity="2" owner="Gondor"/>
+      <unitPlacement unitType="fortifications" territory="Belfalas" quantity="2" owner="Gondor"/>
+      <unitPlacement unitType="fortifications" territory="Lamedon" quantity="3" owner="Gondor"/>
       <unitPlacement unitType="castle" territory="E. Osg." quantity="1" owner="Gondor"/>
       <unitPlacement unitType="spearInfantry" territory="E. Osg." quantity="3" owner="Gondor"/>
       <unitPlacement unitType="lightCavalry" territory="E. Osg." quantity="1" owner="Gondor"/>
@@ -2729,7 +2733,8 @@
       <unitPlacement unitType="lightCavalry" territory="Anfalas" quantity="2" owner="Gondor"/>
       <unitPlacement unitType="archers" territory="Anfalas" quantity="1" owner="Gondor"/>
       <unitPlacement unitType="castle" territory="Andrast" quantity="1" owner="Gondor"/>
-      <unitPlacement unitType="fortifications" territory="Andrast" quantity="6" owner="Gondor"/>
+      <unitPlacement unitType="tower" territory="Andrast" quantity="1" owner="Gondor"/>
+      <unitPlacement unitType="fortifications" territory="Andrast" quantity="5" owner="Gondor"/>
       <unitPlacement unitType="spearInfantry" territory="Andrast" quantity="3" owner="Gondor"/>
       <unitPlacement unitType="towerGuard" territory="Andrast" quantity="1" owner="Gondor"/>
       <unitPlacement unitType="Prince Imrahil" territory="Andrast" quantity="1" owner="Gondor"/> 	    
