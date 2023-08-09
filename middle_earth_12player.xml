@@ -2617,7 +2617,7 @@
       <unitPlacement unitType="castle" territory="Rivendell" quantity="1" owner="Elves"/>
       <unitPlacement unitType="tower" territory="Rivendell" quantity="2" owner="Elves"/>
       <unitPlacement unitType="fortifications" territory="Rivendell" quantity="12" owner="Elves"/>
-      <unitPlacement unitType="hunters" territory="Rivendell" quantity="5" owner="Elves"/>
+      <unitPlacement unitType="hunters" territory="Rivendell" quantity="6" owner="Elves"/>
       <unitPlacement unitType="Elrond" territory="Rivendell" quantity="1" owner="Elves"/>
       <unitPlacement unitType="Glorfindel" territory="Rivendell" quantity="1" owner="Elves"/>
       <unitPlacement unitType="Arwen" territory="Rivendell" quantity="1" owner="Elves"/>
@@ -2632,9 +2632,9 @@
       <unitPlacement unitType="fortifications" territory="High Mirkwood" quantity="2" owner="Elves"/>
       <unitPlacement unitType="Thranduil" territory="High Mirkwood" quantity="1" owner="Elves"/>
       <unitPlacement unitType="Tauriel" territory="High Mirkwood" quantity="1" owner="Elves"/> 
-      <unitPlacement unitType="hunters" territory="High Mirkwood" quantity="5" owner="Elves"/>
+      <unitPlacement unitType="hunters" territory="High Mirkwood" quantity="6" owner="Elves"/>
       <unitPlacement unitType="castle" territory="Lorien" quantity="1" owner="Elves"/>
-      <unitPlacement unitType="hunters" territory="Lorien" quantity="5" owner="Elves"/>
+      <unitPlacement unitType="hunters" territory="Lorien" quantity="6" owner="Elves"/>
       <unitPlacement unitType="Galadriel" territory="Lorien" quantity="1" owner="Elves"/>
       <unitPlacement unitType="Celeborn" territory="Lorien" quantity="1" owner="Elves"/>
       <unitPlacement unitType="tower" territory="Lorien" quantity="3" owner="Elves"/>
@@ -2701,7 +2701,7 @@
       <unitPlacement unitType="Boromir" territory="E. Emnet" quantity="1" owner="Gondor"/>
       <unitPlacement unitType="spearInfantry" territory="E. Emnet" quantity="2" owner="Rohan"/>
       <unitPlacement unitType="lightCavalry" territory="Eastfold" quantity="1" owner="Rohan"/>
-      <unitPlacement unitType="spearInfantry" territory="Eastfold" quantity="2" owner="Rohan"/>
+      <unitPlacement unitType="spearInfantry" territory="Eastfold" quantity="3" owner="Rohan"/>
       <unitPlacement unitType="Theoden" territory="Eastfold" quantity="1" owner="Rohan"/>
       <unitPlacement unitType="Eomer" territory="Eastfold" quantity="1" owner="Rohan"/>
       <unitPlacement unitType="Gamling" territory="Eastfold" quantity="1" owner="Rohan"/>
@@ -2788,8 +2788,8 @@
       <!-- Goblin Lands -->
       <unitPlacement unitType="castle" territory="Moria" quantity="1" owner="Goblins"/>
       <unitPlacement unitType="fortifications" territory="Moria" quantity="10" owner="Goblins"/>
-      <unitPlacement unitType="stabbers" territory="Moria" quantity="9" owner="Goblins"/>
-      <unitPlacement unitType="shooters" territory="Moria" quantity="9" owner="Goblins"/>
+      <unitPlacement unitType="stabbers" territory="Moria" quantity="8" owner="Goblins"/>
+      <unitPlacement unitType="shooters" territory="Moria" quantity="8" owner="Goblins"/>
       <unitPlacement unitType="trolls" territory="Moria" quantity="2" owner="Goblins"/>
       <unitPlacement unitType="balrog" territory="Moria" quantity="1" owner="Goblins"/>
       <unitPlacement unitType="wargs" territory="Moria" quantity="2" owner="Goblins"/>
@@ -2797,14 +2797,14 @@
       <unitPlacement unitType="castle" territory="N. Caves" quantity="1" owner="Goblins"/>
       <unitPlacement unitType="stabbers" territory="N. Caves" quantity="4" owner="Goblins"/>
       <unitPlacement unitType="shooters" territory="N. Caves" quantity="4" owner="Goblins"/>
-      <unitPlacement unitType="wargs" territory="N. Caves" quantity="3" owner="Goblins"/>
-      <unitPlacement unitType="bats" territory="N. Caves" quantity="3" owner="Goblins"/>
+      <unitPlacement unitType="wargs" territory="N. Caves" quantity="1" owner="Goblins"/>
+      <unitPlacement unitType="bats" territory="N. Caves" quantity="2" owner="Goblins"/>
       <unitPlacement unitType="fortifications" territory="N. Caves" quantity="5" owner="Goblins"/>
       <unitPlacement unitType="castle" territory="S. Caves" quantity="1" owner="Goblins"/>
       <unitPlacement unitType="stabbers" territory="S. Caves" quantity="4" owner="Goblins"/>
       <unitPlacement unitType="shooters" territory="S. Caves" quantity="4" owner="Goblins"/>
       <unitPlacement unitType="fortifications" territory="S. Caves" quantity="5" owner="Goblins"/>
-      <unitPlacement unitType="wargs" territory="S. Caves" quantity="2" owner="Goblins"/>
+      <unitPlacement unitType="wargs" territory="S. Caves" quantity="1" owner="Goblins"/>
       <unitPlacement unitType="trolls" territory="S. Caves" quantity="2" owner="Goblins"/>
       <!-- Neutral Lands -->
       <unitPlacement unitType="castle" territory="Lonely Mtn." quantity="1" owner="Dwarves"/>
