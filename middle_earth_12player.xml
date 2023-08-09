@@ -2240,13 +2240,13 @@
       <option name="production" value="5"/>
     </attachment>
     <attachment name="territoryAttachment" attachTo="Haradwaith" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
-      <option name="production" value="2"/>
+      <option name="production" value="1"/>
     </attachment>
     <attachment name="territoryAttachment" attachTo="N. Haradwaith" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
-      <option name="production" value="2"/>
+      <option name="production" value="1"/>
     </attachment>
     <attachment name="territoryAttachment" attachTo="W. Haradwaith" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
-      <option name="production" value="2"/>
+      <option name="production" value="1"/>
     </attachment>
     <attachment name="territoryAttachment" attachTo="Far Harad" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="3"/>
@@ -2919,7 +2919,7 @@
       <resourceGiven player="Rohan" resource="PUs" quantity="19"/>
       <resourceGiven player="Goblins" resource="PUs" quantity="16"/>
       <resourceGiven player="Elves" resource="PUs" quantity="26"/>
-      <resourceGiven player="Haradrim" resource="PUs" quantity="24"/>
+      <resourceGiven player="Haradrim" resource="PUs" quantity="21"/>
       <resourceGiven player="Gondor" resource="PUs" quantity="36"/>
       <resourceGiven player="Rhun" resource="PUs" quantity="13"/>
       <resourceGiven player="Dale" resource="PUs" quantity="11"/>
