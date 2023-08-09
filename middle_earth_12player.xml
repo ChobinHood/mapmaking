@@ -2545,6 +2545,10 @@
 <attachment name="objectiveAttachment_Goblins_1_Rings_of_Power" attachTo="Goblins" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
       <option name="objectiveValue" value="5"/>
       <option name="directOwnershipTerritories" value="Rivendell:Lorien" count="each"/>
+	</attachment>
+<attachment name="objectiveAttachment_Goblins_2_Cave_Systems" attachTo="Goblins" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
+      <option name="objectiveValue" value="5"/>
+      <option name="directOwnershipTerritories" value="N. Caves:S. Caves:Moria" count="3"/>
         </attachment>
 <attachment name="objectiveAttachment_Saruman_1_Dunland" attachTo="Saruman" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
       <option name="objectiveValue" value="5"/>
@@ -2570,6 +2574,10 @@
       <option name="objectiveValue" value="2"/>
       <option name="alliedOwnershipTerritories" value="Nurn:S. Rhun:Harad Road" count="each"/>
         </attachment>
+<attachment name="objectiveAttachment_Freefolk_1_Northmen" attachTo="Saruman" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
+      <option name="objectiveValue" value="2"/>
+      <option name="directOwnershipTerritories" value="Lond Daer:Tharbad" count="each"/>
+	</attachment>
   </attachmentList>
   <initialize>
     <ownerInitialize>
