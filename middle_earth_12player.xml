@@ -2519,7 +2519,7 @@
 <!--National Objectives-->
 <attachment name="objectiveAttachment_Rhun_1_Alliance_with_Sauron" attachTo="Rhun" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
       <option name="objectiveValue" value="10"/>
-      <option name="directOwnershipTerritories" value="Udun:Minas Morgul:Barad Dur" count="3"/>
+      <option name="alliedOwnershipTerritories" value="Udun:Minas Morgul:Barad Dur" count="3"/>
 	</attachment>
 <attachment name="objectiveAttachment_Rhun_2_Erebor" attachTo="Rhun" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
       <option name="objectiveValue" value="5"/>
@@ -2658,7 +2658,7 @@
       <unitPlacement unitType="tower" territory="Rivendell" quantity="2" owner="Elves"/>
       <unitPlacement unitType="fortifications" territory="Rivendell" quantity="12" owner="Elves"/>
       <unitPlacement unitType="hunters" territory="Rivendell" quantity="3" owner="Elves"/>
-      <unitPlacement unitType="archers" territory="Rivendell" quantity="3" owner="Elves"/>
+      <unitPlacement unitType="archers" territory="Rivendell" quantity="2" owner="Elves"/>
       <unitPlacement unitType="Elrond" territory="Rivendell" quantity="1" owner="Elves"/>
       <unitPlacement unitType="Glorfindel" territory="Rivendell" quantity="1" owner="Elves"/>
       <unitPlacement unitType="Arwen" territory="Rivendell" quantity="1" owner="Elves"/>
@@ -2674,10 +2674,10 @@
       <unitPlacement unitType="Thranduil" territory="High Mirkwood" quantity="1" owner="Elves"/>
       <unitPlacement unitType="Tauriel" territory="High Mirkwood" quantity="1" owner="Elves"/> 
       <unitPlacement unitType="hunters" territory="High Mirkwood" quantity="3" owner="Elves"/>
-      <unitPlacement unitType="archers" territory="High Mirkwood" quantity="3" owner="Elves"/>
+      <unitPlacement unitType="archers" territory="High Mirkwood" quantity="2" owner="Elves"/>
       <unitPlacement unitType="castle" territory="Lorien" quantity="1" owner="Elves"/>
       <unitPlacement unitType="hunters" territory="Lorien" quantity="3" owner="Elves"/>
-      <unitPlacement unitType="archers" territory="Lorien" quantity="3" owner="Elves"/>
+      <unitPlacement unitType="archers" territory="Lorien" quantity="2" owner="Elves"/>
       <unitPlacement unitType="Galadriel" territory="Lorien" quantity="1" owner="Elves"/>
       <unitPlacement unitType="Celeborn" territory="Lorien" quantity="1" owner="Elves"/>
       <unitPlacement unitType="tower" territory="Lorien" quantity="3" owner="Elves"/>
