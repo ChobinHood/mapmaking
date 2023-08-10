@@ -2178,12 +2178,12 @@
       <option name="production" value="3"/>
     </attachment>
     <attachment name="territoryAttachment" attachTo="Rhun" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
-      <option name="production" value="8"/>
+      <option name="production" value="6"/>
       <option name="capital" value="Rhun"/>
       <option name="victoryCity" value="1"/>
     </attachment>
     <attachment name="territoryAttachment" attachTo="S. Rhun" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
-      <option name="production" value="2"/>
+      <option name="production" value="3"/>
     </attachment>
     <attachment name="territoryAttachment" attachTo="Dol Goldur" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="5"/>
@@ -2237,7 +2237,7 @@
       <option name="victoryCity" value="1"/>
     </attachment>
     <attachment name="territoryAttachment" attachTo="S. Khand" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
-      <option name="production" value="4"/>
+      <option name="production" value="5"/>
     </attachment>
     <attachment name="territoryAttachment" attachTo="Haradwaith" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="1"/>
@@ -2844,7 +2844,7 @@
       <unitPlacement unitType="fortifications" territory="Khand" quantity="2" owner="Khand"/>
       <!-- Goblin Lands -->
       <unitPlacement unitType="castle" territory="Moria" quantity="1" owner="Goblins"/>
-      <unitPlacement unitType="fortifications" territory="Moria" quantity="10" owner="Goblins"/>
+      <unitPlacement unitType="fortifications" territory="Moria" quantity="8" owner="Goblins"/>
       <unitPlacement unitType="stabbers" territory="Moria" quantity="8" owner="Goblins"/>
       <unitPlacement unitType="shooters" territory="Moria" quantity="8" owner="Goblins"/>
       <unitPlacement unitType="trolls" territory="Moria" quantity="2" owner="Goblins"/>
@@ -2853,14 +2853,14 @@
       <unitPlacement unitType="bats" territory="Moria" quantity="2" owner="Goblins"/>
       <unitPlacement unitType="castle" territory="N. Caves" quantity="1" owner="Goblins"/>
       <unitPlacement unitType="stabbers" territory="N. Caves" quantity="4" owner="Goblins"/>
-      <unitPlacement unitType="shooters" territory="N. Caves" quantity="4" owner="Goblins"/>
+      <unitPlacement unitType="shooters" territory="N. Caves" quantity="8" owner="Goblins"/>
       <unitPlacement unitType="wargs" territory="N. Caves" quantity="1" owner="Goblins"/>
       <unitPlacement unitType="bats" territory="N. Caves" quantity="2" owner="Goblins"/>
-      <unitPlacement unitType="fortifications" territory="N. Caves" quantity="5" owner="Goblins"/>
+      <unitPlacement unitType="fortifications" territory="N. Caves" quantity="4" owner="Goblins"/>
       <unitPlacement unitType="castle" territory="S. Caves" quantity="1" owner="Goblins"/>
       <unitPlacement unitType="stabbers" territory="S. Caves" quantity="4" owner="Goblins"/>
-      <unitPlacement unitType="shooters" territory="S. Caves" quantity="4" owner="Goblins"/>
-      <unitPlacement unitType="fortifications" territory="S. Caves" quantity="5" owner="Goblins"/>
+      <unitPlacement unitType="shooters" territory="S. Caves" quantity="8" owner="Goblins"/>
+      <unitPlacement unitType="fortifications" territory="S. Caves" quantity="4" owner="Goblins"/>
       <unitPlacement unitType="wargs" territory="S. Caves" quantity="1" owner="Goblins"/>
       <unitPlacement unitType="trolls" territory="S. Caves" quantity="2" owner="Goblins"/>
       <!-- Neutral Lands -->
@@ -2930,13 +2930,13 @@
       <resourceGiven player="Freefolk" resource="PUs" quantity="13"/>
       <resourceGiven player="Mordor" resource="PUs" quantity="28"/>
       <resourceGiven player="Rohan" resource="PUs" quantity="19"/>
-      <resourceGiven player="Goblins" resource="PUs" quantity="16"/>
+      <resourceGiven player="Goblins" resource="PUs" quantity="14"/>
       <resourceGiven player="Elves" resource="PUs" quantity="26"/>
       <resourceGiven player="Haradrim" resource="PUs" quantity="20"/>
       <resourceGiven player="Gondor" resource="PUs" quantity="36"/>
-      <resourceGiven player="Rhun" resource="PUs" quantity="13"/>
+      <resourceGiven player="Rhun" resource="PUs" quantity="12"/>
       <resourceGiven player="Dale" resource="PUs" quantity="11"/>
-      <resourceGiven player="Khand" resource="PUs" quantity="13"/>
+      <resourceGiven player="Khand" resource="PUs" quantity="11"/>
       <resourceGiven player="Dwarves" resource="PUs" quantity="16"/>
     </resourceInitialize>
   </initialize>
