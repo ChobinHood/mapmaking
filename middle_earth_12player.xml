@@ -267,8 +267,6 @@
     <connection t1="S. Rhun" t2="S. Rhovanion"/>
     <connection t1="S. Rhun" t2="S. E. Rhovanion"/>
     <connection t1="Rhun" t2="E. Rhovanion"/>
-    <connection t1="Rhun" t2="Celduin"/>
-    <connection t1="Rhun" t2="S. Dale"/>
     <connection t1="Rhun" t2="N. Rhun"/>
     <connection t1="N. Rhun" t2="N. Dale"/>
     <connection t1="N. Rhun" t2="S. Dale"/>
@@ -334,6 +332,7 @@
     <connection t1="Gladden" t2="Drimrill Dale"/>
     <connection t1="Gladden" t2="Carrock"/>
     <connection t1="Gladden" t2="Anduin West Bank"/>
+    <connection t1="N. Caves" t2="Anduin West Bank"/>
     <connection t1="Carrock" t2="Anduin West Bank"/>
     <connection t1="Anduin West Bank" t2="Drimrill Dale"/>
     <connection t1="Drimrill Dale" t2="Celebran"/>
