@@ -7364,7 +7364,7 @@
 			<unitPlacement unitType="Infantry" territory="Bavaria" quantity="6"/>
 			<unitPlacement unitType="Infantry" territory="Hamburg" quantity="6"/>
 			<unitPlacement unitType="Infantry" territory="Vladivostok" quantity="4"/>
-			<unitPlacement unitType="Infrantry" territory="Penza" quantity="1"/>
+			<unitPlacement unitType="Infantry" territory="Penza" quantity="1"/>
 			<unitPlacement unitType="Infantry" territory="Okhotsk" quantity="1"/>
 			<unitPlacement unitType="Infantry" territory="Irkutsk" quantity="1"/>
 			<unitPlacement unitType="Infantry" territory="Karaganda" quantity="1"/>
