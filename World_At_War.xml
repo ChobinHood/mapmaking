@@ -4322,7 +4322,6 @@
 			<option name="movement" value="0"/>
 			<option name="attack" value="0"/>
 			<option name="defense" value="0"/>
-			<option name="isConstruction" value="true"/>
 			<option name="destroyedWhenCapturedBy" value="Germans:Italians:Yamamoto:Hisaichi:Finns:Romanians:Thai:Russians:French:Chinese:British:Anzac:Dutch:Americans"/>
 		</attachment>
 
