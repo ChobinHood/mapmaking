@@ -7898,7 +7898,7 @@
 			<unitPlacement unitType="Transport" territory="110 Sea Zone" quantity="1" owner="Dutch"/>
 			<unitPlacement unitType="Submarine" territory="110 Sea Zone" quantity="1" owner="Dutch"/>
 
-			<unitPlacement unitType="Crusier" territory="122 Sea Zone" quantity="1" owner="Anzac"/>
+			<unitPlacement unitType="Cruiser" territory="122 Sea Zone" quantity="1" owner="Anzac"/>
 			<unitPlacement unitType="Destroyer" territory="122 Sea Zone" quantity="1" owner="Anzac"/>
 			<unitPlacement unitType="Transport" territory="122 Sea Zone" quantity="1" owner="Anzac"/>
 			<unitPlacement unitType="Submarine" territory="122 Sea Zone" quantity="1" owner="Anzac"/>
