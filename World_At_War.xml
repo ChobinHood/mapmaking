@@ -1,7 +1,7 @@
 <?xml version="1.0" ?>
 <!DOCTYPE game SYSTEM "game.dtd">
 <game>
-	<info name="World At War" version="2.1.1"/>
+	<info name="World At War Chobin Hood" version="2.1.1"/>
 	<loader javaClass="games.strategy.triplea.TripleA"/>
 	<triplea minimumVersion="1.9"/>
 
