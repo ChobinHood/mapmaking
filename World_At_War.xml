@@ -2092,7 +2092,7 @@
 	<playerList>
 		<!-- In turn order -->
 		<player name="Germans" optional="false"/>
-		<player name="USSR" optional="false"/>
+		<player name="Russians" optional="false"/>
 		<player name="Italians" optional="false"/>
 		<player name="French" optional="false"/>                
 		<player name="Yamamoto" optional="false"/>
@@ -2107,7 +2107,7 @@
 		<player name="Americans" optional="false"/>
 
 		<alliance player="Germans" alliance="Axis"/>
-		<alliance player="USSR" alliance="Comintern"/>
+		<alliance player="Russians" alliance="Comintern"/>
 		<alliance player="Italians" alliance="Third Rome"/>
 		<alliance player="French" alliance="Allies"/>                
 		<alliance player="Yamamoto" alliance="Co-prosperity Sphere"/>
@@ -2179,8 +2179,8 @@
 			<step name="germansBidPlace" delegate="placeBid" player="Germans" maxRunCount="1"/>
 			<step name="germansBid" delegate="bid" player="Germans" maxRunCount="1"/>
 
-			<step name="USSRBidPlace" delegate="placeBid" player="USSR" maxRunCount="1"/>
-			<step name="USSRBid" delegate="bid" player="USSR" maxRunCount="1"/>
+			<step name="RussiansBidPlace" delegate="placeBid" player="Russians" maxRunCount="1"/>
+			<step name="RussiansBid" delegate="bid" player="Russians" maxRunCount="1"/>
 
 			<step name="italiansBidPlace" delegate="placeBid" player="Italians" maxRunCount="1"/>
 			<step name="italiansBid" delegate="bid" player="Italians" maxRunCount="1"/>
@@ -2225,12 +2225,12 @@
 			<step name="germansPlace" delegate="place" player="Germans"/>                     
 			<step name="germansEndTurn" delegate="endTurn" player="Germans"/>
 
-			<step name="USSRCombatMove" delegate="move" player="USSR"/>
-			<step name="USSRPurchase" delegate="purchase" player="USSR"/>
-			<step name="USSRBattle" delegate="battle" player="USSR"/>
-			<step name="USSRNonCombatMove" delegate="move" player="USSR" display="Non Combat Move"/>                    
-			<step name="USSRPlace" delegate="place" player="USSR"/>                       
-			<step name="USSREndTurn" delegate="endTurn" player="USSR"/>
+			<step name="RussiansCombatMove" delegate="move" player="Russians"/>
+			<step name="RussiansPurchase" delegate="purchase" player="Russians"/>
+			<step name="RussiansBattle" delegate="battle" player="Russians"/>
+			<step name="RussiansNonCombatMove" delegate="move" player="Russians" display="Non Combat Move"/>                    
+			<step name="RussiansPlace" delegate="place" player="Russians"/>                       
+			<step name="RussiansEndTurn" delegate="endTurn" player="Russians"/>
 
 			<step name="italiansCombatMove" delegate="move" player="Italians"/>
 			<step name="italiansPurchase" delegate="purchase" player="Italians"/>
@@ -3344,7 +3344,7 @@
 			<frontierRules name="buyFactory"/>
 		</productionFrontier>
 
-		<productionFrontier name="USSRFrontier">
+		<productionFrontier name="RussiansFrontier">
 			<frontierRules name="buyInfantry"/>
 			<frontierRules name="buyArtillery2"/>
 			<frontierRules name="buyTank"/>
@@ -3360,7 +3360,7 @@
 			<frontierRules name="buyAAGun"/>
 			<frontierRules name="buyFactory"/>
 		</productionFrontier>
-		<productionFrontier name="USSRFrontierBonus">
+		<productionFrontier name="RussiansFrontierBonus">
 			<frontierRules name="buyInfantry"/>
 			<frontierRules name="buyElite"/><!--
 			<frontierRules name="buyMarine"/>-->
@@ -3384,7 +3384,7 @@
 			<frontierRules name="buyAAGun"/>
 			<frontierRules name="buyFactory"/>
 		</productionFrontier>
-		<productionFrontier name="USSRFrontierNew">
+		<productionFrontier name="RussiansFrontierNew">
 			<frontierRules name="buyInfantry"/>
 			<frontierRules name="buyArtillery2"/>
 			<frontierRules name="buyTank"/>
@@ -3408,7 +3408,7 @@
 			<frontierRules name="buyAAGun"/>
 			<frontierRules name="buyFactory"/>
 		</productionFrontier>
-		<productionFrontier name="USSRFrontierBonusNew">
+		<productionFrontier name="RussiansFrontierBonusNew">
 			<frontierRules name="buyInfantry"/>
 			<frontierRules name="buyElite"/><!--
 			<frontierRules name="buyMarine"/>-->
@@ -4025,7 +4025,7 @@
 
 
 		<playerProduction player="Germans" frontier="GermansFrontier"/>
-		<playerProduction player="USSR" frontier="USSRFrontier"/>
+		<playerProduction player="Russians" frontier="RussiansFrontier"/>
 		<playerProduction player="Italians" frontier="ItaliansFrontier"/>
 		<playerProduction player="French" frontier="FrenchFrontier"/>
 		<playerProduction player="British" frontier="BritishFrontier"/>
@@ -4040,7 +4040,7 @@
 		<playerProduction player="Anzac" frontier="AnzacFrontier"/>
 
 		<playerRepair player="Germans" frontier="repair"/>
-		<playerRepair player="USSR" frontier="repair"/>
+		<playerRepair player="Russians" frontier="repair"/>
 		<playerRepair player="Italians" frontier="repair"/>
 		<playerRepair player="French" frontier="repair"/>
 		<playerRepair player="British" frontier="repair"/>
@@ -4294,13 +4294,13 @@
 			<option name="canProduceXUnits" value="-1"/>
 			<option name="canBeDamaged" value="true"/>
 			<option name="maxDamage" value="1"/>
-			<option name="destroyedWhenCapturedBy" value="Germans:Italians:Yamamoto:Hisaichi:Finns:Romanians:Thai:USSR:French:Chinese:British:Anzac:Dutch:Americans"/>
+			<option name="destroyedWhenCapturedBy" value="Germans:Italians:Yamamoto:Hisaichi:Finns:Romanians:Thai:Russians:French:Chinese:British:Anzac:Dutch:Americans"/>
 		</attachment>
 		<attachment name="unitAttachment" attachTo="AAGun" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
 			<option name="isAA" value="true"/>
 			<option name="transportCost" value="3"/>
 			<option name="movement" value="1"/>
-			<option name="destroyedWhenCapturedBy" value="Germans:Italians:Yamamoto:Hisaichi:Finns:Romanians:Thai:USSR:French:Chinese:British:Anzac:Dutch:Americans"/>
+			<option name="destroyedWhenCapturedBy" value="Germans:Italians:Yamamoto:Hisaichi:Finns:Romanians:Thai:Russians:French:Chinese:British:Anzac:Dutch:Americans"/>
 		</attachment>
 		<attachment name="unitAttachment" attachTo="Mot.Inf" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
 			<option name="movement" value="3"/>
@@ -4323,7 +4323,7 @@
 			<option name="attack" value="0"/>
 			<option name="defense" value="0"/>
 			<option name="isConstruction" value="true"/>
-			<option name="destroyedWhenCapturedBy" value="Germans:Italians:Yamamoto:Hisaichi:Finns:Romanians:Thai:USSR:French:Chinese:British:Anzac:Dutch:Americans"/>
+			<option name="destroyedWhenCapturedBy" value="Germans:Italians:Yamamoto:Hisaichi:Finns:Romanians:Thai:Russians:French:Chinese:British:Anzac:Dutch:Americans"/>
 		</attachment>
 
 
@@ -4456,7 +4456,7 @@
 		</attachment>
 		<attachment name="territoryAttachment" attachTo="Sverdlovsk" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
 			<option name="production" value="5"/>
-			<option name="capital" value="USSR"/>
+			<option name="capital" value="Russians"/>
 			<!--<option name="victoryCity" value="1"/>-->
 		</attachment>
 		<attachment name="territoryAttachment" attachTo="Kuybyshev" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
@@ -4503,7 +4503,7 @@
 		<attachment name="territoryAttachment" attachTo="Sibirsky" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
 			<option name="production" value="6"/>
 			<!--<option name="victoryCity" value="1"/>-->
-			<option name="capital" value="USSR"/>
+			<option name="capital" value="Russians"/>
 		</attachment>
 		<attachment name="territoryAttachment" attachTo="Bulun" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
 			<option name="production" value="1"/>
@@ -4528,7 +4528,7 @@
 		</attachment>
 		<attachment name="territoryAttachment" attachTo="Moscow" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
 			<option name="production" value="10"/>
-			<option name="capital" value="USSR"/>
+			<option name="capital" value="Russians"/>
 			<!--<option name="victoryCity" value="1"/>-->
 		</attachment>
 		<attachment name="territoryAttachment" attachTo="Georgia" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
@@ -5880,7 +5880,7 @@
 			<option name="gameProperty" value="Unconditional Surrender"/>
 			<option name="alliedOwnershipTerritories" value="Berlin:Rome:Tokyo:Changchun:Helsinki:Bucharest:Bangkok:Moscow:Sverdlovsk:Sibirsky:Paris:Churchill:Hsining:London:Montreal:Delhi:Canberra:Banjarmasin:Suriname:Washington:San Francisco" count="16"/>
 		</attachment>
-		<attachment name="conditionAttachmentUnconditionalAlliesVictory" attachTo="USSR" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
+		<attachment name="conditionAttachmentUnconditionalAlliesVictory" attachTo="Russians" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
 			<option name="gameProperty" value="Unconditional Surrender"/>
 			<option name="alliedOwnershipTerritories" value="Berlin:Rome:Tokyo:Changchun:Helsinki:Bucharest:Bangkok:Moscow:Sverdlovsk:Sibirsky:Paris:Churchill:Hsining:London:Montreal:Delhi:Canberra:Banjarmasin:Suriname:Washington:San Francisco" count="16"/>
 		</attachment>
@@ -5897,9 +5897,9 @@
 			<option name="victory" value="AXIS_VICTORY_UNCONDITIONAL"/>
 			<option name="players" value="Germans:Italians:Yamamoto:Hisaichi:Finns:Romanians:Thai"/>
 		</attachment>
-		<attachment name="triggerAttachmentUnconditionalAlliesVictory" attachTo="USSR" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+		<attachment name="triggerAttachmentUnconditionalAlliesVictory" attachTo="Russians" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
 			<option name="conditions" value="conditionAttachmentUnconditionalAlliesVictory"/>
-			<option name="when" value="after:USSRBattle"/>
+			<option name="when" value="after:RussiansBattle"/>
 			<option name="when" value="after:frenchBattle"/>
 			<option name="when" value="after:chineseBattle"/>
 			<option name="when" value="after:britishBattle"/>
@@ -5907,7 +5907,7 @@
 			<option name="when" value="after:dutchBattle"/>
 			<option name="when" value="after:americansBattle"/>
 			<option name="victory" value="ALLIES_VICTORY_UNCONDITIONAL"/>
-			<option name="players" value="USSR:French:Chinese:British:Anzac:Dutch:Americans"/>
+			<option name="players" value="Russians:French:Chinese:British:Anzac:Dutch:Americans"/>
 		</attachment>
 
 
@@ -5998,7 +5998,7 @@
 			<option name="conditions" value="conditionAttachment_Units_Bonus"/>
 			<option name="when" value="before:gameInitDelegate"/>
 			<option name="when" value="before:germansCombatMove"/>
-			<option name="when" value="before:USSRCombatMove"/>
+			<option name="when" value="before:RussiansCombatMove"/>
 			<option name="when" value="before:italiansCombatMove"/>
 			<option name="when" value="before:frenchCombatMove"/>
 			<option name="when" value="before:yamamotoCombatMove"/>
@@ -6019,7 +6019,7 @@
 			<option name="conditions" value="conditionAttachment_Units_BonusInvert"/>
 			<option name="when" value="before:gameInitDelegate"/>
 			<option name="when" value="before:germansCombatMove"/>
-			<option name="when" value="before:USSRCombatMove"/>
+			<option name="when" value="before:RussiansCombatMove"/>
 			<option name="when" value="before:italiansCombatMove"/>
 			<option name="when" value="before:frenchCombatMove"/>
 			<option name="when" value="before:yamamotoCombatMove"/>
@@ -6042,7 +6042,7 @@
 			<option name="conditions" value="conditionAttachment_Round_4+"/>
 			<option name="when" value="before:gameInitDelegate"/>
 			<option name="when" value="before:germansCombatMove"/>
-			<option name="when" value="before:USSRCombatMove"/>
+			<option name="when" value="before:RussiansCombatMove"/>
 			<option name="when" value="before:italiansCombatMove"/>
 			<option name="when" value="before:frenchCombatMove"/>
 			<option name="when" value="before:yamamotoCombatMove"/>
@@ -6064,7 +6064,7 @@
 			<option name="conditions" value="conditionAttachment_Round_4+"/>
 			<option name="when" value="before:gameInitDelegate"/>
 			<option name="when" value="before:germansCombatMove"/>
-			<option name="when" value="before:USSRCombatMove"/>
+			<option name="when" value="before:RussiansCombatMove"/>
 			<option name="when" value="before:italiansCombatMove"/>
 			<option name="when" value="before:frenchCombatMove"/>
 			<option name="when" value="before:yamamotoCombatMove"/>
@@ -6088,7 +6088,7 @@
 			<option name="conditions" value="conditionAttachment_Units_NewInvert_OR_Round_1-3"/>
 			<option name="when" value="before:gameInitDelegate"/>
 			<option name="when" value="before:germansCombatMove"/>
-			<option name="when" value="before:USSRCombatMove"/>
+			<option name="when" value="before:RussiansCombatMove"/>
 			<option name="when" value="before:italiansCombatMove"/>
 			<option name="when" value="before:frenchCombatMove"/>
 			<option name="when" value="before:yamamotoCombatMove"/>
@@ -6103,13 +6103,13 @@
 			<option name="when" value="before:americansCombatMove"/>
 			<option name="frontier" value="GermansFrontierBonus"/>
 		</attachment>
-		<attachment name="triggerAttachment_Units_Bonus_USSR" attachTo="USSR" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+		<attachment name="triggerAttachment_Units_Bonus_Russians" attachTo="Russians" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
 			<option name="conditions" value="conditionAttachment_Units_Bonus_TrueInvert_OR_Units_New_True"/>
 			<option name="conditions" value="conditionAttachment_Units_Bonus"/>
 			<option name="conditions" value="conditionAttachment_Units_NewInvert_OR_Round_1-3"/>
 			<option name="when" value="before:gameInitDelegate"/>
 			<option name="when" value="before:germansCombatMove"/>
-			<option name="when" value="before:USSRCombatMove"/>
+			<option name="when" value="before:RussiansCombatMove"/>
 			<option name="when" value="before:italiansCombatMove"/>
 			<option name="when" value="before:frenchCombatMove"/>
 			<option name="when" value="before:yamamotoCombatMove"/>
@@ -6122,7 +6122,7 @@
 			<option name="when" value="before:romaniansCombatMove"/>
 			<option name="when" value="before:thaiCombatMove"/>
 			<option name="when" value="before:americansCombatMove"/>
-			<option name="frontier" value="USSRFrontierBonus"/>
+			<option name="frontier" value="RussiansFrontierBonus"/>
 		</attachment>
 		<attachment name="triggerAttachment_Units_Bonus_Italians" attachTo="Italians" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
 			<option name="conditions" value="conditionAttachment_Units_Bonus_TrueInvert_OR_Units_New_True"/>
@@ -6130,7 +6130,7 @@
 			<option name="conditions" value="conditionAttachment_Units_NewInvert_OR_Round_1-3"/>
 			<option name="when" value="before:gameInitDelegate"/>
 			<option name="when" value="before:germansCombatMove"/>
-			<option name="when" value="before:USSRCombatMove"/>
+			<option name="when" value="before:RussiansCombatMove"/>
 			<option name="when" value="before:italiansCombatMove"/>
 			<option name="when" value="before:frenchCombatMove"/>
 			<option name="when" value="before:yamamotoCombatMove"/>
@@ -6151,7 +6151,7 @@
 			<option name="conditions" value="conditionAttachment_Units_NewInvert_OR_Round_1-3"/>
 			<option name="when" value="before:gameInitDelegate"/>
 			<option name="when" value="before:germansCombatMove"/>
-			<option name="when" value="before:USSRCombatMove"/>
+			<option name="when" value="before:RussiansCombatMove"/>
 			<option name="when" value="before:italiansCombatMove"/>
 			<option name="when" value="before:frenchCombatMove"/>
 			<option name="when" value="before:yamamotoCombatMove"/>
@@ -6172,7 +6172,7 @@
 			<option name="conditions" value="conditionAttachment_Units_NewInvert_OR_Round_1-3"/>
 			<option name="when" value="before:gameInitDelegate"/>
 			<option name="when" value="before:germansCombatMove"/>
-			<option name="when" value="before:USSRCombatMove"/>
+			<option name="when" value="before:RussiansCombatMove"/>
 			<option name="when" value="before:italiansCombatMove"/>
 			<option name="when" value="before:frenchCombatMove"/>
 			<option name="when" value="before:yamamotoCombatMove"/>
@@ -6193,7 +6193,7 @@
 			<option name="conditions" value="conditionAttachment_Units_NewInvert_OR_Round_1-3"/>
 			<option name="when" value="before:gameInitDelegate"/>
 			<option name="when" value="before:germansCombatMove"/>
-			<option name="when" value="before:USSRCombatMove"/>
+			<option name="when" value="before:RussiansCombatMove"/>
 			<option name="when" value="before:italiansCombatMove"/>
 			<option name="when" value="before:frenchCombatMove"/>
 			<option name="when" value="before:yamamotoCombatMove"/>
@@ -6214,7 +6214,7 @@
 			<option name="conditions" value="conditionAttachment_Units_NewInvert_OR_Round_1-3"/>
 			<option name="when" value="before:gameInitDelegate"/>
 			<option name="when" value="before:germansCombatMove"/>
-			<option name="when" value="before:USSRCombatMove"/>
+			<option name="when" value="before:RussiansCombatMove"/>
 			<option name="when" value="before:italiansCombatMove"/>
 			<option name="when" value="before:frenchCombatMove"/>
 			<option name="when" value="before:yamamotoCombatMove"/>
@@ -6235,7 +6235,7 @@
 			<option name="conditions" value="conditionAttachment_Units_NewInvert_OR_Round_1-3"/>
 			<option name="when" value="before:gameInitDelegate"/>
 			<option name="when" value="before:germansCombatMove"/>
-			<option name="when" value="before:USSRCombatMove"/>
+			<option name="when" value="before:RussiansCombatMove"/>
 			<option name="when" value="before:italiansCombatMove"/>
 			<option name="when" value="before:frenchCombatMove"/>
 			<option name="when" value="before:yamamotoCombatMove"/>
@@ -6256,7 +6256,7 @@
 			<option name="conditions" value="conditionAttachment_Units_NewInvert_OR_Round_1-3"/>
 			<option name="when" value="before:gameInitDelegate"/>
 			<option name="when" value="before:germansCombatMove"/>
-			<option name="when" value="before:USSRCombatMove"/>
+			<option name="when" value="before:RussiansCombatMove"/>
 			<option name="when" value="before:italiansCombatMove"/>
 			<option name="when" value="before:frenchCombatMove"/>
 			<option name="when" value="before:yamamotoCombatMove"/>
@@ -6277,7 +6277,7 @@
 			<option name="conditions" value="conditionAttachment_Units_NewInvert_OR_Round_1-3"/>
 			<option name="when" value="before:gameInitDelegate"/>
 			<option name="when" value="before:germansCombatMove"/>
-			<option name="when" value="before:USSRCombatMove"/>
+			<option name="when" value="before:RussiansCombatMove"/>
 			<option name="when" value="before:italiansCombatMove"/>
 			<option name="when" value="before:frenchCombatMove"/>
 			<option name="when" value="before:yamamotoCombatMove"/>
@@ -6298,7 +6298,7 @@
 			<option name="conditions" value="conditionAttachment_Units_NewInvert_OR_Round_1-3"/>
 			<option name="when" value="before:gameInitDelegate"/>
 			<option name="when" value="before:germansCombatMove"/>
-			<option name="when" value="before:USSRCombatMove"/>
+			<option name="when" value="before:RussiansCombatMove"/>
 			<option name="when" value="before:italiansCombatMove"/>
 			<option name="when" value="before:frenchCombatMove"/>
 			<option name="when" value="before:yamamotoCombatMove"/>
@@ -6319,7 +6319,7 @@
 			<option name="conditions" value="conditionAttachment_Units_NewInvert_OR_Round_1-3"/>
 			<option name="when" value="before:gameInitDelegate"/>
 			<option name="when" value="before:germansCombatMove"/>
-			<option name="when" value="before:USSRCombatMove"/>
+			<option name="when" value="before:RussiansCombatMove"/>
 			<option name="when" value="before:italiansCombatMove"/>
 			<option name="when" value="before:frenchCombatMove"/>
 			<option name="when" value="before:yamamotoCombatMove"/>
@@ -6340,7 +6340,7 @@
 			<option name="conditions" value="conditionAttachment_Units_NewInvert_OR_Round_1-3"/>
 			<option name="when" value="before:gameInitDelegate"/>
 			<option name="when" value="before:germansCombatMove"/>
-			<option name="when" value="before:USSRCombatMove"/>
+			<option name="when" value="before:RussiansCombatMove"/>
 			<option name="when" value="before:italiansCombatMove"/>
 			<option name="when" value="before:frenchCombatMove"/>
 			<option name="when" value="before:yamamotoCombatMove"/>
@@ -6361,7 +6361,7 @@
 			<option name="conditions" value="conditionAttachment_Units_NewInvert_OR_Round_1-3"/>
 			<option name="when" value="before:gameInitDelegate"/>
 			<option name="when" value="before:germansCombatMove"/>
-			<option name="when" value="before:USSRCombatMove"/>
+			<option name="when" value="before:RussiansCombatMove"/>
 			<option name="when" value="before:italiansCombatMove"/>
 			<option name="when" value="before:frenchCombatMove"/>
 			<option name="when" value="before:yamamotoCombatMove"/>
@@ -6384,7 +6384,7 @@
 			<option name="conditions" value="conditionAttachment_Round_4+"/>
 			<option name="when" value="before:gameInitDelegate"/>
 			<option name="when" value="before:germansCombatMove"/>
-			<option name="when" value="before:USSRCombatMove"/>
+			<option name="when" value="before:RussiansCombatMove"/>
 			<option name="when" value="before:italiansCombatMove"/>
 			<option name="when" value="before:frenchCombatMove"/>
 			<option name="when" value="before:yamamotoCombatMove"/>
@@ -6399,14 +6399,14 @@
 			<option name="when" value="before:americansCombatMove"/>
 			<option name="frontier" value="GermansFrontierNew"/>
 		</attachment>
-		<attachment name="triggerAttachment_Units_New_USSR" attachTo="USSR" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+		<attachment name="triggerAttachment_Units_New_Russians" attachTo="Russians" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
 			<option name="conditions" value="conditionAttachment_Units_Bonus_True_OR_Units_New_TrueInvert"/>
 			<option name="conditions" value="conditionAttachment_Units_New"/>
 			<option name="conditions" value="conditionAttachment_Units_BonusInvert"/>
 			<option name="conditions" value="conditionAttachment_Round_4+"/>
 			<option name="when" value="before:gameInitDelegate"/>
 			<option name="when" value="before:germansCombatMove"/>
-			<option name="when" value="before:USSRCombatMove"/>
+			<option name="when" value="before:RussiansCombatMove"/>
 			<option name="when" value="before:italiansCombatMove"/>
 			<option name="when" value="before:frenchCombatMove"/>
 			<option name="when" value="before:yamamotoCombatMove"/>
@@ -6419,7 +6419,7 @@
 			<option name="when" value="before:romaniansCombatMove"/>
 			<option name="when" value="before:thaiCombatMove"/>
 			<option name="when" value="before:americansCombatMove"/>
-			<option name="frontier" value="USSRFrontierNew"/>
+			<option name="frontier" value="RussiansFrontierNew"/>
 		</attachment>
 		<attachment name="triggerAttachment_Units_New_Italians" attachTo="Italians" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
 			<option name="conditions" value="conditionAttachment_Units_Bonus_True_OR_Units_New_TrueInvert"/>
@@ -6428,7 +6428,7 @@
 			<option name="conditions" value="conditionAttachment_Round_4+"/>
 			<option name="when" value="before:gameInitDelegate"/>
 			<option name="when" value="before:germansCombatMove"/>
-			<option name="when" value="before:USSRCombatMove"/>
+			<option name="when" value="before:RussiansCombatMove"/>
 			<option name="when" value="before:italiansCombatMove"/>
 			<option name="when" value="before:frenchCombatMove"/>
 			<option name="when" value="before:yamamotoCombatMove"/>
@@ -6450,7 +6450,7 @@
 			<option name="conditions" value="conditionAttachment_Round_4+"/>
 			<option name="when" value="before:gameInitDelegate"/>
 			<option name="when" value="before:germansCombatMove"/>
-			<option name="when" value="before:USSRCombatMove"/>
+			<option name="when" value="before:RussiansCombatMove"/>
 			<option name="when" value="before:italiansCombatMove"/>
 			<option name="when" value="before:frenchCombatMove"/>
 			<option name="when" value="before:yamamotoCombatMove"/>
@@ -6472,7 +6472,7 @@
 			<option name="conditions" value="conditionAttachment_Round_4+"/>
 			<option name="when" value="before:gameInitDelegate"/>
 			<option name="when" value="before:germansCombatMove"/>
-			<option name="when" value="before:USSRCombatMove"/>
+			<option name="when" value="before:RussiansCombatMove"/>
 			<option name="when" value="before:italiansCombatMove"/>
 			<option name="when" value="before:frenchCombatMove"/>
 			<option name="when" value="before:yamamotoCombatMove"/>
@@ -6494,7 +6494,7 @@
 			<option name="conditions" value="conditionAttachment_Round_4+"/>
 			<option name="when" value="before:gameInitDelegate"/>
 			<option name="when" value="before:germansCombatMove"/>
-			<option name="when" value="before:USSRCombatMove"/>
+			<option name="when" value="before:RussiansCombatMove"/>
 			<option name="when" value="before:italiansCombatMove"/>
 			<option name="when" value="before:frenchCombatMove"/>
 			<option name="when" value="before:yamamotoCombatMove"/>
@@ -6516,7 +6516,7 @@
 			<option name="conditions" value="conditionAttachment_Round_4+"/>
 			<option name="when" value="before:gameInitDelegate"/>
 			<option name="when" value="before:germansCombatMove"/>
-			<option name="when" value="before:USSRCombatMove"/>
+			<option name="when" value="before:RussiansCombatMove"/>
 			<option name="when" value="before:italiansCombatMove"/>
 			<option name="when" value="before:frenchCombatMove"/>
 			<option name="when" value="before:yamamotoCombatMove"/>
@@ -6538,7 +6538,7 @@
 			<option name="conditions" value="conditionAttachment_Round_4+"/>
 			<option name="when" value="before:gameInitDelegate"/>
 			<option name="when" value="before:germansCombatMove"/>
-			<option name="when" value="before:USSRCombatMove"/>
+			<option name="when" value="before:RussiansCombatMove"/>
 			<option name="when" value="before:italiansCombatMove"/>
 			<option name="when" value="before:frenchCombatMove"/>
 			<option name="when" value="before:yamamotoCombatMove"/>
@@ -6560,7 +6560,7 @@
 			<option name="conditions" value="conditionAttachment_Round_4+"/>
 			<option name="when" value="before:gameInitDelegate"/>
 			<option name="when" value="before:germansCombatMove"/>
-			<option name="when" value="before:USSRCombatMove"/>
+			<option name="when" value="before:RussiansCombatMove"/>
 			<option name="when" value="before:italiansCombatMove"/>
 			<option name="when" value="before:frenchCombatMove"/>
 			<option name="when" value="before:yamamotoCombatMove"/>
@@ -6582,7 +6582,7 @@
 			<option name="conditions" value="conditionAttachment_Round_4+"/>
 			<option name="when" value="before:gameInitDelegate"/>
 			<option name="when" value="before:germansCombatMove"/>
-			<option name="when" value="before:USSRCombatMove"/>
+			<option name="when" value="before:RussiansCombatMove"/>
 			<option name="when" value="before:italiansCombatMove"/>
 			<option name="when" value="before:frenchCombatMove"/>
 			<option name="when" value="before:yamamotoCombatMove"/>
@@ -6604,7 +6604,7 @@
 			<option name="conditions" value="conditionAttachment_Round_4+"/>
 			<option name="when" value="before:gameInitDelegate"/>
 			<option name="when" value="before:germansCombatMove"/>
-			<option name="when" value="before:USSRCombatMove"/>
+			<option name="when" value="before:RussiansCombatMove"/>
 			<option name="when" value="before:italiansCombatMove"/>
 			<option name="when" value="before:frenchCombatMove"/>
 			<option name="when" value="before:yamamotoCombatMove"/>
@@ -6626,7 +6626,7 @@
 			<option name="conditions" value="conditionAttachment_Round_4+"/>
 			<option name="when" value="before:gameInitDelegate"/>
 			<option name="when" value="before:germansCombatMove"/>
-			<option name="when" value="before:USSRCombatMove"/>
+			<option name="when" value="before:RussiansCombatMove"/>
 			<option name="when" value="before:italiansCombatMove"/>
 			<option name="when" value="before:frenchCombatMove"/>
 			<option name="when" value="before:yamamotoCombatMove"/>
@@ -6648,7 +6648,7 @@
 			<option name="conditions" value="conditionAttachment_Round_4+"/>
 			<option name="when" value="before:gameInitDelegate"/>
 			<option name="when" value="before:germansCombatMove"/>
-			<option name="when" value="before:USSRCombatMove"/>
+			<option name="when" value="before:RussiansCombatMove"/>
 			<option name="when" value="before:italiansCombatMove"/>
 			<option name="when" value="before:frenchCombatMove"/>
 			<option name="when" value="before:yamamotoCombatMove"/>
@@ -6670,7 +6670,7 @@
 			<option name="conditions" value="conditionAttachment_Round_4+"/>
 			<option name="when" value="before:gameInitDelegate"/>
 			<option name="when" value="before:germansCombatMove"/>
-			<option name="when" value="before:USSRCombatMove"/>
+			<option name="when" value="before:RussiansCombatMove"/>
 			<option name="when" value="before:italiansCombatMove"/>
 			<option name="when" value="before:frenchCombatMove"/>
 			<option name="when" value="before:yamamotoCombatMove"/>
@@ -6693,7 +6693,7 @@
 			<option name="conditions" value="conditionAttachment_Round_4+"/>
 			<option name="when" value="before:gameInitDelegate"/>
 			<option name="when" value="before:germansCombatMove"/>
-			<option name="when" value="before:USSRCombatMove"/>
+			<option name="when" value="before:RussiansCombatMove"/>
 			<option name="when" value="before:italiansCombatMove"/>
 			<option name="when" value="before:frenchCombatMove"/>
 			<option name="when" value="before:yamamotoCombatMove"/>
@@ -6708,14 +6708,14 @@
 			<option name="when" value="before:americansCombatMove"/>
 			<option name="frontier" value="GermansFrontierBonusNew"/>
 		</attachment>
-		<attachment name="triggerAttachment_Units_Bonus_New_USSR" attachTo="USSR" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+		<attachment name="triggerAttachment_Units_Bonus_New_Russians" attachTo="Russians" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
 			<option name="conditions" value="conditionAttachment_Units_Bonus_TrueInvert_OR_Units_New_TrueInvert"/>
 			<option name="conditions" value="conditionAttachment_Units_Bonus"/>
 			<option name="conditions" value="conditionAttachment_Units_New"/>
 			<option name="conditions" value="conditionAttachment_Round_4+"/>
 			<option name="when" value="before:gameInitDelegate"/>
 			<option name="when" value="before:germansCombatMove"/>
-			<option name="when" value="before:USSRCombatMove"/>
+			<option name="when" value="before:RussiansCombatMove"/>
 			<option name="when" value="before:italiansCombatMove"/>
 			<option name="when" value="before:frenchCombatMove"/>
 			<option name="when" value="before:yamamotoCombatMove"/>
@@ -6728,7 +6728,7 @@
 			<option name="when" value="before:romaniansCombatMove"/>
 			<option name="when" value="before:thaiCombatMove"/>
 			<option name="when" value="before:americansCombatMove"/>
-			<option name="frontier" value="USSRFrontierBonusNew"/>
+			<option name="frontier" value="RussiansFrontierBonusNew"/>
 		</attachment>
 		<attachment name="triggerAttachment_Units_Bonus_New_Italians" attachTo="Italians" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
 			<option name="conditions" value="conditionAttachment_Units_Bonus_TrueInvert_OR_Units_New_TrueInvert"/>
@@ -6737,7 +6737,7 @@
 			<option name="conditions" value="conditionAttachment_Round_4+"/>
 			<option name="when" value="before:gameInitDelegate"/>
 			<option name="when" value="before:germansCombatMove"/>
-			<option name="when" value="before:USSRCombatMove"/>
+			<option name="when" value="before:RussiansCombatMove"/>
 			<option name="when" value="before:italiansCombatMove"/>
 			<option name="when" value="before:frenchCombatMove"/>
 			<option name="when" value="before:yamamotoCombatMove"/>
@@ -6759,7 +6759,7 @@
 			<option name="conditions" value="conditionAttachment_Round_4+"/>
 			<option name="when" value="before:gameInitDelegate"/>
 			<option name="when" value="before:germansCombatMove"/>
-			<option name="when" value="before:USSRCombatMove"/>
+			<option name="when" value="before:RussiansCombatMove"/>
 			<option name="when" value="before:italiansCombatMove"/>
 			<option name="when" value="before:frenchCombatMove"/>
 			<option name="when" value="before:yamamotoCombatMove"/>
@@ -6781,7 +6781,7 @@
 			<option name="conditions" value="conditionAttachment_Round_4+"/>
 			<option name="when" value="before:gameInitDelegate"/>
 			<option name="when" value="before:germansCombatMove"/>
-			<option name="when" value="before:USSRCombatMove"/>
+			<option name="when" value="before:RussiansCombatMove"/>
 			<option name="when" value="before:italiansCombatMove"/>
 			<option name="when" value="before:frenchCombatMove"/>
 			<option name="when" value="before:yamamotoCombatMove"/>
@@ -6803,7 +6803,7 @@
 			<option name="conditions" value="conditionAttachment_Round_4+"/>
 			<option name="when" value="before:gameInitDelegate"/>
 			<option name="when" value="before:germansCombatMove"/>
-			<option name="when" value="before:USSRCombatMove"/>
+			<option name="when" value="before:RussiansCombatMove"/>
 			<option name="when" value="before:italiansCombatMove"/>
 			<option name="when" value="before:frenchCombatMove"/>
 			<option name="when" value="before:yamamotoCombatMove"/>
@@ -6825,7 +6825,7 @@
 			<option name="conditions" value="conditionAttachment_Round_4+"/>
 			<option name="when" value="before:gameInitDelegate"/>
 			<option name="when" value="before:germansCombatMove"/>
-			<option name="when" value="before:USSRCombatMove"/>
+			<option name="when" value="before:RussiansCombatMove"/>
 			<option name="when" value="before:italiansCombatMove"/>
 			<option name="when" value="before:frenchCombatMove"/>
 			<option name="when" value="before:yamamotoCombatMove"/>
@@ -6847,7 +6847,7 @@
 			<option name="conditions" value="conditionAttachment_Round_4+"/>
 			<option name="when" value="before:gameInitDelegate"/>
 			<option name="when" value="before:germansCombatMove"/>
-			<option name="when" value="before:USSRCombatMove"/>
+			<option name="when" value="before:RussiansCombatMove"/>
 			<option name="when" value="before:italiansCombatMove"/>
 			<option name="when" value="before:frenchCombatMove"/>
 			<option name="when" value="before:yamamotoCombatMove"/>
@@ -6869,7 +6869,7 @@
 			<option name="conditions" value="conditionAttachment_Round_4+"/>
 			<option name="when" value="before:gameInitDelegate"/>
 			<option name="when" value="before:germansCombatMove"/>
-			<option name="when" value="before:USSRCombatMove"/>
+			<option name="when" value="before:RussiansCombatMove"/>
 			<option name="when" value="before:italiansCombatMove"/>
 			<option name="when" value="before:frenchCombatMove"/>
 			<option name="when" value="before:yamamotoCombatMove"/>
@@ -6891,7 +6891,7 @@
 			<option name="conditions" value="conditionAttachment_Round_4+"/>
 			<option name="when" value="before:gameInitDelegate"/>
 			<option name="when" value="before:germansCombatMove"/>
-			<option name="when" value="before:USSRCombatMove"/>
+			<option name="when" value="before:RussiansCombatMove"/>
 			<option name="when" value="before:italiansCombatMove"/>
 			<option name="when" value="before:frenchCombatMove"/>
 			<option name="when" value="before:yamamotoCombatMove"/>
@@ -6913,7 +6913,7 @@
 			<option name="conditions" value="conditionAttachment_Round_4+"/>
 			<option name="when" value="before:gameInitDelegate"/>
 			<option name="when" value="before:germansCombatMove"/>
-			<option name="when" value="before:USSRCombatMove"/>
+			<option name="when" value="before:RussiansCombatMove"/>
 			<option name="when" value="before:italiansCombatMove"/>
 			<option name="when" value="before:frenchCombatMove"/>
 			<option name="when" value="before:yamamotoCombatMove"/>
@@ -6935,7 +6935,7 @@
 			<option name="conditions" value="conditionAttachment_Round_4+"/>
 			<option name="when" value="before:gameInitDelegate"/>
 			<option name="when" value="before:germansCombatMove"/>
-			<option name="when" value="before:USSRCombatMove"/>
+			<option name="when" value="before:RussiansCombatMove"/>
 			<option name="when" value="before:italiansCombatMove"/>
 			<option name="when" value="before:frenchCombatMove"/>
 			<option name="when" value="before:yamamotoCombatMove"/>
@@ -6957,7 +6957,7 @@
 			<option name="conditions" value="conditionAttachment_Round_4+"/>
 			<option name="when" value="before:gameInitDelegate"/>
 			<option name="when" value="before:germansCombatMove"/>
-			<option name="when" value="before:USSRCombatMove"/>
+			<option name="when" value="before:RussiansCombatMove"/>
 			<option name="when" value="before:italiansCombatMove"/>
 			<option name="when" value="before:frenchCombatMove"/>
 			<option name="when" value="before:yamamotoCombatMove"/>
@@ -6979,7 +6979,7 @@
 			<option name="conditions" value="conditionAttachment_Round_4+"/>
 			<option name="when" value="before:gameInitDelegate"/>
 			<option name="when" value="before:germansCombatMove"/>
-			<option name="when" value="before:USSRCombatMove"/>
+			<option name="when" value="before:RussiansCombatMove"/>
 			<option name="when" value="before:italiansCombatMove"/>
 			<option name="when" value="before:frenchCombatMove"/>
 			<option name="when" value="before:yamamotoCombatMove"/>
@@ -7001,7 +7001,7 @@
 			<option name="conditions" value="conditionAttachment_Units_NewInvert_OR_Round_1-3"/>
 			<option name="when" value="before:gameInitDelegate"/>
 			<option name="when" value="before:germansCombatMove"/>
-			<option name="when" value="before:USSRCombatMove"/>
+			<option name="when" value="before:RussiansCombatMove"/>
 			<option name="when" value="before:italiansCombatMove"/>
 			<option name="when" value="before:frenchCombatMove"/>
 			<option name="when" value="before:yamamotoCombatMove"/>
@@ -7016,13 +7016,13 @@
 			<option name="when" value="before:americansCombatMove"/>
 			<option name="frontier" value="GermansFrontier"/>
 		</attachment>
-		<attachment name="triggerAttachment_Units_Default_USSR" attachTo="USSR" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+		<attachment name="triggerAttachment_Units_Default_Russians" attachTo="Russians" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
 			<option name="conditions" value="conditionAttachment_Units_Bonus_True_OR_Units_New_True"/>
 			<option name="conditions" value="conditionAttachment_Units_BonusInvert"/>
 			<option name="conditions" value="conditionAttachment_Units_NewInvert_OR_Round_1-3"/>
 			<option name="when" value="before:gameInitDelegate"/>
 			<option name="when" value="before:germansCombatMove"/>
-			<option name="when" value="before:USSRCombatMove"/>
+			<option name="when" value="before:RussiansCombatMove"/>
 			<option name="when" value="before:italiansCombatMove"/>
 			<option name="when" value="before:frenchCombatMove"/>
 			<option name="when" value="before:yamamotoCombatMove"/>
@@ -7035,7 +7035,7 @@
 			<option name="when" value="before:romaniansCombatMove"/>
 			<option name="when" value="before:thaiCombatMove"/>
 			<option name="when" value="before:americansCombatMove"/>
-			<option name="frontier" value="USSRFrontier"/>
+			<option name="frontier" value="RussiansFrontier"/>
 		</attachment>
 		<attachment name="triggerAttachment_Units_Default_Italians" attachTo="Italians" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
 			<option name="conditions" value="conditionAttachment_Units_Bonus_True_OR_Units_New_True"/>
@@ -7043,7 +7043,7 @@
 			<option name="conditions" value="conditionAttachment_Units_NewInvert_OR_Round_1-3"/>
 			<option name="when" value="before:gameInitDelegate"/>
 			<option name="when" value="before:germansCombatMove"/>
-			<option name="when" value="before:USSRCombatMove"/>
+			<option name="when" value="before:RussiansCombatMove"/>
 			<option name="when" value="before:italiansCombatMove"/>
 			<option name="when" value="before:frenchCombatMove"/>
 			<option name="when" value="before:yamamotoCombatMove"/>
@@ -7064,7 +7064,7 @@
 			<option name="conditions" value="conditionAttachment_Units_NewInvert_OR_Round_1-3"/>
 			<option name="when" value="before:gameInitDelegate"/>
 			<option name="when" value="before:germansCombatMove"/>
-			<option name="when" value="before:USSRCombatMove"/>
+			<option name="when" value="before:RussiansCombatMove"/>
 			<option name="when" value="before:italiansCombatMove"/>
 			<option name="when" value="before:frenchCombatMove"/>
 			<option name="when" value="before:yamamotoCombatMove"/>
@@ -7085,7 +7085,7 @@
 			<option name="conditions" value="conditionAttachment_Units_NewInvert_OR_Round_1-3"/>
 			<option name="when" value="before:gameInitDelegate"/>
 			<option name="when" value="before:germansCombatMove"/>
-			<option name="when" value="before:USSRCombatMove"/>
+			<option name="when" value="before:RussiansCombatMove"/>
 			<option name="when" value="before:italiansCombatMove"/>
 			<option name="when" value="before:frenchCombatMove"/>
 			<option name="when" value="before:yamamotoCombatMove"/>
@@ -7106,7 +7106,7 @@
 			<option name="conditions" value="conditionAttachment_Units_NewInvert_OR_Round_1-3"/>
 			<option name="when" value="before:gameInitDelegate"/>
 			<option name="when" value="before:germansCombatMove"/>
-			<option name="when" value="before:USSRCombatMove"/>
+			<option name="when" value="before:RussiansCombatMove"/>
 			<option name="when" value="before:italiansCombatMove"/>
 			<option name="when" value="before:frenchCombatMove"/>
 			<option name="when" value="before:yamamotoCombatMove"/>
@@ -7127,7 +7127,7 @@
 			<option name="conditions" value="conditionAttachment_Units_NewInvert_OR_Round_1-3"/>
 			<option name="when" value="before:gameInitDelegate"/>
 			<option name="when" value="before:germansCombatMove"/>
-			<option name="when" value="before:USSRCombatMove"/>
+			<option name="when" value="before:RussiansCombatMove"/>
 			<option name="when" value="before:italiansCombatMove"/>
 			<option name="when" value="before:frenchCombatMove"/>
 			<option name="when" value="before:yamamotoCombatMove"/>
@@ -7148,7 +7148,7 @@
 			<option name="conditions" value="conditionAttachment_Units_NewInvert_OR_Round_1-3"/>
 			<option name="when" value="before:gameInitDelegate"/>
 			<option name="when" value="before:germansCombatMove"/>
-			<option name="when" value="before:USSRCombatMove"/>
+			<option name="when" value="before:RussiansCombatMove"/>
 			<option name="when" value="before:italiansCombatMove"/>
 			<option name="when" value="before:frenchCombatMove"/>
 			<option name="when" value="before:yamamotoCombatMove"/>
@@ -7169,7 +7169,7 @@
 			<option name="conditions" value="conditionAttachment_Units_NewInvert_OR_Round_1-3"/>
 			<option name="when" value="before:gameInitDelegate"/>
 			<option name="when" value="before:germansCombatMove"/>
-			<option name="when" value="before:USSRCombatMove"/>
+			<option name="when" value="before:RussiansCombatMove"/>
 			<option name="when" value="before:italiansCombatMove"/>
 			<option name="when" value="before:frenchCombatMove"/>
 			<option name="when" value="before:yamamotoCombatMove"/>
@@ -7190,7 +7190,7 @@
 			<option name="conditions" value="conditionAttachment_Units_NewInvert_OR_Round_1-3"/>
 			<option name="when" value="before:gameInitDelegate"/>
 			<option name="when" value="before:germansCombatMove"/>
-			<option name="when" value="before:USSRCombatMove"/>
+			<option name="when" value="before:RussiansCombatMove"/>
 			<option name="when" value="before:italiansCombatMove"/>
 			<option name="when" value="before:frenchCombatMove"/>
 			<option name="when" value="before:yamamotoCombatMove"/>
@@ -7211,7 +7211,7 @@
 			<option name="conditions" value="conditionAttachment_Units_NewInvert_OR_Round_1-3"/>
 			<option name="when" value="before:gameInitDelegate"/>
 			<option name="when" value="before:germansCombatMove"/>
-			<option name="when" value="before:USSRCombatMove"/>
+			<option name="when" value="before:RussiansCombatMove"/>
 			<option name="when" value="before:italiansCombatMove"/>
 			<option name="when" value="before:frenchCombatMove"/>
 			<option name="when" value="before:yamamotoCombatMove"/>
@@ -7232,7 +7232,7 @@
 			<option name="conditions" value="conditionAttachment_Units_NewInvert_OR_Round_1-3"/>
 			<option name="when" value="before:gameInitDelegate"/>
 			<option name="when" value="before:germansCombatMove"/>
-			<option name="when" value="before:USSRCombatMove"/>
+			<option name="when" value="before:RussiansCombatMove"/>
 			<option name="when" value="before:italiansCombatMove"/>
 			<option name="when" value="before:frenchCombatMove"/>
 			<option name="when" value="before:yamamotoCombatMove"/>
@@ -7253,7 +7253,7 @@
 			<option name="conditions" value="conditionAttachment_Units_NewInvert_OR_Round_1-3"/>
 			<option name="when" value="before:gameInitDelegate"/>
 			<option name="when" value="before:germansCombatMove"/>
-			<option name="when" value="before:USSRCombatMove"/>
+			<option name="when" value="before:RussiansCombatMove"/>
 			<option name="when" value="before:italiansCombatMove"/>
 			<option name="when" value="before:frenchCombatMove"/>
 			<option name="when" value="before:yamamotoCombatMove"/>
@@ -7274,7 +7274,7 @@
 			<option name="conditions" value="conditionAttachment_Units_NewInvert_OR_Round_1-3"/>
 			<option name="when" value="before:gameInitDelegate"/>
 			<option name="when" value="before:germansCombatMove"/>
-			<option name="when" value="before:USSRCombatMove"/>
+			<option name="when" value="before:RussiansCombatMove"/>
 			<option name="when" value="before:italiansCombatMove"/>
 			<option name="when" value="before:frenchCombatMove"/>
 			<option name="when" value="before:yamamotoCombatMove"/>
@@ -7307,7 +7307,7 @@
 
 
 
-		<attachment name="playerAttachment" attachTo="USSR" javaClass="games.strategy.triplea.attachments.PlayerAttachment" type="player">
+		<attachment name="playerAttachment" attachTo="Russians" javaClass="games.strategy.triplea.attachments.PlayerAttachment" type="player">
 			<option name="retainCapitalNumber" value="3"/>
 			<option name="retainCapitalProduceNumber" value="0"/>
 		</attachment>
@@ -7317,9 +7317,9 @@
 		<ownerInitialize>
 			<territoryOwner territory="Berlin" owner="Germans"/>
 			<territoryOwner territory="Warsaw" owner="Germans"/>
-			<territoryOwner territory="Sverdlovsk" owner="USSR"/>
-			<territoryOwner territory="Sibirsky" owner="USSR"/>
-			<territoryOwner territory="Moscow" owner="USSR"/>
+			<territoryOwner territory="Sverdlovsk" owner="Russians"/>
+			<territoryOwner territory="Sibirsky" owner="Russians"/>
+			<territoryOwner territory="Moscow" owner="Russians"/>
 			<territoryOwner territory="Rome" owner="Italians"/>
 			<territoryOwner territory="Albania" owner="Italians"/>
 			<territoryOwner territory="Paris" owner="French"/>
@@ -7389,13 +7389,13 @@
 			<unitPlacement unitType="Infantry" territory="Semipalatinsk" quantity="1"/>
 			<unitPlacement unitType="Infantry" territory="Stalingrad" quantity="4"/>
 			<unitPlacement unitType="Infantry" territory="Komi" quantity="1"/>
-			<unitPlacement unitType="Infantry" territory="Sverdlovsk" quantity="2" owner="USSR"/>
-			<unitPlacement unitType="Bunker" territory="Sverdlovsk" quantity="2" owner="USSR"/>
-			<unitPlacement unitType="Tank" territory="Sverdlovsk" quantity="1" owner="USSR"/>
-			<unitPlacement unitType="Fighter" territory="Sverdlovsk" quantity="1" owner="USSR"/>
-			<unitPlacement unitType="Factory" territory="Sverdlovsk" quantity="1" owner="USSR"/>
-			<unitPlacement unitType="AAGun" territory="Sverdlovsk" quantity="1" owner="USSR"/>
-			<unitPlacement unitType="Bomber" territory="Sverdlovsk" quantity="1" owner="USSR"/>
+			<unitPlacement unitType="Infantry" territory="Sverdlovsk" quantity="2" owner="Russians"/>
+			<unitPlacement unitType="Bunker" territory="Sverdlovsk" quantity="2" owner="Russians"/>
+			<unitPlacement unitType="Tank" territory="Sverdlovsk" quantity="1" owner="Russians"/>
+			<unitPlacement unitType="Fighter" territory="Sverdlovsk" quantity="1" owner="Russians"/>
+			<unitPlacement unitType="Factory" territory="Sverdlovsk" quantity="1" owner="Russians"/>
+			<unitPlacement unitType="AAGun" territory="Sverdlovsk" quantity="1" owner="Russians"/>
+			<unitPlacement unitType="Bomber" territory="Sverdlovsk" quantity="1" owner="Russians"/>
 			<unitPlacement unitType="Infantry" territory="Kuybyshev" quantity="1"/>
 			<unitPlacement unitType="Infantry" territory="Kursk" quantity="3"/>
 			<unitPlacement unitType="Infantry" territory="Zhigansk" quantity="1"/>
@@ -7408,12 +7408,12 @@
 			<unitPlacement unitType="Infantry" territory="Leningrad" quantity="5"/>
 			<unitPlacement unitType="Infantry" territory="Odessa" quantity="1"/>
 			<unitPlacement unitType="Infantry" territory="Tashkent" quantity="2"/>
-			<unitPlacement unitType="Infantry" territory="Sibirsky" quantity="2" owner="USSR"/>
-			<unitPlacement unitType="Bunker" territory="Sibirsky" quantity="2" owner="USSR"/>
-			<unitPlacement unitType="Tank" territory="Sibirsky" quantity="1" owner="USSR"/>
-			<unitPlacement unitType="Fighter" territory="Sibirsky" quantity="1" owner="USSR"/>
-			<unitPlacement unitType="Factory" territory="Sibirsky" quantity="1" owner="USSR"/>
-			<unitPlacement unitType="AAGun" territory="Sibirsky" quantity="1" owner="USSR"/>
+			<unitPlacement unitType="Infantry" territory="Sibirsky" quantity="2" owner="Russians"/>
+			<unitPlacement unitType="Bunker" territory="Sibirsky" quantity="2" owner="Russians"/>
+			<unitPlacement unitType="Tank" territory="Sibirsky" quantity="1" owner="Russians"/>
+			<unitPlacement unitType="Fighter" territory="Sibirsky" quantity="1" owner="Russians"/>
+			<unitPlacement unitType="Factory" territory="Sibirsky" quantity="1" owner="Russians"/>
+			<unitPlacement unitType="AAGun" territory="Sibirsky" quantity="1" owner="Russians"/>
 			<unitPlacement unitType="Infantry" territory="Bulun" quantity="1"/>
 			<unitPlacement unitType="Infantry" territory="Estonia" quantity="2"/>
 			<unitPlacement unitType="Infantry" territory="Smolensk" quantity="1"/>
@@ -7849,11 +7849,11 @@
 			<unitPlacement unitType="Infantry" territory="Venezuela" quantity="3"/>
 			<unitPlacement unitType="Infantry" territory="Sikang" quantity="4"/>
 			<unitPlacement unitType="Infantry" territory="Netherlands" quantity="4"/>
-			<unitPlacement unitType="Artillery" territory="Moscow" quantity="2" owner="USSR"/>
-			<unitPlacement unitType="Infantry" territory="Moscow" quantity="6" owner="USSR"/>
-			<unitPlacement unitType="Factory" territory="Moscow" quantity="1" owner="USSR"/>
-			<unitPlacement unitType="AAGun" territory="Moscow" quantity="1" owner="USSR"/>
-			<unitPlacement unitType="Tank" territory="Moscow" quantity="1" owner="USSR"/>
+			<unitPlacement unitType="Artillery" territory="Moscow" quantity="2" owner="Russians"/>
+			<unitPlacement unitType="Infantry" territory="Moscow" quantity="6" owner="Russians"/>
+			<unitPlacement unitType="Factory" territory="Moscow" quantity="1" owner="Russians"/>
+			<unitPlacement unitType="AAGun" territory="Moscow" quantity="1" owner="Russians"/>
+			<unitPlacement unitType="Tank" territory="Moscow" quantity="1" owner="Russians"/>
 			<unitPlacement unitType="Infantry" territory="Salvador" quantity="2"/>
 			<unitPlacement unitType="Infantry" territory="Oman" quantity="2"/>
 			<unitPlacement unitType="Infantry" territory="Salvador" quantity="2"/>
@@ -7921,7 +7921,7 @@
 		</unitInitialize>
 		<resourceInitialize>
 			<resourceGiven player="Germans" resource="PUs" quantity="40"/>
-			<resourceGiven player="USSR" resource="PUs" quantity="12"/>
+			<resourceGiven player="Russians" resource="PUs" quantity="12"/>
 			<resourceGiven player="Italians" resource="PUs" quantity="35"/>
 			<resourceGiven player="French" resource="PUs" quantity="10"/>                     
 			<resourceGiven player="Yamamoto" resource="PUs" quantity="40"/>
@@ -7959,7 +7959,7 @@
 		<property name="Thai bid" value="0" editable="true">
 			<number min="0" max="1000"/>
 		</property>
-		<property name="USSR bid" value="0" editable="true">
+		<property name="Russians bid" value="0" editable="true">
 			<number min="0" max="1000"/>
 		</property>
 		<property name="French bid" value="0" editable="true">
@@ -8193,8 +8193,8 @@
          <tr>
             <td bgcolor="CCAA77" width="100%" align="left">Germans</td>
             <td bgcolor="CCAA77"><img src="Germans.png"/></td>
-            <td bgcolor="CCCC99"><img src="USSR.png"/></td>
-            <td bgcolor="CCCC99" width="100%" align="right">USSR</td>
+            <td bgcolor="CCCC99"><img src="Russians.png"/></td>
+            <td bgcolor="CCCC99" width="100%" align="right">Russians</td>
          </tr>
          <tr>
             <td bgcolor="CCAA77" width="100%" align="left">Italians</td>
@@ -8528,7 +8528,7 @@
       <br>
       <br><b>Restricted Units:</b>
       <br>Marine: <img src="Yamamoto_small.png"><img src="Hisaichi_small.png"><img src="Thai_small.png"><img src="space_small.png"><img src="Chinese_small.png"><img src="Anzac_small.png"><img src="Dutch_small.png"><img src="Americans_small.png">
-      <br>Mot.Inf: <img src="Germans_small.png"><img src="Italians_small.png"><img src="Finns_small.png"><img src="Romanians_small.png"><img src="space_small.png"><img src="USSR_small.png"><img src="French_small.png"><img src="British_small.png">
+      <br>Mot.Inf: <img src="Germans_small.png"><img src="Italians_small.png"><img src="Finns_small.png"><img src="Romanians_small.png"><img src="space_small.png"><img src="Russians_small.png"><img src="French_small.png"><img src="British_small.png">
       <br>Stuka: <img src="Germans_small.png">
       <br>B.Transport: <img src="Yamamoto_small.png"><img src="Hisaichi_small.png"><img src="space_small.png"><img src="Americans_small.png">
       <br>
@@ -8559,7 +8559,7 @@
             <td bgcolor="CCCC99">Blitz</td>
          </tr>
          <tr>
-            <td bgcolor="CCCC99" colspan="8"><img src="Germans_small.png"><img src="Italians_small.png"><img src="space_small.png"><img src="USSR_small.png"></td>
+            <td bgcolor="CCCC99" colspan="8"><img src="Germans_small.png"><img src="Italians_small.png"><img src="space_small.png"><img src="Russians_small.png"></td>
          </tr>
          <tr>
             <td bgcolor="CCAA77"><img src="Mech.Rocket.png"/></td>
@@ -8572,7 +8572,7 @@
             <td bgcolor="CCAA77">Blitz, givesSupport</td>
          </tr>
          <tr>
-            <td bgcolor="CCAA77" colspan="8"><img src="USSR_small.png"></td>
+            <td bgcolor="CCAA77" colspan="8"><img src="Russians_small.png"></td>
          </tr>
          <tr>
             <td bgcolor="CCCC99"><img src="Jetfighter.png"/></td>
@@ -8624,7 +8624,7 @@
             <td bgcolor="CCAA77">Load 1S</td>
          </tr>
          <tr>
-            <td bgcolor="CCAA77" colspan="8"><img src="Germans_small.png"><img src="Italians_small.png"><img src="Yamamoto_small.png"><img src="Hisaichi_small.png"><img src="Finns_small.png"><img src="Romanians_small.png"><img src="Thai_small.png"><img src="space_small.png"><img src="USSR_small.png"><img src="British_small.png"><img src="Anzac_small.png"><img src="Americans_small.png"></td>
+            <td bgcolor="CCAA77" colspan="8"><img src="Germans_small.png"><img src="Italians_small.png"><img src="Yamamoto_small.png"><img src="Hisaichi_small.png"><img src="Finns_small.png"><img src="Romanians_small.png"><img src="Thai_small.png"><img src="space_small.png"><img src="Russians_small.png"><img src="British_small.png"><img src="Anzac_small.png"><img src="Americans_small.png"></td>
          </tr>
          <tr>
             <td bgcolor="CCCC99"><img src="B.carrier.png"/></td>
@@ -8650,7 +8650,7 @@
             <td bgcolor="CCAA77">2 HP, construction*</td>
          </tr>
          <tr>
-            <td bgcolor="CCAA77" colspan="8"><img src="Germans_small.png"/><img src="Italians_small.png"/><img src="Yamamoto_small.png"/><img src="Hisaichi_small.png"/><img src="Finns_small.png"/><img src="Romanians_small.png"/><img src="Thai_small.png"/><img src="space_small.png"/><img src="USSR_small.png"/><img src="French_small.png"/><img src="Chinese_small.png"/><img src="British_small.png"/><img src="Anzac_small.png"/><img src="Dutch_small.png"/><img src="Americans_small.png"/></td>
+            <td bgcolor="CCAA77" colspan="8"><img src="Germans_small.png"/><img src="Italians_small.png"/><img src="Yamamoto_small.png"/><img src="Hisaichi_small.png"/><img src="Finns_small.png"/><img src="Romanians_small.png"/><img src="Thai_small.png"/><img src="space_small.png"/><img src="Russians_small.png"/><img src="French_small.png"/><img src="Chinese_small.png"/><img src="British_small.png"/><img src="Anzac_small.png"/><img src="Dutch_small.png"/><img src="Americans_small.png"/></td>
          </tr>
          <tr>
             <th bgcolor="CDBA96">Unit</th>
@@ -8682,7 +8682,7 @@
             <li>Most allied nations (excluding Anzac and China) have multiple capitals.</li>
             <li>If and when any of these capitals are captured, the attacker gains all of the PUs of the owner nation.</li>
             <li>Nevertheless, the defender can collect income again and produce, as long as it holds at least one of its capitals.</li>
-            <li>Exception: USSR may still collect income and even produce after all of its capitals are captured.</li>
+            <li>Exception: Russians may still collect income and even produce after all of its capitals are captured.</li>
          </ul>
       </div>
       <br>
@@ -8780,7 +8780,7 @@
             <li>Changed original ownership of Peking, Shantung, Fukien, Kwangsi, Hainan from start game owners to Chinese.</li>
             <li>Located the British Submarine in the old sz79 in 115 Sea Zone.</li>
             <li>Located the Anzac Submarine in the old sz77 in 123 Sea Zone.</li>
-            <li>Removed 1 USSR Submarine from 72 Sea Zone and added it to 54 Sea Zone.</li>
+            <li>Removed 1 Russians Submarine from 72 Sea Zone and added it to 54 Sea Zone.</li>
             <li>Relisted the bid options and removed one duplicate "French bid".</li>
             <li>Added victory condition "Unconditional Surrender", as a custom option, true as default.</li>
             <li>Added option "Damage From Bombing Done To Units Instead Of Territories" (default false), with damage cap equal to territory value.</li>
@@ -8807,7 +8807,7 @@
             <li>Centered all flags in any circle territories.</li>
             <li>Redone most place coordinates (all circle territories at 9 placement spots).</li>
             <li>Reorganized the player list by turn order (moved Finns and Romanians after Dutch).</li>
-            <li>Made USSR centering primarily on Moscow (instead of Sverdlovsk), then Sverdlovsk (instead of Sibirsky); made French centering primarily on Paris (instead of Churchill); made British centering primarily on London (instead of Montreal), then Montreal (instead of London); made Dutch centering primarily on Banjarmasin (instead of Suriname) (in all cases, owned Capitals have priority over not owned ones).</li>
+            <li>Made Russians centering primarily on Moscow (instead of Sverdlovsk), then Sverdlovsk (instead of Sibirsky); made French centering primarily on Paris (instead of Churchill); made British centering primarily on London (instead of Montreal), then Montreal (instead of London); made Dutch centering primarily on Banjarmasin (instead of Suriname) (in all cases, owned Capitals have priority over not owned ones).</li>
             <li>Renamed all canals to tell the related territories.</li>
             <li>In Notes, changed the "att" value of Elite from 3 to 2 (being the game value).</li>
             <li>In Notes, changed the "cost" value of Elite from 4 to 3 (being the game value).</li>
@@ -8965,8 +8965,8 @@ Change Flags
 
 Change, Remove, Rename and Add Units Images
 (all changes go in order up to down; reference is only to what is done before, not to what will be done after (thus, all items are meant to still make sense even if you fully remove part of them from a point onwards (for example, when an "image" is modified and, then, substituted with a new one, the previous changes are referring to the old one only, now renamed to "image_old")))
-- Remove "Armour" from Hisaichi, USSR, Dutch
-- Remove "Bigarmour_hit" from USSR
+- Remove "Armour" from Hisaichi, Russians, Dutch
+- Remove "Bigarmour_hit" from Russians
 - Remove "conscript" from Neutral
 - Remove "Cruiser_hit" from Hisaichi
 - Remove "Destroyer_old" from Americans, Neutral
@@ -8974,15 +8974,15 @@ Change, Remove, Rename and Add Units Images
 - Remove "Halftrack" from Yamamoto, Hisaichi, British, Dutch, Thai, Neutral (duplicates of Mech.Inf, except the Dutch one, which is a duplicate of the Germans one recolorized)
 - Remove "Kopie von Bunker" from Neutral (duplicate of Bunker)
 - Remove "Kopie von Bunker_hit" from Neutral (duplicate of Bunker_hit)
-- Remove "L.Fighter" from USSR (duplicate of Fighter with a red dot)
+- Remove "L.Fighter" from Russians (duplicate of Fighter with a red dot)
 - Remove "Marine" from Neutral (duplicate of Infantry)
 - Remove "pt_boat" from Neutral (duplicate of T.Boat)
 - Remove "s_destroyer" from Americans, Neutral
 - Remove "Scout" from Chinese (duplicate of ArmoredCar)
 - Remove "submarine_ss" from Neutral
 - Remove "Tank (2)" from Yamamoto, Neutral and Thai (duplicates of Tank)
-- Remove "Tankette" from ColonialFrench, Finns, French, Italians, Romanians, USSR (duplicates of ArmoredCar)
-- Remove "Truck" from Neutral, USSR (duplicates of Mot.Inf)
+- Remove "Tankette" from ColonialFrench, Finns, French, Italians, Romanians, Russians (duplicates of ArmoredCar)
+- Remove "Truck" from Neutral, Russians (duplicates of Mot.Inf)
 - Rename "factory_hit" to "Factory_hit", everywhere
 - Rename all S.Sub to S.Submarine
 - Rename the Americans "B29" to "S.Bomber" (keep old in folder)
@@ -8993,7 +8993,7 @@ Change, Remove, Rename and Add Units Images
 - Rename the Italians "Me262" to "JetFighter" (keep old in folder)
 - Rename the Japanese "NakajimaG5N" to "S.Bomber" (keep old in folder)
 - Rename the Romanians "Me262" to "JetFighter" (keep old in folder)
-- Rename the USSR "Katyusha" to "Mech.Rocket" (keep old in folder)
+- Rename the Russians "Katyusha" to "Mech.Rocket" (keep old in folder)
 - Rename the Neutral "Mech.Inf" to "ArmoredCar" (provide a new Mech.Inf; see below)
 - Rename the Neutral "Fighter_lr" to "Adv.Fighter" (old Fighter is duplicate of EarlyFighter)
 - Rename all "Fighter" to "Adv.Fighter"
@@ -9006,16 +9006,16 @@ Change, Remove, Rename and Add Units Images
 - Change the Germans ArmoredCar to 48x48 pixels (only transparent and position change)
 - Change the Germans HeavyTank to 64x48 pixels (keep old in folder)
 - Change the Germans Bomber to 72x48 pixels (only transparent and position change)
-- Change the USSR HeavyTank to 60x48 pixels (only transparent and position change)
-- Change the USSR Bomber to 64x48 pixels
+- Change the Russians HeavyTank to 60x48 pixels (only transparent and position change)
+- Change the Russians Bomber to 64x48 pixels
 - Increase the British S.Bomber to 72x48 (only transparent and position change)
 - Increase the Germans Artillery to 48x48 (only transparent and position change)
 - Increase the Germans T.Boat to 48x48 (only transparent and position change)
 - Increase the Germans Transport to 48x48 (only transparent and position change)
 - Increase the Germans Submarine to 48x48 (only transparent and position change)
-- Increase the USSR Mot.Inf to 48x48 pixels, and add more black outline
-- Increase the USSR Mech.Rocket to 48x48 pixels (only transparent and position change)
-- Increase the USSR Katyusha to 48x48 pixels (only transparent and position change)
+- Increase the Russians Mot.Inf to 48x48 pixels, and add more black outline
+- Increase the Russians Mech.Rocket to 48x48 pixels (only transparent and position change)
+- Increase the Russians Katyusha to 48x48 pixels (only transparent and position change)
 - Shrink the British S.Bomber to 64x48, give shadow (keep full in folder)
 - Shrink the Germans Bomber to 64x48, give shadow (keep old in folder)
 - Rotate the Germans Fighter -10 degrees, increase to 56x48, remake the shadow (keep old in folder)
@@ -9087,8 +9087,8 @@ Change, Remove, Rename and Add Units Images
 - Colorize the Germans Mot.Inf similarly to the Infantry (hue=0 saturation=0)
 - Colorize the Hisaichi Fighter similarly to the Infantry (hue=120 saturation=0) (keep old in folder)
 - Colorize the Italians T.Boat similarly to the Infantry (hue=0 saturation=10)
-- Colorize the USSR Mot.Inf similarly to the Infantry (hue=350 saturation=40 brightness=+34 contrast=+17)
-- Colorize the USSR Mech.Inf similarly to the Infantry (hue=350 saturation=30 brightness=+17 contrast=+17)
+- Colorize the Russians Mot.Inf similarly to the Infantry (hue=350 saturation=40 brightness=+34 contrast=+17)
+- Colorize the Russians Mech.Inf similarly to the Infantry (hue=350 saturation=30 brightness=+17 contrast=+17)
 - Change brightness/contrast of the Americans Artillery (contrast=+17)
 - Change brightness/contrast of the Americans Tank (contrast=+17)
 - Change brightness/contrast of the Anzac Fighter (brightness=-17 contrast=+17)
@@ -9101,8 +9101,8 @@ Change, Remove, Rename and Add Units Images
 - Change levels of the Thai Marine (brightness=-17 hue=180 saturation=30)
 - Flip horizontally the Americans A-Bomb, A-Bomb_hit, ArmoredCar, Artillery, B29, Bomber, Fighter, Elite, Adv.Fighter, Infantry, L.Fighter, Marine, Mech.Inf, Mot.Inf, S.Bomber, Tank (to face east) (the Americans HeavyTank is already faced east)
 - Flip horizontally the Americans B.Transport (to match the other Americans sea units)
-- Flip horizontally the USSR Tank (to match the other USSR land and air units)
-- Flip horizontally the USSR Marine (to match the other USSR land and air units)
+- Flip horizontally the Russians Tank (to match the other Russians land and air units)
+- Flip horizontally the Russians Marine (to match the other Russians land and air units)
 - Flip horizontally the Neutral Artillery (to match the other Neutral land and air units)
 - Flip horizontally the Neutral Mot.Inf (to match the other Neutral land and air units)
 - Flip horizontally the Neutral Fighter (to match the other Neutral land and air units)
@@ -9125,7 +9125,7 @@ Change, Remove, Rename and Add Units Images
 - New Italians Battleship (Battleship_Italians_Roma_crystalct(modCernel01)) (hue=0 saturation=10) (keep old in folder)
 - New Masaharu Battleship (Battleship_large_Japanese_Yamato(modCernel01)) (hue=35 saturation=20 brightness=+34 contrast=+34) (keep old in folder)
 - New Romanians Battleship (Battleship_Italians_Roma_crystalct(modCernel01)) (hue=230 saturation=15) (keep old in folder)
-- New USSR Battleship (Battleship_USSR_Sovetsky_Soyuz(modCernel01)) (hue=350 saturation=30) (keep old in folder)
+- New Russians Battleship (Battleship_Russians_Sovetsky_Soyuz(modCernel01)) (hue=350 saturation=30) (keep old in folder)
 - New Yamamoto Battleship (Battleship_large_Japanese_Yamato(modCernel01)) (hue=60 saturation=15 brightness=+34 contrast=+34) (keep old in folder)
 - New Americans Battleship_hit (Battleship_Uss_Iowa(modCernel01)) (hue=100 saturation=20) (keep old in folder)
 - New Anzac Battleship_hit (Battleship_Uss_Iowa(modCernel01)) (brightness=-34 hue=40 saturation=80 lightness=-20) (keep old in folder)
@@ -9138,7 +9138,7 @@ Change, Remove, Rename and Add Units Images
 - New Italians Battleship_hit (Battleship_Italians_Roma_crystalct(modCernel01)) (hue=0 saturation=10) (keep old in folder)
 - New Masaharu Battleship_hit (Battleship_large_Japanese_Yamato(modCernel01)) (hue=35 saturation=20 brightness=+34 contrast=+34) (keep old in folder)
 - New Romanians Battleship_hit (Battleship_Italians_Roma_crystalct(modCernel01)) (hue=230 saturation=15) (keep old in folder)
-- New USSR Battleship_hit (Battleship_USSR_Sovetsky_Soyuz(modCernel01)) (hue=350 saturation=30) (keep old in folder)
+- New Russians Battleship_hit (Battleship_Russians_Sovetsky_Soyuz(modCernel01)) (hue=350 saturation=30) (keep old in folder)
 - New Yamamoto Battleship_hit (Battleship_large_Japanese_Yamato(modCernel01)) (hue=60 saturation=15 brightness=+34 contrast=+34) (keep old in folder)
 - New Americans Cruiser (Cruiser_Canadians_Uganda(modCernel01)) (hue=100 saturation=20) (keep old in folder)
 - New Anzac Cruiser (Cruiser_Canadians_Uganda(modCernel01)) (brightness=-51 hue=40 saturation=80 lightness=-20) (keep old in folder)
@@ -9152,7 +9152,7 @@ Change, Remove, Rename and Add Units Images
 - New Italians Cruiser (Cruiser_Canadians_Uganda(modCernel01)) (hue=0 saturation=10) (keep old in folder)
 - New Masaharu Cruiser (Cruiser_Canadians_Uganda(modCernel01)) (hue=35 saturation=20 brightness=+34 contrast=+34) (keep old in folder)
 - New Romanians Cruiser (Cruiser_Canadians_Uganda(modCernel01)) (hue=230 saturation=15) (keep old in folder)
-- New USSR Cruiser (Cruiser_Canadians_Uganda(modCernel01)) (hue=350 saturation=30) (keep old in folder)
+- New Russians Cruiser (Cruiser_Canadians_Uganda(modCernel01)) (hue=350 saturation=30) (keep old in folder)
 - New Thai Cruiser (Cruiser_Canadians_Uganda(modCernel01)) (hue=180 saturation=30) (keep old in folder)
 - New Yamamoto Cruiser (Cruiser_Canadians_Uganda(modCernel01)) (hue=60 saturation=15 brightness=+34 contrast=+34) (keep old in folder)
 - New Americans Destroyer equal to the Germans one recolorized (hue=100 saturation=20)
@@ -9167,7 +9167,7 @@ Change, Remove, Rename and Add Units Images
 - New Italians Destroyer equal to the Germans one recolorized (hue=0 saturation=10)
 - New Masaharu Destroyer equal to the Germans one recolorized (hue=35 saturation=20 brightness=+34 contrast=+34) and flipped horizontally
 - New Romanians Destroyer equal to the Germans one recolorized (hue=230 saturation=15) and flipped horizontally
-- New USSR Destroyer equal to the Germans one recolorized (hue=350 saturation=30)
+- New Russians Destroyer equal to the Germans one recolorized (hue=350 saturation=30)
 - New Thai Destroyer equal to the Germans one recolorized (hue=180 saturation=30) and flipped horizontally
 - New Yamamoto Destroyer equal to the Germans one recolorized (hue=60 saturation=15 brightness=+34 contrast=+34) and flipped horizontally
 - New Americans B.Transport equal to the Transport scaled to 64x64 plus sharpness=25 (keep old in folder)
@@ -9195,7 +9195,7 @@ Change, Remove, Rename and Add Units Images
 - New British Elite (Elite_South_Africa) (hue=0 saturation=10 brightness=+17 contrast=+17) (keep old in folder)
 - New British Bomber (assets/British/Bomber) (hue=35 saturation=20 brightness=-17) (keep old in folder) (old is duplicate of Lancaster without the red dot)
 - New Chinese Artillery (Artillery_Chinese_Veqryn) (hue=350 saturation=20 brightness=-34) (keep old in folder)
-- New Chinese ArmoredCar (ArmoredCar_USSR_BA10_B) (hue=350 saturation=20) (keep old in folder)
+- New Chinese ArmoredCar (ArmoredCar_Russians_BA10_B) (hue=350 saturation=20) (keep old in folder)
 - New Chinese Tank (Armour_Chinese_T26) (hue=350 saturation=20 brightness=-34) (keep old in folder)
 - New Chinese Mech.Inf (Halftrack_Americans_M3_B) (contrast=+17 hue=350 saturation=20 brightness=-17) (keep old in folder)
 - New Chinese Fighter (Fighter_Dutch_Curtiss_P40_kittyhawk) (contrast=+17 brightness=-17 hue=350 saturation=20) (keep old in folder)
@@ -9243,9 +9243,9 @@ Change, Remove, Rename and Add Units Images
 - New Masaharu L.Fighter modified from the new Adv.Fighter (keep old in folder)
 - New Masaharu T.Boat equal to the Germans one recolorized (hue=35 saturation=20 brightness=+34 contrast=+34) and flipped horizontally (keep old in folder)
 - New Masaharu Transport equal to the Germans one recolorized (hue=35 saturation=20 brightness=+34 contrast=+34) and flipped horizontally (keep old in folder)
-- New USSR Artillery (Artillery_USSR_76mm_M1939) (hue=350 saturation=30 brightness=-17) (add shadow) (keep old in folder)
-- New USSR HeavyTank (total_world_war/.../russianHeavyTank) (modified and shadowed) (paint a red dot) (keep old in folder)
-- New USSR Transport equal to the British one recolorized (hue=350 saturation=30) and flipped horizontally (keep old in folder)
+- New Russians Artillery (Artillery_Russians_76mm_M1939) (hue=350 saturation=30 brightness=-17) (add shadow) (keep old in folder)
+- New Russians HeavyTank (total_world_war/.../russianHeavyTank) (modified and shadowed) (paint a red dot) (keep old in folder)
+- New Russians Transport equal to the British one recolorized (hue=350 saturation=30) and flipped horizontally (keep old in folder)
 - New Thai ArmoredCar (ArmoredCar_Japanese_Hokoku_A) (brightness=-34 hue=180 saturation=30) (keep old in folder)
 - New Thai Elite (Elite_Thai) (brightness=-34 hue=180 saturation=30) (keep old in folder)
 - New Thai L.Fighter (Fighter_lr_Phillippines P26 Peashooter) (hue=180 saturation=30) (keep old in folder)
@@ -9271,7 +9271,7 @@ Change, Remove, Rename and Add Units Images
 - Add Italians Battleship1 (Battleship_Italians_Roma_crystalct) (brightness=+51 contrast=+51 hue=0 saturation=10) (keep old in folder)
 - Add Masaharu Battleship1 (Battleship_Japanese_Musashi) (hue=35 saturation=20 brightness=+34 contrast=+34)
 - Add Romanians Battleship1 (Battleship_Italians_Roma_crystalct) (brightness=+51 contrast=+51 hue=225 saturation=20) (keep old in folder)
-- Add USSR Battleship1 (Battleship_British_King George V_crystalct) (hue=350 saturation=30) (keep old in folder)
+- Add Russians Battleship1 (Battleship_British_King George V_crystalct) (hue=350 saturation=30) (keep old in folder)
 - Add Thai Battleship1 (Battleship_Japanese_Musashi) (hue=180 saturation=30)
 - Add Yamamoto Battleship1 (Battleship_Japanese_Musashi) (hue=60 saturation=10 brightness=+34 contrast=+34)
 - Add Americans Battleship1_hit (Battleship_Americans_Iowa_crystalct) (hue=100 saturation=20)
@@ -9287,7 +9287,7 @@ Change, Remove, Rename and Add Units Images
 - Add Italians Battleship1_hit (Battleship_Italians_Roma_crystalct) (brightness=+51 contrast=+51 hue=0 saturation=10) (keep old in folder)
 - Add Masaharu Battleship1_hit (Battleship_Japanese_Musashi) (hue=35 saturation=20 brightness=+34 contrast=+34)
 - Add Romanians Battleship1_hit (Battleship_Italians_Roma_crystalct) (brightness=+51 contrast=+51 hue=225 saturation=20) (keep old in folder)
-- Add USSR Battleship1_hit (Battleship_British_King George V_crystalct) (hue=350 saturation=30) (keep old in folder)
+- Add Russians Battleship1_hit (Battleship_British_King George V_crystalct) (hue=350 saturation=30) (keep old in folder)
 - Add Thai Battleship1_hit (Battleship_Japanese_Musashi) (hue=180 saturation=30)
 - Add Yamamoto Battleship1_hit (Battleship_Japanese_Musashi) (hue=60 saturation=10 brightness=+34 contrast=+34)
 - Add Americans Battleship2 (Uss_Iowa) (hue=100 saturation=20) (keep old in folder)
@@ -9303,7 +9303,7 @@ Change, Remove, Rename and Add Units Images
 - Add Italians Battleship2 (Uss_Iowa) (hue=0 saturation=10) (keep old in folder)
 - Add Masaharu Battleship2 (Uss_Iowa) (hue=35 saturation=20 brightness=+34 contrast=+34) (keep old in folder)
 - Add Romanians Battleship2 (Uss_Iowa) (hue=230 saturation=15) (keep old in folder)
-- Add USSR Battleship2 (Uss_Iowa) (hue=350 saturation=30) (keep old in folder)
+- Add Russians Battleship2 (Uss_Iowa) (hue=350 saturation=30) (keep old in folder)
 - Add Thai Battleship2 (Uss_Iowa) (hue=180 saturation=30)
 - Add Yamamoto Battleship2 (Uss_Iowa) (hue=60 saturation=20 brightness=+34 contrast=+34) (keep old in folder)
 - Add Americans Battleship2_hit (Uss_Iowa) (hue=100 saturation=20) (keep old in folder)
@@ -9319,13 +9319,13 @@ Change, Remove, Rename and Add Units Images
 - Add Italians Battleship2_hit (Uss_Iowa) (hue=0 saturation=10) (keep old in folder)
 - Add Masaharu Battleship2_hit (Uss_Iowa) (hue=35 saturation=20 brightness=+34 contrast=+34) (keep old in folder)
 - Add Romanians Battleship2_hit (Uss_Iowa) (hue=225 saturation=20) (keep old in folder)
-- Add USSR Battleship2_hit (Uss_Iowa) (hue=350 saturation=30) (keep old in folder)
+- Add Russians Battleship2_hit (Uss_Iowa) (hue=350 saturation=30) (keep old in folder)
 - Add Thai Battleship2_hit (Uss_Iowa) (hue=180 saturation=30)
 - Add Yamamoto Battleship2_hit (Uss_Iowa) (hue=60 saturation=20 brightness=+34 contrast=+34) (keep old in folder)
 - Add Germans Battleship3_hit equal to the old Germans Battleship1 modified (add an 80x56 Battleship3_full_hit in folder)
 - Add Chinese T.Boat equal to the British one recolorized (hue=350 saturation=20 brightness=-34) and flipped horizontally
 - Add Chinese Transport equal to the British one recolorized (hue=350 saturation=20 brightness=-34) and flipped horizontally
-- Add Chinese Submarine equal to the USSR one recolorized (hue=350 saturation=20)
+- Add Chinese Submarine equal to the Russians one recolorized (hue=350 saturation=20)
 - Add Chinese Destroyer equal to the Germans one recolorized (hue=350 saturation=20 brightness=-34)
 - Add Chinese Cruiser (Cruiser_Canadians_Uganda(modCernel01)) (hue=350 saturation=20 brightness=-34)
 - Add Chinese Cruiser_old equal to the British one recolorized (hue=350 saturation=20 brightness=-34) and flipped horizontally
@@ -9364,7 +9364,7 @@ XML Code And Related References Changes
 - Swap Coral Harbour and Paris, in the Territory Definitions (relevant for start turn visual centering)
 - Swap Quebec and London, in the Territory Definitions (relevant for start turn visual centering)
 - Swap Dutch Guinea and Borneo, in the Territory Definitions (relevant for start turn visual centering)
-- Reorganize the player list this way: Germans, USSR, Italians, French, Yamamoto, Chinese, Hisaichi, British, Anzac, Dutch, Finns, Romanians, Thai, Americans (in turn order) (move Finns and Romanians after Dutch)
+- Reorganize the player list this way: Germans, Russians, Italians, French, Yamamoto, Chinese, Hisaichi, British, Anzac, Dutch, Finns, Romanians, Thai, Americans (in turn order) (move Finns and Romanians after Dutch)
 - Move the Dutch bid phases after the Anzac ones
 - Delete all occurrences of L.Bomber (being just a Bomber that costs 18, assigned to no frontiers and with no images in the folders)
 - Remove (comment out) NakajimaG5N, Lancaster, B29, V2 and A-Bomb units
@@ -9376,7 +9376,7 @@ XML Code And Related References Changes
 - Remove option name="transportCapacity" from Bomber (useless)
 - Relist "unit", "productionRule" and "unitAttachment" items in this sequence: Infantry, Elite, Marine, Artillery, ArmoredCar, Tank, HeavyTank, Mot.Inf, Mech.Inf, Mech.Rocket, Fighter, Adv.Fighter, Stuka, JetFighter, L.Fighter, Bomber, S.Bomber, T.Boat, Transport, B.Transport, Submarine, S.Submarine, Destroyer, Cruiser, Battleship, Carrier, B.Carrier, AAGun, Bunker, Factory, Lancaster (commented out), NakajimaG5N (commented out), B29 (commented out), V2 (commented out), A-Bomb (commented out)
 - Recode production frontiers so to reorganize listing according to "unit" list and add Bomber, Cruiser, Battleship to Thai and add T.Boat, Transport, Submarine, Destroyer, Cruiser, Battleship, Carrier to Chinese
-- Enforce the USSR production with 0 Capitals special rule
+- Enforce the Russians production with 0 Capitals special rule
 - Empty technology (so that tech does not show up in Stats)
 - Rename all canals per the related territories, as "canalName" value="the Territory1 - Territory2 channel", where Territory1 and Territory2 are the territories required to pass
 - Relist the bid options and remove one duplicate "French bid"
@@ -9389,7 +9389,7 @@ XML Code And Related References Changes
 - Remove (delete) the "Two hit battleship" option (there is no unit called battleship, so the option does nothing)
 - Add "Unconditional Surrender" victory condition, default enabled, and add a notifications.properties in main folder, for display references
 - Add to Factory: option name="canProduceXUnits" value="-1", option name="canBeDamaged" value="true", option name="maxDamage" value="1", plus add property name="Damage From Bombing Done To Units Instead Of Territories" value="false" editable="true"
-- Add to Factory and AAGun: option name="destroyedWhenCapturedBy" value="Germans:Italians:Yamamoto:Hisaichi:Finns:Romanians:Thai:USSR:French:Chinese:British:Anzac:Dutch:Americans" plus add property name="Units Can Be Destroyed Instead Of Captured" value ="false" editable="true"
+- Add to Factory and AAGun: option name="destroyedWhenCapturedBy" value="Germans:Italians:Yamamoto:Hisaichi:Finns:Romanians:Thai:Russians:French:Chinese:British:Anzac:Dutch:Americans" plus add property name="Units Can Be Destroyed Instead Of Captured" value ="false" editable="true"
 - Substitute "Use Trigger" with property name="Add Bunker and Special Units Round 4" value="true" editable="true", and refactor the xml code behind it to be fully consistent with the option as set at any start turn point (before Combat Move) during the game (instead of just allowing the triggers firing and then being irrelevant)
 - Add property name=""Add Elite Marine ArmoredCar Mot.Inf Mech.Inf Fighter Stuka B.Transport" value="true" editable="true", for having those units when selected only
 - Remove 2 Stuka in Berlin and add 2 Fighter in Berlin; but code a set of triggers to remove 2 Fighter and add 2 Stuka in Berlin, when "Add Elite Marine ArmoredCar Mot.Inf Mech.Inf Fighter Stuka B.Transport" is selected at start game (so, no changes from previous, as long as said option is selected)
@@ -9962,8 +9962,8 @@ Add/Remove Units
 - Locate the British Submarine in the old sz79 in 115 Sea Zone
 - Locate the Anzac Submarine in the old sz77 in 123 Sea Zone
 - Remove 1 British Bunker in Rhodes
-- Remove 1 USSR Submarine in 72 Sea Zone
-- Add 1 USSR Submarine in 54 Sea Zone
+- Remove 1 Russians Submarine in 72 Sea Zone
+- Add 1 Russians Submarine in 54 Sea Zone
 
 KNOWN ISSUES:
 
