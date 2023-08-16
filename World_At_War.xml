@@ -2151,6 +2151,7 @@
 		<unit name="Carrier"/>
 		<unit name="B.Carrier"/>
 		<unit name="Bunker"/>
+		<unit name="Grain Farm"/>
 		<unit name="AAGun"/>
 		<unit name="Factory"/><!--
 		<unit name="Lancaster"/>
@@ -4316,6 +4317,13 @@
 			<option name="constructionType" value="bunker"/>
 			<option name="constructionsPerTerrPerTypePerTurn" value="1"/>
 			<option name="maxConstructionsPerTypePerTerr" value="6"/>
+		</attachment>
+		<attachment name="unitAttachment" attachTo="Grain Farm" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+			<option name="movement" value="0"/>
+			<option name="attack" value="0"/>
+			<option name="defense" value="0"/>
+			<option name="isConstruction" value="true"/>
+			<option name="destroyedWhenCapturedBy" value="Germans:Italians:Yamamoto:Hisaichi:Finns:Romanians:Thai:USSR:French:Chinese:British:Anzac:Dutch:Americans"/>
 		</attachment>
 
 
