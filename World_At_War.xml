@@ -4670,6 +4670,7 @@
 		</attachment>
 		<attachment name="territoryAttachment" attachTo="E.Morocco" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
 			<option name="production" value="4"/>
+			<option name="capital" value="French"/>
 		</attachment>
 		<attachment name="territoryAttachment" attachTo="W.Morocco" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
 			<option name="production" value="2"/>
@@ -4677,7 +4678,6 @@
 
 		<attachment name="territoryAttachment" attachTo="Churchill" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
 			<option name="production" value="2"/>
-			<option name="capital" value="French"/>
 			<!--<option name="victoryCity" value="1"/>-->
 
 
@@ -7403,7 +7403,7 @@
 			<unitPlacement unitType="Bunker" territory="Stalingrad" quantity="1"/>
 			<unitPlacement unitType="Factory" territory="Stalingrad" quantity="1"/>
 			<unitPlacement unitType="Infantry" territory="Komi" quantity="1"/>
-			<unitPlacement unitType="Infantry" territory="Sverdlovsk" quantity="4" owner="Russians"/>
+			<unitPlacement unitType="Infantry" territory="Sverdlovsk" quantity="5" owner="Russians"/>
 			<unitPlacement unitType="Bunker" territory="Sverdlovsk" quantity="2" owner="Russians"/>
 			<unitPlacement unitType="Tank" territory="Sverdlovsk" quantity="1" owner="Russians"/>
 			<unitPlacement unitType="Fighter" territory="Sverdlovsk" quantity="1" owner="Russians"/>
@@ -7426,7 +7426,7 @@
 			<unitPlacement unitType="Infantry" territory="Tashkent" quantity="2"/>
 			<unitPlacement unitType="Bunker" territory="Tashkent" quantity="1"/>
 			<unitPlacement unitType="Factory" territory="Tashkent" quantity="1"/>
-			<unitPlacement unitType="Infantry" territory="Sibirsky" quantity="4" owner="Russians"/>
+			<unitPlacement unitType="Infantry" territory="Sibirsky" quantity="5" owner="Russians"/>
 			<unitPlacement unitType="Bunker" territory="Sibirsky" quantity="2" owner="Russians"/>
 			<unitPlacement unitType="Tank" territory="Sibirsky" quantity="1" owner="Russians"/>
 			<unitPlacement unitType="Fighter" territory="Sibirsky" quantity="1" owner="Russians"/>
