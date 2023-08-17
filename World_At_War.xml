@@ -7370,7 +7370,7 @@
 			<unitPlacement unitType="Infantry" territory="Bavaria" quantity="6"/>
 			<unitPlacement unitType="Bunker" territory="Bavaria" quantity="1"/>
 			<unitPlacement unitType="Factory" territory="Bavaria" quantity="1"/>
-			<unitPlacement unitType="Infantry" territory="Hamburg" quantity="6"/>
+			<unitPlacement unitType="Infantry" territory="Hamburg" quantity="5"/>
 			<unitPlacement unitType="Bunker" territory="Hamburg" quantity="1"/>
 			<unitPlacement unitType="Factory" territory="Hamburg" quantity="1"/>
 			<unitPlacement unitType="Infantry" territory="Vladivostok" quantity="4"/>
@@ -7956,7 +7956,7 @@
 			<unitPlacement unitType="Cruiser" territory="83 Sea Zone" quantity="1" owner="Americans"/>
 			<unitPlacement unitType="Submarine" territory="83 Sea Zone" quantity="1" owner="Americans"/>
 			<unitPlacement unitType="Transport" territory="83 Sea Zone" quantity="1" owner="Americans"/>
-			<unitPlacement unitType="Destroyer" territory="91 Sea Zone" quantity="1" owner="Americans"/>
+			<unitPlacement unitType="Destroyer" territory="91 Sea Zone" quantity="2" owner="Americans"/>
 			<unitPlacement unitType="Transport" territory="91 Sea Zone" quantity="1" owner="Americans"/>
 			<unitPlacement unitType="Submarine" territory="91 Sea Zone" quantity="1" owner="Americans"/>
 			<unitPlacement unitType="Cruiser" territory="91 Sea Zone" quantity="1" owner="Americans"/>
