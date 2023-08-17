@@ -5124,7 +5124,7 @@
 			<option name="production" value="1"/>
 		</attachment>
 		<attachment name="territoryAttachment" attachTo="Wellington" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
-			<option name="production" value="2"/>
+			<option name="production" value="3"/>
 		</attachment>
 		<attachment name="territoryAttachment" attachTo="Broome" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
 			<option name="production" value="3"/>
@@ -8018,7 +8018,7 @@
 			<resourceGiven player="Chinese" resource="PUs" quantity="10"/>
 			<resourceGiven player="Hisaichi" resource="PUs" quantity="8"/>
 			<resourceGiven player="British" resource="PUs" quantity="17"/>                       
-			<resourceGiven player="Anzac" resource="PUs" quantity="8"/>
+			<resourceGiven player="Anzac" resource="PUs" quantity="9"/>
 			<resourceGiven player="Dutch" resource="PUs" quantity="7"/>
 			<resourceGiven player="Finns" resource="PUs" quantity="8"/>
 			<resourceGiven player="Romanians" resource="PUs" quantity="8"/>                        
