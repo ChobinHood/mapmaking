@@ -7368,8 +7368,6 @@
 			<unitPlacement unitType="Infantry" territory="Brandenburg" quantity="6"/>
 			<unitPlacement unitType="Infantry" territory="Austria" quantity="4"/>
 			<unitPlacement unitType="Infantry" territory="Bavaria" quantity="6"/>
-			<unitPlacement unitType="Bunker" territory="Bavaria" quantity="1"/>
-			<unitPlacement unitType="Factory" territory="Bavaria" quantity="1"/>
 			<unitPlacement unitType="Infantry" territory="Hamburg" quantity="5"/>
 			<unitPlacement unitType="Bunker" territory="Hamburg" quantity="1"/>
 			<unitPlacement unitType="Factory" territory="Hamburg" quantity="1"/>
@@ -7737,8 +7735,6 @@
 			<unitPlacement unitType="Bunker" territory="Canberra" quantity="1" owner="Anzac"/>
 			<unitPlacement unitType="Fighter" territory="Canberra" quantity="1" owner="Anzac"/>
 			<unitPlacement unitType="Infantry" territory="Broome" quantity="2"/>
-			<unitPlacement unitType="Factory" territory="Broome" quantity="1"/>
-			<unitPlacement unitType="Bunker" territory="Broome" quantity="1"/>
 			<unitPlacement unitType="Infantry" territory="Queensland" quantity="1"/>
 			<unitPlacement unitType="Infantry" territory="New Georgia" quantity="1"/>
 			<unitPlacement unitType="Infantry" territory="Northern Territory" quantity="1"/>
