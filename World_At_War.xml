@@ -7676,7 +7676,9 @@
 			<unitPlacement unitType="Infantry" territory="Aden" quantity="2"/>
 			<unitPlacement unitType="Infantry" territory="Delhi" quantity="6" owner="British"/>
 			<unitPlacement unitType="Bunker" territory="Delhi" quantity="2" owner="British"/>
-			<unitPlacement unitType="Tank" territory="Delhi" quantity="2" owner="British"/>
+			<unitPlacement unitType="Tank" territory="Delhi" quantity="1" owner="British"/>
+			<unitPlacement unitType="Fighter" territory="Delhi" quantity="1" owner="British"/>
+			<unitPlacement unitType="Artillery" territory="Delhi" quantity="2" owner="British"/>
 			<unitPlacement unitType="Factory" territory="Delhi" quantity="1" owner="British"/>
 			<unitPlacement unitType="AAGun" territory="Delhi" quantity="1" owner="British"/>
 			<unitPlacement unitType="Infantry" territory="Malta" quantity="5"/>
