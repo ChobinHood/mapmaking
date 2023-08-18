@@ -2325,6 +2325,10 @@
 			<cost resource="PUs" quantity="2"/>
 			<result resourceOrUnit="Infantry" quantity="1"/>
 		</productionRule>
+		<productionRule name="buyGrain Farm">
+			<cost resource="PUs" quantity="3"/>
+			<result resourceOrUnit="Grain Farm" quantity="1"/>
+		</productionRule>
 		<productionRule name="buyElite">
 			<cost resource="PUs" quantity="3"/>
 			<result resourceOrUnit="Elite" quantity="1"/>
@@ -2486,6 +2490,7 @@
 			<frontierRules name="buyCarrier"/>
 			<frontierRules name="buyAAGun"/>
 			<frontierRules name="buyFactory"/>
+			<frontierRules name="buyGrain Farm"/>
 		</productionFrontier>
 		<productionFrontier name="NeutralFrontierBonus">
 			<frontierRules name="buyInfantry"/>
@@ -2510,6 +2515,7 @@
 			<frontierRules name="buyCarrier"/>
 			<frontierRules name="buyAAGun"/>
 			<frontierRules name="buyFactory"/>
+			<frontierRules name="buyGrain Farm"/>
 		</productionFrontier>
 		<productionFrontier name="NeutralFrontierNew">
 			<frontierRules name="buyInfantry"/>
@@ -2534,6 +2540,7 @@
 			<frontierRules name="buyBunker"/>
 			<frontierRules name="buyAAGun"/>
 			<frontierRules name="buyFactory"/>
+			<frontierRules name="buyGrain Farm"/>
 		</productionFrontier>
 		<productionFrontier name="NeutralFrontierBonusNew">
 			<frontierRules name="buyInfantry"/>
@@ -2566,6 +2573,7 @@
 			<frontierRules name="buyBunker"/>
 			<frontierRules name="buyAAGun"/>
 			<frontierRules name="buyFactory"/>
+			<frontierRules name="buyGrain Farm"/>
 		</productionFrontier>
 
 		<productionFrontier name="MinorFrontier">
@@ -2583,6 +2591,7 @@
 			<frontierRules name="buyCarrier"/>
 			<frontierRules name="buyAAGun"/>
 			<frontierRules name="buyFactory"/>
+			<frontierRules name="buyGrain Farm"/>
 		</productionFrontier>
 		<productionFrontier name="MinorFrontierBonus">
 			<frontierRules name="buyInfantry"/>
@@ -2607,6 +2616,7 @@
 			<frontierRules name="buyCarrier"/>
 			<frontierRules name="buyAAGun"/>
 			<frontierRules name="buyFactory"/>
+			<frontierRules name="buyGrain Farm"/>
 		</productionFrontier>
 		<productionFrontier name="MinorFrontierNew">
 			<frontierRules name="buyInfantry"/>
@@ -2631,6 +2641,7 @@
 			<frontierRules name="buyBunker"/>
 			<frontierRules name="buyAAGun"/>
 			<frontierRules name="buyFactory"/>
+			<frontierRules name="buyGrain Farm"/>
 		</productionFrontier>
 		<productionFrontier name="MinorFrontierBonusNew">
 			<frontierRules name="buyInfantry"/>
@@ -2663,6 +2674,7 @@
 			<frontierRules name="buyBunker"/>
 			<frontierRules name="buyAAGun"/>
 			<frontierRules name="buyFactory"/>
+			<frontierRules name="buyGrain Farm"/>
 		</productionFrontier>
 
 		<productionFrontier name="GermansFrontier">
@@ -2680,6 +2692,7 @@
 			<frontierRules name="buyCarrier"/>
 			<frontierRules name="buyAAGun"/>
 			<frontierRules name="buyFactory"/>
+			<frontierRules name="buyGrain Farm"/>
 		</productionFrontier>
 		<productionFrontier name="GermansFrontierBonus">
 			<frontierRules name="buyInfantry"/>
@@ -2704,6 +2717,7 @@
 			<frontierRules name="buyCarrier"/>
 			<frontierRules name="buyAAGun"/>
 			<frontierRules name="buyFactory"/>
+			<frontierRules name="buyGrain Farm"/>
 		</productionFrontier>
 		<productionFrontier name="GermansFrontierNew">
 			<frontierRules name="buyInfantry"/>
@@ -2728,6 +2742,7 @@
 			<frontierRules name="buyBunker"/>
 			<frontierRules name="buyAAGun"/>
 			<frontierRules name="buyFactory"/>
+			<frontierRules name="buyGrain Farm"/>
 		</productionFrontier>
 		<productionFrontier name="GermansFrontierBonusNew">
 			<frontierRules name="buyInfantry"/>
@@ -2760,6 +2775,7 @@
 			<frontierRules name="buyBunker"/>
 			<frontierRules name="buyAAGun"/>
 			<frontierRules name="buyFactory"/>
+			<frontierRules name="buyGrain Farm"/>
 		</productionFrontier>
 
 		<productionFrontier name="ItaliansFrontier">
@@ -2777,6 +2793,7 @@
 			<frontierRules name="buyCarrier"/>
 			<frontierRules name="buyAAGun"/>
 			<frontierRules name="buyFactory"/>
+			<frontierRules name="buyGrain Farm"/>
 		</productionFrontier>
 		<productionFrontier name="ItaliansFrontierBonus">
 			<frontierRules name="buyInfantry"/>
@@ -2801,6 +2818,7 @@
 			<frontierRules name="buyCarrier"/>
 			<frontierRules name="buyAAGun"/>
 			<frontierRules name="buyFactory"/>
+			<frontierRules name="buyGrain Farm"/>
 		</productionFrontier>
 		<productionFrontier name="ItaliansFrontierNew">
 			<frontierRules name="buyInfantry"/>
@@ -2825,6 +2843,7 @@
 			<frontierRules name="buyBunker"/>
 			<frontierRules name="buyAAGun"/>
 			<frontierRules name="buyFactory"/>
+			<frontierRules name="buyGrain Farm"/>
 		</productionFrontier>
 		<productionFrontier name="ItaliansFrontierBonusNew">
 			<frontierRules name="buyInfantry"/>
@@ -2857,6 +2876,7 @@
 			<frontierRules name="buyBunker"/>
 			<frontierRules name="buyAAGun"/>
 			<frontierRules name="buyFactory"/>
+			<frontierRules name="buyGrain Farm"/>
 		</productionFrontier>
 
 		<productionFrontier name="YamamotoFrontier">
@@ -2874,6 +2894,7 @@
 			<frontierRules name="buyCarrier"/>
 			<frontierRules name="buyAAGun"/>
 			<frontierRules name="buyFactory"/>
+			<frontierRules name="buyGrain Farm"/>
 		</productionFrontier>
 		<productionFrontier name="YamamotoFrontierBonus">
 			<frontierRules name="buyInfantry"/>
@@ -2898,6 +2919,7 @@
 			<frontierRules name="buyCarrier"/>
 			<frontierRules name="buyAAGun"/>
 			<frontierRules name="buyFactory"/>
+			<frontierRules name="buyGrain Farm"/>
 		</productionFrontier>
 		<productionFrontier name="YamamotoFrontierNew">
 			<frontierRules name="buyInfantry"/>
@@ -2922,6 +2944,7 @@
 			<frontierRules name="buyBunker"/>
 			<frontierRules name="buyAAGun"/>
 			<frontierRules name="buyFactory"/>
+			<frontierRules name="buyGrain Farm"/>
 		</productionFrontier>
 		<productionFrontier name="YamamotoFrontierBonusNew">
 			<frontierRules name="buyInfantry"/>
@@ -2954,6 +2977,7 @@
 			<frontierRules name="buyBunker"/>
 			<frontierRules name="buyAAGun"/>
 			<frontierRules name="buyFactory"/>
+			<frontierRules name="buyGrain Farm"/>
 		</productionFrontier>
 
 		<productionFrontier name="HisaichiFrontier">
@@ -2971,6 +2995,7 @@
 			<frontierRules name="buyCarrier"/>
 			<frontierRules name="buyAAGun"/>
 			<frontierRules name="buyFactory"/>
+			<frontierRules name="buyGrain Farm"/>
 		</productionFrontier>
 		<productionFrontier name="HisaichiFrontierBonus">
 			<frontierRules name="buyInfantry"/>
@@ -2995,6 +3020,7 @@
 			<frontierRules name="buyCarrier"/>
 			<frontierRules name="buyAAGun"/>
 			<frontierRules name="buyFactory"/>
+			<frontierRules name="buyGrain Farm"/>
 		</productionFrontier>
 		<productionFrontier name="HisaichiFrontierNew">
 			<frontierRules name="buyInfantry"/>
@@ -3019,6 +3045,7 @@
 			<frontierRules name="buyBunker"/>
 			<frontierRules name="buyAAGun"/>
 			<frontierRules name="buyFactory"/>
+			<frontierRules name="buyGrain Farm"/>
 		</productionFrontier>
 		<productionFrontier name="HisaichiFrontierBonusNew">
 			<frontierRules name="buyInfantry"/>
@@ -3051,6 +3078,7 @@
 			<frontierRules name="buyBunker"/>
 			<frontierRules name="buyAAGun"/>
 			<frontierRules name="buyFactory"/>
+			<frontierRules name="buyGrain Farm"/>
 		</productionFrontier>
 
 		<productionFrontier name="FinnsFrontier">
@@ -3068,6 +3096,7 @@
 			<frontierRules name="buyCarrier"/>
 			<frontierRules name="buyAAGun"/>
 			<frontierRules name="buyFactory"/>
+			<frontierRules name="buyGrain Farm"/>
 		</productionFrontier>
 		<productionFrontier name="FinnsFrontierBonus">
 			<frontierRules name="buyInfantry"/>
@@ -3092,6 +3121,7 @@
 			<frontierRules name="buyCarrier"/>
 			<frontierRules name="buyAAGun"/>
 			<frontierRules name="buyFactory"/>
+			<frontierRules name="buyGrain Farm"/>
 		</productionFrontier>
 		<productionFrontier name="FinnsFrontierNew">
 			<frontierRules name="buyInfantry"/>
@@ -3116,6 +3146,7 @@
 			<frontierRules name="buyBunker"/>
 			<frontierRules name="buyAAGun"/>
 			<frontierRules name="buyFactory"/>
+			<frontierRules name="buyGrain Farm"/>
 		</productionFrontier>
 		<productionFrontier name="FinnsFrontierBonusNew">
 			<frontierRules name="buyInfantry"/>
@@ -3148,6 +3179,7 @@
 			<frontierRules name="buyBunker"/>
 			<frontierRules name="buyAAGun"/>
 			<frontierRules name="buyFactory"/>
+			<frontierRules name="buyGrain Farm"/>
 		</productionFrontier>
 
 		<productionFrontier name="RomaniansFrontier">
@@ -3165,6 +3197,7 @@
 			<frontierRules name="buyCarrier"/>
 			<frontierRules name="buyAAGun"/>
 			<frontierRules name="buyFactory"/>
+			<frontierRules name="buyGrain Farm"/>
 		</productionFrontier>
 		<productionFrontier name="RomaniansFrontierBonus">
 			<frontierRules name="buyInfantry"/>
@@ -3189,6 +3222,7 @@
 			<frontierRules name="buyCarrier"/>
 			<frontierRules name="buyAAGun"/>
 			<frontierRules name="buyFactory"/>
+			<frontierRules name="buyGrain Farm"/>
 		</productionFrontier>
 		<productionFrontier name="RomaniansFrontierNew">
 			<frontierRules name="buyInfantry"/>
@@ -3213,6 +3247,7 @@
 			<frontierRules name="buyBunker"/>
 			<frontierRules name="buyAAGun"/>
 			<frontierRules name="buyFactory"/>
+			<frontierRules name="buyGrain Farm"/>
 		</productionFrontier>
 		<productionFrontier name="RomaniansFrontierBonusNew">
 			<frontierRules name="buyInfantry"/>
@@ -3245,6 +3280,7 @@
 			<frontierRules name="buyBunker"/>
 			<frontierRules name="buyAAGun"/>
 			<frontierRules name="buyFactory"/>
+			<frontierRules name="buyGrain Farm"/>
 		</productionFrontier>
 
 		<productionFrontier name="ThaiFrontier">
@@ -3262,6 +3298,7 @@
 			<frontierRules name="buyCarrier"/>
 			<frontierRules name="buyAAGun"/>
 			<frontierRules name="buyFactory"/>
+			<frontierRules name="buyGrain Farm"/>
 		</productionFrontier>
 		<productionFrontier name="ThaiFrontierBonus">
 			<frontierRules name="buyInfantry"/>
@@ -3286,6 +3323,7 @@
 			<frontierRules name="buyCarrier"/>
 			<frontierRules name="buyAAGun"/>
 			<frontierRules name="buyFactory"/>
+			<frontierRules name="buyGrain Farm"/>
 		</productionFrontier>
 		<productionFrontier name="ThaiFrontierNew">
 			<frontierRules name="buyInfantry"/>
@@ -3310,6 +3348,7 @@
 			<frontierRules name="buyBunker"/>
 			<frontierRules name="buyAAGun"/>
 			<frontierRules name="buyFactory"/>
+			<frontierRules name="buyGrain Farm"/>
 		</productionFrontier>
 		<productionFrontier name="ThaiFrontierBonusNew">
 			<frontierRules name="buyInfantry"/>
@@ -3342,6 +3381,7 @@
 			<frontierRules name="buyBunker"/>
 			<frontierRules name="buyAAGun"/>
 			<frontierRules name="buyFactory"/>
+			<frontierRules name="buyGrain Farm"/>
 		</productionFrontier>
 
 		<productionFrontier name="RussiansFrontier">
@@ -3359,6 +3399,7 @@
 			<frontierRules name="buyCarrier"/>
 			<frontierRules name="buyAAGun"/>
 			<frontierRules name="buyFactory"/>
+			<frontierRules name="buyGrain Farm"/>
 		</productionFrontier>
 		<productionFrontier name="RussiansFrontierBonus">
 			<frontierRules name="buyInfantry"/>
@@ -3383,6 +3424,7 @@
 			<frontierRules name="buyCarrier"/>
 			<frontierRules name="buyAAGun"/>
 			<frontierRules name="buyFactory"/>
+			<frontierRules name="buyGrain Farm"/>
 		</productionFrontier>
 		<productionFrontier name="RussiansFrontierNew">
 			<frontierRules name="buyInfantry"/>
@@ -3407,6 +3449,7 @@
 			<frontierRules name="buyBunker"/>
 			<frontierRules name="buyAAGun"/>
 			<frontierRules name="buyFactory"/>
+			<frontierRules name="buyGrain Farm"/>
 		</productionFrontier>
 		<productionFrontier name="RussiansFrontierBonusNew">
 			<frontierRules name="buyInfantry"/>
@@ -3439,6 +3482,7 @@
 			<frontierRules name="buyBunker"/>
 			<frontierRules name="buyAAGun"/>
 			<frontierRules name="buyFactory"/>
+			<frontierRules name="buyGrain Farm"/>
 		</productionFrontier>
 
 		<productionFrontier name="FrenchFrontier">
@@ -3456,6 +3500,7 @@
 			<frontierRules name="buyCarrier"/>
 			<frontierRules name="buyAAGun"/>
 			<frontierRules name="buyFactory"/>
+			<frontierRules name="buyGrain Farm"/>
 		</productionFrontier>
 		<productionFrontier name="FrenchFrontierBonus">
 			<frontierRules name="buyInfantry"/>
@@ -3480,6 +3525,7 @@
 			<frontierRules name="buyCarrier"/>
 			<frontierRules name="buyAAGun"/>
 			<frontierRules name="buyFactory"/>
+			<frontierRules name="buyGrain Farm"/>
 		</productionFrontier>
 		<productionFrontier name="FrenchFrontierNew">
 			<frontierRules name="buyInfantry"/>
@@ -3504,6 +3550,7 @@
 			<frontierRules name="buyBunker"/>
 			<frontierRules name="buyAAGun"/>
 			<frontierRules name="buyFactory"/>
+			<frontierRules name="buyGrain Farm"/>
 		</productionFrontier>
 		<productionFrontier name="FrenchFrontierBonusNew">
 			<frontierRules name="buyInfantry"/>
@@ -3536,6 +3583,7 @@
 			<frontierRules name="buyBunker"/>
 			<frontierRules name="buyAAGun"/>
 			<frontierRules name="buyFactory"/>
+			<frontierRules name="buyGrain Farm"/>
 		</productionFrontier>
 
 		<productionFrontier name="ChineseFrontier">
@@ -3553,6 +3601,7 @@
 			<frontierRules name="buyCarrier"/>
 			<frontierRules name="buyAAGun"/>
 			<frontierRules name="buyFactory"/>
+			<frontierRules name="buyGrain Farm"/>
 		</productionFrontier>
 		<productionFrontier name="ChineseFrontierBonus">
 			<frontierRules name="buyInfantry"/>
@@ -3577,6 +3626,7 @@
 			<frontierRules name="buyCarrier"/>
 			<frontierRules name="buyAAGun"/>
 			<frontierRules name="buyFactory"/>
+			<frontierRules name="buyGrain Farm"/>
 		</productionFrontier>
 		<productionFrontier name="ChineseFrontierNew">
 			<frontierRules name="buyInfantry"/>
@@ -3601,6 +3651,7 @@
 			<frontierRules name="buyBunker"/>
 			<frontierRules name="buyAAGun"/>
 			<frontierRules name="buyFactory"/>
+			<frontierRules name="buyGrain Farm"/>
 		</productionFrontier>
 		<productionFrontier name="ChineseFrontierBonusNew">
 			<frontierRules name="buyInfantry"/>
@@ -3633,6 +3684,7 @@
 			<frontierRules name="buyBunker"/>
 			<frontierRules name="buyAAGun"/>
 			<frontierRules name="buyFactory"/>
+			<frontierRules name="buyGrain Farm"/>
 		</productionFrontier>
 
 		<productionFrontier name="BritishFrontier">
@@ -3650,6 +3702,7 @@
 			<frontierRules name="buyCarrier"/>
 			<frontierRules name="buyAAGun"/>
 			<frontierRules name="buyFactory"/>
+			<frontierRules name="buyGrain Farm"/>
 		</productionFrontier>
 		<productionFrontier name="BritishFrontierBonus">
 			<frontierRules name="buyInfantry"/>
@@ -3674,6 +3727,7 @@
 			<frontierRules name="buyCarrier"/>
 			<frontierRules name="buyAAGun"/>
 			<frontierRules name="buyFactory"/>
+			<frontierRules name="buyGrain Farm"/>
 		</productionFrontier>
 		<productionFrontier name="BritishFrontierNew">
 			<frontierRules name="buyInfantry"/>
@@ -3698,6 +3752,7 @@
 			<frontierRules name="buyBunker"/>
 			<frontierRules name="buyAAGun"/>
 			<frontierRules name="buyFactory"/>
+			<frontierRules name="buyGrain Farm"/>
 		</productionFrontier>
 		<productionFrontier name="BritishFrontierBonusNew">
 			<frontierRules name="buyInfantry"/>
@@ -3730,6 +3785,7 @@
 			<frontierRules name="buyBunker"/>
 			<frontierRules name="buyAAGun"/>
 			<frontierRules name="buyFactory"/>
+			<frontierRules name="buyGrain Farm"/>
 		</productionFrontier>
 
 		<productionFrontier name="AnzacFrontier">
@@ -3747,6 +3803,7 @@
 			<frontierRules name="buyCarrier"/>
 			<frontierRules name="buyAAGun"/>
 			<frontierRules name="buyFactory"/>
+			<frontierRules name="buyGrain Farm"/>
 		</productionFrontier>
 		<productionFrontier name="AnzacFrontierBonus">
 			<frontierRules name="buyInfantry"/>
@@ -3771,6 +3828,7 @@
 			<frontierRules name="buyCarrier"/>
 			<frontierRules name="buyAAGun"/>
 			<frontierRules name="buyFactory"/>
+			<frontierRules name="buyGrain Farm"/>
 		</productionFrontier>
 		<productionFrontier name="AnzacFrontierNew">
 			<frontierRules name="buyInfantry"/>
@@ -3795,6 +3853,7 @@
 			<frontierRules name="buyBunker"/>
 			<frontierRules name="buyAAGun"/>
 			<frontierRules name="buyFactory"/>
+			<frontierRules name="buyGrain Farm"/>
 		</productionFrontier>
 		<productionFrontier name="AnzacFrontierBonusNew">
 			<frontierRules name="buyInfantry"/>
@@ -3827,6 +3886,7 @@
 			<frontierRules name="buyBunker"/>
 			<frontierRules name="buyAAGun"/>
 			<frontierRules name="buyFactory"/>
+			<frontierRules name="buyGrain Farm"/>
 		</productionFrontier>
 
 		<productionFrontier name="DutchFrontier">
@@ -3844,6 +3904,7 @@
 			<frontierRules name="buyCarrier"/>
 			<frontierRules name="buyAAGun"/>
 			<frontierRules name="buyFactory"/>
+			<frontierRules name="buyGrain Farm"/>
 		</productionFrontier>
 		<productionFrontier name="DutchFrontierBonus">
 			<frontierRules name="buyInfantry"/>
@@ -3868,6 +3929,7 @@
 			<frontierRules name="buyCarrier"/>
 			<frontierRules name="buyAAGun"/>
 			<frontierRules name="buyFactory"/>
+			<frontierRules name="buyGrain Farm"/>
 		</productionFrontier>
 		<productionFrontier name="DutchFrontierNew">
 			<frontierRules name="buyInfantry"/>
@@ -3892,6 +3954,7 @@
 			<frontierRules name="buyBunker"/>
 			<frontierRules name="buyAAGun"/>
 			<frontierRules name="buyFactory"/>
+			<frontierRules name="buyGrain Farm"/>
 		</productionFrontier>
 		<productionFrontier name="DutchFrontierBonusNew">
 			<frontierRules name="buyInfantry"/>
@@ -3924,6 +3987,7 @@
 			<frontierRules name="buyBunker"/>
 			<frontierRules name="buyAAGun"/>
 			<frontierRules name="buyFactory"/>
+			<frontierRules name="buyGrain Farm"/>
 		</productionFrontier>
 
 		<productionFrontier name="AmericansFrontier">
@@ -3941,6 +4005,7 @@
 			<frontierRules name="buyCarrier"/>
 			<frontierRules name="buyAAGun"/>
 			<frontierRules name="buyFactory"/>
+			<frontierRules name="buyGrain Farm"/>
 		</productionFrontier>
 		<productionFrontier name="AmericansFrontierBonus">
 			<frontierRules name="buyInfantry"/>
@@ -3965,6 +4030,7 @@
 			<frontierRules name="buyCarrier"/>
 			<frontierRules name="buyAAGun"/>
 			<frontierRules name="buyFactory"/>
+			<frontierRules name="buyGrain Farm"/>
 		</productionFrontier>
 		<productionFrontier name="AmericansFrontierNew">
 			<frontierRules name="buyInfantry"/>
@@ -3989,6 +4055,7 @@
 			<frontierRules name="buyBunker"/>
 			<frontierRules name="buyAAGun"/>
 			<frontierRules name="buyFactory"/>
+			<frontierRules name="buyGrain Farm"/>
 		</productionFrontier>
 		<productionFrontier name="AmericansFrontierBonusNew">
 			<frontierRules name="buyInfantry"/>
@@ -4021,6 +4088,7 @@
 			<frontierRules name="buyBunker"/>
 			<frontierRules name="buyAAGun"/>
 			<frontierRules name="buyFactory"/>
+			<frontierRules name="buyGrain Farm"/>
 		</productionFrontier>
 
 
@@ -4323,7 +4391,7 @@
 
 
 		<attachment name="territoryAttachment" attachTo="East Prussia" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
-			<option name="production" value="3"/>
+			<option name="production" value="4"/>
 			<option name="capital" value="Germans"/>
 		</attachment>
 		<attachment name="territoryAttachment" attachTo="Pomerania" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
@@ -7308,6 +7376,75 @@
 			<option name="retainCapitalNumber" value="3"/>
 			<option name="retainCapitalProduceNumber" value="0"/>
 		</attachment>
+
+	<!-- National Objectives -->	
+<attachment name="objectiveAttachment_Gain_Farms" attachTo="British" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
+      <option name="objectiveValue" value="1"/>
+      <option name="directPresenceTerritories" value="map" count="1"/>
+      <option name="unitPresence" value="Grain Farm" count="each"/>
+	</attachment>
+<attachment name="objectiveAttachment_Gain_Farms" attachTo="French" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
+      <option name="objectiveValue" value="1"/>
+      <option name="directPresenceTerritories" value="map" count="1"/>
+      <option name="unitPresence" value="Grain Farm" count="each"/>
+	</attachment>
+<attachment name="objectiveAttachment_Gain_Farms" attachTo="Germans" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
+      <option name="objectiveValue" value="1"/>
+      <option name="directPresenceTerritories" value="map" count="1"/>
+      <option name="unitPresence" value="Grain Farm" count="each"/>
+	</attachment>
+<attachment name="objectiveAttachment_Gain_Farms" attachTo="Italians" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
+      <option name="objectiveValue" value="1"/>
+      <option name="directPresenceTerritories" value="map" count="1"/>
+      <option name="unitPresence" value="Grain Farm" count="each"/>
+	</attachment>
+<attachment name="objectiveAttachment_Gain_Farms" attachTo="Finns" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
+      <option name="objectiveValue" value="1"/>
+      <option name="directPresenceTerritories" value="map" count="1"/>
+      <option name="unitPresence" value="Grain Farm" count="each"/>
+	</attachment>
+<attachment name="objectiveAttachment_Gain_Farms" attachTo="Romanians" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
+      <option name="objectiveValue" value="1"/>
+      <option name="directPresenceTerritories" value="map" count="1"/>
+      <option name="unitPresence" value="Grain Farm" count="each"/>
+	</attachment>
+<attachment name="objectiveAttachment_Gain_Farms" attachTo="Russians" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
+      <option name="objectiveValue" value="1"/>
+      <option name="directPresenceTerritories" value="map" count="1"/>
+      <option name="unitPresence" value="Grain Farm" count="each"/>
+	</attachment>
+<attachment name="objectiveAttachment_Gain_Farms" attachTo="Americans" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
+      <option name="objectiveValue" value="1"/>
+      <option name="directPresenceTerritories" value="map" count="1"/>
+      <option name="unitPresence" value="Grain Farm" count="each"/>
+	</attachment>
+<attachment name="objectiveAttachment_Gain_Farms" attachTo="Dutch" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
+      <option name="objectiveValue" value="1"/>
+      <option name="directPresenceTerritories" value="map" count="1"/>
+      <option name="unitPresence" value="Grain Farm" count="each"/>
+	</attachment>
+<attachment name="objectiveAttachment_Gain_Farms" attachTo="Thai" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
+      <option name="objectiveValue" value="1"/>
+      <option name="directPresenceTerritories" value="map" count="1"/>
+      <option name="unitPresence" value="Grain Farm" count="each"/>
+	</attachment>
+<attachment name="objectiveAttachment_Gain_Farms" attachTo="Anzac" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
+      <option name="objectiveValue" value="1"/>
+      <option name="directPresenceTerritories" value="map" count="1"/>
+      <option name="unitPresence" value="Grain Farm" count="each"/>
+	</attachment>
+<attachment name="objectiveAttachment_Gain_Farms" attachTo="Yamamoto" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
+      <option name="objectiveValue" value="1"/>
+      <option name="directPresenceTerritories" value="map" count="1"/>
+      <option name="unitPresence" value="Grain Farm" count="each"/>
+	</attachment>
+<attachment name="objectiveAttachment_Gain_Farms" attachTo="Hisaichi" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
+      <option name="objectiveValue" value="1"/>
+      <option name="directPresenceTerritories" value="map" count="1"/>
+      <option name="unitPresence" value="Grain Farm" count="each"/>
+	</attachment>
+
+		
 	</attachmentList>
 
 	<initialize>
@@ -7973,8 +8110,8 @@
 			<unitPlacement unitType="Destroyer" territory="59 Sea Zone" quantity="2" owner="British"/>
 
 			<unitPlacement unitType="Destroyer" territory="50 Sea Zone" quantity="2" owner="Italians"/>
-			<unitPlacement unitType="Transport" territory="50 Sea Zone" quantity="2" owner="Italians"/>
-			<unitPlacement unitType="Cruiser" territory="50 Sea Zone" quantity="1" owner="Italians"/>
+			<unitPlacement unitType="Transport" territory="50 Sea Zone" quantity="3" owner="Italians"/>
+			<unitPlacement unitType="Cruiser" territory="50 Sea Zone" quantity="2" owner="Italians"/>
 			<unitPlacement unitType="Submarine" territory="50 Sea Zone" quantity="1" owner="Italians"/>
 
 			<unitPlacement unitType="Destroyer" territory="110 Sea Zone" quantity="2" owner="Dutch"/>
@@ -8008,7 +8145,7 @@
 
 		</unitInitialize>
 		<resourceInitialize>
-			<resourceGiven player="Germans" resource="PUs" quantity="18"/>
+			<resourceGiven player="Germans" resource="PUs" quantity="19"/>
 			<resourceGiven player="Russians" resource="PUs" quantity="21"/>
 			<resourceGiven player="Italians" resource="PUs" quantity="13"/>
 			<resourceGiven player="French" resource="PUs" quantity="15"/>                     
