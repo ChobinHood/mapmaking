@@ -4638,7 +4638,7 @@
 			<option name="production" value="1"/>
 		</attachment>
 		<attachment name="territoryAttachment" attachTo="Sicily" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
-			<option name="production" value="1"/>
+			<option name="production" value="2"/>
 		</attachment>
 		<attachment name="territoryAttachment" attachTo="Rome" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
 			<option name="production" value="8"/>
@@ -5693,7 +5693,7 @@
 			<option name="production" value="0"/>
 		</attachment>
 		<attachment name="territoryAttachment" attachTo="Istanbul" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
-			<option name="production" value="2"/>
+			<option name="production" value="3"/>
 		</attachment>
 		<attachment name="territoryAttachment" attachTo="Venezuela" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
 			<option name="production" value="2"/>
@@ -7588,8 +7588,8 @@
 			<unitPlacement unitType="Infantry" territory="Kolyma" quantity="1"/>
 			<unitPlacement unitType="Infantry" territory="Minsk" quantity="1"/>
 			<unitPlacement unitType="Infantry" territory="Sicily" quantity="2"/>
-			<unitPlacement unitType="Infantry" territory="Rome" quantity="6" owner="Italians"/>
-			<unitPlacement unitType="Artillery" territory="Rome" quantity="3" owner="Italians"/>
+			<unitPlacement unitType="Infantry" territory="Rome" quantity="7" owner="Italians"/>
+			<unitPlacement unitType="Artillery" territory="Rome" quantity="4" owner="Italians"/>
 			<unitPlacement unitType="Fighter" territory="Rome" quantity="2" owner="Italians"/>
 			<unitPlacement unitType="Bunker" territory="Lombardy" quantity="1"/>
 			<unitPlacement unitType="Factory" territory="Lombardy" quantity="1"/>
@@ -7602,7 +7602,7 @@
 			<unitPlacement unitType="Bunker" territory="Italian East Africa" quantity="2" owner="Italians"/>
 			<unitPlacement unitType="Factory" territory="Italian East Africa" quantity="1" owner="Italians"/>
 			<unitPlacement unitType="Infantry" territory="Lombardy" quantity="5"/>
-			<unitPlacement unitType="Infantry" territory="Tobruk" quantity="4"/>
+			<unitPlacement unitType="Infantry" territory="Tobruk" quantity="2"/>
 			<unitPlacement unitType="Infantry" territory="Campania" quantity="4"/>
 			<unitPlacement unitType="Infantry" territory="Kufra" quantity="2"/>
 			<unitPlacement unitType="Infantry" territory="Albania" quantity="6" owner="Italians"/>
@@ -7663,7 +7663,7 @@
 			<unitPlacement unitType="Factory" territory="Tunis" quantity="1"/>
 			<unitPlacement unitType="Infantry" territory="Tokyo" quantity="8" owner="Yamamoto"/>
 			<unitPlacement unitType="Bunker" territory="Tokyo" quantity="4" owner="Yamamoto"/>
-			<unitPlacement unitType="Artillery" territory="Tokyo" quantity="3" owner="Yamamoto"/>
+			<unitPlacement unitType="Artillery" territory="Tokyo" quantity="4" owner="Yamamoto"/>
 			<unitPlacement unitType="Tank" territory="Tokyo" quantity="2" owner="Yamamoto"/>
 			<unitPlacement unitType="Fighter" territory="Tokyo" quantity="3" owner="Yamamoto"/>
 			<unitPlacement unitType="Bomber" territory="Tokyo" quantity="1" owner="Yamamoto"/>
@@ -7817,7 +7817,7 @@
 			<unitPlacement unitType="Artillery" territory="Madras" quantity="2" owner="British"/>
 			<unitPlacement unitType="Factory" territory="Madras" quantity="1" owner="British"/>
 			<unitPlacement unitType="AAGun" territory="Madras" quantity="1" owner="British"/>
-			<unitPlacement unitType="Infantry" territory="Malta" quantity="5"/>
+			<unitPlacement unitType="Infantry" territory="Malta" quantity="2"/>
 			<unitPlacement unitType="Infantry" territory="Montreal" quantity="6" owner="British"/>
 			<unitPlacement unitType="Artillery" territory="Montreal" quantity="2" owner="British"/>
 			<unitPlacement unitType="Bunker" territory="Montreal" quantity="2" owner="British"/>
@@ -8127,7 +8127,8 @@
 			<unitPlacement unitType="Carrier" territory="85 Sea Zone" quantity="1" owner="Yamamoto"/>
 			<unitPlacement unitType="Battleship" territory="85 Sea Zone" quantity="1" owner="Yamamoto"/>
 			<unitPlacement unitType="Destroyer" territory="85 Sea Zone" quantity="1" owner="Yamamoto"/>
-			<unitPlacement unitType="Transport" territory="85 Sea Zone" quantity="1" owner="Yamamoto"/>
+			<unitPlacement unitType="Submarine" territory="85 Sea Zone" quantity="1" owner="Yamamoto"/>
+			<unitPlacement unitType="Transport" territory="85 Sea Zone" quantity="2" owner="Yamamoto"/>
 			<unitPlacement unitType="Fighter" territory="85 Sea Zone" quantity="1" owner="Yamamoto"/>
 
 			<unitPlacement unitType="Submarine" territory="84 Sea Zone" quantity="1" owner="Hisaichi"/>
