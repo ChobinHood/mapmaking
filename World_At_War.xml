@@ -5402,7 +5402,7 @@
 			<option name="production" value="1"/>
 		</attachment>
 		<attachment name="territoryAttachment" attachTo="Stockholm" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
-			<option name="production" value="2"/>
+			<option name="production" value="3"/>
 		</attachment>
 		<attachment name="territoryAttachment" attachTo="Bolivia" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
 			<option name="production" value="2"/>
@@ -7402,7 +7402,7 @@
 			<unitPlacement unitType="Bunker" territory="Stalingrad" quantity="1"/>
 			<unitPlacement unitType="Factory" territory="Stalingrad" quantity="1"/>
 			<unitPlacement unitType="Infantry" territory="Komi" quantity="1"/>
-			<unitPlacement unitType="Infantry" territory="Sverdlovsk" quantity="5" owner="Russians"/>
+			<unitPlacement unitType="Infantry" territory="Sverdlovsk" quantity="6" owner="Russians"/>
 			<unitPlacement unitType="Bunker" territory="Sverdlovsk" quantity="2" owner="Russians"/>
 			<unitPlacement unitType="Tank" territory="Sverdlovsk" quantity="1" owner="Russians"/>
 			<unitPlacement unitType="Fighter" territory="Sverdlovsk" quantity="1" owner="Russians"/>
@@ -7425,7 +7425,7 @@
 			<unitPlacement unitType="Infantry" territory="Tashkent" quantity="2"/>
 			<unitPlacement unitType="Bunker" territory="Tashkent" quantity="1"/>
 			<unitPlacement unitType="Factory" territory="Tashkent" quantity="1"/>
-			<unitPlacement unitType="Infantry" territory="Sibirsky" quantity="5" owner="Russians"/>
+			<unitPlacement unitType="Infantry" territory="Sibirsky" quantity="6" owner="Russians"/>
 			<unitPlacement unitType="Bunker" territory="Sibirsky" quantity="2" owner="Russians"/>
 			<unitPlacement unitType="Tank" territory="Sibirsky" quantity="1" owner="Russians"/>
 			<unitPlacement unitType="Fighter" territory="Sibirsky" quantity="1" owner="Russians"/>
@@ -7505,7 +7505,7 @@
 			<unitPlacement unitType="Infantry" territory="Syria" quantity="2"/>
 			<unitPlacement unitType="Artillery" territory="S.French Indochina" quantity="1"/>
 			<unitPlacement unitType="Infantry" territory="Mauritania" quantity="1"/>
-			<unitPlacement unitType="Infantry" territory="E.Morocco" quantity="5" owner="French"/>
+			<unitPlacement unitType="Infantry" territory="E.Morocco" quantity="6" owner="French"/>
 			<unitPlacement unitType="Bunker" territory="E.Morocco" quantity="2" owner="French"/>
 			<unitPlacement unitType="Artillery" territory="E.Morocco" quantity="2" owner="French"/>
 			<unitPlacement unitType="Factory" territory="E.Morocco" quantity="1" owner="French"/>
@@ -8010,14 +8010,14 @@
 			<resourceGiven player="Germans" resource="PUs" quantity="18"/>
 			<resourceGiven player="Russians" resource="PUs" quantity="21"/>
 			<resourceGiven player="Italians" resource="PUs" quantity="15"/>
-			<resourceGiven player="French" resource="PUs" quantity="14"/>                     
+			<resourceGiven player="French" resource="PUs" quantity="15"/>                     
 			<resourceGiven player="Yamamoto" resource="PUs" quantity="8"/>
 			<resourceGiven player="Chinese" resource="PUs" quantity="10"/>
 			<resourceGiven player="Hisaichi" resource="PUs" quantity="8"/>
-			<resourceGiven player="British" resource="PUs" quantity="17"/>                       
+			<resourceGiven player="British" resource="PUs" quantity="18"/>                       
 			<resourceGiven player="Anzac" resource="PUs" quantity="9"/>
 			<resourceGiven player="Dutch" resource="PUs" quantity="7"/>
-			<resourceGiven player="Finns" resource="PUs" quantity="8"/>
+			<resourceGiven player="Finns" resource="PUs" quantity="9"/>
 			<resourceGiven player="Romanians" resource="PUs" quantity="8"/>                        
 			<resourceGiven player="Thai" resource="PUs" quantity="6"/>
 			<resourceGiven player="Americans" resource="PUs" quantity="31"/>
