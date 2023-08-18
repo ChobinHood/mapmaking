@@ -2430,7 +2430,7 @@
 			<result resourceOrUnit="B.Carrier" quantity="1"/>
 		</productionRule>
 		<productionRule name="buyBunker">
-			<cost resource="PUs" quantity="6"/>
+			<cost resource="PUs" quantity="5"/>
 			<result resourceOrUnit="Bunker" quantity="1"/>
 		</productionRule>
 		<productionRule name="buyAAGun">
@@ -5022,6 +5022,7 @@
 		</attachment>
 		<attachment name="territoryAttachment" attachTo="Madras" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
 			<option name="production" value="5"/>
+			<option name="capital" value="British"/>
 			<!--<option name="victoryCity" value="1"/>-->
 
 		</attachment>
@@ -5052,7 +5053,6 @@
 		</attachment>
 		<attachment name="territoryAttachment" attachTo="Delhi" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
 			<option name="production" value="5"/>
-			<option name="capital" value="British"/>
 			<!--<option name="victoryCity" value="1"/>-->
 
 		</attachment>
@@ -7328,7 +7328,7 @@
 			<territoryOwner territory="Urumqi" owner="Chinese"/>
 			<territoryOwner territory="Hsining" owner="Chinese"/>
 			<territoryOwner territory="Changchun" owner="Hisaichi"/>
-			<territoryOwner territory="Delhi" owner="British"/>
+			<territoryOwner territory="Madras" owner="British"/>
 			<territoryOwner territory="Cape Town" owner="British"/>
 			<territoryOwner territory="London" owner="British"/>
 			<territoryOwner territory="Montreal" owner="British"/>
@@ -7669,17 +7669,17 @@
 			<unitPlacement unitType="Factory" territory="Manchester" quantity="1"/>
 			<unitPlacement unitType="Infantry" territory="Nubia" quantity="1"/>
 			<unitPlacement unitType="Infantry" territory="Kenya" quantity="1"/>
-			<unitPlacement unitType="Infantry" territory="Madras" quantity="5"/>
-			<unitPlacement unitType="Bunker" territory="Madras" quantity="1"/>
-			<unitPlacement unitType="Factory" territory="Madras" quantity="1"/>
+			<unitPlacement unitType="Infantry" territory="Delhi" quantity="5"/>
+			<unitPlacement unitType="Bunker" territory="Delhi" quantity="1"/>
+			<unitPlacement unitType="Factory" territory="Delhi" quantity="1"/>
 			<unitPlacement unitType="Infantry" territory="Aden" quantity="2"/>
-			<unitPlacement unitType="Infantry" territory="Delhi" quantity="6" owner="British"/>
-			<unitPlacement unitType="Bunker" territory="Delhi" quantity="2" owner="British"/>
-			<unitPlacement unitType="Tank" territory="Delhi" quantity="1" owner="British"/>
-			<unitPlacement unitType="Fighter" territory="Delhi" quantity="1" owner="British"/>
-			<unitPlacement unitType="Artillery" territory="Delhi" quantity="2" owner="British"/>
-			<unitPlacement unitType="Factory" territory="Delhi" quantity="1" owner="British"/>
-			<unitPlacement unitType="AAGun" territory="Delhi" quantity="1" owner="British"/>
+			<unitPlacement unitType="Infantry" territory="Madras" quantity="6" owner="British"/>
+			<unitPlacement unitType="Bunker" territory="Madras" quantity="2" owner="British"/>
+			<unitPlacement unitType="Tank" territory="Madras" quantity="1" owner="British"/>
+			<unitPlacement unitType="Fighter" territory="Madras" quantity="1" owner="British"/>
+			<unitPlacement unitType="Artillery" territory="Madras" quantity="2" owner="British"/>
+			<unitPlacement unitType="Factory" territory="Madras" quantity="1" owner="British"/>
+			<unitPlacement unitType="AAGun" territory="Madras" quantity="1" owner="British"/>
 			<unitPlacement unitType="Infantry" territory="Malta" quantity="5"/>
 			<unitPlacement unitType="Infantry" territory="Montreal" quantity="6" owner="British"/>
 			<unitPlacement unitType="Artillery" territory="Montreal" quantity="2" owner="British"/>
@@ -7962,13 +7962,15 @@
 			<unitPlacement unitType="Destroyer" territory="1 Sea Zone" quantity="2" owner="French"/>
 			<unitPlacement unitType="Transport" territory="1 Sea Zone" quantity="1" owner="French"/>
 			<unitPlacement unitType="Cruiser" territory="31 Sea Zone" quantity="1" owner="French"/>
+			<unitPlacement unitType="Destroyer" territory="31 Sea Zone" quantity="1" owner="French"/>
 
-			<unitPlacement unitType="Cruiser" territory="18 Sea Zone" quantity="1" owner="British"/>
+			<unitPlacement unitType="Cruiser" territory="18 Sea Zone" quantity="2" owner="British"/>
 			<unitPlacement unitType="Battleship" territory="18 Sea Zone" quantity="1" owner="British"/>
 			<unitPlacement unitType="Destroyer" territory="18 Sea Zone" quantity="2" owner="British"/>
 			<unitPlacement unitType="Transport" territory="18 Sea Zone" quantity="1" owner="British"/>
 			<unitPlacement unitType="Destroyer" territory="40 Sea Zone" quantity="2" owner="British"/>
 			<unitPlacement unitType="Transport" territory="40 Sea Zone" quantity="1" owner="British"/>
+			<unitPlacement unitType="Destroyer" territory="59 Sea Zone" quantity="2" owner="British"/>
 
 			<unitPlacement unitType="Destroyer" territory="50 Sea Zone" quantity="2" owner="Italians"/>
 			<unitPlacement unitType="Transport" territory="50 Sea Zone" quantity="2" owner="Italians"/>
