@@ -2326,7 +2326,7 @@
 			<result resourceOrUnit="Infantry" quantity="1"/>
 		</productionRule>
 		<productionRule name="buyGrain Farm">
-			<cost resource="PUs" quantity="3"/>
+			<cost resource="PUs" quantity="4"/>
 			<result resourceOrUnit="Grain Farm" quantity="1"/>
 		</productionRule>
 		<productionRule name="buyElite">
