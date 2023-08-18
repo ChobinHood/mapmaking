@@ -7380,68 +7380,68 @@
 	<!-- National Objectives -->	
 <attachment name="objectiveAttachment_Gain_Farms" attachTo="British" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
       <option name="objectiveValue" value="1"/>
-      <option name="directPresenceTerritories" value="map" count="1"/>
-      <option name="unitPresence" value="Grain Farm" count="each"/>
+      <option name="directPresenceTerritories" value="map" count="each"/>
+      <option name="unitPresence" value="Grain Farm" count="1"/>
 	</attachment>
 <attachment name="objectiveAttachment_Gain_Farms" attachTo="French" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
       <option name="objectiveValue" value="1"/>
-      <option name="directPresenceTerritories" value="map" count="1"/>
-      <option name="unitPresence" value="Grain Farm" count="each"/>
+      <option name="directPresenceTerritories" value="map" count="each"/>
+      <option name="unitPresence" value="Grain Farm" count="1"/>
 	</attachment>
 <attachment name="objectiveAttachment_Gain_Farms" attachTo="Germans" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
       <option name="objectiveValue" value="1"/>
-      <option name="directPresenceTerritories" value="map" count="1"/>
-      <option name="unitPresence" value="Grain Farm" count="each"/>
+      <option name="directPresenceTerritories" value="map" count="each"/>
+      <option name="unitPresence" value="Grain Farm" count="1"/>
 	</attachment>
 <attachment name="objectiveAttachment_Gain_Farms" attachTo="Italians" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
       <option name="objectiveValue" value="1"/>
-      <option name="directPresenceTerritories" value="map" count="1"/>
-      <option name="unitPresence" value="Grain Farm" count="each"/>
+      <option name="directPresenceTerritories" value="map" count="each"/>
+      <option name="unitPresence" value="Grain Farm" count="1"/>
 	</attachment>
 <attachment name="objectiveAttachment_Gain_Farms" attachTo="Finns" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
       <option name="objectiveValue" value="1"/>
-      <option name="directPresenceTerritories" value="map" count="1"/>
-      <option name="unitPresence" value="Grain Farm" count="each"/>
+      <option name="directPresenceTerritories" value="map" count="each"/>
+      <option name="unitPresence" value="Grain Farm" count="1"/>
 	</attachment>
 <attachment name="objectiveAttachment_Gain_Farms" attachTo="Romanians" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
       <option name="objectiveValue" value="1"/>
-      <option name="directPresenceTerritories" value="map" count="1"/>
-      <option name="unitPresence" value="Grain Farm" count="each"/>
+      <option name="directPresenceTerritories" value="map" count="each"/>
+      <option name="unitPresence" value="Grain Farm" count="1"/>
 	</attachment>
 <attachment name="objectiveAttachment_Gain_Farms" attachTo="Russians" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
       <option name="objectiveValue" value="1"/>
-      <option name="directPresenceTerritories" value="map" count="1"/>
-      <option name="unitPresence" value="Grain Farm" count="each"/>
+      <option name="directPresenceTerritories" value="map" count="each"/>
+      <option name="unitPresence" value="Grain Farm" count="1"/>
 	</attachment>
 <attachment name="objectiveAttachment_Gain_Farms" attachTo="Americans" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
       <option name="objectiveValue" value="1"/>
-      <option name="directPresenceTerritories" value="map" count="1"/>
-      <option name="unitPresence" value="Grain Farm" count="each"/>
+      <option name="directPresenceTerritories" value="map" count="each"/>
+      <option name="unitPresence" value="Grain Farm" count="1"/>
 	</attachment>
 <attachment name="objectiveAttachment_Gain_Farms" attachTo="Dutch" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
       <option name="objectiveValue" value="1"/>
-      <option name="directPresenceTerritories" value="map" count="1"/>
-      <option name="unitPresence" value="Grain Farm" count="each"/>
+      <option name="directPresenceTerritories" value="map" count="each"/>
+      <option name="unitPresence" value="Grain Farm" count="1"/>
 	</attachment>
 <attachment name="objectiveAttachment_Gain_Farms" attachTo="Thai" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
       <option name="objectiveValue" value="1"/>
-      <option name="directPresenceTerritories" value="map" count="1"/>
-      <option name="unitPresence" value="Grain Farm" count="each"/>
+      <option name="directPresenceTerritories" value="map" count="each"/>
+      <option name="unitPresence" value="Grain Farm" count="1"/>
 	</attachment>
 <attachment name="objectiveAttachment_Gain_Farms" attachTo="Anzac" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
       <option name="objectiveValue" value="1"/>
-      <option name="directPresenceTerritories" value="map" count="1"/>
-      <option name="unitPresence" value="Grain Farm" count="each"/>
+      <option name="directPresenceTerritories" value="map" count="each"/>
+      <option name="unitPresence" value="Grain Farm" count="1"/>
 	</attachment>
 <attachment name="objectiveAttachment_Gain_Farms" attachTo="Yamamoto" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
       <option name="objectiveValue" value="1"/>
-      <option name="directPresenceTerritories" value="map" count="1"/>
-      <option name="unitPresence" value="Grain Farm" count="each"/>
+      <option name="directPresenceTerritories" value="map" count="each"/>
+      <option name="unitPresence" value="Grain Farm" count="1"/>
 	</attachment>
 <attachment name="objectiveAttachment_Gain_Farms" attachTo="Hisaichi" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
       <option name="objectiveValue" value="1"/>
-      <option name="directPresenceTerritories" value="map" count="1"/>
-      <option name="unitPresence" value="Grain Farm" count="each"/>
+      <option name="directPresenceTerritories" value="map" count="each"/>
+      <option name="unitPresence" value="Grain Farm" count="1"/>
 	</attachment>
 
 		
