@@ -7526,7 +7526,7 @@
 			<unitPlacement unitType="Infantry" territory="Alaska" quantity="2"/>
 			<unitPlacement unitType="Infantry" territory="Olyokminsk" quantity="1"/>
 			<unitPlacement unitType="Infantry" territory="Astrakhan" quantity="1"/>
-			<unitPlacement unitType="Infantry" territory="Chita" quantity="2"/>
+			<unitPlacement unitType="Infantry" territory="Chita" quantity="3"/>
 			<unitPlacement unitType="Infantry" territory="Surgut" quantity="1"/>
 			<unitPlacement unitType="Infantry" territory="S.Buryat Mongolia" quantity="1"/>
 			<unitPlacement unitType="Infantry" territory="Krasnoyarsk" quantity="1"/>
@@ -7580,7 +7580,7 @@
 			<unitPlacement unitType="Infantry" territory="Yeniseysk" quantity="1"/>
 			<unitPlacement unitType="Infantry" territory="Murmansk" quantity="1"/>
 			<unitPlacement unitType="Infantry" territory="Uzbekistan" quantity="1"/>
-			<unitPlacement unitType="Infantry" territory="N.Buryat Mongolia" quantity="1"/>
+			<unitPlacement unitType="Infantry" territory="N.Buryat Mongolia" quantity="2"/>
 			<unitPlacement unitType="Infantry" territory="Khabarovsk" quantity="2"/>
 			<unitPlacement unitType="Infantry" territory="S.Karelia" quantity="1"/>
 			<unitPlacement unitType="Infantry" territory="N.Karelia" quantity="1"/>
@@ -7728,16 +7728,16 @@
 			<unitPlacement unitType="Factory" territory="Hsining" quantity="1" owner="Chinese"/>
 			<unitPlacement unitType="AAGun" territory="Hsining" quantity="1" owner="Chinese"/>
 			<unitPlacement unitType="Fighter" territory="Hsining" quantity="1" owner="Chinese"/>
-			<unitPlacement unitType="Infantry" territory="Liaoning" quantity="5"/>
+			<unitPlacement unitType="Infantry" territory="Liaoning" quantity="4"/>
 			<unitPlacement unitType="Bunker" territory="Liaoning" quantity="1"/>
 			<unitPlacement unitType="Factory" territory="Liaoning" quantity="1"/>
 			<unitPlacement unitType="Infantry" territory="Kirin" quantity="3"/>
-			<unitPlacement unitType="Infantry" territory="Peking" quantity="5"/>
+			<unitPlacement unitType="Infantry" territory="Peking" quantity="3"/>
 			<unitPlacement unitType="Infantry" territory="Hulunbuir" quantity="3"/>
-			<unitPlacement unitType="Infantry" territory="Shantung" quantity="5"/>
-			<unitPlacement unitType="Infantry" territory="Formosa" quantity="4"/>
-			<unitPlacement unitType="Infantry" territory="Korea" quantity="3"/>
-			<unitPlacement unitType="Infantry" territory="Changchun" quantity="8" owner="Hisaichi"/>
+			<unitPlacement unitType="Infantry" territory="Shantung" quantity="3"/>
+			<unitPlacement unitType="Infantry" territory="Formosa" quantity="3"/>
+			<unitPlacement unitType="Infantry" territory="Korea" quantity="2"/>
+			<unitPlacement unitType="Infantry" territory="Changchun" quantity="6" owner="Hisaichi"/>
 			<unitPlacement unitType="Artillery" territory="Changchun" quantity="2" owner="Hisaichi"/>
 			<unitPlacement unitType="Bunker" territory="Changchun" quantity="4" owner="Hisaichi"/>
 			<unitPlacement unitType="Tank" territory="Changchun" quantity="2" owner="Hisaichi"/>
@@ -7918,10 +7918,10 @@
 			<unitPlacement unitType="Infantry" territory="Java" quantity="1"/>
 			<unitPlacement unitType="Infantry" territory="N.Thailand" quantity="2"/>
 			<unitPlacement unitType="Infantry" territory="S.Thailand" quantity="1"/>
-			<unitPlacement unitType="Infantry" territory="Bangkok" quantity="7" owner="Thai"/>
+			<unitPlacement unitType="Infantry" territory="Bangkok" quantity="6" owner="Thai"/>
 			<unitPlacement unitType="Bunker" territory="Bangkok" quantity="4" owner="Thai"/>
-			<unitPlacement unitType="Artillery" territory="Bangkok" quantity="3" owner="Thai"/>
-			<unitPlacement unitType="Tank" territory="Bangkok" quantity="1" owner="Thai"/>
+			<unitPlacement unitType="Artillery" territory="Bangkok" quantity="4" owner="Thai"/>
+			<unitPlacement unitType="Tank" territory="Bangkok" quantity="2" owner="Thai"/>
 			<unitPlacement unitType="Fighter" territory="Bangkok" quantity="1" owner="Thai"/>
 			<unitPlacement unitType="Factory" territory="Bangkok" quantity="1" owner="Thai"/>
 			<unitPlacement unitType="AAGun" territory="Bangkok" quantity="1" owner="Thai"/>
