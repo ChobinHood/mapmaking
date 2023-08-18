@@ -8108,6 +8108,7 @@
 			<unitPlacement unitType="Destroyer" territory="40 Sea Zone" quantity="2" owner="British"/>
 			<unitPlacement unitType="Transport" territory="40 Sea Zone" quantity="1" owner="British"/>
 			<unitPlacement unitType="Destroyer" territory="59 Sea Zone" quantity="2" owner="British"/>
+			<unitPlacement unitType="Transport" territory="59 Sea Zone" quantity="1" owner="British"/>
 
 			<unitPlacement unitType="Destroyer" territory="50 Sea Zone" quantity="2" owner="Italians"/>
 			<unitPlacement unitType="Transport" territory="50 Sea Zone" quantity="3" owner="Italians"/>
