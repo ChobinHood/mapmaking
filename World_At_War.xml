@@ -7568,7 +7568,7 @@
 			<unitPlacement unitType="Factory" territory="Shanghai" quantity="1"/>
 			<unitPlacement unitType="Infantry" territory="E.Sinkiang" quantity="1"/>
 			<unitPlacement unitType="Infantry" territory="Urumqi" quantity="6" owner="Chinese"/>
-			<unitPlacement unitType="Artillery" territory="Urumqi" quantity="1" owner="Chinese"/>
+			<unitPlacement unitType="Artillery" territory="Urumqi" quantity="2" owner="Chinese"/>
 			<unitPlacement unitType="Bunker" territory="Urumqi" quantity="2" owner="Chinese"/>
 			<unitPlacement unitType="Factory" territory="Urumqi" quantity="1" owner="Chinese"/>
 			<unitPlacement unitType="AAGun" territory="Urumqi" quantity="1" owner="Chinese"/>
@@ -7585,7 +7585,7 @@
 			<unitPlacement unitType="Infantry" territory="Hunan" quantity="2"/>
 			<unitPlacement unitType="Infantry" territory="Anhwei" quantity="2"/>
 			<unitPlacement unitType="Infantry" territory="C.Sinkiang" quantity="1"/>
-			<unitPlacement unitType="Infantry" territory="Hsining" quantity="7" owner="Chinese"/>
+			<unitPlacement unitType="Infantry" territory="Hsining" quantity="8" owner="Chinese"/>
 			<unitPlacement unitType="Artillery" territory="Hsining" quantity="2" owner="Chinese"/>
 			<unitPlacement unitType="Bunker" territory="Hsining" quantity="2" owner="Chinese"/>
 			<unitPlacement unitType="Factory" territory="Hsining" quantity="1" owner="Chinese"/>
