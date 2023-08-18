@@ -8253,7 +8253,7 @@
 			<boolean/>
 		</property>
 
-		<property name="National Objectives" value="false" editable="false">
+		<property name="National Objectives" value="true" editable="false">
 			<boolean/>
 		</property>
 
