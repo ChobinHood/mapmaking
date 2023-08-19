@@ -4386,6 +4386,7 @@
 			<option name="movement" value="0"/>
 			<option name="attack" value="0"/>
 			<option name="defense" value="0"/>
+			<option name="createsResourcesList" value="1:PUs"/>
 			<option name="destroyedWhenCapturedBy" value="Germans:Italians:Yamamoto:Hisaichi:Finns:Romanians:Thai:Russians:French:Chinese:British:Anzac:Dutch:Americans"/>
 		</attachment>
 
@@ -7378,7 +7379,7 @@
 			<option name="retainCapitalProduceNumber" value="0"/>
 		</attachment>
 
-	<!-- National Objectives -->	
+	<!-- National Objectives 	
 <attachment name="objectiveAttachment_Gain_Farms" attachTo="British" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
       <option name="objectiveValue" value="1"/>
       <option name="directPresenceTerritories" value="map" count="each"/>
@@ -7443,9 +7444,9 @@
       <option name="objectiveValue" value="1"/>
       <option name="directPresenceTerritories" value="map" count="each"/>
       <option name="unitPresence" value="Grain Farm" count="1"/>
-	</attachment>
-
+	</attachment>      
 		
+		-->
 	</attachmentList>
 
 	<initialize>
