@@ -7739,7 +7739,7 @@
 			<unitPlacement unitType="Infantry" territory="Shantung" quantity="3"/>
 			<unitPlacement unitType="Infantry" territory="Formosa" quantity="3"/>
 			<unitPlacement unitType="Infantry" territory="Korea" quantity="2"/>
-			<unitPlacement unitType="Infantry" territory="Changchun" quantity="6" owner="Hisaichi"/>
+			<unitPlacement unitType="Infantry" territory="Changchun" quantity="8" owner="Hisaichi"/>
 			<unitPlacement unitType="Artillery" territory="Changchun" quantity="2" owner="Hisaichi"/>
 			<unitPlacement unitType="Bunker" territory="Changchun" quantity="4" owner="Hisaichi"/>
 			<unitPlacement unitType="Tank" territory="Changchun" quantity="2" owner="Hisaichi"/>
