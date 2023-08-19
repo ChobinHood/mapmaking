@@ -7493,8 +7493,8 @@
 			<unitPlacement unitType="AAGun" territory="East Prussia" quantity="1" owner="Germans"/>
 			<unitPlacement unitType="Infantry" territory="Pomerania" quantity="3"/>
 			<unitPlacement unitType="Infantry" territory="Saxony" quantity="4"/>
-			<unitPlacement unitType="Infantry" territory="Berlin" quantity="8" owner="Germans"/>
-			<unitPlacement unitType="Artillery" territory="Berlin" quantity="4" owner="Germans"/>
+			<unitPlacement unitType="Infantry" territory="Berlin" quantity="7" owner="Germans"/>
+			<unitPlacement unitType="Artillery" territory="Berlin" quantity="3" owner="Germans"/>
 			<unitPlacement unitType="Bunker" territory="Berlin" quantity="4" owner="Germans"/>
 			<unitPlacement unitType="Tank" territory="Berlin" quantity="3" owner="Germans"/>
 			<unitPlacement unitType="Fighter" territory="Berlin" quantity="2" owner="Germans"/>
@@ -7504,7 +7504,7 @@
 			<unitPlacement unitType="Infantry" territory="Rhine" quantity="6"/>
 			<unitPlacement unitType="Infantry" territory="El Agheila" quantity="2"/>
 			<unitPlacement unitType="Infantry" territory="Bohemia" quantity="6"/>
-			<unitPlacement unitType="Infantry" territory="Brandenburg" quantity="6"/>
+			<unitPlacement unitType="Infantry" territory="Brandenburg" quantity="4"/>
 			<unitPlacement unitType="Infantry" territory="Austria" quantity="4"/>
 			<unitPlacement unitType="Infantry" territory="Bavaria" quantity="6"/>
 			<unitPlacement unitType="Infantry" territory="Hamburg" quantity="5"/>
@@ -7920,7 +7920,7 @@
 			<unitPlacement unitType="Infantry" territory="Java" quantity="1"/>
 			<unitPlacement unitType="Infantry" territory="N.Thailand" quantity="2"/>
 			<unitPlacement unitType="Infantry" territory="S.Thailand" quantity="1"/>
-			<unitPlacement unitType="Infantry" territory="Bangkok" quantity="6" owner="Thai"/>
+			<unitPlacement unitType="Infantry" territory="Bangkok" quantity="8" owner="Thai"/>
 			<unitPlacement unitType="Bunker" territory="Bangkok" quantity="4" owner="Thai"/>
 			<unitPlacement unitType="Artillery" territory="Bangkok" quantity="4" owner="Thai"/>
 			<unitPlacement unitType="Tank" territory="Bangkok" quantity="2" owner="Thai"/>
@@ -8162,7 +8162,7 @@
 			<resourceGiven player="Finns" resource="PUs" quantity="9"/>
 			<resourceGiven player="Romanians" resource="PUs" quantity="8"/>                        
 			<resourceGiven player="Thai" resource="PUs" quantity="6"/>
-			<resourceGiven player="Americans" resource="PUs" quantity="33"/>
+			<resourceGiven player="Americans" resource="PUs" quantity="28"/>
 		</resourceInitialize>
 	</initialize>
 
