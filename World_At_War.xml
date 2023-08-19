@@ -4690,7 +4690,7 @@
 			<option name="production" value="2"/>
 		</attachment>
 		<attachment name="territoryAttachment" attachTo="Aquitaine" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
-			<option name="production" value="2"/>
+			<option name="production" value="3"/>
 		</attachment>
 		<attachment name="territoryAttachment" attachTo="Lorraine" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
 			<option name="production" value="3"/>
@@ -4708,7 +4708,7 @@
 			<option name="production" value="3"/>
 		</attachment>
 		<attachment name="territoryAttachment" attachTo="Picardy" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
-			<option name="production" value="2"/>
+			<option name="production" value="3"/>
 		</attachment>
 		<attachment name="territoryAttachment" attachTo="Provence" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
 			<option name="production" value="4"/>
@@ -5341,7 +5341,7 @@
 			<option name="production" value="6"/>
 		</attachment>
 		<attachment name="territoryAttachment" attachTo="South Central USA" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
-			<option name="production" value="12"/>
+			<option name="production" value="8"/>
 		</attachment>
 		<attachment name="territoryAttachment" attachTo="Ponape" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
 			<option name="production" value="2"/>
@@ -5566,7 +5566,7 @@
 			<option name="production" value="1"/>
 		</attachment>
 		<attachment name="territoryAttachment" attachTo="S.Chile" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
-			<option name="production" value="2"/>
+			<option name="production" value="1"/>
 		</attachment>
 		<attachment name="territoryAttachment" attachTo="E.Iran" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
 			<option name="production" value="3"/>
@@ -5658,13 +5658,13 @@
 			<option name="production" value="1"/>
 		</attachment>
 		<attachment name="territoryAttachment" attachTo="N.Chile" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
-			<option name="production" value="2"/>
+			<option name="production" value="1"/>
 		</attachment>
 		<attachment name="territoryAttachment" attachTo="N.Saudi Arabia" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
 			<option name="production" value="2"/>
 		</attachment>
 		<attachment name="territoryAttachment" attachTo="Argentina" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
-			<option name="production" value="4"/>
+			<option name="production" value="3"/>
 		</attachment>
 		<attachment name="territoryAttachment" attachTo="Oman" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
 			<option name="production" value="1"/>
@@ -7627,7 +7627,7 @@
 			<unitPlacement unitType="Factory" territory="Paris" quantity="1" owner="French"/>
 			<unitPlacement unitType="AAGun" territory="Paris" quantity="1" owner="French"/>
 			<unitPlacement unitType="Infantry" territory="Burgundy" quantity="2"/>
-			<unitPlacement unitType="Infantry" territory="Aquitaine" quantity="1"/>
+			<unitPlacement unitType="Infantry" territory="Aquitaine" quantity="2"/>
 			<unitPlacement unitType="Infantry" territory="Lorraine" quantity="8"/>
 			<unitPlacement unitType="Infantry" territory="Orleanais" quantity="1"/>
 			<unitPlacement unitType="Infantry" territory="Languedoc" quantity="1"/>
@@ -7635,7 +7635,7 @@
 			<unitPlacement unitType="Infantry" territory="Normandy" quantity="3"/>
 			<unitPlacement unitType="Bunker" territory="Normandy" quantity="1"/>
 			<unitPlacement unitType="Factory" territory="Normandy" quantity="1"/>
-			<unitPlacement unitType="Infantry" territory="Picardy" quantity="2"/>
+			<unitPlacement unitType="Infantry" territory="Picardy" quantity="3"/>
 			<unitPlacement unitType="Infantry" territory="Provence" quantity="4"/>
 			<unitPlacement unitType="Infantry" territory="N.Algeria" quantity="1"/>
 			<unitPlacement unitType="Infantry" territory="French Somaliland" quantity="1"/>
@@ -8078,9 +8078,9 @@
 			<unitPlacement unitType="Artillery" territory="Santiago" quantity="4" owner="Germans"/>
 			<unitPlacement unitType="Bunker" territory="Santiago" quantity="2" owner="Germans"/>
 			<unitPlacement unitType="Factory" territory="Santiago" quantity="1" owner="Germans"/>
-			<unitPlacement unitType="Infantry" territory="N.Chile" quantity="3"/>
-			<unitPlacement unitType="Infantry" territory="S.Chile" quantity="3"/>
-			<unitPlacement unitType="Infantry" territory="Argentina" quantity="4"/>
+			<unitPlacement unitType="Infantry" territory="N.Chile" quantity="2"/>
+			<unitPlacement unitType="Infantry" territory="S.Chile" quantity="2"/>
+			<unitPlacement unitType="Infantry" territory="Argentina" quantity="3"/>
 			<unitPlacement unitType="Infantry" territory="Bolivia" quantity="3"/>
 			<unitPlacement unitType="Infantry" territory="Rio De Janeiro" quantity="3"/>
 			<unitPlacement unitType="Infantry" territory="Bahia" quantity="4"/>
