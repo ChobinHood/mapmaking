@@ -7492,11 +7492,11 @@
 			<unitPlacement unitType="Bunker" territory="East Prussia" quantity="2" owner="Germans"/>
 			<unitPlacement unitType="Tank" territory="East Prussia" quantity="2" owner="Germans"/>
 			<unitPlacement unitType="Factory" territory="East Prussia" quantity="1" owner="Germans"/>
-			<unitPlacement unitType="Artillery" territory="East Prussia" quantity="2" owner="Germans"/>
+			<unitPlacement unitType="Artillery" territory="East Prussia" quantity="3" owner="Germans"/>
 			<unitPlacement unitType="AAGun" territory="East Prussia" quantity="1" owner="Germans"/>
 			<unitPlacement unitType="Infantry" territory="Pomerania" quantity="3"/>
 			<unitPlacement unitType="Infantry" territory="Saxony" quantity="4"/>
-			<unitPlacement unitType="Infantry" territory="Berlin" quantity="7" owner="Germans"/>
+			<unitPlacement unitType="Infantry" territory="Berlin" quantity="8" owner="Germans"/>
 			<unitPlacement unitType="Artillery" territory="Berlin" quantity="3" owner="Germans"/>
 			<unitPlacement unitType="Bunker" territory="Berlin" quantity="4" owner="Germans"/>
 			<unitPlacement unitType="Tank" territory="Berlin" quantity="3" owner="Germans"/>
