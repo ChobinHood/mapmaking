@@ -5477,7 +5477,7 @@
 			<option name="production" value="2"/>
 		</attachment>
 		<attachment name="territoryAttachment" attachTo="Salvador" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
-			<option name="production" value="4"/>
+			<option name="production" value="3"/>
 			<!--<option name="victoryCity" value="1"/>-->
 		</attachment>
 		<attachment name="territoryAttachment" attachTo="Bursa" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
@@ -8063,13 +8063,13 @@
 			<unitPlacement unitType="Infantry" territory="Venezuela" quantity="4"/>
 			<unitPlacement unitType="Infantry" territory="Sikang" quantity="4"/>
 			<unitPlacement unitType="Infantry" territory="Netherlands" quantity="4"/>
-			<unitPlacement unitType="Artillery" territory="Moscow" quantity="2" owner="Russians"/>
-			<unitPlacement unitType="Infantry" territory="Moscow" quantity="7" owner="Russians"/>
+			<unitPlacement unitType="Artillery" territory="Moscow" quantity="3" owner="Russians"/>
+			<unitPlacement unitType="Infantry" territory="Moscow" quantity="8" owner="Russians"/>
 			<unitPlacement unitType="Factory" territory="Moscow" quantity="1" owner="Russians"/>
 			<unitPlacement unitType="AAGun" territory="Moscow" quantity="1" owner="Russians"/>
 			<unitPlacement unitType="Bunker" territory="Moscow" quantity="4" owner="Russians"/>
 			<unitPlacement unitType="Tank" territory="Moscow" quantity="1" owner="Russians"/>
-			<unitPlacement unitType="Infantry" territory="Salvador" quantity="4"/>
+			<unitPlacement unitType="Infantry" territory="Salvador" quantity="3"/>
 			<unitPlacement unitType="Bunker" territory="Salvador" quantity="1"/>
 			<unitPlacement unitType="Factory" territory="Salvador" quantity="1"/>
 			<unitPlacement unitType="Infantry" territory="Oman" quantity="2"/>
