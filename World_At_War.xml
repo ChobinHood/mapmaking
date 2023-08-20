@@ -2322,7 +2322,7 @@
 	<production>
 		<!-- Unit Production Cost -->
 		<productionRule name="buyInfantry">
-			<cost resource="PUs" quantity="2"/>
+			<cost resource="PUs" quantity="3"/>
 			<result resourceOrUnit="Infantry" quantity="1"/>
 		</productionRule>
 		<productionRule name="buyGrain Farm">
@@ -2330,32 +2330,32 @@
 			<result resourceOrUnit="Grain Farm" quantity="1"/>
 		</productionRule>
 		<productionRule name="buyElite">
-			<cost resource="PUs" quantity="3"/>
-			<result resourceOrUnit="Elite" quantity="1"/>
+			<cost resource="PUs" quantity="7"/>
+			<result resourceOrUnit="Elite" quantity="2"/>
 		</productionRule>
 		<productionRule name="buyMarine">
 			<cost resource="PUs" quantity="4"/>
 			<result resourceOrUnit="Marine" quantity="1"/>
 		</productionRule>
 		<productionRule name="buyArtillery2">
-			<cost resource="PUs" quantity="7"/>
-			<result resourceOrUnit="Artillery" quantity="2"/>
+			<cost resource="PUs" quantity="4"/>
+			<result resourceOrUnit="Artillery" quantity="1"/>
 		</productionRule>
 		<productionRule name="buyArmoredCar2">
 			<cost resource="PUs" quantity="7"/>
 			<result resourceOrUnit="ArmoredCar" quantity="2"/>
 		</productionRule>
 		<productionRule name="buyTank">
-			<cost resource="PUs" quantity="5"/>
+			<cost resource="PUs" quantity="6"/>
 			<result resourceOrUnit="Tank" quantity="1"/>
 		</productionRule>
 		<productionRule name="buyHeavyTank">
-			<cost resource="PUs" quantity="7"/>
+			<cost resource="PUs" quantity="6"/>
 			<result resourceOrUnit="HeavyTank" quantity="1"/>
 		</productionRule>
 		<productionRule name="buyMot.Inf">
-			<cost resource="PUs" quantity="5"/>
-			<result resourceOrUnit="Mot.Inf" quantity="1"/>
+			<cost resource="PUs" quantity="9"/>
+			<result resourceOrUnit="Mot.Inf" quantity="2"/>
 		</productionRule>
 		<productionRule name="buyMech.Inf">
 			<cost resource="PUs" quantity="6"/>
@@ -4163,11 +4163,10 @@
 			<option name="defense" value="3"/>
 		</attachment>
 		<attachment name="unitAttachment" attachTo="HeavyTank" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
-			<option name="movement" value="2"/>
+			<option name="movement" value="1"/>
 			<option name="transportCost" value="3"/>
-			<option name="canBlitz" value="true"/>
 			<option name="attack" value="4"/>
-			<option name="defense" value="4"/>
+			<option name="defense" value="3"/>
 		</attachment>
 		<attachment name="unitAttachment" attachTo="Adv.Fighter" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
 			<option name="movement" value="4"/>
@@ -4375,7 +4374,8 @@
 			<option name="transportCost" value="3"/>
 			<option name="canBlitz" value="true"/>
 			<option name="attack" value="1"/>
-			<option name="defense" value="3"/>
+			<option name="defense" value="2"/>
+			<option name="artillerySupportable" value="true"/>
 		</attachment>
 		<attachment name="unitAttachment" attachTo="Bunker" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
 			<option name="attack" value="0"/>
@@ -5240,7 +5240,7 @@
 			<!--<option name="victoryCity" value="1"/>-->
 		</attachment>
 		<attachment name="territoryAttachment" attachTo="Bulgaria" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
-			<option name="production" value="2"/>
+			<option name="production" value="3"/>
 		</attachment>
 		<attachment name="territoryAttachment" attachTo="W.Romania" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
 			<option name="production" value="3"/>
@@ -8159,12 +8159,12 @@
 			<resourceGiven player="French" resource="PUs" quantity="15"/>                     
 			<resourceGiven player="Yamamoto" resource="PUs" quantity="10"/>
 			<resourceGiven player="Chinese" resource="PUs" quantity="10"/>
-			<resourceGiven player="Hisaichi" resource="PUs" quantity="8"/>
+			<resourceGiven player="Hisaichi" resource="PUs" quantity="6"/>
 			<resourceGiven player="British" resource="PUs" quantity="18"/>                       
 			<resourceGiven player="Anzac" resource="PUs" quantity="9"/>
 			<resourceGiven player="Dutch" resource="PUs" quantity="8"/>
 			<resourceGiven player="Finns" resource="PUs" quantity="9"/>
-			<resourceGiven player="Romanians" resource="PUs" quantity="8"/>                        
+			<resourceGiven player="Romanians" resource="PUs" quantity="9"/>                        
 			<resourceGiven player="Thai" resource="PUs" quantity="6"/>
 			<resourceGiven player="Americans" resource="PUs" quantity="32"/>
 		</resourceInitialize>
