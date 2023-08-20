@@ -2434,7 +2434,7 @@
 			<result resourceOrUnit="B.Carrier" quantity="1"/>
 		</productionRule>
 		<productionRule name="buyBunker">
-			<cost resource="PUs" quantity="5"/>
+			<cost resource="PUs" quantity="4"/>
 			<result resourceOrUnit="Bunker" quantity="1"/>
 		</productionRule>
 		<productionRule name="buyAAGun">
