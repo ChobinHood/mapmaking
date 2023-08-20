@@ -4242,7 +4242,7 @@
 			<option name="isAir" value="true"/>
 			<option name="hitPoints" value="2"/>
 		</attachment>-->
-		<attachment name="unitAttachment" attachTo="A-Bomb" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+		<!--<attachment name="unitAttachment" attachTo="A-Bomb" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
 			<option name="movement" value="20"/>
 			<option name="attack" value="6"/>
 			<option name="defense" value="0"/>
