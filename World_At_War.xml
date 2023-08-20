@@ -2624,19 +2624,19 @@
 			<frontierRules name="buyTank"/><!--
 			<frontierRules name="buyHeavyTank"/>-->
 			<!--<frontierRules name="buyMech.Rocket"/>-->
-			<frontierRules name="buyFighter"/><!--
+			<frontierRules name="buyFighter"/>
 			<!--<frontierRules name="buyJetFighter"/>-->
 			<!--<frontierRules name="buyL.Fighter"/>-->
-			<frontierRules name="buyBomber"/><!--
+			<frontierRules name="buyBomber"/>
 			<!--<frontierRules name="buyS.Bomber"/>-->
 			<frontierRules name="buyT.Boat"/>
 			<frontierRules name="buyTransport"/>
-			<frontierRules name="buySubmarine"/><!--
+			<frontierRules name="buySubmarine"/>
 			<!--<frontierRules name="buyS.Submarine"/>-->
 			<frontierRules name="buyDestroyer"/>
 			<frontierRules name="buyCruiser"/>
 			<frontierRules name="buyBattleship"/>
-			<frontierRules name="buyCarrier"/><!--
+			<frontierRules name="buyCarrier"/>
 			<!--<frontierRules name="buyB.Carrier"/>-->
 			<frontierRules name="buyBunker"/>
 			<frontierRules name="buyAAGun"/>
@@ -2659,17 +2659,17 @@
 			<frontierRules name="buyStuka"/>-->
 			<!--<frontierRules name="buyJetFighter"/>-->
 			<!--<frontierRules name="buyL.Fighter"/>-->
-			<frontierRules name="buyBomber"/><!--
+			<frontierRules name="buyBomber"/>
 			<!--<frontierRules name="buyS.Bomber"/>-->
 			<frontierRules name="buyT.Boat"/>
-			<frontierRules name="buyTransport"/><!--
+			<frontierRules name="buyTransport"/>
 			<!--<frontierRules name="buyB.Transport"/>-->
-			<frontierRules name="buySubmarine"/><!--
+			<frontierRules name="buySubmarine"/>
 			<!--<frontierRules name="buyS.Submarine"/>-->
 			<frontierRules name="buyDestroyer"/>
 			<frontierRules name="buyCruiser"/>
 			<frontierRules name="buyBattleship"/>
-			<frontierRules name="buyCarrier"/><!--
+			<frontierRules name="buyCarrier"/>
 			<!--<frontierRules name="buyB.Carrier"/>-->
 			<frontierRules name="buyBunker"/>
 			<frontierRules name="buyAAGun"/>
@@ -2708,7 +2708,7 @@
 			<frontierRules name="buyStuka"/>
 			<frontierRules name="buyBomber"/>
 			<frontierRules name="buyT.Boat"/>
-			<frontierRules name="buyTransport"/><!--
+			<frontierRules name="buyTransport"/>
 			<!--<frontierRules name="buyB.Transport"/>-->
 			<frontierRules name="buySubmarine"/>
 			<frontierRules name="buyDestroyer"/>
@@ -2728,7 +2728,7 @@
 			<frontierRules name="buyFighter"/>
 			<!--<frontierRules name="buyJetFighter"/>-->
 			<!--<frontierRules name="buyL.Fighter"/>-->
-			<frontierRules name="buyBomber"/><!--
+			<frontierRules name="buyBomber"/>
 			<!--<frontierRules name="buyS.Bomber"/>-->
 			<frontierRules name="buyT.Boat"/>
 			<frontierRules name="buyTransport"/>
@@ -2737,7 +2737,7 @@
 			<frontierRules name="buyDestroyer"/>
 			<frontierRules name="buyCruiser"/>
 			<frontierRules name="buyBattleship"/>
-			<frontierRules name="buyCarrier"/><!--
+			<frontierRules name="buyCarrier"/>
 			<!--<frontierRules name="buyB.Carrier"/>-->
 			<frontierRules name="buyBunker"/>
 			<frontierRules name="buyAAGun"/>
@@ -2760,17 +2760,17 @@
 			<frontierRules name="buyStuka"/>
 			<!--<frontierRules name="buyJetFighter"/>-->
 			<!--<frontierRules name="buyL.Fighter"/>-->
-			<frontierRules name="buyBomber"/><!--
+			<frontierRules name="buyBomber"/>
 			<!--<frontierRules name="buyS.Bomber"/>-->
 			<frontierRules name="buyT.Boat"/>
-			<frontierRules name="buyTransport"/><!--
+			<frontierRules name="buyTransport"/>
 			<!--<frontierRules name="buyB.Transport"/>-->
 			<frontierRules name="buySubmarine"/>
 			<!--<frontierRules name="buyS.Submarine"/>-->
 			<frontierRules name="buyDestroyer"/>
 			<frontierRules name="buyCruiser"/>
 			<frontierRules name="buyBattleship"/>
-			<frontierRules name="buyCarrier"/><!--
+			<frontierRules name="buyCarrier"/>
 			<!--<frontierRules name="buyB.Carrier"/>-->
 			<frontierRules name="buyBunker"/>
 			<frontierRules name="buyAAGun"/>
@@ -2809,7 +2809,7 @@
 			<frontierRules name="buyStuka"/>-->
 			<frontierRules name="buyBomber"/>
 			<frontierRules name="buyT.Boat"/>
-			<frontierRules name="buyTransport"/><!--
+			<frontierRules name="buyTransport"/>
 			<!--<frontierRules name="buyB.Transport"/>-->
 			<frontierRules name="buySubmarine"/>
 			<frontierRules name="buyDestroyer"/>
@@ -2829,7 +2829,7 @@
 			<frontierRules name="buyFighter"/>
 			<!--<frontierRules name="buyJetFighter"/>-->
 			<!--<frontierRules name="buyL.Fighter"/>-->
-			<frontierRules name="buyBomber"/><!--
+			<frontierRules name="buyBomber"/>
 			<!--<frontierRules name="buyS.Bomber"/>-->
 			<frontierRules name="buyT.Boat"/>
 			<frontierRules name="buyTransport"/>
@@ -2838,7 +2838,7 @@
 			<frontierRules name="buyDestroyer"/>
 			<frontierRules name="buyCruiser"/>
 			<frontierRules name="buyBattleship"/>
-			<frontierRules name="buyCarrier"/><!--
+			<frontierRules name="buyCarrier"/>
 			<!--<frontierRules name="buyB.Carrier"/>-->
 			<frontierRules name="buyBunker"/>
 			<frontierRules name="buyAAGun"/>
@@ -2861,17 +2861,17 @@
 			<frontierRules name="buyStuka"/>-->
 			<!--<frontierRules name="buyJetFighter"/>-->
 			<!--<frontierRules name="buyL.Fighter"/>-->
-			<frontierRules name="buyBomber"/><!--
+			<frontierRules name="buyBomber"/>
 			<!--<frontierRules name="buyS.Bomber"/>-->
 			<frontierRules name="buyT.Boat"/>
-			<frontierRules name="buyTransport"/><!--
+			<frontierRules name="buyTransport"/>
 			<!--<frontierRules name="buyB.Transport"/>-->
 			<frontierRules name="buySubmarine"/>
 			<!--<frontierRules name="buyS.Submarine"/>-->
 			<frontierRules name="buyDestroyer"/>
 			<frontierRules name="buyCruiser"/>
 			<frontierRules name="buyBattleship"/>
-			<frontierRules name="buyCarrier"/><!--
+			<frontierRules name="buyCarrier"/>
 			<!--<frontierRules name="buyB.Carrier"/>-->
 			<frontierRules name="buyBunker"/>
 			<frontierRules name="buyAAGun"/>
@@ -2927,7 +2927,7 @@
 			<frontierRules name="buyTank"/><!--
 			<frontierRules name="buyHeavyTank"/>-->
 			<!--<frontierRules name="buyMech.Rocket"/>-->
-			<frontierRules name="buyFighter"/><!--
+			<frontierRules name="buyFighter"/>
 			<!--<frontierRules name="buyJetFighter"/>-->
 			<!--<frontierRules name="buyL.Fighter"/>-->
 			<frontierRules name="buyBomber"/>
@@ -3028,7 +3028,7 @@
 			<frontierRules name="buyTank"/><!--
 			<frontierRules name="buyHeavyTank"/>-->
 			<!--<frontierRules name="buyMech.Rocket"/>-->
-			<frontierRules name="buyFighter"/><!--
+			<frontierRules name="buyFighter"/>
 			<!--<frontierRules name="buyJetFighter"/>-->
 			<!--<frontierRules name="buyL.Fighter"/>-->
 			<frontierRules name="buyBomber"/>
@@ -3112,7 +3112,7 @@
 			<frontierRules name="buyStuka"/>-->
 			<frontierRules name="buyBomber"/>
 			<frontierRules name="buyT.Boat"/>
-			<frontierRules name="buyTransport"/><!--
+			<frontierRules name="buyTransport"/>
 			<!--<frontierRules name="buyB.Transport"/>-->
 			<frontierRules name="buySubmarine"/>
 			<frontierRules name="buyDestroyer"/>
@@ -3132,7 +3132,7 @@
 			<frontierRules name="buyFighter"/>
 			<!--<frontierRules name="buyJetFighter"/>-->
 			<!--<frontierRules name="buyL.Fighter"/>-->
-			<frontierRules name="buyBomber"/><!--
+			<frontierRules name="buyBomber"/>
 			<!--<frontierRules name="buyS.Bomber"/>-->
 			<frontierRules name="buyT.Boat"/>
 			<frontierRules name="buyTransport"/>
@@ -3141,7 +3141,7 @@
 			<frontierRules name="buyDestroyer"/>
 			<frontierRules name="buyCruiser"/>
 			<frontierRules name="buyBattleship"/>
-			<frontierRules name="buyCarrier"/><!--
+			<frontierRules name="buyCarrier"/>
 			<!--<frontierRules name="buyB.Carrier"/>-->
 			<frontierRules name="buyBunker"/>
 			<frontierRules name="buyAAGun"/>
@@ -3164,17 +3164,17 @@
 			<frontierRules name="buyStuka"/>-->
 			<!--<frontierRules name="buyJetFighter"/>-->
 			<!--<frontierRules name="buyL.Fighter"/>-->
-			<frontierRules name="buyBomber"/><!--
+			<frontierRules name="buyBomber"/>
 			<!--<frontierRules name="buyS.Bomber"/>-->
 			<frontierRules name="buyT.Boat"/>
-			<frontierRules name="buyTransport"/><!--
+			<frontierRules name="buyTransport"/>
 			<!--<frontierRules name="buyB.Transport"/>-->
 			<frontierRules name="buySubmarine"/>
 			<!--<frontierRules name="buyS.Submarine"/>-->
 			<frontierRules name="buyDestroyer"/>
 			<frontierRules name="buyCruiser"/>
 			<frontierRules name="buyBattleship"/>
-			<frontierRules name="buyCarrier"/><!--
+			<frontierRules name="buyCarrier"/>
 			<!--<frontierRules name="buyB.Carrier"/>-->
 			<frontierRules name="buyBunker"/>
 			<frontierRules name="buyAAGun"/>
@@ -3213,7 +3213,7 @@
 			<frontierRules name="buyStuka"/>-->
 			<frontierRules name="buyBomber"/>
 			<frontierRules name="buyT.Boat"/>
-			<frontierRules name="buyTransport"/><!--
+			<frontierRules name="buyTransport"/>
 			<!--<frontierRules name="buyB.Transport"/>-->
 			<frontierRules name="buySubmarine"/>
 			<frontierRules name="buyDestroyer"/>
@@ -3233,7 +3233,7 @@
 			<frontierRules name="buyFighter"/>
 			<!--<frontierRules name="buyJetFighter"/>-->
 			<!--<frontierRules name="buyL.Fighter"/>-->
-			<frontierRules name="buyBomber"/><!--
+			<frontierRules name="buyBomber"/>
 			<!--<frontierRules name="buyS.Bomber"/>-->
 			<frontierRules name="buyT.Boat"/>
 			<frontierRules name="buyTransport"/>
@@ -3242,7 +3242,7 @@
 			<frontierRules name="buyDestroyer"/>
 			<frontierRules name="buyCruiser"/>
 			<frontierRules name="buyBattleship"/>
-			<frontierRules name="buyCarrier"/><!--
+			<frontierRules name="buyCarrier"/>
 			<!--<frontierRules name="buyB.Carrier"/>-->
 			<frontierRules name="buyBunker"/>
 			<frontierRules name="buyAAGun"/>
@@ -3265,17 +3265,17 @@
 			<frontierRules name="buyStuka"/>-->
 			<!--<frontierRules name="buyJetFighter"/>-->
 			<!--<frontierRules name="buyL.Fighter"/>-->
-			<frontierRules name="buyBomber"/><!--
+			<frontierRules name="buyBomber"/>
 			<!--<frontierRules name="buyS.Bomber"/>-->
 			<frontierRules name="buyT.Boat"/>
-			<frontierRules name="buyTransport"/><!--
+			<frontierRules name="buyTransport"/>
 			<!--<frontierRules name="buyB.Transport"/>-->
 			<frontierRules name="buySubmarine"/>
 			<!--<frontierRules name="buyS.Submarine"/>-->
 			<frontierRules name="buyDestroyer"/>
 			<frontierRules name="buyCruiser"/>
 			<frontierRules name="buyBattleship"/>
-			<frontierRules name="buyCarrier"/><!--
+			<frontierRules name="buyCarrier"/>
 			<!--<frontierRules name="buyB.Carrier"/>-->
 			<frontierRules name="buyBunker"/>
 			<frontierRules name="buyAAGun"/>
@@ -3314,7 +3314,7 @@
 			<frontierRules name="buyStuka"/>-->
 			<frontierRules name="buyBomber"/>
 			<frontierRules name="buyT.Boat"/>
-			<frontierRules name="buyTransport"/><!--
+			<frontierRules name="buyTransport"/>
 			<!--<frontierRules name="buyB.Transport"/>-->
 			<frontierRules name="buySubmarine"/>
 			<frontierRules name="buyDestroyer"/>
@@ -3331,10 +3331,10 @@
 			<frontierRules name="buyTank"/><!--
 			<frontierRules name="buyHeavyTank"/>-->
 			<!--<frontierRules name="buyMech.Rocket"/>-->
-			<frontierRules name="buyFighter"/><!--
+			<frontierRules name="buyFighter"/>
 			<!--<frontierRules name="buyJetFighter"/>-->
 			<!--<frontierRules name="buyL.Fighter"/>-->
-			<frontierRules name="buyBomber"/><!--
+			<frontierRules name="buyBomber"/>
 			<!--<frontierRules name="buyS.Bomber"/>-->
 			<frontierRules name="buyT.Boat"/>
 			<frontierRules name="buyTransport"/>
@@ -3343,7 +3343,7 @@
 			<frontierRules name="buyDestroyer"/>
 			<frontierRules name="buyCruiser"/>
 			<frontierRules name="buyBattleship"/>
-			<frontierRules name="buyCarrier"/><!--
+			<frontierRules name="buyCarrier"/>
 			<!--<frontierRules name="buyB.Carrier"/>-->
 			<frontierRules name="buyBunker"/>
 			<frontierRules name="buyAAGun"/>
@@ -3366,17 +3366,17 @@
 			<frontierRules name="buyStuka"/>-->
 			<!--<frontierRules name="buyJetFighter"/>-->
 			<!--<frontierRules name="buyL.Fighter"/>-->
-			<frontierRules name="buyBomber"/><!--
+			<frontierRules name="buyBomber"/>
 			<!--<frontierRules name="buyS.Bomber"/>-->
 			<frontierRules name="buyT.Boat"/>
-			<frontierRules name="buyTransport"/><!--
+			<frontierRules name="buyTransport"/>
 			<!--<frontierRules name="buyB.Transport"/>-->
 			<frontierRules name="buySubmarine"/>
 			<!--<frontierRules name="buyS.Submarine"/>-->
 			<frontierRules name="buyDestroyer"/>
 			<frontierRules name="buyCruiser"/>
 			<frontierRules name="buyBattleship"/>
-			<frontierRules name="buyCarrier"/><!--
+			<frontierRules name="buyCarrier"/>
 			<!--<frontierRules name="buyB.Carrier"/>-->
 			<frontierRules name="buyBunker"/>
 			<frontierRules name="buyAAGun"/>
@@ -3415,7 +3415,7 @@
 			<frontierRules name="buyStuka"/>-->
 			<frontierRules name="buyBomber"/>
 			<frontierRules name="buyT.Boat"/>
-			<frontierRules name="buyTransport"/><!--
+			<frontierRules name="buyTransport"/>
 			<!--<frontierRules name="buyB.Transport"/>-->
 			<frontierRules name="buySubmarine"/>
 			<frontierRules name="buyDestroyer"/>
@@ -3432,10 +3432,10 @@
 			<frontierRules name="buyTank"/>
 			<frontierRules name="buyHeavyTank"/>
 			<frontierRules name="buyMech.Rocket"/>
-			<frontierRules name="buyFighter"/><!--
+			<frontierRules name="buyFighter"/>
 			<!--<frontierRules name="buyJetFighter"/>-->
 			<!--<frontierRules name="buyL.Fighter"/>-->
-			<frontierRules name="buyBomber"/><!--
+			<frontierRules name="buyBomber"/>
 			<!--<frontierRules name="buyS.Bomber"/>-->
 			<frontierRules name="buyT.Boat"/>
 			<frontierRules name="buyTransport"/>
@@ -3444,7 +3444,7 @@
 			<frontierRules name="buyDestroyer"/>
 			<frontierRules name="buyCruiser"/>
 			<frontierRules name="buyBattleship"/>
-			<frontierRules name="buyCarrier"/><!--
+			<frontierRules name="buyCarrier"/>
 			<!--<frontierRules name="buyB.Carrier"/>-->
 			<frontierRules name="buyBunker"/>
 			<frontierRules name="buyAAGun"/>
@@ -3467,17 +3467,17 @@
 			<frontierRules name="buyStuka"/>-->
 			<!--<frontierRules name="buyJetFighter"/>-->
 			<!--<frontierRules name="buyL.Fighter"/>-->
-			<frontierRules name="buyBomber"/><!--
+			<frontierRules name="buyBomber"/>
 			<!--<frontierRules name="buyS.Bomber"/>-->
 			<frontierRules name="buyT.Boat"/>
-			<frontierRules name="buyTransport"/><!--
+			<frontierRules name="buyTransport"/>
 			<!--<frontierRules name="buyB.Transport"/>-->
 			<frontierRules name="buySubmarine"/>
 			<!--<frontierRules name="buyS.Submarine"/>-->
 			<frontierRules name="buyDestroyer"/>
 			<frontierRules name="buyCruiser"/>
 			<frontierRules name="buyBattleship"/>
-			<frontierRules name="buyCarrier"/><!--
+			<frontierRules name="buyCarrier"/>
 			<!--<frontierRules name="buyB.Carrier"/>-->
 			<frontierRules name="buyBunker"/>
 			<frontierRules name="buyAAGun"/>
@@ -3516,7 +3516,7 @@
 			<frontierRules name="buyStuka"/>-->
 			<frontierRules name="buyBomber"/>
 			<frontierRules name="buyT.Boat"/>
-			<frontierRules name="buyTransport"/><!--
+			<frontierRules name="buyTransport"/>
 			<!--<frontierRules name="buyB.Transport"/>-->
 			<frontierRules name="buySubmarine"/>
 			<frontierRules name="buyDestroyer"/>
@@ -3533,19 +3533,19 @@
 			<frontierRules name="buyTank"/><!--
 			<frontierRules name="buyHeavyTank"/>-->
 			<!--<frontierRules name="buyMech.Rocket"/>-->
-			<frontierRules name="buyFighter"/><!--
+			<frontierRules name="buyFighter"/>
 			<!--<frontierRules name="buyJetFighter"/>-->
 			<!--<frontierRules name="buyL.Fighter"/>-->
-			<frontierRules name="buyBomber"/><!--
+			<frontierRules name="buyBomber"/>
 			<!--<frontierRules name="buyS.Bomber"/>-->
 			<frontierRules name="buyT.Boat"/>
 			<frontierRules name="buyTransport"/>
-			<frontierRules name="buySubmarine"/><!--
+			<frontierRules name="buySubmarine"/>
 			<!--<frontierRules name="buyS.Submarine"/>-->
 			<frontierRules name="buyDestroyer"/>
 			<frontierRules name="buyCruiser"/>
 			<frontierRules name="buyBattleship"/>
-			<frontierRules name="buyCarrier"/><!--
+			<frontierRules name="buyCarrier"/>
 			<!--<frontierRules name="buyB.Carrier"/>-->
 			<frontierRules name="buyBunker"/>
 			<frontierRules name="buyAAGun"/>
@@ -3568,17 +3568,17 @@
 			<frontierRules name="buyStuka"/>-->
 			<!--<frontierRules name="buyJetFighter"/>-->
 			<!--<frontierRules name="buyL.Fighter"/>-->
-			<frontierRules name="buyBomber"/><!--
+			<frontierRules name="buyBomber"/>
 			<!--<frontierRules name="buyS.Bomber"/>-->
 			<frontierRules name="buyT.Boat"/>
-			<frontierRules name="buyTransport"/><!--
+			<frontierRules name="buyTransport"/>
 			<!--<frontierRules name="buyB.Transport"/>-->
-			<frontierRules name="buySubmarine"/><!--
+			<frontierRules name="buySubmarine"/>
 			<!--<frontierRules name="buyS.Submarine"/>-->
 			<frontierRules name="buyDestroyer"/>
 			<frontierRules name="buyCruiser"/>
 			<frontierRules name="buyBattleship"/>
-			<frontierRules name="buyCarrier"/><!--
+			<frontierRules name="buyCarrier"/>
 			<!--<frontierRules name="buyB.Carrier"/>-->
 			<frontierRules name="buyBunker"/>
 			<frontierRules name="buyAAGun"/>
@@ -3617,7 +3617,7 @@
 			<frontierRules name="buyStuka"/>-->
 			<frontierRules name="buyBomber"/>
 			<frontierRules name="buyT.Boat"/>
-			<frontierRules name="buyTransport"/><!--
+			<frontierRules name="buyTransport"/>
 			<!--<frontierRules name="buyB.Transport"/>-->
 			<frontierRules name="buySubmarine"/>
 			<frontierRules name="buyDestroyer"/>
@@ -3634,19 +3634,19 @@
 			<frontierRules name="buyTank"/><!--
 			<frontierRules name="buyHeavyTank"/>-->
 			<!--<frontierRules name="buyMech.Rocket"/>-->
-			<frontierRules name="buyFighter"/><!--
+			<frontierRules name="buyFighter"/>
 			<!--<frontierRules name="buyJetFighter"/>-->
 			<!--<frontierRules name="buyL.Fighter"/>-->
-			<frontierRules name="buyBomber"/><!--
+			<frontierRules name="buyBomber"/>
 			<!--<frontierRules name="buyS.Bomber"/>-->
 			<frontierRules name="buyT.Boat"/>
 			<frontierRules name="buyTransport"/>
-			<frontierRules name="buySubmarine"/><!--
+			<frontierRules name="buySubmarine"/>
 			<!--<frontierRules name="buyS.Submarine"/>-->
 			<frontierRules name="buyDestroyer"/>
 			<frontierRules name="buyCruiser"/>
 			<frontierRules name="buyBattleship"/>
-			<frontierRules name="buyCarrier"/><!--
+			<frontierRules name="buyCarrier"/>
 			<!--<frontierRules name="buyB.Carrier"/>-->
 			<frontierRules name="buyBunker"/>
 			<frontierRules name="buyAAGun"/>
@@ -3669,17 +3669,17 @@
 			<frontierRules name="buyStuka"/>-->
 			<!--<frontierRules name="buyJetFighter"/>-->
 			<!--<frontierRules name="buyL.Fighter"/>-->
-			<frontierRules name="buyBomber"/><!--
+			<frontierRules name="buyBomber"/>
 			<!--<frontierRules name="buyS.Bomber"/>-->
 			<frontierRules name="buyT.Boat"/>
-			<frontierRules name="buyTransport"/><!--
+			<frontierRules name="buyTransport"/>
 			<!--<frontierRules name="buyB.Transport"/>-->
-			<frontierRules name="buySubmarine"/><!--
+			<frontierRules name="buySubmarine"/>
 			<!--<frontierRules name="buyS.Submarine"/>-->
 			<frontierRules name="buyDestroyer"/>
 			<frontierRules name="buyCruiser"/>
 			<frontierRules name="buyBattleship"/>
-			<frontierRules name="buyCarrier"/><!--
+			<frontierRules name="buyCarrier"/>
 			<!--<frontierRules name="buyB.Carrier"/>-->
 			<frontierRules name="buyBunker"/>
 			<frontierRules name="buyAAGun"/>
@@ -3718,7 +3718,7 @@
 			<frontierRules name="buyStuka"/>-->
 			<frontierRules name="buyBomber"/>
 			<frontierRules name="buyT.Boat"/>
-			<frontierRules name="buyTransport"/><!--
+			<frontierRules name="buyTransport"/>
 			<!--<frontierRules name="buyB.Transport"/>-->
 			<frontierRules name="buySubmarine"/>
 			<frontierRules name="buyDestroyer"/>
@@ -3735,7 +3735,7 @@
 			<frontierRules name="buyTank"/><!--
 			<frontierRules name="buyHeavyTank"/>-->
 			<!--<frontierRules name="buyMech.Rocket"/>-->
-			<frontierRules name="buyFighter"/><!--
+			<frontierRules name="buyFighter"/>
 			<!--<frontierRules name="buyJetFighter"/>-->
 			<!--<frontierRules name="buyL.Fighter"/>-->
 			<frontierRules name="buyBomber"/>
@@ -3747,7 +3747,7 @@
 			<frontierRules name="buyDestroyer"/>
 			<frontierRules name="buyCruiser"/>
 			<frontierRules name="buyBattleship"/>
-			<frontierRules name="buyCarrier"/><!--
+			<frontierRules name="buyCarrier"/>
 			<!--<frontierRules name="buyB.Carrier"/>-->
 			<frontierRules name="buyBunker"/>
 			<frontierRules name="buyAAGun"/>
@@ -3773,14 +3773,14 @@
 			<frontierRules name="buyBomber"/>
 			<!--<frontierRules name="buyS.Bomber"/>-->
 			<frontierRules name="buyT.Boat"/>
-			<frontierRules name="buyTransport"/><!--
+			<frontierRules name="buyTransport"/>
 			<!--<frontierRules name="buyB.Transport"/>-->
 			<frontierRules name="buySubmarine"/>
 			<!--<frontierRules name="buyS.Submarine"/>-->
 			<frontierRules name="buyDestroyer"/>
 			<frontierRules name="buyCruiser"/>
 			<frontierRules name="buyBattleship"/>
-			<frontierRules name="buyCarrier"/><!--
+			<frontierRules name="buyCarrier"/>
 			<!--<frontierRules name="buyB.Carrier"/>-->
 			<frontierRules name="buyBunker"/>
 			<frontierRules name="buyAAGun"/>
@@ -3819,7 +3819,7 @@
 			<frontierRules name="buyStuka"/>-->
 			<frontierRules name="buyBomber"/>
 			<frontierRules name="buyT.Boat"/>
-			<frontierRules name="buyTransport"/><!--
+			<frontierRules name="buyTransport"/>
 			<!--<frontierRules name="buyB.Transport"/>-->
 			<frontierRules name="buySubmarine"/>
 			<frontierRules name="buyDestroyer"/>
@@ -3836,10 +3836,10 @@
 			<frontierRules name="buyTank"/><!--
 			<frontierRules name="buyHeavyTank"/>-->
 			<!--<frontierRules name="buyMech.Rocket"/>-->
-			<frontierRules name="buyFighter"/><!--
+			<frontierRules name="buyFighter"/>
 			<!--<frontierRules name="buyJetFighter"/>-->
 			<!--<frontierRules name="buyL.Fighter"/>-->
-			<frontierRules name="buyBomber"/><!--
+			<frontierRules name="buyBomber"/>
 			<!--<frontierRules name="buyS.Bomber"/>-->
 			<frontierRules name="buyT.Boat"/>
 			<frontierRules name="buyTransport"/>
@@ -3848,7 +3848,7 @@
 			<frontierRules name="buyDestroyer"/>
 			<frontierRules name="buyCruiser"/>
 			<frontierRules name="buyBattleship"/>
-			<frontierRules name="buyCarrier"/><!--
+			<frontierRules name="buyCarrier"/>
 			<!--<frontierRules name="buyB.Carrier"/>-->
 			<frontierRules name="buyBunker"/>
 			<frontierRules name="buyAAGun"/>
@@ -3871,17 +3871,17 @@
 			<frontierRules name="buyStuka"/>-->
 			<!--<frontierRules name="buyJetFighter"/>-->
 			<!--<frontierRules name="buyL.Fighter"/>-->
-			<frontierRules name="buyBomber"/><!--
+			<frontierRules name="buyBomber"/>
 			<!--<frontierRules name="buyS.Bomber"/>-->
 			<frontierRules name="buyT.Boat"/>
-			<frontierRules name="buyTransport"/><!--
+			<frontierRules name="buyTransport"/>
 			<!--<frontierRules name="buyB.Transport"/>-->
 			<frontierRules name="buySubmarine"/>
 			<!--<frontierRules name="buyS.Submarine"/>-->
 			<frontierRules name="buyDestroyer"/>
 			<frontierRules name="buyCruiser"/>
 			<frontierRules name="buyBattleship"/>
-			<frontierRules name="buyCarrier"/><!--
+			<frontierRules name="buyCarrier"/>
 			<!--<frontierRules name="buyB.Carrier"/>-->
 			<frontierRules name="buyBunker"/>
 			<frontierRules name="buyAAGun"/>
@@ -3920,7 +3920,7 @@
 			<frontierRules name="buyStuka"/>-->
 			<frontierRules name="buyBomber"/>
 			<frontierRules name="buyT.Boat"/>
-			<frontierRules name="buyTransport"/><!--
+			<frontierRules name="buyTransport"/>
 			<!--<frontierRules name="buyB.Transport"/>-->
 			<frontierRules name="buySubmarine"/>
 			<frontierRules name="buyDestroyer"/>
@@ -3937,19 +3937,19 @@
 			<frontierRules name="buyTank"/><!--
 			<frontierRules name="buyHeavyTank"/>-->
 			<!--<frontierRules name="buyMech.Rocket"/>-->
-			<frontierRules name="buyFighter"/><!--
+			<frontierRules name="buyFighter"/>
 			<!--<frontierRules name="buyJetFighter"/>-->
 			<!--<frontierRules name="buyL.Fighter"/>-->
-			<frontierRules name="buyBomber"/><!--
+			<frontierRules name="buyBomber"/>
 			<!--<frontierRules name="buyS.Bomber"/>-->
 			<frontierRules name="buyT.Boat"/>
 			<frontierRules name="buyTransport"/>
-			<frontierRules name="buySubmarine"/><!--
+			<frontierRules name="buySubmarine"/>
 			<!--<frontierRules name="buyS.Submarine"/>-->
 			<frontierRules name="buyDestroyer"/>
 			<frontierRules name="buyCruiser"/>
 			<frontierRules name="buyBattleship"/>
-			<frontierRules name="buyCarrier"/><!--
+			<frontierRules name="buyCarrier"/>
 			<!--<frontierRules name="buyB.Carrier"/>-->
 			<frontierRules name="buyBunker"/>
 			<frontierRules name="buyAAGun"/>
@@ -3972,17 +3972,17 @@
 			<frontierRules name="buyStuka"/>-->
 			<!--<frontierRules name="buyJetFighter"/>-->
 			<!--<frontierRules name="buyL.Fighter"/>-->
-			<frontierRules name="buyBomber"/><!--
+			<frontierRules name="buyBomber"/>
 			<!--<frontierRules name="buyS.Bomber"/>-->
 			<frontierRules name="buyT.Boat"/>
-			<frontierRules name="buyTransport"/><!--
+			<frontierRules name="buyTransport"/>
 			<!--<frontierRules name="buyB.Transport"/>-->
-			<frontierRules name="buySubmarine"/><!--
+			<frontierRules name="buySubmarine"/>
 			<!--<frontierRules name="buyS.Submarine"/>-->
 			<frontierRules name="buyDestroyer"/>
 			<frontierRules name="buyCruiser"/>
 			<frontierRules name="buyBattleship"/>
-			<frontierRules name="buyCarrier"/><!--
+			<frontierRules name="buyCarrier"/>
 			<!--<frontierRules name="buyB.Carrier"/>-->
 			<frontierRules name="buyBunker"/>
 			<frontierRules name="buyAAGun"/>
@@ -4038,7 +4038,7 @@
 			<frontierRules name="buyTank"/><!--
 			<frontierRules name="buyHeavyTank"/>-->
 			<!--<frontierRules name="buyMech.Rocket"/>-->
-			<frontierRules name="buyFighter"/><!--
+			<frontierRules name="buyFighter"/>
 			<!--<frontierRules name="buyJetFighter"/>-->
 			<!--<frontierRules name="buyL.Fighter"/>-->
 			<frontierRules name="buyBomber"/>
@@ -4069,7 +4069,7 @@
 			<frontierRules name="buyMech.Inf"/><!--
 			<frontierRules name="buyMech.Rocket"/>-->
 			<frontierRules name="buyFighter"/>
-			<frontierRules name="buyAdv.Fighter"/><!--
+			<frontierRules name="buyAdv.Fighter"/>
 			<frontierRules name="buyStuka"/>-->
 			<!--<frontierRules name="buyJetFighter"/>-->
 			<!--<frontierRules name="buyL.Fighter"/>-->
@@ -7488,16 +7488,16 @@
 		</ownerInitialize>
 		<unitInitialize>
 			<unitPlacement unitType="Infantry" territory="Silesia" quantity="3"/>
-			<unitPlacement unitType="Infantry" territory="East Prussia" quantity="6" owner="Germans"/>
+			<unitPlacement unitType="Infantry" territory="East Prussia" quantity="8" owner="Germans"/>
 			<unitPlacement unitType="Bunker" territory="East Prussia" quantity="2" owner="Germans"/>
 			<unitPlacement unitType="Tank" territory="East Prussia" quantity="2" owner="Germans"/>
 			<unitPlacement unitType="Factory" territory="East Prussia" quantity="1" owner="Germans"/>
-			<unitPlacement unitType="Artillery" territory="East Prussia" quantity="3" owner="Germans"/>
+			<unitPlacement unitType="Artillery" territory="East Prussia" quantity="4" owner="Germans"/>
 			<unitPlacement unitType="AAGun" territory="East Prussia" quantity="1" owner="Germans"/>
 			<unitPlacement unitType="Infantry" territory="Pomerania" quantity="3"/>
 			<unitPlacement unitType="Infantry" territory="Saxony" quantity="4"/>
 			<unitPlacement unitType="Infantry" territory="Berlin" quantity="8" owner="Germans"/>
-			<unitPlacement unitType="Artillery" territory="Berlin" quantity="3" owner="Germans"/>
+			<unitPlacement unitType="Artillery" territory="Berlin" quantity="4" owner="Germans"/>
 			<unitPlacement unitType="Bunker" territory="Berlin" quantity="4" owner="Germans"/>
 			<unitPlacement unitType="Tank" territory="Berlin" quantity="3" owner="Germans"/>
 			<unitPlacement unitType="Fighter" territory="Berlin" quantity="2" owner="Germans"/>
@@ -7543,7 +7543,7 @@
 			<unitPlacement unitType="Bunker" territory="Stalingrad" quantity="1"/>
 			<unitPlacement unitType="Factory" territory="Stalingrad" quantity="1"/>
 			<unitPlacement unitType="Infantry" territory="Komi" quantity="1"/>
-			<unitPlacement unitType="Infantry" territory="Sverdlovsk" quantity="7" owner="Russians"/>
+			<unitPlacement unitType="Infantry" territory="Sverdlovsk" quantity="8" owner="Russians"/>
 			<unitPlacement unitType="Bunker" territory="Sverdlovsk" quantity="2" owner="Russians"/>
 			<unitPlacement unitType="Tank" territory="Sverdlovsk" quantity="1" owner="Russians"/>
 			<unitPlacement unitType="Fighter" territory="Sverdlovsk" quantity="1" owner="Russians"/>
@@ -7566,7 +7566,8 @@
 			<unitPlacement unitType="Infantry" territory="Tashkent" quantity="2"/>
 			<unitPlacement unitType="Bunker" territory="Tashkent" quantity="1"/>
 			<unitPlacement unitType="Factory" territory="Tashkent" quantity="1"/>
-			<unitPlacement unitType="Infantry" territory="Sibirsky" quantity="7" owner="Russians"/>
+			<unitPlacement unitType="Infantry" territory="Sibirsky" quantity="8" owner="Russians"/>
+			<unitPlacement unitType="Artillery" territory="Sibirsky" quantity="2" owner="Russians"/>
 			<unitPlacement unitType="Bunker" territory="Sibirsky" quantity="2" owner="Russians"/>
 			<unitPlacement unitType="Tank" territory="Sibirsky" quantity="1" owner="Russians"/>
 			<unitPlacement unitType="Fighter" territory="Sibirsky" quantity="1" owner="Russians"/>
@@ -7592,7 +7593,7 @@
 			<unitPlacement unitType="Infantry" territory="Kolyma" quantity="1"/>
 			<unitPlacement unitType="Infantry" territory="Minsk" quantity="1"/>
 			<unitPlacement unitType="Infantry" territory="Sicily" quantity="2"/>
-			<unitPlacement unitType="Infantry" territory="Rome" quantity="7" owner="Italians"/>
+			<unitPlacement unitType="Infantry" territory="Rome" quantity="8" owner="Italians"/>
 			<unitPlacement unitType="Artillery" territory="Rome" quantity="4" owner="Italians"/>
 			<unitPlacement unitType="Fighter" territory="Rome" quantity="2" owner="Italians"/>
 			<unitPlacement unitType="Bunker" territory="Lombardy" quantity="1"/>
@@ -7603,6 +7604,7 @@
 			<unitPlacement unitType="AAGun" territory="Rome" quantity="1" owner="Italians"/>
 			<unitPlacement unitType="Infantry" territory="Italian East Africa" quantity="6" owner="Italians"/>
 			<unitPlacement unitType="Tank" territory="Italian East Africa" quantity="2" owner="Italians"/>
+			<unitPlacement unitType="Artillery" territory="Italian East Africa" quantity="2" owner="Italians"/>
 			<unitPlacement unitType="Bunker" territory="Italian East Africa" quantity="2" owner="Italians"/>
 			<unitPlacement unitType="Factory" territory="Italian East Africa" quantity="1" owner="Italians"/>
 			<unitPlacement unitType="Infantry" territory="Lombardy" quantity="5"/>
@@ -7621,10 +7623,10 @@
 			<unitPlacement unitType="Infantry" territory="Sardinia" quantity="1"/>
 			<unitPlacement unitType="Infantry" territory="Hun" quantity="1"/>
 			<unitPlacement unitType="Infantry" territory="Corsica" quantity="1"/>
-			<unitPlacement unitType="Infantry" territory="Paris" quantity="7" owner="French"/>
+			<unitPlacement unitType="Infantry" territory="Paris" quantity="8" owner="French"/>
 			<unitPlacement unitType="Bunker" territory="Paris" quantity="4" owner="French"/>
-			<unitPlacement unitType="Artillery" territory="Paris" quantity="3" owner="French"/>
-			<unitPlacement unitType="Fighter" territory="Paris" quantity="1" owner="French"/>
+			<unitPlacement unitType="Artillery" territory="Paris" quantity="4" owner="French"/>
+			<unitPlacement unitType="Fighter" territory="Paris" quantity="2" owner="French"/>
 			<unitPlacement unitType="Tank" territory="Paris" quantity="1" owner="French"/>
 			<unitPlacement unitType="Factory" territory="Paris" quantity="1" owner="French"/>
 			<unitPlacement unitType="AAGun" territory="Paris" quantity="1" owner="French"/>
@@ -7647,13 +7649,13 @@
 			<unitPlacement unitType="Infantry" territory="Syria" quantity="2"/>
 			<unitPlacement unitType="Artillery" territory="S.French Indochina" quantity="1"/>
 			<unitPlacement unitType="Infantry" territory="Mauritania" quantity="1"/>
-			<unitPlacement unitType="Infantry" territory="W.Morocco" quantity="6" owner="French"/>
+			<unitPlacement unitType="Infantry" territory="W.Morocco" quantity="7" owner="French"/>
 			<unitPlacement unitType="Bunker" territory="W.Morocco" quantity="2" owner="French"/>
 			<unitPlacement unitType="Artillery" territory="W.Morocco" quantity="2" owner="French"/>
 			<unitPlacement unitType="Factory" territory="W.Morocco" quantity="1" owner="French"/>
 			<unitPlacement unitType="AAGun" territory="W.Morocco" quantity="1" owner="French"/>
 			<unitPlacement unitType="Infantry" territory="E.Morocco" quantity="2"/>
-			<unitPlacement unitType="Infantry" territory="Churchill" quantity="6" owner="French"/>
+			<unitPlacement unitType="Infantry" territory="Churchill" quantity="7" owner="French"/>
 			<unitPlacement unitType="Artillery" territory="Churchill" quantity="2" owner="French"/>
 			<unitPlacement unitType="Bunker" territory="Churchill" quantity="2" owner="French"/>
 			<unitPlacement unitType="Factory" territory="Churchill" quantity="1" owner="French"/>
@@ -7671,7 +7673,7 @@
 			<unitPlacement unitType="Artillery" territory="Tokyo" quantity="4" owner="Yamamoto"/>
 			<unitPlacement unitType="Tank" territory="Tokyo" quantity="2" owner="Yamamoto"/>
 			<unitPlacement unitType="Fighter" territory="Tokyo" quantity="4" owner="Yamamoto"/>
-			<unitPlacement unitType="Bomber" territory="Tokyo" quantity="1" owner="Yamamoto"/>
+			<unitPlacement unitType="Bomber" territory="Tokyo" quantity="2" owner="Yamamoto"/>
 			<unitPlacement unitType="Factory" territory="Tokyo" quantity="1" owner="Yamamoto"/>
 			<unitPlacement unitType="AAGun" territory="Tokyo" quantity="1" owner="Yamamoto"/>
 			<unitPlacement unitType="Infantry" territory="Kusaie" quantity="1"/>
@@ -7709,7 +7711,7 @@
 			<unitPlacement unitType="Bunker" territory="Shanghai" quantity="1"/>
 			<unitPlacement unitType="Factory" territory="Shanghai" quantity="1"/>
 			<unitPlacement unitType="Infantry" territory="E.Sinkiang" quantity="1"/>
-			<unitPlacement unitType="Infantry" territory="Urumqi" quantity="6" owner="Chinese"/>
+			<unitPlacement unitType="Infantry" territory="Urumqi" quantity="8" owner="Chinese"/>
 			<unitPlacement unitType="Artillery" territory="Urumqi" quantity="2" owner="Chinese"/>
 			<unitPlacement unitType="Bunker" territory="Urumqi" quantity="2" owner="Chinese"/>
 			<unitPlacement unitType="Factory" territory="Urumqi" quantity="1" owner="Chinese"/>
@@ -7727,7 +7729,7 @@
 			<unitPlacement unitType="Infantry" territory="Hunan" quantity="2"/>
 			<unitPlacement unitType="Infantry" territory="Anhwei" quantity="2"/>
 			<unitPlacement unitType="Infantry" territory="C.Sinkiang" quantity="1"/>
-			<unitPlacement unitType="Infantry" territory="Hsining" quantity="9" owner="Chinese"/>
+			<unitPlacement unitType="Infantry" territory="Hsining" quantity="10" owner="Chinese"/>
 			<unitPlacement unitType="Artillery" territory="Hsining" quantity="2" owner="Chinese"/>
 			<unitPlacement unitType="Bunker" territory="Hsining" quantity="4" owner="Chinese"/>
 			<unitPlacement unitType="Factory" territory="Hsining" quantity="1" owner="Chinese"/>
@@ -7743,7 +7745,7 @@
 			<unitPlacement unitType="Infantry" territory="Formosa" quantity="3"/>
 			<unitPlacement unitType="Infantry" territory="Korea" quantity="2"/>
 			<unitPlacement unitType="Infantry" territory="Changchun" quantity="8" owner="Hisaichi"/>
-			<unitPlacement unitType="Artillery" territory="Changchun" quantity="2" owner="Hisaichi"/>
+			<unitPlacement unitType="Artillery" territory="Changchun" quantity="3" owner="Hisaichi"/>
 			<unitPlacement unitType="Bunker" territory="Changchun" quantity="4" owner="Hisaichi"/>
 			<unitPlacement unitType="Tank" territory="Changchun" quantity="2" owner="Hisaichi"/>
 			<unitPlacement unitType="Fighter" territory="Changchun" quantity="1" owner="Hisaichi"/>
@@ -7764,6 +7766,7 @@
 			<unitPlacement unitType="Infantry" territory="Cyprus" quantity="1"/>
 			<unitPlacement unitType="Infantry" territory="French Guiana" quantity="1"/>
 			<unitPlacement unitType="Infantry" territory="Suriname" quantity="6" owner="Dutch"/>
+			<unitPlacement unitType="Artillery" territory="Suriname" quantity="2" owner="Dutch"/>
 			<unitPlacement unitType="Tank" territory="Suriname" quantity="2" owner="Dutch"/>
 			<unitPlacement unitType="Factory" territory="Suriname" quantity="1" owner="Dutch"/>
 			<unitPlacement unitType="Infantry" territory="British Guiana" quantity="1"/>
@@ -7815,7 +7818,7 @@
 			<unitPlacement unitType="Bunker" territory="Delhi" quantity="1"/>
 			<unitPlacement unitType="Factory" territory="Delhi" quantity="1"/>
 			<unitPlacement unitType="Infantry" territory="Aden" quantity="2"/>
-			<unitPlacement unitType="Infantry" territory="Madras" quantity="6" owner="British"/>
+			<unitPlacement unitType="Infantry" territory="Madras" quantity="8" owner="British"/>
 			<unitPlacement unitType="Bunker" territory="Madras" quantity="2" owner="British"/>
 			<unitPlacement unitType="Tank" territory="Madras" quantity="1" owner="British"/>
 			<unitPlacement unitType="Fighter" territory="Madras" quantity="1" owner="British"/>
@@ -7823,11 +7826,11 @@
 			<unitPlacement unitType="Factory" territory="Madras" quantity="1" owner="British"/>
 			<unitPlacement unitType="AAGun" territory="Madras" quantity="1" owner="British"/>
 			<unitPlacement unitType="Infantry" territory="Malta" quantity="2"/>
-			<unitPlacement unitType="Infantry" territory="Montreal" quantity="6" owner="British"/>
+			<unitPlacement unitType="Infantry" territory="Montreal" quantity="7" owner="British"/>
 			<unitPlacement unitType="Artillery" territory="Montreal" quantity="2" owner="British"/>
 			<unitPlacement unitType="Bunker" territory="Montreal" quantity="2" owner="British"/>
 			<unitPlacement unitType="Factory" territory="Montreal" quantity="1" owner="British"/>
-			<unitPlacement unitType="Infantry" territory="London" quantity="6" owner="British"/>
+			<unitPlacement unitType="Infantry" territory="London" quantity="7" owner="British"/>
 			<unitPlacement unitType="Artillery" territory="London" quantity="2" owner="British"/>
 			<unitPlacement unitType="Tank" territory="London" quantity="1" owner="British"/>
 			<unitPlacement unitType="Fighter" territory="London" quantity="3" owner="British"/>
@@ -7847,9 +7850,9 @@
 			<unitPlacement unitType="Infantry" territory="Malaya" quantity="5"/>
 			<unitPlacement unitType="Infantry" territory="Kotka" quantity="1"/>
 			<unitPlacement unitType="Infantry" territory="Lapland" quantity="1"/>
-			<unitPlacement unitType="Infantry" territory="Helsinki" quantity="6" owner="Finns"/>
+			<unitPlacement unitType="Infantry" territory="Helsinki" quantity="7" owner="Finns"/>
 			<unitPlacement unitType="Tank" territory="Helsinki" quantity="1" owner="Finns"/>
-			<unitPlacement unitType="Artillery" territory="Helsinki" quantity="2" owner="Finns"/>
+			<unitPlacement unitType="Artillery" territory="Helsinki" quantity="3" owner="Finns"/>
 			<unitPlacement unitType="Bunker" territory="Helsinki" quantity="4" owner="Finns"/>
 			<unitPlacement unitType="Fighter" territory="Helsinki" quantity="1" owner="Finns"/>
 			<unitPlacement unitType="Factory" territory="Helsinki" quantity="1" owner="Finns"/>
@@ -7868,8 +7871,8 @@
 			<unitPlacement unitType="Infantry" territory="South New Zealand" quantity="1"/>
 			<unitPlacement unitType="Infantry" territory="Wellington" quantity="5" owner="Anzac"/>
 			<unitPlacement unitType="Bunker" territory="Wellington" quantity="2" owner="Anzac"/>
-			<unitPlacement unitType="Artillery" territory="Wellington" quantity="2" owner="Anzac"/>
-			<unitPlacement unitType="Fighter" territory="Wellington" quantity="1" owner="Anzac"/>
+			<unitPlacement unitType="Artillery" territory="Wellington" quantity="3" owner="Anzac"/>
+			<unitPlacement unitType="Fighter" territory="Wellington" quantity="2" owner="Anzac"/>
 			<unitPlacement unitType="Factory" territory="Wellington" quantity="1" owner="Anzac"/>
 			<unitPlacement unitType="AAGun" territory="Wellington" quantity="1" owner="Anzac"/>
 			<unitPlacement unitType="Infantry" territory="Canberra" quantity="5" owner="Anzac"/>
@@ -7890,14 +7893,15 @@
 			<unitPlacement unitType="Bunker" territory="Townsville" quantity="1"/>
 			<unitPlacement unitType="Infantry" territory="Guadalcanal" quantity="1"/>
 			<unitPlacement unitType="Infantry" territory="New Ireland" quantity="1"/>
-			<unitPlacement unitType="Infantry" territory="Bucharest" quantity="7" owner="Romanians"/>
+			<unitPlacement unitType="Infantry" territory="Bucharest" quantity="8" owner="Romanians"/>
 			<unitPlacement unitType="Artillery" territory="Bucharest" quantity="3" owner="Romanians"/>
 			<unitPlacement unitType="Bunker" territory="Bucharest" quantity="4" owner="Romanians"/>
 			<unitPlacement unitType="Tank" territory="Bucharest" quantity="2" owner="Romanians"/>
 			<unitPlacement unitType="Fighter" territory="Bucharest" quantity="1" owner="Romanians"/>
 			<unitPlacement unitType="Factory" territory="Bucharest" quantity="1" owner="Romanians"/>
 			<unitPlacement unitType="AAGun" territory="Bucharest" quantity="1" owner="Romanians"/>
-			<unitPlacement unitType="Infantry" territory="Bulgaria" quantity="4" owner="Romanians"/>
+			<unitPlacement unitType="Infantry" territory="Bulgaria" quantity="6" owner="Romanians"/>
+			<unitPlacement unitType="Artillery" territory="Bulgaria" quantity="1" owner="Romanians"/>
 			<unitPlacement unitType="Tank" territory="Bulgaria" quantity="1" owner="Romanians"/>
 			<unitPlacement unitType="Factory" territory="Bulgaria" quantity="1" owner="Romanians"/>
 			<unitPlacement unitType="Bunker" territory="Bulgaria" quantity="2" owner="Romanians"/>
@@ -7910,7 +7914,7 @@
 			<unitPlacement unitType="Infantry" territory="Soembawa" quantity="1"/>
 			<unitPlacement unitType="Infantry" territory="East And South Borneo" quantity="2"/>
 			<unitPlacement unitType="Infantry" territory="Sumatra" quantity="4"/>
-			<unitPlacement unitType="Infantry" territory="Banjarmasin" quantity="6" owner="Dutch"/>
+			<unitPlacement unitType="Infantry" territory="Banjarmasin" quantity="7" owner="Dutch"/>
 			<unitPlacement unitType="Artillery" territory="Banjarmasin" quantity="2" owner="Dutch"/>
 			<unitPlacement unitType="Bunker" territory="Banjarmasin" quantity="4" owner="Dutch"/>
 			<unitPlacement unitType="Tank" territory="Banjarmasin" quantity="1" owner="Dutch"/>
@@ -7925,14 +7929,14 @@
 			<unitPlacement unitType="Infantry" territory="S.Thailand" quantity="1"/>
 			<unitPlacement unitType="Infantry" territory="Bangkok" quantity="8" owner="Thai"/>
 			<unitPlacement unitType="Bunker" territory="Bangkok" quantity="4" owner="Thai"/>
-			<unitPlacement unitType="Artillery" territory="Bangkok" quantity="4" owner="Thai"/>
+			<unitPlacement unitType="Artillery" territory="Bangkok" quantity="3" owner="Thai"/>
 			<unitPlacement unitType="Tank" territory="Bangkok" quantity="2" owner="Thai"/>
-			<unitPlacement unitType="Fighter" territory="Bangkok" quantity="1" owner="Thai"/>
+			<unitPlacement unitType="Fighter" territory="Bangkok" quantity="2" owner="Thai"/>
 			<unitPlacement unitType="Factory" territory="Bangkok" quantity="1" owner="Thai"/>
 			<unitPlacement unitType="AAGun" territory="Bangkok" quantity="1" owner="Thai"/>
 			<unitPlacement unitType="Infantry" territory="New Caledonia" quantity="1"/>
 			<unitPlacement unitType="Infantry" territory="Colombia" quantity="3"/>
-			<unitPlacement unitType="Infantry" territory="San Francisco" quantity="4" owner="Americans"/>
+			<unitPlacement unitType="Infantry" territory="San Francisco" quantity="5" owner="Americans"/>
 			<unitPlacement unitType="Bunker" territory="San Francisco" quantity="2" owner="Americans"/>
 			<unitPlacement unitType="Artillery" territory="San Francisco" quantity="1" owner="Americans"/>
 			<unitPlacement unitType="Tank" territory="San Francisco" quantity="2" owner="Americans"/>
@@ -7941,7 +7945,8 @@
 			<unitPlacement unitType="Infantry" territory="North Central USA" quantity="2"/>
 			<unitPlacement unitType="Infantry" territory="Davao" quantity="6"  owner="Americans"/>
 			<unitPlacement unitType="Factory" territory="Davao" quantity="1"  owner="Americans"/>
-			<unitPlacement unitType="Fighter" territory="Davao" quantity="2"  owner="Americans"/>
+			<unitPlacement unitType="Artillery" territory="Davao" quantity="2"  owner="Americans"/>
+			<unitPlacement unitType="Fighter" territory="Davao" quantity="1"  owner="Americans"/>
 			<unitPlacement unitType="Bunker" territory="Davao" quantity="1"  owner="Americans"/>
 			<unitPlacement unitType="Infantry" territory="Christmas" quantity="1"/>
 			<unitPlacement unitType="Infantry" territory="Southwest USA" quantity="4"/>
@@ -7952,7 +7957,7 @@
 			<unitPlacement unitType="Infantry" territory="Wake" quantity="2"/>
 			<unitPlacement unitType="Infantry" territory="Oahu" quantity="1"/>
 			<unitPlacement unitType="Infantry" territory="Johnston" quantity="1"/>
-			<unitPlacement unitType="Infantry" territory="Pearl Harbor" quantity="4" owner="Americans"/>
+			<unitPlacement unitType="Infantry" territory="Pearl Harbor" quantity="5" owner="Americans"/>
 			<unitPlacement unitType="Artillery" territory="Pearl Harbor" quantity="1" owner="Americans"/>
 			<unitPlacement unitType="Bunker" territory="Pearl Harbor" quantity="2" owner="Americans"/>
 			<unitPlacement unitType="Tank" territory="Pearl Harbor" quantity="1" owner="Americans"/>
@@ -7960,7 +7965,7 @@
 			<unitPlacement unitType="Factory" territory="Pearl Harbor" quantity="1" owner="Americans"/>
 			<unitPlacement unitType="AAGun" territory="Pearl Harbor" quantity="1" owner="Americans"/>
 			<unitPlacement unitType="Infantry" territory="Palmyra" quantity="2"/>
-			<unitPlacement unitType="Infantry" territory="Washington" quantity="4" owner="Americans"/>
+			<unitPlacement unitType="Infantry" territory="Washington" quantity="5" owner="Americans"/>
 			<unitPlacement unitType="Artillery" territory="Washington" quantity="1" owner="Americans"/>
 			<unitPlacement unitType="Bunker" territory="Washington" quantity="4" owner="Americans"/>
 			<unitPlacement unitType="Fighter" territory="Washington" quantity="2" owner="Americans"/>
@@ -7976,6 +7981,7 @@
 			<unitPlacement unitType="Infantry" territory="Mindanao" quantity="1"/>
 			<unitPlacement unitType="Infantry" territory="Canarians" quantity="1"/>
 			<unitPlacement unitType="Infantry" territory="Cape Town" quantity="6" owner="British"/>
+			<unitPlacement unitType="Artillery" territory="Cape Town" quantity="1" owner="British"/>
 			<unitPlacement unitType="Bunker" territory="Cape Town" quantity="2" owner="British"/>
 			<unitPlacement unitType="Factory" territory="Cape Town" quantity="1" owner="British"/>
 			<unitPlacement unitType="Tank" territory="Cape Town" quantity="2" owner="British"/>
@@ -7992,7 +7998,9 @@
 			<unitPlacement unitType="Infantry" territory="Eastern Mongolia" quantity="3"/>
 			<unitPlacement unitType="Infantry" territory="Nordland" quantity="1"/>
 			<unitPlacement unitType="Infantry" territory="Gobi Altai" quantity="2"/>
-			<unitPlacement unitType="Infantry" territory="Stockholm" quantity="4" owner="Finns"/>
+			<unitPlacement unitType="Infantry" territory="Stockholm" quantity="5" owner="Finns"/>
+			<unitPlacement unitType="Artillery" territory="Stockholm" quantity="1" owner="Finns"/>
+			<unitPlacement unitType="Tank" territory="Stockholm" quantity="1" owner="Finns"/>
 			<unitPlacement unitType="Bunker" territory="Stockholm" quantity="2" owner="Finns"/>
 			<unitPlacement unitType="Fighter" territory="Stockholm" quantity="1" owner="Finns"/>
 			<unitPlacement unitType="Factory" territory="Stockholm" quantity="1" owner="Finns"/>
@@ -8068,8 +8076,9 @@
 			<unitPlacement unitType="Infantry" territory="Sikang" quantity="4"/>
 			<unitPlacement unitType="Infantry" territory="Netherlands" quantity="4"/>
 			<unitPlacement unitType="Artillery" territory="Moscow" quantity="3" owner="Russians"/>
-			<unitPlacement unitType="Infantry" territory="Moscow" quantity="8" owner="Russians"/>
+			<unitPlacement unitType="Infantry" territory="Moscow" quantity="9" owner="Russians"/>
 			<unitPlacement unitType="Factory" territory="Moscow" quantity="1" owner="Russians"/>
+			<unitPlacement unitType="Fighter" territory="Moscow" quantity="1" owner="Russians"/>
 			<unitPlacement unitType="AAGun" territory="Moscow" quantity="1" owner="Russians"/>
 			<unitPlacement unitType="Bunker" territory="Moscow" quantity="4" owner="Russians"/>
 			<unitPlacement unitType="Tank" territory="Moscow" quantity="1" owner="Russians"/>
@@ -8077,7 +8086,7 @@
 			<unitPlacement unitType="Bunker" territory="Salvador" quantity="1"/>
 			<unitPlacement unitType="Factory" territory="Salvador" quantity="1"/>
 			<unitPlacement unitType="Infantry" territory="Oman" quantity="2"/>
-			<unitPlacement unitType="Infantry" territory="Santiago" quantity="8" owner="Germans"/>
+			<unitPlacement unitType="Infantry" territory="Santiago" quantity="9" owner="Germans"/>
 			<unitPlacement unitType="Artillery" territory="Santiago" quantity="4" owner="Germans"/>
 			<unitPlacement unitType="Bunker" territory="Santiago" quantity="2" owner="Germans"/>
 			<unitPlacement unitType="Factory" territory="Santiago" quantity="1" owner="Germans"/>
