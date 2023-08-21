@@ -4473,7 +4473,7 @@
 			<option name="production" value="2"/>
 		</attachment>
 		<attachment name="territoryAttachment" attachTo="Alma Ata" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
-			<option name="production" value="1"/>
+			<option name="production" value="2"/>
 		</attachment>
 		<attachment name="territoryAttachment" attachTo="Olyokminsk" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
 			<option name="production" value="1"/>
@@ -4873,7 +4873,7 @@
 			<option name="production" value="1"/>
 		</attachment>
 		<attachment name="territoryAttachment" attachTo="E.Qinghai" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
-			<option name="production" value="1"/>
+			<option name="production" value="2"/>
 		</attachment>
 		<attachment name="territoryAttachment" attachTo="Hupeh" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
 			<option name="production" value="3"/>
@@ -4889,7 +4889,7 @@
 			<!--<option name="victoryCity" value="1"/>-->
 		</attachment>
 		<attachment name="territoryAttachment" attachTo="W.Qinghai" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
-			<option name="production" value="1"/>
+			<option name="production" value="2"/>
 		</attachment>
 		<attachment name="territoryAttachment" attachTo="Lanchow" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
 			<option name="production" value="1"/>
@@ -7538,6 +7538,7 @@
 			<unitPlacement unitType="Infantry" territory="Sverdlovsk" quantity="8" owner="Russians"/>
 			<unitPlacement unitType="Bunker" territory="Sverdlovsk" quantity="2" owner="Russians"/>
 			<unitPlacement unitType="Tank" territory="Sverdlovsk" quantity="1" owner="Russians"/>
+			<unitPlacement unitType="Artillery" territory="Sverdlovsk" quantity="2" owner="Russians"/>
 			<unitPlacement unitType="Fighter" territory="Sverdlovsk" quantity="1" owner="Russians"/>
 			<unitPlacement unitType="Factory" territory="Sverdlovsk" quantity="1" owner="Russians"/>
 			<unitPlacement unitType="AAGun" territory="Sverdlovsk" quantity="1" owner="Russians"/>
@@ -7561,7 +7562,7 @@
 			<unitPlacement unitType="Infantry" territory="Sibirsky" quantity="8" owner="Russians"/>
 			<unitPlacement unitType="Artillery" territory="Sibirsky" quantity="2" owner="Russians"/>
 			<unitPlacement unitType="Bunker" territory="Sibirsky" quantity="2" owner="Russians"/>
-			<unitPlacement unitType="Tank" territory="Sibirsky" quantity="1" owner="Russians"/>
+			<unitPlacement unitType="Tank" territory="Sibirsky" quantity="2" owner="Russians"/>
 			<unitPlacement unitType="Fighter" territory="Sibirsky" quantity="1" owner="Russians"/>
 			<unitPlacement unitType="Factory" territory="Sibirsky" quantity="1" owner="Russians"/>
 			<unitPlacement unitType="AAGun" territory="Sibirsky" quantity="1" owner="Russians"/>
@@ -7660,7 +7661,7 @@
 			<unitPlacement unitType="Infantry" territory="Tunis" quantity="4"/>
 			<unitPlacement unitType="Bunker" territory="Tunis" quantity="1"/>
 			<unitPlacement unitType="Factory" territory="Tunis" quantity="1"/>
-			<unitPlacement unitType="Infantry" territory="Tokyo" quantity="8" owner="Yamamoto"/>
+			<unitPlacement unitType="Infantry" territory="Tokyo" quantity="9" owner="Yamamoto"/>
 			<unitPlacement unitType="Bunker" territory="Tokyo" quantity="4" owner="Yamamoto"/>
 			<unitPlacement unitType="Artillery" territory="Tokyo" quantity="4" owner="Yamamoto"/>
 			<unitPlacement unitType="Tank" territory="Tokyo" quantity="2" owner="Yamamoto"/>
@@ -7735,7 +7736,7 @@
 			<unitPlacement unitType="Infantry" territory="Shantung" quantity="3"/>
 			<unitPlacement unitType="Infantry" territory="Formosa" quantity="3"/>
 			<unitPlacement unitType="Infantry" territory="Korea" quantity="2"/>
-			<unitPlacement unitType="Infantry" territory="Changchun" quantity="8" owner="Hisaichi"/>
+			<unitPlacement unitType="Infantry" territory="Changchun" quantity="9" owner="Hisaichi"/>
 			<unitPlacement unitType="Artillery" territory="Changchun" quantity="3" owner="Hisaichi"/>
 			<unitPlacement unitType="Bunker" territory="Changchun" quantity="4" owner="Hisaichi"/>
 			<unitPlacement unitType="Tank" territory="Changchun" quantity="2" owner="Hisaichi"/>
