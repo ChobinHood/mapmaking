@@ -7762,6 +7762,7 @@
 			<unitPlacement unitType="Infantry" territory="Suriname" quantity="6" owner="Dutch"/>
 			<unitPlacement unitType="Artillery" territory="Suriname" quantity="2" owner="Dutch"/>
 			<unitPlacement unitType="Tank" territory="Suriname" quantity="2" owner="Dutch"/>
+			<unitPlacement unitType="Bunker" territory="Suriname" quantity="2" owner="Dutch"/>
 			<unitPlacement unitType="Factory" territory="Suriname" quantity="1" owner="Dutch"/>
 			<unitPlacement unitType="Infantry" territory="British Guiana" quantity="1"/>
 			<unitPlacement unitType="Infantry" territory="Azores" quantity="1"/> 
