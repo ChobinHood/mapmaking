@@ -4393,7 +4393,6 @@
 
 		<attachment name="territoryAttachment" attachTo="East Prussia" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
 			<option name="production" value="4"/>
-			<option name="capital" value="Germans"/>
 		</attachment>
 		<attachment name="territoryAttachment" attachTo="Pomerania" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
 			<option name="production" value="2"/>
@@ -4521,7 +4520,6 @@
 		</attachment>
 		<attachment name="territoryAttachment" attachTo="Sverdlovsk" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
 			<option name="production" value="6"/>
-			<option name="capital" value="Russians"/>
 			<!--<option name="victoryCity" value="1"/>-->
 		</attachment>
 		<attachment name="territoryAttachment" attachTo="Kuybyshev" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
@@ -4568,7 +4566,6 @@
 		<attachment name="territoryAttachment" attachTo="Sibirsky" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
 			<option name="production" value="6"/>
 			<!--<option name="victoryCity" value="1"/>-->
-			<option name="capital" value="Russians"/>
 		</attachment>
 		<attachment name="territoryAttachment" attachTo="Bulun" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
 			<option name="production" value="1"/>
@@ -4743,7 +4740,6 @@
 		</attachment>
 		<attachment name="territoryAttachment" attachTo="W.Morocco" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
 			<option name="production" value="4"/>
-			<option name="capital" value="French"/>
 		</attachment>
 
 		<attachment name="territoryAttachment" attachTo="Churchill" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
@@ -5092,7 +5088,6 @@
 		</attachment>
 		<attachment name="territoryAttachment" attachTo="Madras" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
 			<option name="production" value="5"/>
-			<option name="capital" value="British"/>
 			<!--<option name="victoryCity" value="1"/>-->
 
 		</attachment>
@@ -5274,7 +5269,6 @@
 		</attachment>
 		<attachment name="territoryAttachment" attachTo="Suriname" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
 			<option name="production" value="3"/>
-			<option name="capital" value="Dutch"/>
 			<!--<option name="victoryCity" value="1"/>-->
 		</attachment>
 		<attachment name="territoryAttachment" attachTo="Flores" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
@@ -5320,7 +5314,6 @@
 		</attachment>
 		<attachment name="territoryAttachment" attachTo="Pearl Harbor" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
 			<option name="production" value="3"/>
-			<option name="capital" value="Americans"/>
 			<!--<option name="victoryCity" value="1"/>-->
 		</attachment>
 		<attachment name="territoryAttachment" attachTo="Amchitka" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
