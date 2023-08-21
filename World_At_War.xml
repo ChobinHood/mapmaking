@@ -2334,16 +2334,16 @@
 			<result resourceOrUnit="Elite" quantity="2"/>
 		</productionRule>
 		<productionRule name="buyMarine">
-			<cost resource="PUs" quantity="4"/>
-			<result resourceOrUnit="Marine" quantity="1"/>
+			<cost resource="PUs" quantity="9"/>
+			<result resourceOrUnit="Marine" quantity="2"/>
 		</productionRule>
 		<productionRule name="buyArtillery2">
 			<cost resource="PUs" quantity="4"/>
 			<result resourceOrUnit="Artillery" quantity="1"/>
 		</productionRule>
 		<productionRule name="buyArmoredCar2">
-			<cost resource="PUs" quantity="7"/>
-			<result resourceOrUnit="ArmoredCar" quantity="2"/>
+			<cost resource="PUs" quantity="4"/>
+			<result resourceOrUnit="ArmoredCar" quantity="1"/>
 		</productionRule>
 		<productionRule name="buyTank">
 			<cost resource="PUs" quantity="6"/>
