@@ -7635,7 +7635,6 @@
 			<unitPlacement unitType="Infantry" territory="N.French Indochina" quantity="1"/>
 			<unitPlacement unitType="Infantry" territory="Keewatin" quantity="1"/>
 			<unitPlacement unitType="Infantry" territory="S.French Indochina" quantity="1"/>
-			<unitPlacement unitType="Infantry" territory="Syria" quantity="2"/>
 			<unitPlacement unitType="Artillery" territory="S.French Indochina" quantity="1"/>
 			<unitPlacement unitType="Infantry" territory="Mauritania" quantity="1"/>
 			<unitPlacement unitType="Infantry" territory="E.Morocco" quantity="8" owner="French"/>
