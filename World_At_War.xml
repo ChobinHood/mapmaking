@@ -7485,6 +7485,7 @@
 			<unitPlacement unitType="Bunker" territory="East Prussia" quantity="2" owner="Germans"/>
 			<unitPlacement unitType="Tank" territory="East Prussia" quantity="2" owner="Germans"/>
 			<unitPlacement unitType="Factory" territory="East Prussia" quantity="1" owner="Germans"/>
+			<unitPlacement unitType="Bomber" territory="East Prussia" quantity="1" owner="Germans"/>
 			<unitPlacement unitType="Artillery" territory="East Prussia" quantity="4" owner="Germans"/>
 			<unitPlacement unitType="AAGun" territory="East Prussia" quantity="1" owner="Germans"/>
 			<unitPlacement unitType="Infantry" territory="Pomerania" quantity="3"/>
@@ -7989,7 +7990,7 @@
 			<unitPlacement unitType="Infantry" territory="Nordland" quantity="1"/>
 			<unitPlacement unitType="Infantry" territory="Gobi Altai" quantity="2"/>
 			<unitPlacement unitType="Infantry" territory="Stockholm" quantity="5" owner="Finns"/>
-			<unitPlacement unitType="Artillery" territory="Stockholm" quantity="1" owner="Finns"/>
+			<unitPlacement unitType="Artillery" territory="Stockholm" quantity="2" owner="Finns"/>
 			<unitPlacement unitType="Tank" territory="Stockholm" quantity="1" owner="Finns"/>
 			<unitPlacement unitType="Bunker" territory="Stockholm" quantity="2" owner="Finns"/>
 			<unitPlacement unitType="Fighter" territory="Stockholm" quantity="1" owner="Finns"/>
