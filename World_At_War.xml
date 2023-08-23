@@ -7489,7 +7489,7 @@
 			<unitPlacement unitType="AAGun" territory="East Prussia" quantity="1" owner="Germans"/>
 			<unitPlacement unitType="Infantry" territory="Pomerania" quantity="3"/>
 			<unitPlacement unitType="Infantry" territory="Saxony" quantity="4"/>
-			<unitPlacement unitType="Infantry" territory="Berlin" quantity="8" owner="Germans"/>
+			<unitPlacement unitType="Infantry" territory="Berlin" quantity="10" owner="Germans"/>
 			<unitPlacement unitType="Artillery" territory="Berlin" quantity="4" owner="Germans"/>
 			<unitPlacement unitType="Bunker" territory="Berlin" quantity="4" owner="Germans"/>
 			<unitPlacement unitType="Tank" territory="Berlin" quantity="3" owner="Germans"/>
@@ -8064,7 +8064,7 @@
 			<unitPlacement unitType="Infantry" territory="Istanbul" quantity="3"/>
 			<unitPlacement unitType="Infantry" territory="Venezuela" quantity="4"/>
 			<unitPlacement unitType="Infantry" territory="Sikang" quantity="4"/>
-			<unitPlacement unitType="Infantry" territory="Netherlands" quantity="6" owner="Dutch"/>
+			<unitPlacement unitType="Infantry" territory="Netherlands" quantity="7" owner="Dutch"/>
 			<unitPlacement unitType="Artillery" territory="Netherlands" quantity="3" owner="Dutch"/>
 			<unitPlacement unitType="Factory" territory="Netherlands" quantity="1" owner="Dutch"/>
 			<unitPlacement unitType="Fighter" territory="Netherlands" quantity="1" owner="Dutch"/>
