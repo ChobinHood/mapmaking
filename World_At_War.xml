@@ -5706,7 +5706,6 @@
 		</attachment>
 		<attachment name="territoryAttachment" attachTo="Netherlands" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
 			<option name="production" value="4"/>
-			<option name="capital" value="Dutch"/>
 		</attachment>
 		<attachment name="territoryAttachment" attachTo="Santiago" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
 			<option name="production" value="3"/>
