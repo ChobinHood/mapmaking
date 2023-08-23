@@ -2326,7 +2326,7 @@
 			<result resourceOrUnit="Infantry" quantity="1"/>
 		</productionRule>
 		<productionRule name="buyGrain Farm">
-			<cost resource="PUs" quantity="3"/>
+			<cost resource="PUs" quantity="8"/>
 			<result resourceOrUnit="Grain Farm" quantity="1"/>
 		</productionRule>
 		<productionRule name="buyElite">
@@ -4386,7 +4386,7 @@
 			<option name="movement" value="0"/>
 			<option name="attack" value="0"/>
 			<option name="defense" value="0"/>
-			<option name="createsResourcesList" value="1:PUs"/>
+			<option name="createsResourcesList" value="3:PUs"/>
 			<option name="destroyedWhenCapturedBy" value="Germans:Italians:Yamamoto:Hisaichi:Finns:Romanians:Thai:Russians:French:Chinese:British:Anzac:Dutch:Americans"/>
 		</attachment>
 
