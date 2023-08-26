@@ -4398,7 +4398,7 @@
 			<option name="production" value="2"/>
 		</attachment>
 		<attachment name="territoryAttachment" attachTo="Saxony" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
-			<option name="production" value="3"/>
+			<option name="production" value="4"/>
 		</attachment>
 		<attachment name="territoryAttachment" attachTo="Berlin" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
 			<option name="production" value="15"/>
@@ -4421,7 +4421,7 @@
 			<option name="production" value="3"/>
 		</attachment>
 		<attachment name="territoryAttachment" attachTo="Bavaria" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
-			<option name="production" value="3"/>
+			<option name="production" value="4"/>
 		</attachment>
 		<attachment name="territoryAttachment" attachTo="Silesia" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
 			<option name="production" value="3"/>
@@ -4452,10 +4452,10 @@
 			<option name="production" value="1"/>
 		</attachment>
 		<attachment name="territoryAttachment" attachTo="Novosibirsk" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
-			<option name="production" value="1"/>
+			<option name="production" value="3"/>
 		</attachment>
 		<attachment name="territoryAttachment" attachTo="Lithuania" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
-			<option name="production" value="1"/>
+			<option name="production" value="2"/>
 		</attachment>
 		<attachment name="territoryAttachment" attachTo="Vologda" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
 			<option name="production" value="1"/>
@@ -4482,7 +4482,7 @@
 			<option name="production" value="1"/>
 		</attachment>
 		<attachment name="territoryAttachment" attachTo="Chita" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
-			<option name="production" value="3"/>
+			<option name="production" value="2"/>
 		</attachment>
 		<attachment name="territoryAttachment" attachTo="Kiev" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
 			<option name="production" value="3"/>
@@ -4494,19 +4494,19 @@
 			<option name="production" value="1"/>
 		</attachment>
 		<attachment name="territoryAttachment" attachTo="Krasnoyarsk" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
-			<option name="production" value="1"/>
+			<option name="production" value="2"/>
 		</attachment>
 		<attachment name="territoryAttachment" attachTo="Perm" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
 			<option name="production" value="1"/>
 		</attachment>
 		<attachment name="territoryAttachment" attachTo="Ufa" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
-			<option name="production" value="1"/>
+			<option name="production" value="2"/>
 		</attachment>
 		<attachment name="territoryAttachment" attachTo="Vinnytsia" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
 			<option name="production" value="4"/>
 		</attachment>
 		<attachment name="territoryAttachment" attachTo="Gorky" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
-			<option name="production" value="1"/>
+			<option name="production" value="3"/>
 		</attachment>
 		<attachment name="territoryAttachment" attachTo="Semipalatinsk" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
 			<option name="production" value="1"/>
@@ -4523,7 +4523,7 @@
 			<!--<option name="victoryCity" value="1"/>-->
 		</attachment>
 		<attachment name="territoryAttachment" attachTo="Kuybyshev" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
-			<option name="production" value="1"/>
+			<option name="production" value="2"/>
 		</attachment>
 		<attachment name="territoryAttachment" attachTo="Kursk" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
 			<option name="production" value="3"/>
@@ -4535,7 +4535,7 @@
 			<option name="production" value="1"/>
 		</attachment>
 		<attachment name="territoryAttachment" attachTo="Saratov" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
-			<option name="production" value="1"/>
+			<option name="production" value="2"/>
 		</attachment>
 		<attachment name="territoryAttachment" attachTo="Crimea" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
 			<option name="production" value="2"/>
@@ -5059,7 +5059,7 @@
 			<option name="production" value="3"/>
 		</attachment>
 		<attachment name="territoryAttachment" attachTo="Punjab" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
-			<option name="production" value="1"/>
+			<option name="production" value="2"/>
 		</attachment>
 		<attachment name="territoryAttachment" attachTo="Quebec" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
 			<option name="production" value="1"/>
@@ -5432,7 +5432,7 @@
 			<!--<option name="victoryCity" value="1"/>-->
 		</attachment>
 		<attachment name="territoryAttachment" attachTo="Afghanistan" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
-			<option name="production" value="1"/>
+			<option name="production" value="2"/>
 		</attachment>
 		<attachment name="territoryAttachment" attachTo="Bahia" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
 			<option name="production" value="2"/>
@@ -5584,7 +5584,7 @@
 			<option name="production" value="1"/>
 		</attachment>
 		<attachment name="territoryAttachment" attachTo="Leon" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
-			<option name="production" value="1"/>
+			<option name="production" value="2"/>
 		</attachment>
 		<attachment name="territoryAttachment" attachTo="East Gobi" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
 			<option name="production" value="1"/>
@@ -7500,10 +7500,10 @@
 			<unitPlacement unitType="AAGun" territory="Berlin" quantity="1" owner="Germans"/>
 			<unitPlacement unitType="Infantry" territory="Rhine" quantity="6"/>
 			<unitPlacement unitType="Infantry" territory="El Agheila" quantity="2"/>
-			<unitPlacement unitType="Infantry" territory="Bohemia" quantity="6"/>
-			<unitPlacement unitType="Infantry" territory="Brandenburg" quantity="4"/>
+			<unitPlacement unitType="Infantry" territory="Bohemia" quantity="5"/>
+			<unitPlacement unitType="Infantry" territory="Brandenburg" quantity="3"/>
 			<unitPlacement unitType="Infantry" territory="Austria" quantity="4"/>
-			<unitPlacement unitType="Infantry" territory="Bavaria" quantity="6"/>
+			<unitPlacement unitType="Infantry" territory="Bavaria" quantity="5"/>
 			<unitPlacement unitType="Infantry" territory="Hamburg" quantity="5"/>
 			<unitPlacement unitType="Bunker" territory="Hamburg" quantity="1"/>
 			<unitPlacement unitType="Factory" territory="Hamburg" quantity="1"/>
@@ -7515,10 +7515,17 @@
 			<unitPlacement unitType="Infantry" territory="Irkutsk" quantity="1"/>
 			<unitPlacement unitType="Infantry" territory="Karaganda" quantity="1"/>
 			<unitPlacement unitType="Infantry" territory="Evenkia" quantity="1"/>
-			<unitPlacement unitType="Infantry" territory="Novosibirsk" quantity="2"/>
+			<unitPlacement unitType="Infantry" territory="Novosibirsk" quantity="3"/>
 			<unitPlacement unitType="Infantry" territory="Lithuania" quantity="2"/>
 			<unitPlacement unitType="Infantry" territory="Arkhangelsk" quantity="3"/>
 			<unitPlacement unitType="Infantry" territory="Koryakia" quantity="1"/>
+			<unitPlacement unitType="Infantry" territory="Palawan" quantity="1"/>
+			<unitPlacement unitType="Infantry" territory="Panay" quantity="1"/>
+			<unitPlacement unitType="Infantry" territory="Mindoro" quantity="1"/>
+			<unitPlacement unitType="Infantry" territory="Samar" quantity="1"/>
+			<unitPlacement unitType="Infantry" territory="Lombok" quantity="1"/>
+		        <unitPlacement unitType="Infantry" territory="Aroe" quantity="1"/>
+			<unitPlacement unitType="Infantry" territory="Flores" quantity="1"/>
 			<unitPlacement unitType="Infantry" territory="Donetsk" quantity="2"/>
 			<unitPlacement unitType="Infantry" territory="Alma Ata" quantity="1"/>
 			<unitPlacement unitType="Infantry" territory="Alaska" quantity="2"/>
@@ -7527,11 +7534,11 @@
 			<unitPlacement unitType="Infantry" territory="Chita" quantity="3"/>
 			<unitPlacement unitType="Infantry" territory="Surgut" quantity="1"/>
 			<unitPlacement unitType="Infantry" territory="S.Buryat Mongolia" quantity="1"/>
-			<unitPlacement unitType="Infantry" territory="Krasnoyarsk" quantity="1"/>
+			<unitPlacement unitType="Infantry" territory="Krasnoyarsk" quantity="2"/>
 			<unitPlacement unitType="Infantry" territory="Perm" quantity="1"/>
-			<unitPlacement unitType="Infantry" territory="Ufa" quantity="1"/>
-			<unitPlacement unitType="Infantry" territory="Vinnytsia" quantity="1"/>
-			<unitPlacement unitType="Infantry" territory="Gorky" quantity="1"/>
+			<unitPlacement unitType="Infantry" territory="Ufa" quantity="2"/>
+			<unitPlacement unitType="Infantry" territory="Vinnytsia" quantity="3"/>
+			<unitPlacement unitType="Infantry" territory="Gorky" quantity="3"/>
 			<unitPlacement unitType="Infantry" territory="Semipalatinsk" quantity="1"/>
 			<unitPlacement unitType="Infantry" territory="Stalingrad" quantity="4"/>
 			<unitPlacement unitType="Bunker" territory="Stalingrad" quantity="1"/>
@@ -7545,14 +7552,22 @@
 			<unitPlacement unitType="Factory" territory="Sverdlovsk" quantity="1" owner="Russians"/>
 			<unitPlacement unitType="AAGun" territory="Sverdlovsk" quantity="1" owner="Russians"/>
 			<unitPlacement unitType="Bomber" territory="Sverdlovsk" quantity="1" owner="Russians"/>
-			<unitPlacement unitType="Infantry" territory="Kuybyshev" quantity="1"/>
+			<unitPlacement unitType="Infantry" territory="Kuybyshev" quantity="2"/>
 			<unitPlacement unitType="Infantry" territory="Kursk" quantity="3"/>
 			<unitPlacement unitType="Infantry" territory="Zhigansk" quantity="1"/>
 			<unitPlacement unitType="Infantry" territory="Khatanga" quantity="1"/>
 			<unitPlacement unitType="Infantry" territory="Crimea" quantity="2"/>
 			<unitPlacement unitType="Infantry" territory="Ayan" quantity="2"/>
 			<unitPlacement unitType="Infantry" territory="Yakutsk" quantity="1"/>
-			<unitPlacement unitType="Infantry" territory="Kamchatka" quantity="3"/>
+			<unitPlacement unitType="Infantry" territory="Woleai" quantity="1"/>
+			<unitPlacement unitType="Infantry" territory="Truk" quantity="1"/>
+			<unitPlacement unitType="Infantry" territory="Tonga" quantity="1"/>
+			<unitPlacement unitType="Infantry" territory="Pheonix" quantity="1"/>
+			<unitPlacement unitType="Infantry" territory="Perth" quantity="1"/>
+			<unitPlacement unitType="Infantry" territory="Western Australia" quantity="1"/>
+			<unitPlacement unitType="Infantry" territory="South Australia" quantity="1"/>
+			<unitPlacement unitType="Infantry" territory="New South Wales" quantity="1"/>
+			<unitPlacement unitType="Infantry" territory="Kamchatka" quantity="2"/>
 			<unitPlacement unitType="Infantry" territory="Latvia" quantity="2"/>
 			<unitPlacement unitType="Infantry" territory="Leningrad" quantity="5"/>
 			<unitPlacement unitType="Bunker" territory="Leningrad" quantity="1"/>
@@ -7582,7 +7597,7 @@
 			<unitPlacement unitType="Infantry" territory="Uzbekistan" quantity="1"/>
 			<unitPlacement unitType="Infantry" territory="N.Buryat Mongolia" quantity="2"/>
 			<unitPlacement unitType="Infantry" territory="Khabarovsk" quantity="2"/>
-			<unitPlacement unitType="Infantry" territory="S.Karelia" quantity="1"/>
+			<unitPlacement unitType="Infantry" territory="S.Karelia" quantity="2"/>
 			<unitPlacement unitType="Infantry" territory="N.Karelia" quantity="1"/>
 			<unitPlacement unitType="Infantry" territory="Novgorod" quantity="2"/>
 			<unitPlacement unitType="Infantry" territory="Kolyma" quantity="1"/>
@@ -7604,7 +7619,7 @@
 			<unitPlacement unitType="Factory" territory="Italian East Africa" quantity="1" owner="Italians"/>
 			<unitPlacement unitType="Infantry" territory="Lombardy" quantity="5"/>
 			<unitPlacement unitType="Infantry" territory="Tobruk" quantity="2"/>
-			<unitPlacement unitType="Infantry" territory="Campania" quantity="4"/>
+			<unitPlacement unitType="Infantry" territory="Campania" quantity="3"/>
 			<unitPlacement unitType="Infantry" territory="Kufra" quantity="2"/>
 			<unitPlacement unitType="Infantry" territory="Albania" quantity="7" owner="Italians"/>
 			<unitPlacement unitType="Tank" territory="Albania" quantity="2" owner="Italians"/>
@@ -7771,7 +7786,7 @@
 			<unitPlacement unitType="Bunker" territory="Bombay" quantity="1"/>
 			<unitPlacement unitType="Factory" territory="Bombay" quantity="1"/>
 			<unitPlacement unitType="Infantry" territory="Yukon" quantity="1"/>
-			<unitPlacement unitType="Infantry" territory="Ontario" quantity="1"/>
+			<unitPlacement unitType="Infantry" territory="Ontario" quantity="2"/>
 			<unitPlacement unitType="Infantry" territory="Nigeria" quantity="1"/>
 			<unitPlacement unitType="Infantry" territory="Dover" quantity="2"/>
 			<unitPlacement unitType="Bunker" territory="Dover" quantity="1"/>
@@ -7788,7 +7803,7 @@
 			<unitPlacement unitType="Infantry" territory="Trucial Coast" quantity="1"/>
 			<unitPlacement unitType="Infantry" territory="Canadian Prairies" quantity="1"/>
 			<unitPlacement unitType="Infantry" territory="Calcutta" quantity="2"/>
-			<unitPlacement unitType="Infantry" territory="Punjab" quantity="1"/>
+			<unitPlacement unitType="Infantry" territory="Punjab" quantity="2"/>
 			<unitPlacement unitType="Infantry" territory="Quebec" quantity="2"/>
 			<unitPlacement unitType="Infantry" territory="South Atlantic USA" quantity="3"/>
 			<unitPlacement unitType="Infantry" territory="Fiji" quantity="2"/>
@@ -7797,10 +7812,10 @@
 			<unitPlacement unitType="Infantry" territory="Mysore" quantity="1"/>
 			<unitPlacement unitType="Infantry" territory="Ceylon" quantity="1"/>
 			<unitPlacement unitType="Infantry" territory="Rajputana" quantity="1"/>
-			<unitPlacement unitType="Infantry" territory="Kiev" quantity="1"/>
+			<unitPlacement unitType="Infantry" territory="Kiev" quantity="3"/>
 			<unitPlacement unitType="Infantry" territory="Yaroslavl" quantity="1"/>
 			<unitPlacement unitType="Infantry" territory="Kirov" quantity="1"/>
-			<unitPlacement unitType="Infantry" territory="Saratov" quantity="1"/>
+			<unitPlacement unitType="Infantry" territory="Saratov" quantity="2"/>
 			<unitPlacement unitType="Infantry" territory="Rostov" quantity="1"/>
 			<unitPlacement unitType="Infantry" territory="Vologda" quantity="1"/>
 			<unitPlacement unitType="Infantry" territory="Iraq" quantity="2"/>
@@ -7838,7 +7853,7 @@
 			<unitPlacement unitType="Factory" territory="Cairo" quantity="1"/>
 			<unitPlacement unitType="Infantry" territory="Palestine" quantity="2"/>
 			<unitPlacement unitType="Infantry" territory="Lower Egypt" quantity="2"/>
-			<unitPlacement unitType="Infantry" territory="Gibraltar" quantity="4"/>
+			<unitPlacement unitType="Infantry" territory="Gibraltar" quantity="2"/>
 			<unitPlacement unitType="Infantry" territory="Andaman" quantity="1"/>
 			<unitPlacement unitType="Infantry" territory="Malaya" quantity="5"/>
 			<unitPlacement unitType="Infantry" territory="Kotka" quantity="1"/>
@@ -7853,7 +7868,7 @@
 			<unitPlacement unitType="Infantry" territory="Oulu" quantity="1"/>
 			<unitPlacement unitType="Infantry" territory="Tampere" quantity="1"/>
 			<unitPlacement unitType="Infantry" territory="Lapland" quantity="1"/>
-			<unitPlacement unitType="Infantry" territory="Vyborg" quantity="1"/>
+			<unitPlacement unitType="Infantry" territory="Vyborg" quantity="2"/>
 			<unitPlacement unitType="Infantry" territory="North New Zealand" quantity="1"/>
 			<unitPlacement unitType="Infantry" territory="Tasmania" quantity="1"/>
 			<unitPlacement unitType="Infantry" territory="West Papua" quantity="2"/>
@@ -7899,7 +7914,7 @@
 			<unitPlacement unitType="Factory" territory="Bulgaria" quantity="1" owner="Romanians"/>
 			<unitPlacement unitType="Bunker" territory="Bulgaria" quantity="2" owner="Romanians"/>
 			<unitPlacement unitType="Infantry" territory="W.Romania" quantity="2"/>
-			<unitPlacement unitType="Infantry" territory="E.Romania" quantity="1"/>
+			<unitPlacement unitType="Infantry" territory="E.Romania" quantity="2"/>
 			<unitPlacement unitType="Infantry" territory="Jilolo" quantity="1"/>
 			<unitPlacement unitType="Infantry" territory="Timor" quantity="1"/>
 			<unitPlacement unitType="Infantry" territory="West Borneo" quantity="2"/>
@@ -7965,7 +7980,7 @@
 			<unitPlacement unitType="Infantry" territory="Northeast USA" quantity="2"/>
 			<unitPlacement unitType="Infantry" territory="Kauai" quantity="1"/>
 			<unitPlacement unitType="Infantry" territory="Midway" quantity="2"/>
-			<unitPlacement unitType="Infantry" territory="Manila" quantity="4"/>
+			<unitPlacement unitType="Infantry" territory="Manila" quantity="3"/>
 			<unitPlacement unitType="Infantry" territory="Kermandec" quantity="1"/>
 			<unitPlacement unitType="Infantry" territory="Guam" quantity="1"/>
 			<unitPlacement unitType="Infantry" territory="Northwest USA" quantity="3"/>
@@ -8018,7 +8033,7 @@
 			<unitPlacement unitType="Infantry" territory="Ankara" quantity="2"/>
 			<unitPlacement unitType="Infantry" territory="South Gobi" quantity="2"/>
 			<unitPlacement unitType="Infantry" territory="Catalonia" quantity="3"/>
-			<unitPlacement unitType="Infantry" territory="Croatia" quantity="3"/>
+			<unitPlacement unitType="Infantry" territory="Croatia" quantity="2"/>
 			<unitPlacement unitType="Infantry" territory="Oslo" quantity="1"/>
 			<unitPlacement unitType="Infantry" territory="Iceland" quantity="1"/>
 			<unitPlacement unitType="Infantry" territory="Dublin" quantity="3"/>
@@ -8033,13 +8048,13 @@
 			<unitPlacement unitType="Infantry" territory="Cuba" quantity="1"/>
 			<unitPlacement unitType="Infantry" territory="E.Iran" quantity="4"/>
 			<unitPlacement unitType="Infantry" territory="Cape Verde" quantity="1"/>
-			<unitPlacement unitType="Infantry" territory="Danzig" quantity="5"/>
+			<unitPlacement unitType="Infantry" territory="Danzig" quantity="3"/>
 			<unitPlacement unitType="Infantry" territory="Hispaniola" quantity="1"/>
-			<unitPlacement unitType="Infantry" territory="Hungary" quantity="3"/>
+			<unitPlacement unitType="Infantry" territory="Hungary" quantity="4"/>
 			<unitPlacement unitType="Infantry" territory="East Gobi" quantity="4"/>
 			<unitPlacement unitType="Infantry" territory="Baleares" quantity="1"/>
 			<unitPlacement unitType="Infantry" territory="Angola" quantity="1"/>
-			<unitPlacement unitType="Infantry" territory="W.Iran" quantity="6"/>
+			<unitPlacement unitType="Infantry" territory="W.Iran" quantity="4"/>
 			<unitPlacement unitType="Bunker" territory="W.Iran" quantity="1"/>
 			<unitPlacement unitType="Factory" territory="W.Iran" quantity="1"/>
 			<unitPlacement unitType="Infantry" territory="Greece" quantity="5"/>
@@ -8047,17 +8062,18 @@
 			<unitPlacement unitType="Infantry" territory="Denmark" quantity="3"/>
 			<unitPlacement unitType="Infantry" territory="Navarre" quantity="3"/>
 			<unitPlacement unitType="Infantry" territory="Serbia" quantity="3"/>
-			<unitPlacement unitType="Infantry" territory="S.Sakhalin" quantity="4"/>
-			<unitPlacement unitType="Infantry" territory="Valencia" quantity="3"/>
+			<unitPlacement unitType="Infantry" territory="S.Sakhalin" quantity="2"/>
+			<unitPlacement unitType="Infantry" territory="Valencia" quantity="2"/>
 			<unitPlacement unitType="Infantry" territory="Khobdo" quantity="2"/>
 			<unitPlacement unitType="Infantry" territory="Galicia" quantity="2"/>
 			<unitPlacement unitType="Infantry" territory="Erzurum" quantity="2"/>
 			<unitPlacement unitType="Infantry" territory="Andalusia" quantity="2"/>
 			<unitPlacement unitType="Infantry" territory="Belgium" quantity="4"/>
-			<unitPlacement unitType="Infantry" territory="Aragon" quantity="3"/>
+			<unitPlacement unitType="Infantry" territory="Aragon" quantity="2"/>
 			<unitPlacement unitType="Infantry" territory="E.Mexico" quantity="1"/>
 			<unitPlacement unitType="Infantry" territory="Spanish Guinea" quantity="1"/>
-			<unitPlacement unitType="Infantry" territory="N.Saudi Arabia" quantity="4"/>
+			<unitPlacement unitType="Infantry" territory="South Africa" quantity="1"/>
+			<unitPlacement unitType="Infantry" territory="N.Saudi Arabia" quantity="2"/>
 			<unitPlacement unitType="Infantry" territory="Yemen" quantity="2"/>
 			<unitPlacement unitType="Infantry" territory="Izmir" quantity="3"/>
 			<unitPlacement unitType="Infantry" territory="S.Saudi Arabia" quantity="2"/>
