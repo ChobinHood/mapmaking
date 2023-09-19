@@ -1381,8 +1381,8 @@
       <option name="movement" value="3"/>
       <option name="transportCost" value="1"/>
       <option name="attack" value="3"/>
-      <option name="defense" value="6"/>
-      <option name="hitPoints" value="2"/>
+      <option name="defense" value="5"/>
+      <option name="hitPoints" value="3"/>
       <option name="canBlitz" value="true"/>
       <option name="artillery" value="true"/> 
 </attachment>
@@ -1390,30 +1390,31 @@
       <option name="movement" value="1"/>
       <option name="transportCost" value="1"/>
       <option name="attack" value="3"/>
-      <option name="defense" value="3"/>
+      <option name="defense" value="4"/>
       <option name="artillerySupportable" value="true"/>
 </attachment>
 <attachment name="unitAttachment" attachTo="Elladan and Ellrohir" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
       <option name="movement" value="2"/>
       <option name="transportCost" value="1"/>
       <option name="attack" value="5"/>
-      <option name="defense" value="5"/>
-      <option name="hitPoints" value="2"/>
+      <option name="defense" value="4"/>
+      <option name="hitPoints" value="3"/>
       <option name="canBlitz" value="true"/>
 </attachment>
 <attachment name="unitAttachment" attachTo="Cirdan" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
       <option name="movement" value="1"/>
       <option name="transportCost" value="1"/>
-      <option name="attack" value="3"/>
-      <option name="defense" value="6"/>
+      <option name="attack" value="2"/>
+      <option name="defense" value="5"/>
+      <option name="hitPoints" value="2"/>
       <option name="artillery" value="true"/> 
 </attachment>
 <attachment name="unitAttachment" attachTo="Elrond" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
       <option name="movement" value="2"/>
       <option name="transportCost" value="1"/>
-      <option name="attack" value="6"/>
-      <option name="defense" value="6"/>
-      <option name="hitPoints" value="3"/>
+      <option name="attack" value="5"/>
+      <option name="defense" value="5"/>
+      <option name="hitPoints" value="4"/>
       <option name="canBlitz" value="true"/>
       <option name="artillery" value="true"/> 
 </attachment>
@@ -1421,15 +1422,16 @@
       <option name="movement" value="2"/>
       <option name="transportCost" value="1"/>
       <option name="attack" value="5"/>
-      <option name="defense" value="6"/>
-      <option name="hitPoints" value="3"/>
+      <option name="defense" value="5"/>
+      <option name="hitPoints" value="4"/>
       <option name="canBlitz" value="true"/> 
 </attachment>
 <attachment name="unitAttachment" attachTo="Arwen" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
       <option name="movement" value="3"/>
       <option name="transportCost" value="1"/>
       <option name="attack" value="3"/>
-      <option name="defense" value="6"/>
+      <option name="defense" value="5"/>
+      <option name="hitPoints" value="2"/>
       <option name="canBlitz" value="true"/>
       <option name="artillery" value="true"/> 
 </attachment>
@@ -1437,42 +1439,42 @@
       <option name="movement" value="1"/>
       <option name="transportCost" value="1"/>
       <option name="attack" value="3"/>
-      <option name="defense" value="8"/>
+      <option name="defense" value="6"/>
       <option name="artillery" value="true"/>
-      <option name="hitPoints" value="2"/>
+      <option name="hitPoints" value="3"/>
 </attachment>
 <attachment name="unitAttachment" attachTo="Celeborn" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
       <option name="movement" value="1"/>
       <option name="transportCost" value="1"/>
-      <option name="attack" value="4"/>
-      <option name="defense" value="6"/>
+      <option name="attack" value="3"/>
+      <option name="defense" value="5"/>
       <option name="artillerySupportable" value="true"/>
-      <option name="hitPoints" value="2"/>
+      <option name="hitPoints" value="3"/>
 </attachment>
 <attachment name="unitAttachment" attachTo="Saruman" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
       <option name="movement" value="2"/>
       <option name="transportCost" value="1"/>
       <option name="attack" value="4"/>
-      <option name="defense" value="6"/>
-      <option name="hitPoints" value="2"/>
+      <option name="defense" value="4"/>
+      <option name="hitPoints" value="3"/>
       <option name="canBlitz" value="true"/>
       <option name="artillery" value="true"/>
 </attachment>
 <attachment name="unitAttachment" attachTo="Lurtz" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
       <option name="movement" value="2"/>
       <option name="transportCost" value="1"/>
-      <option name="attack" value="6"/>
-      <option name="defense" value="5"/>
-      <option name="hitPoints" value="3"/>
+      <option name="attack" value="5"/>
+      <option name="defense" value="4"/>
+      <option name="hitPoints" value="4"/>
       <option name="canBlitz" value="true"/>
       <option name="artillery" value="true"/> 
 </attachment>
 <attachment name="unitAttachment" attachTo="Eomer" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
       <option name="movement" value="2"/>
       <option name="transportCost" value="1"/>
-      <option name="attack" value="6"/>
+      <option name="attack" value="5"/>
       <option name="defense" value="4"/>
-      <option name="hitPoints" value="2"/>
+      <option name="hitPoints" value="3"/>
       <option name="canBlitz" value="true"/>
       <option name="artillery" value="true"/> 
 </attachment>
@@ -1486,31 +1488,31 @@
 <attachment name="unitAttachment" attachTo="Eowyn" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
       <option name="movement" value="2"/>
       <option name="transportCost" value="1"/>
-      <option name="attack" value="5"/>
+      <option name="attack" value="4"/>
       <option name="defense" value="4"/>
       <option name="canBlitz" value="true"/>
 </attachment>
 <attachment name="unitAttachment" attachTo="Gamling" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
       <option name="movement" value="2"/>
       <option name="transportCost" value="1"/>
-      <option name="attack" value="5"/>
-      <option name="defense" value="4"/>
+      <option name="attack" value="4"/>
+      <option name="defense" value="5"/>
       <option name="canBlitz" value="true"/>
       <option name="artillery" value="true"/> 
 </attachment>
 <attachment name="unitAttachment" attachTo="Boromir" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
       <option name="movement" value="2"/>
       <option name="transportCost" value="1"/>
-      <option name="attack" value="5"/>
-      <option name="defense" value="5"/>
+      <option name="attack" value="4"/>
+      <option name="defense" value="4"/>
       <option name="canBlitz" value="true"/>
 </attachment>
 <attachment name="unitAttachment" attachTo="Aragorn" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
       <option name="movement" value="2"/>
       <option name="transportCost" value="1"/>
       <option name="attack" value="6"/>
-      <option name="defense" value="8"/>
-      <option name="hitPoints" value="3"/>
+      <option name="defense" value="6"/>
+      <option name="hitPoints" value="4"/>
       <option name="canBlitz" value="true"/>
       <option name="artillery" value="true"/> 
 </attachment>
@@ -1518,132 +1520,132 @@
       <option name="movement" value="2"/>
       <option name="transportCost" value="1"/>
       <option name="attack" value="5"/>
-      <option name="defense" value="7"/>
-      <option name="hitPoints" value="2"/>
+      <option name="defense" value="6"/>
+      <option name="hitPoints" value="3"/>
       <option name="canBlitz" value="true"/>
       <option name="artillery" value="true"/> 
 </attachment>
 <attachment name="unitAttachment" attachTo="Gimli" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
       <option name="movement" value="1"/>
       <option name="transportCost" value="1"/>
-      <option name="attack" value="6"/>
+      <option name="attack" value="5"/>
       <option name="defense" value="6"/>
       <option name="artillerySupportable" value="true"/>
-      <option name="hitPoints" value="2"/>
+      <option name="hitPoints" value="3"/>
 </attachment>
 <attachment name="unitAttachment" attachTo="Frodo and Sam" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
       <option name="movement" value="1"/>
       <option name="transportCost" value="1"/>
-      <option name="attack" value="2"/>
+      <option name="attack" value="3"/>
       <option name="defense" value="4"/>
       <option name="artillerySupportable" value="true"/>
 </attachment>
 <attachment name="unitAttachment" attachTo="Merry and Pippin" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
       <option name="movement" value="1"/>
       <option name="transportCost" value="1"/>
-      <option name="attack" value="1"/>
-      <option name="defense" value="2"/>
+      <option name="attack" value="2"/>
+      <option name="defense" value="3"/>
       <option name="artillerySupportable" value="true"/>
 </attachment>
 <attachment name="unitAttachment" attachTo="Gandalf the White" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
       <option name="movement" value="3"/>
       <option name="transportCost" value="1"/>
-      <option name="attack" value="5"/>
-      <option name="defense" value="8"/>
-      <option name="hitPoints" value="2"/>
+      <option name="attack" value="4"/>
+      <option name="defense" value="6"/>
+      <option name="hitPoints" value="3"/>
       <option name="artillery" value="true"/> 
       <option name="canBlitz" value="true"/>
 </attachment>
 <attachment name="unitAttachment" attachTo="Faramir" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
       <option name="movement" value="2"/>
       <option name="transportCost" value="1"/>
-      <option name="attack" value="4"/>
+      <option name="attack" value="3"/>
       <option name="defense" value="5"/>
       <option name="artillery" value="true"/>
-      <option name="hitPoints" value="2"/>
+      <option name="hitPoints" value="3"/>
       <option name="canBlitz" value="true"/>
 </attachment>
 <attachment name="unitAttachment" attachTo="Prince Imrahil" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
       <option name="movement" value="2"/>
       <option name="transportCost" value="1"/>
-      <option name="attack" value="6"/>
+      <option name="attack" value="5"/>
       <option name="defense" value="4"/>
-      <option name="hitPoints" value="2"/>
+      <option name="hitPoints" value="3"/>
       <option name="canBlitz" value="true"/>
 </attachment>
 <attachment name="unitAttachment" attachTo="King of the Dead" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
       <option name="movement" value="1"/>
       <option name="transportCost" value="1"/>
-      <option name="attack" value="5"/>
-      <option name="defense" value="4"/>
+      <option name="attack" value="4"/>
+      <option name="defense" value="3"/>
       <option name="artillerySupportable" value="true"/>
-      <option name="hitPoints" value="2"/>
+      <option name="hitPoints" value="4"/>
 </attachment>
 <attachment name="unitAttachment" attachTo="Gothmog" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
       <option name="movement" value="2"/>
       <option name="transportCost" value="1"/>
-      <option name="attack" value="5"/>
-      <option name="defense" value="5"/>
+      <option name="attack" value="4"/>
+      <option name="defense" value="4"/>
       <option name="artillerySupportable" value="true"/>
-      <option name="hitPoints" value="2"/>
+      <option name="hitPoints" value="4"/>
       <option name="canBlitz" value="true"/>
 </attachment>
 <attachment name="unitAttachment" attachTo="Shagrat" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
       <option name="movement" value="2"/>
       <option name="transportCost" value="1"/>
       <option name="attack" value="5"/>
-      <option name="defense" value="4"/>
+      <option name="defense" value="3"/>
       <option name="artillerySupportable" value="true"/>
-      <option name="hitPoints" value="2"/>
+      <option name="hitPoints" value="3"/>
       <option name="canBlitz" value="true"/>
 </attachment>
 <attachment name="unitAttachment" attachTo="Gorbag" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
       <option name="movement" value="2"/>
       <option name="transportCost" value="1"/>
-      <option name="attack" value="4"/>
+      <option name="attack" value="5"/>
       <option name="defense" value="3"/>
       <option name="artillerySupportable" value="true"/>
       <option name="canBlitz" value="true"/>
 </attachment>
 <attachment name="unitAttachment" attachTo="Witch King" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
       <option name="movement" value="4"/>
-      <option name="attack" value="6"/>
-      <option name="defense" value="4"/>
+      <option name="attack" value="5"/>
+      <option name="defense" value="3"/>
       <option name="artillery" value="true"/>
-      <option name="hitPoints" value="3"/>
+      <option name="hitPoints" value="4"/>
       <option name="isAir" value="true"/>
 </attachment>
 <attachment name="unitAttachment" attachTo="Dain" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
       <option name="movement" value="1"/>
       <option name="transportCost" value="1"/>
       <option name="attack" value="4"/>
-      <option name="defense" value="7"/>
+      <option name="defense" value="6"/>
       <option name="artillerySupportable" value="true"/>
-      <option name="hitPoints" value="2"/>
+      <option name="hitPoints" value="3"/>
 </attachment>
 <attachment name="unitAttachment" attachTo="Brand" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
       <option name="movement" value="2"/>
       <option name="transportCost" value="1"/>
       <option name="attack" value="4"/>
       <option name="defense" value="4"/>
-      <option name="hitPoints" value="2"/>
+      <option name="hitPoints" value="3"/>
       <option name="canBlitz" value="true"/>
 </attachment>
 <attachment name="unitAttachment" attachTo="Thorin III" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
       <option name="movement" value="1"/>
       <option name="transportCost" value="1"/>
-      <option name="attack" value="4"/>
+      <option name="attack" value="3"/>
       <option name="defense" value="5"/>
       <option name="artillerySupportable" value="true"/>
-      <option name="hitPoints" value="2"/>
+      <option name="hitPoints" value="3"/>
 </attachment>
 <attachment name="unitAttachment" attachTo="Thranduil" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
       <option name="movement" value="2"/>
       <option name="transportCost" value="1"/>
-      <option name="attack" value="5"/>
-      <option name="defense" value="6"/>
+      <option name="attack" value="4"/>
+      <option name="defense" value="5"/>
       <option name="artillery" value="true"/>
-      <option name="hitPoints" value="3"/>
+      <option name="hitPoints" value="4"/>
       <option name="canBlitz" value="true"/>
 </attachment>
 <attachment name="unitAttachment" attachTo="Tauriel" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
@@ -1651,7 +1653,7 @@
       <option name="transportCost" value="1"/>
       <option name="attack" value="4"/>
       <option name="defense" value="4"/>
-      <option name="hitPoints" value="2"/>
+      <option name="hitPoints" value="3"/>
       <option name="canBlitz" value="true"/>
       <option name="artillerySupportable" value="true"/>
 </attachment>
@@ -1660,7 +1662,7 @@
       <option name="transportCost" value="2"/>
       <option name="attack" value="6"/>
       <option name="defense" value="2"/>
-      <option name="hitPoints" value="2"/>
+      <option name="hitPoints" value="3"/>
       <option name="canBlitz" value="true"/>
 </attachment>
 <attachment name="unitAttachment" attachTo="Radagast" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
@@ -1668,21 +1670,21 @@
       <option name="transportCost" value="1"/>
       <option name="attack" value="3"/>
       <option name="defense" value="5"/>
-      <option name="hitPoints" value="2"/>
+      <option name="hitPoints" value="3"/>
       <option name="canBlitz" value="true"/>
       <option name="artillery" value="true"/>
 </attachment> 
 <attachment name="unitAttachment" attachTo="Gwaihir" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
       <option name="movement" value="6"/>
       <option name="isAir" value="true"/>
-      <option name="attack" value="4"/>
+      <option name="attack" value="5"/>
       <option name="defense" value="5"/>
 </attachment>
 <attachment name="unitAttachment" attachTo="Treebeard" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
       <option name="movement" value="1"/>
-      <option name="attack" value="5"/>
+      <option name="attack" value="4"/>
       <option name="defense" value="6"/>
-      <option name="hitPoints" value="2"/>
+      <option name="hitPoints" value="4"/>
 </attachment>
     <attachment name="unitAttachment" attachTo="fortifications" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
       <option name="defense" value="2"/>
@@ -2043,9 +2045,9 @@
     </attachment>
     <attachment name="unitAttachment" attachTo="balrog" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
       <option name="movement" value="1"/>
-      <option name="hitPoints" value="3"/>
-      <option name="attack" value="9"/>
-      <option name="defense" value="5"/>
+      <option name="hitPoints" value="4"/>
+      <option name="attack" value="5"/>
+      <option name="defense" value="4"/>
       <!--<option name="carrierCost" value="6"/>-->
       <!--<option name="isStrategicBomber" value="true"/>-->
     </attachment>
