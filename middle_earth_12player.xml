@@ -1483,6 +1483,7 @@
       <option name="transportCost" value="1"/>
       <option name="attack" value="5"/>
       <option name="defense" value="4"/>
+      <option name="hitPoints" value="2"/>
       <option name="canBlitz" value="true"/>
 </attachment>
 <attachment name="unitAttachment" attachTo="Eowyn" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
@@ -1490,6 +1491,7 @@
       <option name="transportCost" value="1"/>
       <option name="attack" value="4"/>
       <option name="defense" value="4"/>
+      <option name="hitPoints" value="2"/>
       <option name="canBlitz" value="true"/>
 </attachment>
 <attachment name="unitAttachment" attachTo="Gamling" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
@@ -1497,6 +1499,7 @@
       <option name="transportCost" value="1"/>
       <option name="attack" value="4"/>
       <option name="defense" value="5"/>
+      <option name="hitPoints" value="2"/>
       <option name="canBlitz" value="true"/>
       <option name="artillery" value="true"/> 
 </attachment>
@@ -1505,6 +1508,7 @@
       <option name="transportCost" value="1"/>
       <option name="attack" value="4"/>
       <option name="defense" value="4"/>
+      <option name="hitPoints" value="2"/>
       <option name="canBlitz" value="true"/>
 </attachment>
 <attachment name="unitAttachment" attachTo="Aragorn" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
@@ -1536,15 +1540,16 @@
 <attachment name="unitAttachment" attachTo="Frodo and Sam" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
       <option name="movement" value="1"/>
       <option name="transportCost" value="1"/>
-      <option name="attack" value="3"/>
-      <option name="defense" value="4"/>
+      <option name="attack" value="2"/>
+      <option name="defense" value="4"/> 
+      <option name="hitPoints" value="2"/>
       <option name="artillerySupportable" value="true"/>
 </attachment>
 <attachment name="unitAttachment" attachTo="Merry and Pippin" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
       <option name="movement" value="1"/>
       <option name="transportCost" value="1"/>
       <option name="attack" value="2"/>
-      <option name="defense" value="3"/>
+      <option name="defense" value="4"/>
       <option name="artillerySupportable" value="true"/>
 </attachment>
 <attachment name="unitAttachment" attachTo="Gandalf the White" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
@@ -1678,7 +1683,8 @@
       <option name="movement" value="6"/>
       <option name="isAir" value="true"/>
       <option name="attack" value="5"/>
-      <option name="defense" value="5"/>
+      <option name="defense" value="5"/> 
+      <option name="hitPoints" value="2"/>
 </attachment>
 <attachment name="unitAttachment" attachTo="Treebeard" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
       <option name="movement" value="1"/>
@@ -2854,13 +2860,13 @@
       <unitPlacement unitType="bats" territory="Moria" quantity="2" owner="Goblins"/>
       <unitPlacement unitType="castle" territory="N. Caves" quantity="1" owner="Goblins"/>
       <unitPlacement unitType="stabbers" territory="N. Caves" quantity="4" owner="Goblins"/>
-      <unitPlacement unitType="shooters" territory="N. Caves" quantity="8" owner="Goblins"/>
+      <unitPlacement unitType="shooters" territory="N. Caves" quantity="4" owner="Goblins"/>
       <unitPlacement unitType="wargs" territory="N. Caves" quantity="1" owner="Goblins"/>
       <unitPlacement unitType="bats" territory="N. Caves" quantity="2" owner="Goblins"/>
       <unitPlacement unitType="fortifications" territory="N. Caves" quantity="4" owner="Goblins"/>
       <unitPlacement unitType="castle" territory="S. Caves" quantity="1" owner="Goblins"/>
       <unitPlacement unitType="stabbers" territory="S. Caves" quantity="4" owner="Goblins"/>
-      <unitPlacement unitType="shooters" territory="S. Caves" quantity="8" owner="Goblins"/>
+      <unitPlacement unitType="shooters" territory="S. Caves" quantity="4" owner="Goblins"/>
       <unitPlacement unitType="fortifications" territory="S. Caves" quantity="4" owner="Goblins"/>
       <unitPlacement unitType="wargs" territory="S. Caves" quantity="1" owner="Goblins"/>
       <unitPlacement unitType="trolls" territory="S. Caves" quantity="2" owner="Goblins"/>
