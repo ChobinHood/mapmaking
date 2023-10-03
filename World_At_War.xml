@@ -4433,7 +4433,7 @@
 			<option name="production" value="2"/>
 		</attachment>
 		<attachment name="territoryAttachment" attachTo="Penza" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
-			<option name="production" value="1"/>
+			<option name="production" value="2"/>
 		</attachment>
 		<attachment name="territoryAttachment" attachTo="Okhotsk" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
 			<option name="production" value="1"/>
@@ -4506,7 +4506,7 @@
 			<option name="production" value="4"/>
 		</attachment>
 		<attachment name="territoryAttachment" attachTo="Gorky" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
-			<option name="production" value="3"/>
+			<option name="production" value="2"/>
 		</attachment>
 		<attachment name="territoryAttachment" attachTo="Semipalatinsk" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
 			<option name="production" value="1"/>
@@ -4615,7 +4615,7 @@
 			<option name="production" value="2"/>
 		</attachment>
 		<attachment name="territoryAttachment" attachTo="Yaroslavl" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
-			<option name="production" value="1"/>
+			<option name="production" value="2"/>
 		</attachment>
 		<attachment name="territoryAttachment" attachTo="Khabarovsk" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
 			<option name="production" value="2"/>
@@ -7510,7 +7510,7 @@
 			<unitPlacement unitType="Infantry" territory="Vladivostok" quantity="4"/>
 			<unitPlacement unitType="Bunker" territory="Vladivostok" quantity="1"/>
 			<unitPlacement unitType="Factory" territory="Vladivostok" quantity="1"/>
-			<unitPlacement unitType="Infantry" territory="Penza" quantity="1"/>
+			<unitPlacement unitType="Infantry" territory="Penza" quantity="2"/>
 			<unitPlacement unitType="Infantry" territory="Okhotsk" quantity="1"/>
 			<unitPlacement unitType="Infantry" territory="Irkutsk" quantity="1"/>
 			<unitPlacement unitType="Infantry" territory="Karaganda" quantity="1"/>
@@ -7814,7 +7814,7 @@
 			<unitPlacement unitType="Infantry" territory="Ceylon" quantity="1"/>
 			<unitPlacement unitType="Infantry" territory="Rajputana" quantity="1"/>
 			<unitPlacement unitType="Infantry" territory="Kiev" quantity="3"/>
-			<unitPlacement unitType="Infantry" territory="Yaroslavl" quantity="1"/>
+			<unitPlacement unitType="Infantry" territory="Yaroslavl" quantity="2"/>
 			<unitPlacement unitType="Infantry" territory="Kirov" quantity="1"/>
 			<unitPlacement unitType="Infantry" territory="Saratov" quantity="2"/>
 			<unitPlacement unitType="Infantry" territory="Rostov" quantity="1"/>
