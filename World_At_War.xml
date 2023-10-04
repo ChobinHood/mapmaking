@@ -5313,7 +5313,7 @@
 			<option name="production" value="2"/>
 		</attachment>
 		<attachment name="territoryAttachment" attachTo="Pearl Harbor" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
-			<option name="production" value="3"/>
+			<option name="production" value="4"/>
 			<!--<option name="victoryCity" value="1"/>-->
 		</attachment>
 		<attachment name="territoryAttachment" attachTo="Amchitka" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
@@ -7663,9 +7663,10 @@
 			<unitPlacement unitType="AAGun" territory="E.Morocco" quantity="1" owner="French"/>
 			<unitPlacement unitType="Infantry" territory="Syria" quantity="2"/>
 			<unitPlacement unitType="Infantry" territory="W.Morocco" quantity="2"/>
-			<unitPlacement unitType="Infantry" territory="Churchill" quantity="6" owner="French"/>
+			<unitPlacement unitType="Infantry" territory="Churchill" quantity="7" owner="French"/>
 			<unitPlacement unitType="Artillery" territory="Churchill" quantity="2" owner="French"/>
 			<unitPlacement unitType="Bunker" territory="Churchill" quantity="2" owner="French"/>
+			<unitPlacement unitType="Fighter" territory="Churchill" quantity="1" owner="French"/>
 			<unitPlacement unitType="Factory" territory="Churchill" quantity="1" owner="French"/>
 			<unitPlacement unitType="Infantry" territory="Tangier" quantity="2"/>
 			<unitPlacement unitType="Infantry" territory="French Equatorial Africa" quantity="2"/>
@@ -7839,6 +7840,7 @@
 			<unitPlacement unitType="Artillery" territory="Montreal" quantity="3" owner="British"/>
 			<unitPlacement unitType="Bunker" territory="Montreal" quantity="4" owner="British"/>
 			<unitPlacement unitType="Factory" territory="Montreal" quantity="1" owner="British"/>
+			<unitPlacement unitType="Fighter" territory="Montreal" quantity="1" owner="British"/>
 			<unitPlacement unitType="Infantry" territory="London" quantity="8" owner="British"/>
 			<unitPlacement unitType="Artillery" territory="London" quantity="2" owner="British"/>
 			<unitPlacement unitType="Tank" territory="London" quantity="1" owner="British"/>
@@ -7909,8 +7911,8 @@
 			<unitPlacement unitType="Fighter" territory="Bucharest" quantity="1" owner="Romanians"/>
 			<unitPlacement unitType="Factory" territory="Bucharest" quantity="1" owner="Romanians"/>
 			<unitPlacement unitType="AAGun" territory="Bucharest" quantity="1" owner="Romanians"/>
-			<unitPlacement unitType="Infantry" territory="Bulgaria" quantity="6" owner="Romanians"/>
-			<unitPlacement unitType="Artillery" territory="Bulgaria" quantity="1" owner="Romanians"/>
+			<unitPlacement unitType="Infantry" territory="Bulgaria" quantity="7" owner="Romanians"/>
+			<unitPlacement unitType="Artillery" territory="Bulgaria" quantity="3" owner="Romanians"/>
 			<unitPlacement unitType="Tank" territory="Bulgaria" quantity="1" owner="Romanians"/>
 			<unitPlacement unitType="Factory" territory="Bulgaria" quantity="1" owner="Romanians"/>
 			<unitPlacement unitType="Bunker" territory="Bulgaria" quantity="2" owner="Romanians"/>
@@ -8191,7 +8193,7 @@
 			<resourceGiven player="Finns" resource="PUs" quantity="9"/>
 			<resourceGiven player="Romanians" resource="PUs" quantity="9"/>                        
 			<resourceGiven player="Thai" resource="PUs" quantity="6"/>
-			<resourceGiven player="Americans" resource="PUs" quantity="28"/>
+			<resourceGiven player="Americans" resource="PUs" quantity="29"/>
 		</resourceInitialize>
 	</initialize>
 
