@@ -8179,13 +8179,13 @@
 		</unitInitialize>
 		<resourceInitialize>
 			<resourceGiven player="Germans" resource="PUs" quantity="23"/>
-			<resourceGiven player="Russians" resource="PUs" quantity="21"/>
+			<resourceGiven player="Russians" resource="PUs" quantity="22"/>
 			<resourceGiven player="Italians" resource="PUs" quantity="13"/>
 			<resourceGiven player="French" resource="PUs" quantity="15"/>                     
 			<resourceGiven player="Yamamoto" resource="PUs" quantity="10"/>
 			<resourceGiven player="Chinese" resource="PUs" quantity="10"/>
 			<resourceGiven player="Hisaichi" resource="PUs" quantity="6"/>
-			<resourceGiven player="British" resource="PUs" quantity="19"/>                       
+			<resourceGiven player="British" resource="PUs" quantity="20"/>                       
 			<resourceGiven player="Anzac" resource="PUs" quantity="8"/>
 			<resourceGiven player="Dutch" resource="PUs" quantity="13"/>
 			<resourceGiven player="Finns" resource="PUs" quantity="10"/>
