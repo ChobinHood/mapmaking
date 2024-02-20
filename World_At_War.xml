@@ -4392,7 +4392,7 @@
 
 
 		<attachment name="territoryAttachment" attachTo="East Prussia" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
-			<option name="production" value="4"/>
+			<option name="production" value="5"/>
 		</attachment>
 		<attachment name="territoryAttachment" attachTo="Pomerania" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
 			<option name="production" value="3"/>
@@ -5189,7 +5189,7 @@
 			<option name="production" value="1"/>
 		</attachment>
 		<attachment name="territoryAttachment" attachTo="Wellington" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
-			<option name="production" value="3"/>
+			<option name="production" value="4"/>
 		</attachment>
 		<attachment name="territoryAttachment" attachTo="Broome" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
 			<option name="production" value="3"/>
@@ -5213,7 +5213,7 @@
 			<option name="production" value="1"/>
 		</attachment>
 		<attachment name="territoryAttachment" attachTo="Canberra" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
-			<option name="production" value="5"/>
+			<option name="production" value="6"/>
 			<option name="capital" value="Anzac"/>
 			<!--<option name="victoryCity" value="1"/>-->
 		</attachment>
@@ -5313,7 +5313,7 @@
 			<option name="production" value="3"/>
 		</attachment>
 		<attachment name="territoryAttachment" attachTo="Pearl Harbor" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
-			<option name="production" value="4"/>
+			<option name="production" value="5"/>
 			<!--<option name="victoryCity" value="1"/>-->
 		</attachment>
 		<attachment name="territoryAttachment" attachTo="Amchitka" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
@@ -5372,7 +5372,7 @@
 			<option name="production" value="1"/>
 		</attachment>
 		<attachment name="territoryAttachment" attachTo="Washington" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
-			<option name="production" value="12"/>
+			<option name="production" value="10"/>
 			<option name="capital" value="Americans"/>
 			<!--<option name="victoryCity" value="1"/>-->
 		</attachment>
@@ -7480,7 +7480,7 @@
 			<territoryOwner territory="Washington" owner="Americans"/>
 		</ownerInitialize>
 		<unitInitialize>
-			<unitPlacement unitType="Infantry" territory="Silesia" quantity="3"/>
+			<unitPlacement unitType="Infantry" territory="Silesia" quantity="2"/>
 			<unitPlacement unitType="Infantry" territory="East Prussia" quantity="8" owner="Germans"/>
 			<unitPlacement unitType="Bunker" territory="East Prussia" quantity="2" owner="Germans"/>
 			<unitPlacement unitType="Tank" territory="East Prussia" quantity="2" owner="Germans"/>
@@ -7489,9 +7489,9 @@
 			<unitPlacement unitType="Artillery" territory="East Prussia" quantity="4" owner="Germans"/>
 			<unitPlacement unitType="AAGun" territory="East Prussia" quantity="1" owner="Germans"/>
 			<unitPlacement unitType="Infantry" territory="Pomerania" quantity="3"/>
-			<unitPlacement unitType="Infantry" territory="Saxony" quantity="4"/>
+			<unitPlacement unitType="Infantry" territory="Saxony" quantity="3"/>
 			<unitPlacement unitType="Infantry" territory="Berlin" quantity="12" owner="Germans"/>
-			<unitPlacement unitType="Artillery" territory="Berlin" quantity="4" owner="Germans"/>
+			<unitPlacement unitType="Artillery" territory="Berlin" quantity="5" owner="Germans"/>
 			<unitPlacement unitType="Bunker" territory="Berlin" quantity="4" owner="Germans"/>
 			<unitPlacement unitType="Tank" territory="Berlin" quantity="4" owner="Germans"/>
 			<unitPlacement unitType="Fighter" territory="Berlin" quantity="2" owner="Germans"/>
@@ -7500,10 +7500,10 @@
 			<unitPlacement unitType="AAGun" territory="Berlin" quantity="1" owner="Germans"/>
 			<unitPlacement unitType="Infantry" territory="Rhine" quantity="6"/>
 			<unitPlacement unitType="Infantry" territory="El Agheila" quantity="2"/>
-			<unitPlacement unitType="Infantry" territory="Bohemia" quantity="5"/>
-			<unitPlacement unitType="Infantry" territory="Brandenburg" quantity="3"/>
+			<unitPlacement unitType="Infantry" territory="Bohemia" quantity="4"/>
+			<unitPlacement unitType="Infantry" territory="Brandenburg" quantity="2"/>
 			<unitPlacement unitType="Infantry" territory="Austria" quantity="4"/>
-			<unitPlacement unitType="Infantry" territory="Bavaria" quantity="5"/>
+			<unitPlacement unitType="Infantry" territory="Bavaria" quantity="3"/>
 			<unitPlacement unitType="Infantry" territory="Hamburg" quantity="5"/>
 			<unitPlacement unitType="Bunker" territory="Hamburg" quantity="1"/>
 			<unitPlacement unitType="Factory" territory="Hamburg" quantity="1"/>
@@ -7603,7 +7603,7 @@
 			<unitPlacement unitType="Infantry" territory="Kolyma" quantity="1"/>
 			<unitPlacement unitType="Infantry" territory="Minsk" quantity="2"/>
 			<unitPlacement unitType="Infantry" territory="Sicily" quantity="2"/>
-			<unitPlacement unitType="Infantry" territory="Rome" quantity="8" owner="Italians"/>
+			<unitPlacement unitType="Infantry" territory="Rome" quantity="10" owner="Italians"/>
 			<unitPlacement unitType="Artillery" territory="Rome" quantity="4" owner="Italians"/>
 			<unitPlacement unitType="Fighter" territory="Rome" quantity="2" owner="Italians"/>
 			<unitPlacement unitType="Bunker" territory="Lombardy" quantity="1"/>
@@ -7658,7 +7658,7 @@
 			<unitPlacement unitType="Infantry" territory="Mauritania" quantity="1"/>
 			<unitPlacement unitType="Infantry" territory="E.Morocco" quantity="8" owner="French"/>
 			<unitPlacement unitType="Bunker" territory="E.Morocco" quantity="2" owner="French"/>
-			<unitPlacement unitType="Artillery" territory="E.Morocco" quantity="2" owner="French"/>
+			<unitPlacement unitType="Artillery" territory="E.Morocco" quantity="3" owner="French"/>
 			<unitPlacement unitType="Factory" territory="E.Morocco" quantity="1" owner="French"/>
 			<unitPlacement unitType="AAGun" territory="E.Morocco" quantity="1" owner="French"/>
 			<unitPlacement unitType="Infantry" territory="Syria" quantity="2"/>
@@ -7725,7 +7725,7 @@
 			<unitPlacement unitType="Factory" territory="Urumqi" quantity="1" owner="Chinese"/>
 			<unitPlacement unitType="AAGun" territory="Urumqi" quantity="1" owner="Chinese"/>
 			<unitPlacement unitType="Infantry" territory="W.Qinghai" quantity="1"/>
-			<unitPlacement unitType="Infantry" territory="Lanchow" quantity="2"/>
+			<unitPlacement unitType="Infantry" territory="Lanchow" quantity="1"/>
 			<unitPlacement unitType="Infantry" territory="Shensi" quantity="1"/>
 			<unitPlacement unitType="Infantry" territory="Ningsia" quantity="2"/>
 			<unitPlacement unitType="Infantry" territory="Kiangsi" quantity="2"/>
@@ -7762,7 +7762,7 @@
 			<unitPlacement unitType="Bomber" territory="Changchun" quantity="1" owner="Hisaichi"/>
 			<unitPlacement unitType="Infantry" territory="Heilungchiang" quantity="3"/>
 			<unitPlacement unitType="Infantry" territory="British Borneo" quantity="2"/>
-			<unitPlacement unitType="Infantry" territory="New Valley" quantity="2"/><!--
+			<unitPlacement unitType="Infantry" territory="New Valley" quantity="1"/><!--
 			<unitPlacement unitType="Bunker" territory="Rhodes" quantity="1" owner="British"/>-->
 			<unitPlacement unitType="Infantry" territory="Assam" quantity="2"/>
 			<unitPlacement unitType="Infantry" territory="Vancouver" quantity="3"/>
@@ -7776,6 +7776,7 @@
 			<unitPlacement unitType="Infantry" territory="Suriname" quantity="9" owner="Dutch"/>
 			<unitPlacement unitType="Artillery" territory="Suriname" quantity="4" owner="Dutch"/>
 			<unitPlacement unitType="Tank" territory="Suriname" quantity="2" owner="Dutch"/>
+			<unitPlacement unitType="Fighter" territory="Suriname" quantity="2" owner="Dutch"/>
 			<unitPlacement unitType="Bunker" territory="Suriname" quantity="2" owner="Dutch"/>
 			<unitPlacement unitType="Factory" territory="Suriname" quantity="1" owner="Dutch"/>
 			<unitPlacement unitType="Infantry" territory="British Guiana" quantity="1"/>
@@ -7805,7 +7806,7 @@
 			<unitPlacement unitType="Infantry" territory="Canadian Prairies" quantity="1"/>
 			<unitPlacement unitType="Infantry" territory="Calcutta" quantity="2"/>
 			<unitPlacement unitType="Infantry" territory="Punjab" quantity="2"/>
-			<unitPlacement unitType="Infantry" territory="Quebec" quantity="2"/>
+			<unitPlacement unitType="Infantry" territory="Quebec" quantity="1"/>
 			<unitPlacement unitType="Infantry" territory="South Atlantic USA" quantity="3"/>
 			<unitPlacement unitType="Infantry" territory="Fiji" quantity="1"/>
 			<unitPlacement unitType="Infantry" territory="Tabiteuea" quantity="1"/>
@@ -7828,11 +7829,11 @@
 			<unitPlacement unitType="Bunker" territory="Delhi" quantity="1"/>
 			<unitPlacement unitType="Factory" territory="Delhi" quantity="1"/>
 			<unitPlacement unitType="Infantry" territory="Aden" quantity="2"/>
-			<unitPlacement unitType="Infantry" territory="Madras" quantity="8" owner="British"/>
+			<unitPlacement unitType="Infantry" territory="Madras" quantity="9" owner="British"/>
 			<unitPlacement unitType="Bunker" territory="Madras" quantity="2" owner="British"/>
 			<unitPlacement unitType="Tank" territory="Madras" quantity="1" owner="British"/>
-			<unitPlacement unitType="Fighter" territory="Madras" quantity="1" owner="British"/>
-			<unitPlacement unitType="Artillery" territory="Madras" quantity="2" owner="British"/>
+			<unitPlacement unitType="Fighter" territory="Madras" quantity="2" owner="British"/>
+			<unitPlacement unitType="Artillery" territory="Madras" quantity="3" owner="British"/>
 			<unitPlacement unitType="Factory" territory="Madras" quantity="1" owner="British"/>
 			<unitPlacement unitType="AAGun" territory="Madras" quantity="1" owner="British"/>
 			<unitPlacement unitType="Infantry" territory="Malta" quantity="2"/>
@@ -7851,11 +7852,11 @@
 			<unitPlacement unitType="AAGun" territory="London" quantity="1" owner="British"/>
 			<unitPlacement unitType="Infantry" territory="Nauru" quantity="1"/>
 			<unitPlacement unitType="Infantry" territory="Tarawa" quantity="1"/>
-			<unitPlacement unitType="Infantry" territory="Cairo" quantity="6"/>
+			<unitPlacement unitType="Infantry" territory="Cairo" quantity="5"/>
 			<unitPlacement unitType="Bunker" territory="Cairo" quantity="1"/>
 			<unitPlacement unitType="Factory" territory="Cairo" quantity="1"/>
 			<unitPlacement unitType="Infantry" territory="Palestine" quantity="2"/>
-			<unitPlacement unitType="Infantry" territory="Lower Egypt" quantity="2"/>
+			<unitPlacement unitType="Infantry" territory="Lower Egypt" quantity="1"/>
 			<unitPlacement unitType="Infantry" territory="Gibraltar" quantity="2"/>
 			<unitPlacement unitType="Infantry" territory="Andaman" quantity="1"/>
 			<unitPlacement unitType="Infantry" territory="Malaya" quantity="5"/>
@@ -7946,7 +7947,7 @@
 			<unitPlacement unitType="Factory" territory="Bangkok" quantity="1" owner="Thai"/>
 			<unitPlacement unitType="AAGun" territory="Bangkok" quantity="1" owner="Thai"/>
 			<unitPlacement unitType="Infantry" territory="New Caledonia" quantity="1"/>
-			<unitPlacement unitType="Infantry" territory="Colombia" quantity="3"/>
+			<unitPlacement unitType="Infantry" territory="Colombia" quantity="2"/>
 			<unitPlacement unitType="Infantry" territory="San Francisco" quantity="7" owner="Americans"/>
 			<unitPlacement unitType="Bunker" territory="San Francisco" quantity="2" owner="Americans"/>
 			<unitPlacement unitType="Artillery" territory="San Francisco" quantity="2" owner="Americans"/>
@@ -7980,13 +7981,13 @@
 			<unitPlacement unitType="Fighter" territory="Washington" quantity="1" owner="Americans"/>
 			<unitPlacement unitType="Factory" territory="Washington" quantity="1" owner="Americans"/>
 			<unitPlacement unitType="AAGun" territory="Washington" quantity="1" owner="Americans"/>
-			<unitPlacement unitType="Infantry" territory="Northeast USA" quantity="2"/>
+			<unitPlacement unitType="Infantry" territory="Northeast USA" quantity="4"/>
 			<unitPlacement unitType="Infantry" territory="Kauai" quantity="1"/>
 			<unitPlacement unitType="Infantry" territory="Midway" quantity="1"/>
 			<unitPlacement unitType="Infantry" territory="Manila" quantity="3"/>
 			<unitPlacement unitType="Infantry" territory="Kermandec" quantity="1"/>
 			<unitPlacement unitType="Infantry" territory="Guam" quantity="1"/>
-			<unitPlacement unitType="Infantry" territory="Northwest USA" quantity="3"/>
+			<unitPlacement unitType="Infantry" territory="Northwest USA" quantity="2"/>
 			<unitPlacement unitType="Infantry" territory="Mindanao" quantity="1"/>
 			<unitPlacement unitType="Infantry" territory="Canarians" quantity="1"/>
 			<unitPlacement unitType="Infantry" territory="Cape Town" quantity="8" owner="British"/>
@@ -7998,7 +7999,7 @@
 			<unitPlacement unitType="Infantry" territory="Afghanistan" quantity="4"/>
 			<unitPlacement unitType="Infantry" territory="W.Mexico" quantity="2"/>
 			<unitPlacement unitType="Infantry" territory="Krakow" quantity="3"/>
-			<unitPlacement unitType="Infantry" territory="Warsaw" quantity="4"/>
+			<unitPlacement unitType="Infantry" territory="Warsaw" quantity="3"/>
 			<unitPlacement unitType="Bunker" territory="Warsaw" quantity="1"/>
 			<unitPlacement unitType="Factory" territory="Warsaw" quantity="1"/>
 			<unitPlacement unitType="Infantry" territory="La Mancha" quantity="2"/>
@@ -8006,7 +8007,7 @@
 			<unitPlacement unitType="Infantry" territory="Crete" quantity="2"/>
 			<unitPlacement unitType="Infantry" territory="Eastern Mongolia" quantity="3"/>
 			<unitPlacement unitType="Infantry" territory="Nordland" quantity="1"/>
-			<unitPlacement unitType="Infantry" territory="Gobi Altai" quantity="2"/>
+			<unitPlacement unitType="Infantry" territory="Gobi Altai" quantity="1"/>
 			<unitPlacement unitType="Infantry" territory="Stockholm" quantity="8" owner="Finns"/>
 			<unitPlacement unitType="Artillery" territory="Stockholm" quantity="4" owner="Finns"/>
 			<unitPlacement unitType="Tank" territory="Stockholm" quantity="1" owner="Finns"/>
@@ -8021,7 +8022,7 @@
 			<unitPlacement unitType="Infantry" territory="Leon" quantity="3"/>
 			<unitPlacement unitType="Infantry" territory="Switzerland" quantity="8"/>
 			<unitPlacement unitType="Infantry" territory="Belgian Congo" quantity="2"/>
-			<unitPlacement unitType="Infantry" territory="Brest" quantity="3"/>
+			<unitPlacement unitType="Infantry" territory="Brest" quantity="1"/>
 			<unitPlacement unitType="Infantry" territory="Portugal" quantity="4"/>
 			<unitPlacement unitType="Infantry" territory="Ulan Bator" quantity="2"/>
 			<unitPlacement unitType="Infantry" territory="Central America" quantity="1"/>
@@ -8034,7 +8035,7 @@
 			<unitPlacement unitType="Factory" territory="Ankara" quantity="1"/>
 			<unitPlacement unitType="Infantry" territory="Upper Norrland" quantity="2"/>
 			<unitPlacement unitType="Infantry" territory="Ankara" quantity="2"/>
-			<unitPlacement unitType="Infantry" territory="South Gobi" quantity="2"/>
+			<unitPlacement unitType="Infantry" territory="South Gobi" quantity="1"/>
 			<unitPlacement unitType="Infantry" territory="Catalonia" quantity="3"/>
 			<unitPlacement unitType="Infantry" territory="Croatia" quantity="2"/>
 			<unitPlacement unitType="Infantry" territory="Oslo" quantity="1"/>
@@ -8054,20 +8055,20 @@
 			<unitPlacement unitType="Infantry" territory="Danzig" quantity="3"/>
 			<unitPlacement unitType="Infantry" territory="Hispaniola" quantity="1"/>
 			<unitPlacement unitType="Infantry" territory="Hungary" quantity="4"/>
-			<unitPlacement unitType="Infantry" territory="East Gobi" quantity="4"/>
+			<unitPlacement unitType="Infantry" territory="East Gobi" quantity="2"/>
 			<unitPlacement unitType="Infantry" territory="Baleares" quantity="1"/>
 			<unitPlacement unitType="Infantry" territory="Angola" quantity="1"/>
 			<unitPlacement unitType="Infantry" territory="W.Iran" quantity="4"/>
 			<unitPlacement unitType="Bunker" territory="W.Iran" quantity="1"/>
 			<unitPlacement unitType="Factory" territory="W.Iran" quantity="1"/>
-			<unitPlacement unitType="Infantry" territory="Greece" quantity="5"/>
+			<unitPlacement unitType="Infantry" territory="Greece" quantity="4"/>
 			<unitPlacement unitType="Infantry" territory="Finnmark" quantity="1"/>
 			<unitPlacement unitType="Infantry" territory="Denmark" quantity="3"/>
 			<unitPlacement unitType="Infantry" territory="Navarre" quantity="3"/>
 			<unitPlacement unitType="Infantry" territory="Serbia" quantity="3"/>
 			<unitPlacement unitType="Infantry" territory="S.Sakhalin" quantity="2"/>
 			<unitPlacement unitType="Infantry" territory="Valencia" quantity="2"/>
-			<unitPlacement unitType="Infantry" territory="Khobdo" quantity="2"/>
+			<unitPlacement unitType="Infantry" territory="Khobdo" quantity="1"/>
 			<unitPlacement unitType="Infantry" territory="Galicia" quantity="2"/>
 			<unitPlacement unitType="Infantry" territory="Erzurum" quantity="2"/>
 			<unitPlacement unitType="Infantry" territory="Andalusia" quantity="2"/>
@@ -8082,12 +8083,10 @@
 			<unitPlacement unitType="Infantry" territory="S.Saudi Arabia" quantity="2"/>
 			<unitPlacement unitType="Infantry" territory="Mozambique" quantity="1"/>
 			<unitPlacement unitType="Infantry" territory="Istanbul" quantity="3"/>
-			<unitPlacement unitType="Infantry" territory="Venezuela" quantity="4"/>
+			<unitPlacement unitType="Infantry" territory="Venezuela" quantity="3"/>
 			<unitPlacement unitType="Infantry" territory="Sikang" quantity="4"/>
-			<unitPlacement unitType="Infantry" territory="Netherlands" quantity="6" owner="Dutch"/>
-			<unitPlacement unitType="Artillery" territory="Netherlands" quantity="1" owner="Dutch"/>
+			<unitPlacement unitType="Infantry" territory="Netherlands" quantity="9" owner="Dutch"/>
 			<unitPlacement unitType="Factory" territory="Netherlands" quantity="1" owner="Dutch"/>
-			<unitPlacement unitType="Fighter" territory="Netherlands" quantity="1" owner="Dutch"/>
 			<unitPlacement unitType="Bunker" territory="Netherlands" quantity="4" owner="Dutch"/>
 			<unitPlacement unitType="Artillery" territory="Moscow" quantity="3" owner="Russians"/>
 			<unitPlacement unitType="Infantry" territory="Moscow" quantity="10" owner="Russians"/>
@@ -8108,9 +8107,9 @@
 			<unitPlacement unitType="Infantry" territory="N.Chile" quantity="1"/>
 			<unitPlacement unitType="Infantry" territory="S.Chile" quantity="1"/>
 			<unitPlacement unitType="Infantry" territory="Argentina" quantity="3"/>
-			<unitPlacement unitType="Infantry" territory="Bolivia" quantity="3"/>
-			<unitPlacement unitType="Infantry" territory="Rio De Janeiro" quantity="3"/>
-			<unitPlacement unitType="Infantry" territory="Bahia" quantity="3"/>
+			<unitPlacement unitType="Infantry" territory="Bolivia" quantity="2"/>
+			<unitPlacement unitType="Infantry" territory="Rio De Janeiro" quantity="2"/>
+			<unitPlacement unitType="Infantry" territory="Bahia" quantity="1"/>
 
 
 			<unitPlacement unitType="Destroyer" territory="13 Sea Zone" quantity="1" owner="Americans"/>
@@ -8137,7 +8136,7 @@
 			<unitPlacement unitType="Transport" territory="18 Sea Zone" quantity="1" owner="British"/>
 			<unitPlacement unitType="Destroyer" territory="40 Sea Zone" quantity="2" owner="British"/>
 			<unitPlacement unitType="Destroyer" territory="59 Sea Zone" quantity="3" owner="British"/>
-			<unitPlacement unitType="Transport" territory="59 Sea Zone" quantity="2" owner="British"/>
+			<unitPlacement unitType="Transport" territory="59 Sea Zone" quantity="1" owner="British"/>
 
 			<unitPlacement unitType="Destroyer" territory="50 Sea Zone" quantity="2" owner="Italians"/>
 			<unitPlacement unitType="Transport" territory="50 Sea Zone" quantity="3" owner="Italians"/>
@@ -8160,7 +8159,7 @@
 			<unitPlacement unitType="Battleship" territory="85 Sea Zone" quantity="1" owner="Yamamoto"/>
 			<unitPlacement unitType="Destroyer" territory="85 Sea Zone" quantity="1" owner="Yamamoto"/>
 			<unitPlacement unitType="Submarine" territory="85 Sea Zone" quantity="1" owner="Yamamoto"/>
-			<unitPlacement unitType="Transport" territory="85 Sea Zone" quantity="2" owner="Yamamoto"/>
+			<unitPlacement unitType="Transport" territory="85 Sea Zone" quantity="1" owner="Yamamoto"/>
 			<unitPlacement unitType="Cruiser" territory="85 Sea Zone" quantity="3" owner="Yamamoto"/>
 
 			<unitPlacement unitType="Submarine" territory="84 Sea Zone" quantity="2" owner="Hisaichi"/>
@@ -8178,7 +8177,7 @@
 
 		</unitInitialize>
 		<resourceInitialize>
-			<resourceGiven player="Germans" resource="PUs" quantity="23"/>
+			<resourceGiven player="Germans" resource="PUs" quantity="24"/>
 			<resourceGiven player="Russians" resource="PUs" quantity="22"/>
 			<resourceGiven player="Italians" resource="PUs" quantity="13"/>
 			<resourceGiven player="French" resource="PUs" quantity="15"/>                     
@@ -8186,12 +8185,12 @@
 			<resourceGiven player="Chinese" resource="PUs" quantity="10"/>
 			<resourceGiven player="Hisaichi" resource="PUs" quantity="6"/>
 			<resourceGiven player="British" resource="PUs" quantity="20"/>                       
-			<resourceGiven player="Anzac" resource="PUs" quantity="8"/>
+			<resourceGiven player="Anzac" resource="PUs" quantity="10"/>
 			<resourceGiven player="Dutch" resource="PUs" quantity="13"/>
 			<resourceGiven player="Finns" resource="PUs" quantity="10"/>
 			<resourceGiven player="Romanians" resource="PUs" quantity="9"/>                        
 			<resourceGiven player="Thai" resource="PUs" quantity="6"/>
-			<resourceGiven player="Americans" resource="PUs" quantity="24"/>
+			<resourceGiven player="Americans" resource="PUs" quantity="23"/>
 		</resourceInitialize>
 	</initialize>
 
