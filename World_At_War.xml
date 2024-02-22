@@ -7380,7 +7380,7 @@
 			<!--<option name="retainCapitalNumber" value="3"/>-->
 			<option name="retainCapitalProduceNumber" value="0"/>
 		</attachment>
-		<attachment name="playerAttachment" attachTo="Chineese" javaClass="games.strategy.triplea.attachments.PlayerAttachment" type="player">
+		<attachment name="playerAttachment" attachTo="Chinese" javaClass="games.strategy.triplea.attachments.PlayerAttachment" type="player">
 			<option name="retainCapitalProduceNumber" value="0"/>
 		</attachment>
 		<attachment name="playerAttachment" attachTo="Germans" javaClass="games.strategy.triplea.attachments.PlayerAttachment" type="player">
