@@ -5285,8 +5285,7 @@
 			<option name="production" value="1"/>
 		</attachment>
 		<attachment name="territoryAttachment" attachTo="Banjarmasin" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
-			<option name="production" value="5"/>
-			<option name="capital" value="Dutch"/>
+			<option name="production" value="4"/>
 			<!--<option name="victoryCity" value="1"/>-->
 		</attachment>
 		<attachment name="territoryAttachment" attachTo="Celebes" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
@@ -5712,7 +5711,8 @@
 			<option name="production" value="1"/>
 		</attachment>
 		<attachment name="territoryAttachment" attachTo="Netherlands" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
-			<option name="production" value="4"/>
+			<option name="production" value="6"/>
+			<option name="capital" value="Dutch"/>
 		</attachment>
 		<attachment name="territoryAttachment" attachTo="Santiago" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
 			<option name="production" value="4"/>
@@ -8130,7 +8130,7 @@
 			<unitPlacement unitType="Infantry" territory="Istanbul" quantity="3"/>
 			<unitPlacement unitType="Infantry" territory="Venezuela" quantity="3"/>
 			<unitPlacement unitType="Infantry" territory="Sikang" quantity="4"/>
-			<unitPlacement unitType="Infantry" territory="Netherlands" quantity="9" owner="Dutch"/>
+			<unitPlacement unitType="Infantry" territory="Netherlands" quantity="7" owner="Dutch"/>
 			<unitPlacement unitType="Factory" territory="Netherlands" quantity="1" owner="Dutch"/>
 			<unitPlacement unitType="Bunker" territory="Netherlands" quantity="4" owner="Dutch"/>
 			<unitPlacement unitType="Artillery" territory="Moscow" quantity="3" owner="Russians"/>
@@ -8231,7 +8231,7 @@
 			<resourceGiven player="Hisaichi" resource="PUs" quantity="6"/>
 			<resourceGiven player="British" resource="PUs" quantity="20"/>                       
 			<resourceGiven player="Anzac" resource="PUs" quantity="10"/>
-			<resourceGiven player="Dutch" resource="PUs" quantity="13"/>
+			<resourceGiven player="Dutch" resource="PUs" quantity="14"/>
 			<resourceGiven player="Finns" resource="PUs" quantity="10"/>
 			<resourceGiven player="Romanians" resource="PUs" quantity="9"/>                        
 			<resourceGiven player="Thai" resource="PUs" quantity="6"/>
