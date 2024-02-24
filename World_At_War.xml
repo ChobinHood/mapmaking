@@ -2478,7 +2478,6 @@
 		<productionFrontier name="NeutralFrontier">
 			<frontierRules name="buyInfantry"/>
 			<frontierRules name="buyElite"/>
-			<frontierRules name="buyMarine"/>
 			<frontierRules name="buyArtillery2"/>
 			<frontierRules name="buyArmoredCar2"/>
 			<frontierRules name="buyMot.Inf"/>
@@ -8195,10 +8194,10 @@
 		        <unitPlacement unitType="Transport" territory="35 Sea Zone" quantity="1" owner="Dutch"/>
 			<unitPlacement unitType="Cruiser" territory="35 Sea Zone" quantity="1" owner="Dutch"/>
 
-			<unitPlacement unitType="Cruiser" territory="122 Sea Zone" quantity="2" owner="Anzac"/>
-			<unitPlacement unitType="Destroyer" territory="122 Sea Zone" quantity="2" owner="Anzac"/>
-			<unitPlacement unitType="Transport" territory="122 Sea Zone" quantity="2" owner="Anzac"/>
-			<unitPlacement unitType="Submarine" territory="122 Sea Zone" quantity="1" owner="Anzac"/>
+			<unitPlacement unitType="Cruiser" territory="120 Sea Zone" quantity="2" owner="Anzac"/>
+			<unitPlacement unitType="Destroyer" territory="120 Sea Zone" quantity="2" owner="Anzac"/>
+			<unitPlacement unitType="Transport" territory="120 Sea Zone" quantity="2" owner="Anzac"/>
+			<unitPlacement unitType="Submarine" territory="120 Sea Zone" quantity="1" owner="Anzac"/>
 
 			<unitPlacement unitType="Carrier" territory="85 Sea Zone" quantity="1" owner="Yamamoto"/>
 			<unitPlacement unitType="Battleship" territory="85 Sea Zone" quantity="1" owner="Yamamoto"/>
