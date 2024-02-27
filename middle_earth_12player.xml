@@ -2185,7 +2185,7 @@
       <option name="production" value="3"/>
     </attachment>
     <attachment name="territoryAttachment" attachTo="Rhun" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
-      <option name="production" value="6"/>
+      <option name="production" value="8"/>
       <option name="capital" value="Rhun"/>
       <option name="victoryCity" value="1"/>
     </attachment>
@@ -2213,7 +2213,7 @@
       <option name="production" value="2"/>
     </attachment>
     <attachment name="territoryAttachment" attachTo="Barad Dur" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
-      <option name="production" value="6"/>
+      <option name="production" value="8"/>
       <option name="capital" value="Mordor"/>
       <option name="victoryCity" value="1"/>
     </attachment>
@@ -2266,7 +2266,7 @@
       <option name="production" value="3"/>
     </attachment>
     <attachment name="territoryAttachment" attachTo="Moria" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
-      <option name="production" value="8"/>
+      <option name="production" value="10"/>
       <option name="capital" value="Goblins"/>
       <option name="victoryCity" value="1"/>
     </attachment>
@@ -2877,13 +2877,13 @@
       <unitPlacement unitType="fortifications" territory="Lonely Mtn." quantity="10" owner="Dwarves"/>
       <unitPlacement unitType="axeInfantry" territory="Lonely Mtn." quantity="4" owner="Dwarves"/>
       <unitPlacement unitType="cannon" territory="Lonely Mtn." quantity="2" owner="Dwarves"/>
-      <unitPlacement unitType="axeInfantry" territory="Iron Hills" quantity="6" owner="Dwarves"/>
+      <unitPlacement unitType="axeInfantry" territory="Iron Hills" quantity="4" owner="Dwarves"/>
       <unitPlacement unitType="phalanx" territory="Iron Hills" quantity="2" owner="Dwarves"/>
       <unitPlacement unitType="castle" territory="Iron Hills" quantity="1" owner="Dwarves"/>
       <unitPlacement unitType="fortifications" territory="Iron Hills" quantity="8" owner="Dwarves"/>
       <unitPlacement unitType="phalanx" territory="Lonely Mtn." quantity="2" owner="Dwarves"/>
-      <unitPlacement unitType="spearInfantry" territory="Lake Town" quantity="5" owner="Dale"/>
-      <unitPlacement unitType="archers" territory="Lake Town" quantity="3" owner="Dale"/>
+      <unitPlacement unitType="spearInfantry" territory="Lake Town" quantity="4" owner="Dale"/>
+      <unitPlacement unitType="archers" territory="Lake Town" quantity="2" owner="Dale"/>
       <unitPlacement unitType="castle" territory="Lake Town" quantity="1" owner="Dale"/>
       <unitPlacement unitType="Brand" territory="Lake Town" quantity="1" owner="Dale"/>
       <unitPlacement unitType="fortifications" territory="Lake Town" quantity="6" owner="Dale"/>
@@ -2899,20 +2899,16 @@
       <unitPlacement unitType="fortifications" territory="Bree" quantity="4" owner="Freefolk"/>
       <unitPlacement unitType="archers" territory="Bree" quantity="1" owner="Freefolk"/>
       <unitPlacement unitType="archers" territory="S. Downs" quantity="1" owner="Freefolk"/>
-      <unitPlacement unitType="spearInfantry" territory="S. Downs" quantity="1" owner="Freefolk"/>
       <unitPlacement unitType="archers" territory="Breelands" quantity="1" owner="Freefolk"/>
-      <unitPlacement unitType="lightCavalry" territory="Breelands" quantity="1" owner="Freefolk"/>
       <unitPlacement unitType="spearInfantry" territory="Breelands" quantity="1" owner="Freefolk"/>
       <unitPlacement unitType="hobbits" territory="Hobbiton" quantity="1" owner="Freefolk"/>
       <unitPlacement unitType="castle" territory="Hobbiton" quantity="1" owner="Freefolk"/>
       <unitPlacement unitType="hobbits" territory="Shire" quantity="1" owner="Freefolk"/>
       <unitPlacement unitType="Farmer Maggot" territory="Shire" quantity="1" owner="Freefolk"/>
-      <unitPlacement unitType="spearInfantry" territory="Fornost" quantity="1" owner="Freefolk"/>
       <unitPlacement unitType="Halbarad" territory="Fornost" quantity="1" owner="Freefolk"/>
       <unitPlacement unitType="Elladan and Ellrohir" territory="Fornost" quantity="2" owner="Freefolk"/>
       <unitPlacement unitType="hunters" territory="Fornost" quantity="3" owner="Freefolk"/> 
       <unitPlacement unitType="castle" territory="Fornost" quantity="1" owner="Freefolk"/>
-      <unitPlacement unitType="archers" territory="Fornost" quantity="1" owner="Freefolk"/>
       <unitPlacement unitType="hunters" territory="S. Arthedain" quantity="1" owner="Elves"/>
       <unitPlacement unitType="Cirdan" territory="S. Arthedain" quantity="1" owner="Elves"/>
       <unitPlacement unitType="castle" territory="S. Arthedain" quantity="1" owner="Elves"/>
@@ -2933,15 +2929,15 @@
       <unitPlacement unitType="spearInfantry" territory="Celduin" quantity="1"/>
     </unitInitialize>
     <resourceInitialize>
-      <resourceGiven player="Saruman" resource="PUs" quantity="14"/>
+      <resourceGiven player="Saruman" resource="PUs" quantity="15"/>
       <resourceGiven player="Freefolk" resource="PUs" quantity="13"/>
-      <resourceGiven player="Mordor" resource="PUs" quantity="28"/>
+      <resourceGiven player="Mordor" resource="PUs" quantity="30"/>
       <resourceGiven player="Rohan" resource="PUs" quantity="19"/>
-      <resourceGiven player="Goblins" resource="PUs" quantity="14"/>
+      <resourceGiven player="Goblins" resource="PUs" quantity="16"/>
       <resourceGiven player="Elves" resource="PUs" quantity="26"/>
       <resourceGiven player="Haradrim" resource="PUs" quantity="20"/>
       <resourceGiven player="Gondor" resource="PUs" quantity="36"/>
-      <resourceGiven player="Rhun" resource="PUs" quantity="12"/>
+      <resourceGiven player="Rhun" resource="PUs" quantity="14"/>
       <resourceGiven player="Dale" resource="PUs" quantity="11"/>
       <resourceGiven player="Khand" resource="PUs" quantity="11"/>
       <resourceGiven player="Dwarves" resource="PUs" quantity="16"/>
