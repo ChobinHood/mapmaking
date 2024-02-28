@@ -62,7 +62,7 @@
     <territory name="Umbar"/>
     <territory name="Umbar Peninsula"/>
     <!-- Goblin Lands -->
-    <territory name="N. Caves"/>
+    <territory name="Goblin Town"/>
     <territory name="Moria"/>
     <territory name="S. Caves"/>
     <!-- Neutral Lands -->
@@ -297,10 +297,10 @@
     <connection t1="Umbar" t2="Umbar Peninsula"/>
     <connection t1="Umbar" t2="Debatable Land"/>
     <!-- Goblin Lands -->
-    <connection t1="N. Caves" t2="Eregion"/>
-    <connection t1="N. Caves" t2="Drimrill Dale"/>
+    <connection t1="Goblin Town" t2="Eregion"/>
+    <connection t1="Goblin Town" t2="Drimrill Dale"/>
     <connection t1="Moria" t2="Eregion"/>
-    <connection t1="Moria" t2="N. Caves"/>
+    <connection t1="Moria" t2="Goblin Town"/>
     <connection t1="Moria" t2="S. Caves"/>
     <connection t1="Moria" t2="Drimrill Dale"/>
     <connection t1="Moria" t2="Celebran"/>
@@ -332,7 +332,7 @@
     <connection t1="Gladden" t2="Drimrill Dale"/>
     <connection t1="Gladden" t2="Carrock"/>
     <connection t1="Gladden" t2="Anduin West Bank"/>
-    <connection t1="N. Caves" t2="Anduin West Bank"/>
+    <connection t1="Goblin Town" t2="Anduin West Bank"/>
     <connection t1="Carrock" t2="Anduin West Bank"/>
     <connection t1="Anduin West Bank" t2="Drimrill Dale"/>
     <connection t1="Drimrill Dale" t2="Celebran"/>
@@ -598,7 +598,6 @@
     <player name="Gondor" optional="false"/>
     <player name="Rhun" optional="false"/>
     <player name="Dale" optional="false"/>
-    <player name="Khand" optional="false"/>
     <player name="Dwarves" optional="false"/>
     <!-- Evil Alliances -->
     <alliance player="Mordor" alliance="Evil"/>
@@ -606,7 +605,6 @@
     <alliance player="Goblins" alliance="Evil"/>
     <alliance player="Saruman" alliance="Evil"/>
     <alliance player="Rhun" alliance="Evil"/>
-    <alliance player="Khand" alliance="Evil"/>
     <!-- Good Alliances -->
     <alliance player="Elves" alliance="Good"/>
     <alliance player="Gondor" alliance="Good"/>
@@ -746,8 +744,6 @@
       <step name="rhunBidPlace" delegate="placeBid" player="Rhun" maxRunCount="1"/>
       <step name="daleBid" delegate="bid" player="Dale" maxRunCount="1"/>
       <step name="daleBidPlace" delegate="placeBid" player="Dale" maxRunCount="1"/>
-      <step name="khandBid" delegate="bid" player="Khand" maxRunCount="1"/>
-      <step name="khandBidPlace" delegate="placeBid" player="Khand" maxRunCount="1"/>
       <step name="dwarvesBid" delegate="bid" player="Dwarves" maxRunCount="1"/>
       <step name="dwarvesBidPlace" delegate="placeBid" player="Dwarves" maxRunCount="1"/>
       <!-- Saruman Game Sequence -->
@@ -821,12 +817,6 @@
       <step name="dalePlace" delegate="place" player="Dale"/>
       <step name="daleEndTurn" delegate="endTurn" player="Dale"/>
       <!-- Khand Game Sequence -->
-      <step name="khandPurchase" delegate="purchase" player="Khand"/>
-      <step name="khandCombatMove" delegate="move" player="Khand"/>
-      <step name="khandBattle" delegate="battle" player="Khand"/>
-      <step name="khandNonCombatMove" delegate="move" player="Khand" display="Non Combat Move"/>
-      <step name="khandPlace" delegate="place" player="Khand"/>
-      <step name="khandEndTurn" delegate="endTurn" player="Khand"/>
       <!-- Dwarves Game Sequence -->
       <step name="dwarvesPurchase" delegate="purchase" player="Dwarves"/>
       <step name="dwarvesCombatMove" delegate="move" player="Dwarves"/>
@@ -1016,8 +1006,8 @@
       <result resourceOrUnit="corsairs" quantity="2"/>
     </productionRule>
     <productionRule name="buyTowerGuard">
-      <cost resource="PUs" quantity="11"/>
-      <result resourceOrUnit="towerGuard" quantity="2"/>
+      <cost resource="PUs" quantity="5"/>
+      <result resourceOrUnit="towerGuard" quantity="1"/>
     </productionRule>
     <productionRule name="buyLightCavalry">
       <cost resource="PUs" quantity="5"/>
@@ -1032,11 +1022,11 @@
       <result resourceOrUnit="trebuche" quantity="1"/>
     </productionRule>
     <productionRule name="buyCaravel">
-      <cost resource="PUs" quantity="5"/>
+      <cost resource="PUs" quantity="6"/>
       <result resourceOrUnit="caravel" quantity="1"/>
     </productionRule>
     <productionRule name="buyGalleon">
-      <cost resource="PUs" quantity="8"/>
+      <cost resource="PUs" quantity="9"/>
       <result resourceOrUnit="galleon" quantity="1"/>
     </productionRule>
     <productionRule name="buyOliphant">
@@ -1068,7 +1058,7 @@
       <result resourceOrUnit="cutter" quantity="1"/>
     </productionRule>
     <productionRule name="buyClipper">
-      <cost resource="PUs" quantity="14"/>
+      <cost resource="PUs" quantity="12"/>
       <result resourceOrUnit="clipper" quantity="1"/>
     </productionRule>
     <productionRule name="buyOrcs">
@@ -1092,11 +1082,11 @@
       <result resourceOrUnit="nazgul" quantity="1"/>
     </productionRule>
     <productionRule name="buyTrireme">
-      <cost resource="PUs" quantity="8"/>
+      <cost resource="PUs" quantity="7"/>
       <result resourceOrUnit="trireme" quantity="1"/>
     </productionRule>
     <productionRule name="buyBattleship">
-      <cost resource="PUs" quantity="16"/>
+      <cost resource="PUs" quantity="13"/>
       <result resourceOrUnit="battleship" quantity="1"/>
     </productionRule>
     <productionRule name="buyStabbers">
@@ -1132,7 +1122,7 @@
       <result resourceOrUnit="swanBoat" quantity="1"/>
     </productionRule>
     <productionRule name="buyBarge">
-      <cost resource="PUs" quantity="4"/>
+      <cost resource="PUs" quantity="5"/>
       <result resourceOrUnit="barge" quantity="1"/>
     </productionRule>
     <productionRule name="buyArchers">
@@ -1140,8 +1130,8 @@
       <result resourceOrUnit="archers" quantity="2"/>
     </productionRule>
     <productionRule name="buyBerzerkers">
-      <cost resource="PUs" quantity="7"/>
-      <result resourceOrUnit="berzerkers" quantity="2"/>
+      <cost resource="PUs" quantity="4"/>
+      <result resourceOrUnit="berzerkers" quantity="1"/>
     </productionRule>
     <productionRule name="buyCannon">
       <cost resource="PUs" quantity="4"/>
@@ -1164,7 +1154,7 @@
       <result resourceOrUnit="zepplin" quantity="1"/>
     </productionRule>
     <productionRule name="buyGreatship">
-      <cost resource="PUs" quantity="12"/>
+      <cost resource="PUs" quantity="8"/>
       <result resourceOrUnit="greatship" quantity="1"/>
     </productionRule>
     <productionRule name="buyLongship">
@@ -1253,9 +1243,7 @@
       <frontierRules name="buyAxeInfantry"/>
       <frontierRules name="buyBerzerkers"/>
       <frontierRules name="buyPhalanx"/>
-      <frontierRules name="buyCannon"/>
-      <frontierRules name="buyMortar"/>
-      <frontierRules name="buyZepplin"/>
+      <frontierRules name="buyXbowInfantry"/>
       <frontierRules name="buyLongship"/>
       <frontierRules name="buyGreatship"/>
       <frontierRules name="buycastle"/>
@@ -1337,7 +1325,7 @@
       <frontierRules name="buyfortifications"/>
       <frontierRules name="buyWargs"/>
     </productionFrontier>
-    <productionFrontier name="khandProduction">
+    <!--<productionFrontier name="khandProduction">
       <frontierRules name="buyRaiders"/>
       <frontierRules name="buyXbowInfantry"/>
       <frontierRules name="buyWarWolves"/>
@@ -1348,7 +1336,7 @@
       <frontierRules name="buycastle"/>
       <frontierRules name="buyTower"/>
       <frontierRules name="buyfortifications"/>
-    </productionFrontier>
+    </productionFrontier>-->
     <productionFrontier name="rhunProduction">
       <frontierRules name="buySpearInfantry"/>
       <frontierRules name="buyChariotArchers"/>
@@ -1371,7 +1359,6 @@
     <playerProduction player="Gondor" frontier="gondorProduction"/>
     <playerProduction player="Rhun" frontier="rhunProduction"/>
     <playerProduction player="Dale" frontier="daleProduction"/>
-    <playerProduction player="Khand" frontier="khandProduction"/>
     <playerProduction player="Dwarves" frontier="dwarvesProduction"/>
 </production>
 <technology>
@@ -1382,14 +1369,14 @@
       <option name="transportCost" value="1"/>
       <option name="attack" value="3"/>
       <option name="defense" value="5"/>
-      <option name="hitPoints" value="3"/>
+      <option name="hitPoints" value="2"/>
       <option name="canBlitz" value="true"/>
       <option name="artillery" value="true"/> 
 </attachment>
 <attachment name="unitAttachment" attachTo="Farmer Maggot" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
       <option name="movement" value="1"/>
       <option name="transportCost" value="1"/>
-      <option name="attack" value="3"/>
+      <option name="attack" value="2"/>
       <option name="defense" value="4"/>
       <option name="artillerySupportable" value="true"/>
 </attachment>
@@ -1398,7 +1385,7 @@
       <option name="transportCost" value="1"/>
       <option name="attack" value="5"/>
       <option name="defense" value="4"/>
-      <option name="hitPoints" value="3"/>
+      <option name="hitPoints" value="2"/>
       <option name="canBlitz" value="true"/>
 </attachment>
 <attachment name="unitAttachment" attachTo="Cirdan" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
@@ -1414,7 +1401,7 @@
       <option name="transportCost" value="1"/>
       <option name="attack" value="5"/>
       <option name="defense" value="5"/>
-      <option name="hitPoints" value="4"/>
+      <option name="hitPoints" value="3"/>
       <option name="canBlitz" value="true"/>
       <option name="artillery" value="true"/> 
 </attachment>
@@ -1423,14 +1410,14 @@
       <option name="transportCost" value="1"/>
       <option name="attack" value="5"/>
       <option name="defense" value="5"/>
-      <option name="hitPoints" value="4"/>
+      <option name="hitPoints" value="3"/>
       <option name="canBlitz" value="true"/> 
 </attachment>
 <attachment name="unitAttachment" attachTo="Arwen" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
       <option name="movement" value="3"/>
       <option name="transportCost" value="1"/>
       <option name="attack" value="3"/>
-      <option name="defense" value="5"/>
+      <option name="defense" value="4"/>
       <option name="hitPoints" value="2"/>
       <option name="canBlitz" value="true"/>
       <option name="artillery" value="true"/> 
@@ -1446,17 +1433,17 @@
 <attachment name="unitAttachment" attachTo="Celeborn" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
       <option name="movement" value="1"/>
       <option name="transportCost" value="1"/>
-      <option name="attack" value="3"/>
-      <option name="defense" value="5"/>
+      <option name="attack" value="4"/>
+      <option name="defense" value="4"/>
       <option name="artillerySupportable" value="true"/>
       <option name="hitPoints" value="3"/>
 </attachment>
 <attachment name="unitAttachment" attachTo="Saruman" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
       <option name="movement" value="2"/>
       <option name="transportCost" value="1"/>
-      <option name="attack" value="4"/>
-      <option name="defense" value="4"/>
-      <option name="hitPoints" value="3"/>
+      <option name="attack" value="3"/>
+      <option name="defense" value="5"/>
+      <option name="hitPoints" value="2"/>
       <option name="canBlitz" value="true"/>
       <option name="artillery" value="true"/>
 </attachment>
@@ -1465,7 +1452,7 @@
       <option name="transportCost" value="1"/>
       <option name="attack" value="5"/>
       <option name="defense" value="4"/>
-      <option name="hitPoints" value="4"/>
+      <option name="hitPoints" value="3"/>
       <option name="canBlitz" value="true"/>
       <option name="artillery" value="true"/> 
 </attachment>
@@ -1473,7 +1460,7 @@
       <option name="movement" value="2"/>
       <option name="transportCost" value="1"/>
       <option name="attack" value="5"/>
-      <option name="defense" value="4"/>
+      <option name="defense" value="3"/>
       <option name="hitPoints" value="3"/>
       <option name="canBlitz" value="true"/>
       <option name="artillery" value="true"/> 
@@ -1482,7 +1469,7 @@
       <option name="movement" value="2"/>
       <option name="transportCost" value="1"/>
       <option name="attack" value="5"/>
-      <option name="defense" value="4"/>
+      <option name="defense" value="3"/>
       <option name="hitPoints" value="2"/>
       <option name="canBlitz" value="true"/>
 </attachment>
@@ -1490,7 +1477,7 @@
       <option name="movement" value="2"/>
       <option name="transportCost" value="1"/>
       <option name="attack" value="4"/>
-      <option name="defense" value="4"/>
+      <option name="defense" value="3"/>
       <option name="hitPoints" value="2"/>
       <option name="canBlitz" value="true"/>
 </attachment>
@@ -1506,7 +1493,7 @@
 <attachment name="unitAttachment" attachTo="Boromir" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
       <option name="movement" value="2"/>
       <option name="transportCost" value="1"/>
-      <option name="attack" value="4"/>
+      <option name="attack" value="5"/>
       <option name="defense" value="4"/>
       <option name="hitPoints" value="2"/>
       <option name="canBlitz" value="true"/>
@@ -1516,14 +1503,14 @@
       <option name="transportCost" value="1"/>
       <option name="attack" value="6"/>
       <option name="defense" value="6"/>
-      <option name="hitPoints" value="4"/>
+      <option name="hitPoints" value="3"/>
       <option name="canBlitz" value="true"/>
       <option name="artillery" value="true"/> 
 </attachment>
 <attachment name="unitAttachment" attachTo="Legolas" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
       <option name="movement" value="2"/>
       <option name="transportCost" value="1"/>
-      <option name="attack" value="5"/>
+      <option name="attack" value="4"/>
       <option name="defense" value="6"/>
       <option name="hitPoints" value="3"/>
       <option name="canBlitz" value="true"/>
@@ -1542,14 +1529,13 @@
       <option name="transportCost" value="1"/>
       <option name="attack" value="2"/>
       <option name="defense" value="4"/> 
-      <option name="hitPoints" value="2"/>
       <option name="artillerySupportable" value="true"/>
 </attachment>
 <attachment name="unitAttachment" attachTo="Merry and Pippin" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
       <option name="movement" value="1"/>
       <option name="transportCost" value="1"/>
-      <option name="attack" value="2"/>
-      <option name="defense" value="4"/>
+      <option name="attack" value="1"/>
+      <option name="defense" value="3"/>
       <option name="artillerySupportable" value="true"/>
 </attachment>
 <attachment name="unitAttachment" attachTo="Gandalf the White" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
@@ -1565,7 +1551,7 @@
       <option name="movement" value="2"/>
       <option name="transportCost" value="1"/>
       <option name="attack" value="3"/>
-      <option name="defense" value="5"/>
+      <option name="defense" value="4"/>
       <option name="artillery" value="true"/>
       <option name="hitPoints" value="3"/>
       <option name="canBlitz" value="true"/>
@@ -1584,7 +1570,7 @@
       <option name="attack" value="4"/>
       <option name="defense" value="3"/>
       <option name="artillerySupportable" value="true"/>
-      <option name="hitPoints" value="4"/>
+      <option name="hitPoints" value="3"/>
 </attachment>
 <attachment name="unitAttachment" attachTo="Gothmog" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
       <option name="movement" value="2"/>
@@ -1592,7 +1578,7 @@
       <option name="attack" value="4"/>
       <option name="defense" value="4"/>
       <option name="artillerySupportable" value="true"/>
-      <option name="hitPoints" value="4"/>
+      <option name="hitPoints" value="3"/>
       <option name="canBlitz" value="true"/>
 </attachment>
 <attachment name="unitAttachment" attachTo="Shagrat" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
@@ -1601,30 +1587,30 @@
       <option name="attack" value="5"/>
       <option name="defense" value="3"/>
       <option name="artillerySupportable" value="true"/>
-      <option name="hitPoints" value="3"/>
+      <option name="hitPoints" value="2"/>
       <option name="canBlitz" value="true"/>
 </attachment>
 <attachment name="unitAttachment" attachTo="Gorbag" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
       <option name="movement" value="2"/>
       <option name="transportCost" value="1"/>
-      <option name="attack" value="5"/>
-      <option name="defense" value="3"/>
+      <option name="attack" value="4"/>
+      <option name="defense" value="2"/>
       <option name="artillerySupportable" value="true"/>
       <option name="canBlitz" value="true"/>
 </attachment>
 <attachment name="unitAttachment" attachTo="Witch King" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
       <option name="movement" value="4"/>
-      <option name="attack" value="5"/>
+      <option name="attack" value="4"/>
       <option name="defense" value="3"/>
       <option name="artillery" value="true"/>
-      <option name="hitPoints" value="4"/>
+      <option name="hitPoints" value="3"/>
       <option name="isAir" value="true"/>
 </attachment>
 <attachment name="unitAttachment" attachTo="Dain" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
       <option name="movement" value="1"/>
       <option name="transportCost" value="1"/>
-      <option name="attack" value="4"/>
-      <option name="defense" value="6"/>
+      <option name="attack" value="3"/>
+      <option name="defense" value="5"/>
       <option name="artillerySupportable" value="true"/>
       <option name="hitPoints" value="3"/>
 </attachment>
@@ -1648,9 +1634,9 @@
       <option name="movement" value="2"/>
       <option name="transportCost" value="1"/>
       <option name="attack" value="4"/>
-      <option name="defense" value="5"/>
+      <option name="defense" value="4"/>
       <option name="artillery" value="true"/>
-      <option name="hitPoints" value="4"/>
+      <option name="hitPoints" value="3"/>
       <option name="canBlitz" value="true"/>
 </attachment>
 <attachment name="unitAttachment" attachTo="Tauriel" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
@@ -1658,7 +1644,7 @@
       <option name="transportCost" value="1"/>
       <option name="attack" value="4"/>
       <option name="defense" value="4"/>
-      <option name="hitPoints" value="3"/>
+      <option name="hitPoints" value="2"/>
       <option name="canBlitz" value="true"/>
       <option name="artillerySupportable" value="true"/>
 </attachment>
@@ -1667,7 +1653,7 @@
       <option name="transportCost" value="2"/>
       <option name="attack" value="6"/>
       <option name="defense" value="2"/>
-      <option name="hitPoints" value="3"/>
+      <option name="hitPoints" value="2"/>
       <option name="canBlitz" value="true"/>
 </attachment>
 <attachment name="unitAttachment" attachTo="Radagast" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
@@ -1675,7 +1661,7 @@
       <option name="transportCost" value="1"/>
       <option name="attack" value="3"/>
       <option name="defense" value="5"/>
-      <option name="hitPoints" value="3"/>
+      <option name="hitPoints" value="2"/>
       <option name="canBlitz" value="true"/>
       <option name="artillery" value="true"/>
 </attachment> 
@@ -1690,7 +1676,7 @@
       <option name="movement" value="1"/>
       <option name="attack" value="4"/>
       <option name="defense" value="6"/>
-      <option name="hitPoints" value="4"/>
+      <option name="hitPoints" value="3"/>
 </attachment>
     <attachment name="unitAttachment" attachTo="fortifications" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
       <option name="defense" value="2"/>
@@ -1722,13 +1708,13 @@
       <option name="movement" value="1"/>
       <option name="transportCost" value="1"/>
       <option name="attack" value="2"/>
-      <option name="defense" value="1"/>
+      <option name="defense" value="2"/>
       <option name="artillerySupportable" value="true"/>
     </attachment>
     <attachment name="unitAttachment" attachTo="towerGuard" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
       <option name="movement" value="1"/>
       <option name="transportCost" value="1"/>
-      <option name="attack" value="2"/>
+      <option name="attack" value="1"/>
       <option name="defense" value="4"/>
       <option name="artillerySupportable" value="true"/>
     </attachment>
@@ -1819,17 +1805,17 @@
     <attachment name="unitAttachment" attachTo="caravel" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
       <option name="movement" value="2"/>
       <option name="isSea" value="true"/>
-      <option name="transportCapacity" value="1"/>
+      <option name="transportCapacity" value="2"/>
       <!--<option name="carrierCapacity" value="1"/>-->
       <option name="attack" value="1"/>
-      <option name="defense" value="1"/>
+      <option name="defense" value="2"/>
     </attachment>
     <attachment name="unitAttachment" attachTo="galleon" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
       <option name="movement" value="2"/>
       <option name="isSea" value="true"/>
       <option name="transportCapacity" value="2"/>
       <!--<option name="carrierCapacity" value="2"/>-->
-      <option name="attack" value="2"/>
+      <option name="attack" value="3"/>
       <option name="defense" value="2"/>
     </attachment>
     <attachment name="unitAttachment" attachTo="longship" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
@@ -1924,16 +1910,16 @@
       <option name="transportCapacity" value="1"/>
       <!--<option name="carrierCapacity" value="1"/>-->
       <option name="attack" value="0"/>
-      <option name="defense" value="1"/>
+      <option name="defense" value="2"/>
     </attachment>
     <attachment name="unitAttachment" attachTo="cutter" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
       <option name="movement" value="3"/>
       <option name="isSea" value="true"/>
-      <option name="attack" value="1"/>
-      <option name="defense" value="1"/>
+      <option name="attack" value="2"/>
+      <option name="defense" value="2"/>
     </attachment>
     <attachment name="unitAttachment" attachTo="clipper" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
-      <option name="movement" value="4"/>
+      <option name="movement" value="3"/>
       <option name="isSea" value="true"/>
       <option name="transportCapacity" value="3"/>
       <!--<option name="carrierCapacity" value="3"/>-->
@@ -1951,7 +1937,7 @@
       <option name="movement" value="1"/>
       <option name="transportCost" value="1"/>
       <option name="attack" value="3"/>
-      <option name="defense" value="1"/>
+      <option name="defense" value="2"/>
       <option name="artillerySupportable" value="true"/>
     </attachment>
     <attachment name="unitAttachment" attachTo="phalanx" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
@@ -2082,7 +2068,7 @@
     <attachment name="unitAttachment" attachTo="barge" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
       <option name="movement" value="1"/>
       <option name="isSea" value="true"/>
-      <option name="transportCapacity" value="5"/>
+      <option name="transportCapacity" value="2"/>
       <!--<option name="carrierCapacity" value="5"/>-->
       <option name="attack" value="2"/>
       <option name="defense" value="1"/>
@@ -2239,12 +2225,11 @@
       <option name="production" value="1"/>
     </attachment>
     <attachment name="territoryAttachment" attachTo="Khand" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
-      <option name="production" value="6"/>
-      <option name="capital" value="Khand"/>
+      <option name="production" value="5"/>
       <option name="victoryCity" value="1"/>
     </attachment>
     <attachment name="territoryAttachment" attachTo="S. Khand" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
-      <option name="production" value="5"/>
+      <option name="production" value="3"/>
     </attachment>
     <attachment name="territoryAttachment" attachTo="Haradwaith" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="1"/>
@@ -2259,8 +2244,8 @@
       <option name="production" value="3"/>
     </attachment>
     <!-- Goblin Lands -->
-    <attachment name="territoryAttachment" attachTo="N. Caves" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
-      <option name="production" value="3"/>
+    <attachment name="territoryAttachment" attachTo="Goblin Town" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="5"/>
     </attachment>
     <attachment name="territoryAttachment" attachTo="S. Caves" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="3"/>
@@ -2524,38 +2509,38 @@
       <option name="landTerritories" value="W. Osg.:E. Osg."/>
     </attachment>
 <!--National Objectives-->
-<attachment name="objectiveAttachment_Rhun_1_Alliance_with_Sauron" attachTo="Rhun" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
+<attachment name="objectiveAttachment_Rhun_1_Alliance_with_Sauron_(Mordor intact - 10)" attachTo="Rhun" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
       <option name="objectiveValue" value="10"/>
       <option name="alliedOwnershipTerritories" value="Udun:Minas Morgul:Barad Dur" count="3"/>
 	</attachment>
-<attachment name="objectiveAttachment_Rhun_2_Erebor" attachTo="Rhun" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
+<attachment name="objectiveAttachment_Rhun_2_Erebor_(5)" attachTo="Rhun" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
       <option name="objectiveValue" value="5"/>
       <option name="alliedOwnershipTerritories" value="Lonely Mtn." count="1"/>
 	</attachment>
-<attachment name="objectiveAttachment_Dale_1_Kingdom_of_Dale" attachTo="Dale" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
+<attachment name="objectiveAttachment_Dale_1_Kingdom_of_Dale_(N. and S. Dale - 5)" attachTo="Dale" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
       <option name="objectiveValue" value="5"/>
       <option name="alliedOwnershipTerritories" value="N. Dale:S. Dale" count="2"/>
 	</attachment>
-<attachment name="objectiveAttachment_Dwarves_1_Trade" attachTo="Dwarves" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
+<attachment name="objectiveAttachment_Dwarves_1_Trade_(N. Dale and Iron Hills - 5)" attachTo="Dwarves" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
       <option name="objectiveValue" value="5"/>
       <option name="alliedOwnershipTerritories" value="N. Dale:Iron Hills" count="2"/>
 	</attachment>
-<attachment name="objectiveAttachment_Dwarves_2_Mithril" attachTo="Dwarves" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
+<attachment name="objectiveAttachment_Dwarves_2_Mithril_(Unit in Moria - 10)" attachTo="Dwarves" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
       <option name="objectiveValue" value="10"/>
-      <option name="alliedPresenceTerritories" value="Moria" count="1"/>
+      <option name="directPresenceTerritories" value="Moria" count="1"/>
       <option name="unitPresence" value="ANY" count="1"/>
 	</attachment>
-<attachment name="objectiveAttachment_Elves_1_Rings_of_Power" attachTo="Elves" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
+<attachment name="objectiveAttachment_Elves_1_Sites_of_Power_(Hold Rivendell, Lorien + High Mirkwood - 5)" attachTo="Elves" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
       <option name="objectiveValue" value="5"/>
-      <option name="alliedOwnershipTerritories" value="Rivendell:Lorien:S. Arthedain" count="3"/>
+      <option name="alliedOwnershipTerritories" value="Rivendell:Lorien:High Mirkwood" count="3"/>
 	</attachment>
-<attachment name="objectiveAttachment_Goblins_1_Rings_of_Power" attachTo="Goblins" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
+<attachment name="objectiveAttachment_Goblins_1_Rings_of_Power_(Hold Rivendell, Lorien + High Mirkwood - 5 each)" attachTo="Goblins" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
       <option name="objectiveValue" value="5"/>
-      <option name="alliedOwnershipTerritories" value="Rivendell:Lorien" count="each"/>
+      <option name="alliedOwnershipTerritories" value="Rivendell:Lorien:High Mirkwood" count="each"/>
 	</attachment>
-<attachment name="objectiveAttachment_Goblins_2_Cave_Systems" attachTo="Goblins" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
+<attachment name="objectiveAttachment_Goblins_2_Cave_Systems_(Goblin Town, S. Caves +Moria - 5)" attachTo="Goblins" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
       <option name="objectiveValue" value="5"/>
-      <option name="alliedOwnershipTerritories" value="N. Caves:S. Caves:Moria" count="3"/>
+      <option name="alliedOwnershipTerritories" value="Goblin Town:S. Caves:Moria" count="3"/>
         </attachment>
 <attachment name="objectiveAttachment_Saruman_1_Dunland" attachTo="Saruman" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
       <option name="objectiveValue" value="5"/>
@@ -2570,17 +2555,17 @@
       <option name="alliedOwnershipTerritories" value="W. Osg.:E. Osg." count="each"/>
         </attachment>
 <attachment name="objectiveAttachment_Haradrim_1_Spoils_of_War" attachTo="Haradrim" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
-      <option name="objectiveValue" value="2"/>
-      <option name="alliedOwnershipTerritories" value="Andrast:Anfalas:Lossarnach:Minas Tirith" count="each"/>
+      <option name="objectiveValue" value="3"/>
+      <option name="alliedOwnershipTerritories" value="Andrast:Anfalas:Minas Tirith" count="each"/>
         </attachment>
 <attachment name="objectiveAttachment_Mordor_1_Spoils_of_War" attachTo="Mordor" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
-      <option name="objectiveValue" value="2"/>
+      <option name="objectiveValue" value="3"/>
       <option name="alliedOwnershipTerritories" value="Minas Tirith:Helms Deep:Rivendell:Lorien:High Mirkwood:Lake Town:Lonely Mtn." count="each"/>
         </attachment>
-<attachment name="objectiveAttachment_Khand_1_Trade" attachTo="Khand" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
+<!--<attachment name="objectiveAttachment_Khand_1_Trade" attachTo="Khand" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
       <option name="objectiveValue" value="2"/>
       <option name="alliedOwnershipTerritories" value="Nurn:S. Rhun:Harad Road" count="each"/>
-        </attachment>
+        </attachment>-->
 <attachment name="objectiveAttachment_Freefolk_1_Northmen" attachTo="Freefolk" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
       <option name="objectiveValue" value="2"/>
       <option name="alliedOwnershipTerritories" value="Lond Daer:Tharbad" count="each"/>
@@ -2640,8 +2625,8 @@
       <territoryOwner territory="Harad Road" owner="Haradrim"/>
       <territoryOwner territory="City of Corsairs" owner="Haradrim"/>
       <territoryOwner territory="Harad Coast" owner="Haradrim"/>
-      <territoryOwner territory="Khand" owner="Khand"/>
-      <territoryOwner territory="S. Khand" owner="Khand"/>
+      <territoryOwner territory="Khand" owner="Haradrim"/>
+      <territoryOwner territory="S. Khand" owner="Haradrim"/>
       <territoryOwner territory="Umbar" owner="Haradrim"/>
       <territoryOwner territory="Umbar Peninsula" owner="Haradrim"/>
       <territoryOwner territory="Far Harad" owner="Haradrim"/>
@@ -2649,7 +2634,7 @@
       <territoryOwner territory="N. Haradwaith" owner="Haradrim"/>
       <territoryOwner territory="W. Haradwaith" owner="Haradrim"/>
       <!-- Goblin Lands -->
-      <territoryOwner territory="N. Caves" owner="Goblins"/>
+      <territoryOwner territory="Goblin Town" owner="Goblins"/>
       <territoryOwner territory="Moria" owner="Goblins"/>
       <territoryOwner territory="S. Caves" owner="Goblins"/>
       <territoryOwner territory="N. Dale" owner="Dale"/>
@@ -2843,12 +2828,12 @@
       <unitPlacement unitType="galleon" territory="Bay of Harad" quantity="4" owner="Haradrim"/>
       <unitPlacement unitType="galleon" territory="Harnen" quantity="3" owner="Haradrim"/>
       <unitPlacement unitType="caravel" territory="Umbar Peninsula Coast" quantity="3" owner="Haradrim"/>
-      <unitPlacement unitType="raiders" territory="Khand" quantity="4" owner="Khand"/>
-      <unitPlacement unitType="raiderCavalry" territory="S. Khand" quantity="3" owner="Khand"/>
-      <unitPlacement unitType="warWolves" territory="S. Khand" quantity="5" owner="Khand"/>
-      <unitPlacement unitType="xbowInfantry" territory="Khand" quantity="4" owner="Khand"/>
-      <unitPlacement unitType="castle" territory="Khand" quantity="1" owner="Khand"/>
-      <unitPlacement unitType="fortifications" territory="Khand" quantity="2" owner="Khand"/>
+      <unitPlacement unitType="raiders" territory="Khand" quantity="4" owner="Haradrim"/>
+      <unitPlacement unitType="raiderCavalry" territory="S. Khand" quantity="3" owner="Haradrim"/>
+      <unitPlacement unitType="warWolves" territory="S. Khand" quantity="5" owner="Haradrim"/>
+      <unitPlacement unitType="xbowInfantry" territory="Khand" quantity="4" owner="Haradrim"/>
+      <unitPlacement unitType="castle" territory="Khand" quantity="1" owner="Haradrim"/>
+      <unitPlacement unitType="fortifications" territory="Khand" quantity="2" owner="Haradrim"/>
       <!-- Goblin Lands -->
       <unitPlacement unitType="castle" territory="Moria" quantity="1" owner="Goblins"/>
       <unitPlacement unitType="fortifications" territory="Moria" quantity="8" owner="Goblins"/>
@@ -2858,12 +2843,12 @@
       <unitPlacement unitType="balrog" territory="Moria" quantity="1" owner="Goblins"/>
       <unitPlacement unitType="wargs" territory="Moria" quantity="2" owner="Goblins"/>
       <unitPlacement unitType="bats" territory="Moria" quantity="2" owner="Goblins"/>
-      <unitPlacement unitType="castle" territory="N. Caves" quantity="1" owner="Goblins"/>
-      <unitPlacement unitType="stabbers" territory="N. Caves" quantity="4" owner="Goblins"/>
-      <unitPlacement unitType="shooters" territory="N. Caves" quantity="4" owner="Goblins"/>
-      <unitPlacement unitType="wargs" territory="N. Caves" quantity="1" owner="Goblins"/>
-      <unitPlacement unitType="bats" territory="N. Caves" quantity="2" owner="Goblins"/>
-      <unitPlacement unitType="fortifications" territory="N. Caves" quantity="4" owner="Goblins"/>
+      <unitPlacement unitType="castle" territory="Goblin Town" quantity="1" owner="Goblins"/>
+      <unitPlacement unitType="stabbers" territory="Goblin Town" quantity="5" owner="Goblins"/>
+      <unitPlacement unitType="shooters" territory="Goblin Town" quantity="5" owner="Goblins"/>
+      <unitPlacement unitType="wargs" territory="Goblin Town" quantity="1" owner="Goblins"/>
+      <unitPlacement unitType="bats" territory="Goblin Town" quantity="2" owner="Goblins"/>
+      <unitPlacement unitType="fortifications" territory="Goblin Town" quantity="4" owner="Goblins"/>
       <unitPlacement unitType="castle" territory="S. Caves" quantity="1" owner="Goblins"/>
       <unitPlacement unitType="stabbers" territory="S. Caves" quantity="4" owner="Goblins"/>
       <unitPlacement unitType="shooters" territory="S. Caves" quantity="4" owner="Goblins"/>
@@ -2933,13 +2918,12 @@
       <resourceGiven player="Freefolk" resource="PUs" quantity="13"/>
       <resourceGiven player="Mordor" resource="PUs" quantity="30"/>
       <resourceGiven player="Rohan" resource="PUs" quantity="19"/>
-      <resourceGiven player="Goblins" resource="PUs" quantity="16"/>
+      <resourceGiven player="Goblins" resource="PUs" quantity="18"/>
       <resourceGiven player="Elves" resource="PUs" quantity="26"/>
-      <resourceGiven player="Haradrim" resource="PUs" quantity="20"/>
+      <resourceGiven player="Haradrim" resource="PUs" quantity="28"/>
       <resourceGiven player="Gondor" resource="PUs" quantity="36"/>
       <resourceGiven player="Rhun" resource="PUs" quantity="14"/>
       <resourceGiven player="Dale" resource="PUs" quantity="11"/>
-      <resourceGiven player="Khand" resource="PUs" quantity="11"/>
       <resourceGiven player="Dwarves" resource="PUs" quantity="16"/>
     </resourceInitialize>
   </initialize>
