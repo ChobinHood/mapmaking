@@ -2263,7 +2263,7 @@
       <option name="production" value="2"/>
     </attachment>
     <attachment name="territoryAttachment" attachTo="Breelands" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
-      <option name="production" value="2"/>
+      <option name="production" value="1"/>
     </attachment>
     <attachment name="territoryAttachment" attachTo="Bree" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="3"/>
@@ -2542,23 +2542,23 @@
       <option name="objectiveValue" value="5"/>
       <option name="alliedOwnershipTerritories" value="Goblin Town:S. Caves:Moria" count="3"/>
         </attachment>
-<attachment name="objectiveAttachment_Saruman_1_Dunland" attachTo="Saruman" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
+<attachment name="objectiveAttachment_Saruman_1_Dunland_(N. and S. Dunland - 5)" attachTo="Saruman" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
       <option name="objectiveValue" value="5"/>
       <option name="alliedOwnershipTerritories" value="N. Dunland:S. Dunland" count="2"/>
 	</attachment>
-<attachment name="objectiveAttachment_Rohan_1_Saruman" attachTo="Rohan" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
+<attachment name="objectiveAttachment_Rohan_1_Saruman_(Isengard - 10)" attachTo="Rohan" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
       <option name="objectiveValue" value="10"/>
       <option name="alliedOwnershipTerritories" value="Isengard" count="1"/>
 	</attachment>
-<attachment name="objectiveAttachment_Gondor_1_Pride_of_Denethor" attachTo="Gondor" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
+<attachment name="objectiveAttachment_Gondor_1_Pride_of_Denethor_(W. and E. Osg - 3 each)" attachTo="Gondor" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
       <option name="objectiveValue" value="3"/>
       <option name="alliedOwnershipTerritories" value="W. Osg.:E. Osg." count="each"/>
         </attachment>
-<attachment name="objectiveAttachment_Haradrim_1_Spoils_of_War" attachTo="Haradrim" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
+<attachment name="objectiveAttachment_Haradrim_1_Spoils_of_War_(Andrast, Anfalas + Minas Tirith - 3 each)" attachTo="Haradrim" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
       <option name="objectiveValue" value="3"/>
       <option name="alliedOwnershipTerritories" value="Andrast:Anfalas:Minas Tirith" count="each"/>
         </attachment>
-<attachment name="objectiveAttachment_Mordor_1_Spoils_of_War" attachTo="Mordor" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
+<attachment name="objectiveAttachment_Mordor_1_Spoils_of_War_(Minas Tirith, Helms Deep, Rivendell, Lorien, High Mirkwood, Lake Town, Lonely Mtn. - 3 each)" attachTo="Mordor" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
       <option name="objectiveValue" value="3"/>
       <option name="alliedOwnershipTerritories" value="Minas Tirith:Helms Deep:Rivendell:Lorien:High Mirkwood:Lake Town:Lonely Mtn." count="each"/>
         </attachment>
@@ -2566,9 +2566,9 @@
       <option name="objectiveValue" value="2"/>
       <option name="alliedOwnershipTerritories" value="Nurn:S. Rhun:Harad Road" count="each"/>
         </attachment>-->
-<attachment name="objectiveAttachment_Freefolk_1_Northmen" attachTo="Freefolk" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
-      <option name="objectiveValue" value="2"/>
-      <option name="alliedOwnershipTerritories" value="Lond Daer:Tharbad" count="each"/>
+<attachment name="objectiveAttachment_Freefolk_1_Northmen_(Lond Daer + Tharbad - 5)" attachTo="Freefolk" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
+      <option name="objectiveValue" value="5"/>
+      <option name="alliedOwnershipTerritories" value="Lond Daer:Tharbad" count="2"/>
 	</attachment>
   </attachmentList>
   <initialize>
@@ -2821,17 +2821,15 @@
       <unitPlacement unitType="oliphant" territory="Umbar" quantity="2" owner="Haradrim"/>
       <unitPlacement unitType="castle" territory="Umbar" quantity="1" owner="Haradrim"/>
       <unitPlacement unitType="fortifications" territory="Umbar" quantity="3" owner="Haradrim"/>
-      <unitPlacement unitType="spearInfantry" territory="N. Haradwaith" quantity="2" owner="Haradrim"/>
-      <unitPlacement unitType="oliphant" territory="N. Haradwaith" quantity="1" owner="Haradrim"/>
-      <unitPlacement unitType="spearInfantry" territory="Harad Road" quantity="4" owner="Haradrim"/>
-      <unitPlacement unitType="oliphant" territory="Harad Road" quantity="2" owner="Haradrim"/>
+      <unitPlacement unitType="spearInfantry" territory="N. Haradwaith" quantity="4" owner="Haradrim"/>
+      <unitPlacement unitType="oliphant" territory="N. Haradwaith" quantity="2" owner="Haradrim"/>
+      <unitPlacement unitType="spearInfantry" territory="Harad Road" quantity="2" owner="Haradrim"/>
+      <unitPlacement unitType="oliphant" territory="Harad Road" quantity="1" owner="Haradrim"/>
       <unitPlacement unitType="galleon" territory="Bay of Harad" quantity="4" owner="Haradrim"/>
       <unitPlacement unitType="galleon" territory="Harnen" quantity="3" owner="Haradrim"/>
-      <unitPlacement unitType="caravel" territory="Umbar Peninsula Coast" quantity="3" owner="Haradrim"/>
-      <unitPlacement unitType="raiders" territory="Khand" quantity="4" owner="Haradrim"/>
-      <unitPlacement unitType="raiderCavalry" territory="S. Khand" quantity="3" owner="Haradrim"/>
-      <unitPlacement unitType="warWolves" territory="S. Khand" quantity="5" owner="Haradrim"/>
-      <unitPlacement unitType="xbowInfantry" territory="Khand" quantity="4" owner="Haradrim"/>
+      <unitPlacement unitType="caravel" territory="Umbar Peninsula Coast" quantity="4" owner="Haradrim"/>
+      <unitPlacement unitType="spearInfantry" territory="Khand" quantity="6" owner="Haradrim"/>
+      <unitPlacement unitType="raiderCavalry" territory="S. Khand" quantity="5" owner="Haradrim"/>
       <unitPlacement unitType="castle" territory="Khand" quantity="1" owner="Haradrim"/>
       <unitPlacement unitType="fortifications" territory="Khand" quantity="2" owner="Haradrim"/>
       <!-- Goblin Lands -->
@@ -2892,7 +2890,6 @@
       <unitPlacement unitType="Farmer Maggot" territory="Shire" quantity="1" owner="Freefolk"/>
       <unitPlacement unitType="Halbarad" territory="Fornost" quantity="1" owner="Freefolk"/>
       <unitPlacement unitType="Elladan and Ellrohir" territory="Fornost" quantity="2" owner="Freefolk"/>
-      <unitPlacement unitType="hunters" territory="Fornost" quantity="3" owner="Freefolk"/> 
       <unitPlacement unitType="castle" territory="Fornost" quantity="1" owner="Freefolk"/>
       <unitPlacement unitType="hunters" territory="S. Arthedain" quantity="1" owner="Elves"/>
       <unitPlacement unitType="Cirdan" territory="S. Arthedain" quantity="1" owner="Elves"/>
@@ -2915,7 +2912,7 @@
     </unitInitialize>
     <resourceInitialize>
       <resourceGiven player="Saruman" resource="PUs" quantity="15"/>
-      <resourceGiven player="Freefolk" resource="PUs" quantity="13"/>
+      <resourceGiven player="Freefolk" resource="PUs" quantity="12"/>
       <resourceGiven player="Mordor" resource="PUs" quantity="30"/>
       <resourceGiven player="Rohan" resource="PUs" quantity="19"/>
       <resourceGiven player="Goblins" resource="PUs" quantity="18"/>
@@ -2957,9 +2954,6 @@
       <number min="0" max="1000"/>
     </property>
     <property name="Dale bid" value="0" editable="true">
-      <number min="0" max="1000"/>
-    </property>
-    <property name="Khand bid" value="0" editable="true">
       <number min="0" max="1000"/>
     </property>
     <property name="Dwarves bid" value="0" editable="true">
