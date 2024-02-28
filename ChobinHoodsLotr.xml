@@ -2615,6 +2615,7 @@
       <territoryOwner territory="Dol Goldur" owner="Mordor"/>
       <territoryOwner territory="Central Mordor" owner="Mordor"/>
       <territoryOwner territory="Nurn" owner="Mordor"/>
+      <territoryOwner territory="Dagorlad" owner="Mordor"/>
       <territoryOwner territory="Barad Dur" owner="Mordor"/>
       <territoryOwner territory="Isengard" owner="Saruman"/>
       <territoryOwner territory="S. Dunland" owner="Saruman"/>
@@ -2660,7 +2661,7 @@
       <unitPlacement unitType="Glorfindel" territory="Rivendell" quantity="1" owner="Elves"/>
       <unitPlacement unitType="Arwen" territory="Rivendell" quantity="1" owner="Elves"/>
       <unitPlacement unitType="Frodo and Sam" territory="Middle Anduin" quantity="2" owner="Elves"/>
-      <unitPlacement unitType="Merry and Pippin" territory="Eastfold" quantity="2" owner="Elves"/>
+      <unitPlacement unitType="Merry and Pippin" territory="Eastfold" quantity="2" owner="Rohan"/>
       <unitPlacement unitType="swanBoat" territory="Middle Anduin" quantity="4" owner="Elves"/>
       <unitPlacement unitType="Aragorn" territory="Eastfold" quantity="1" owner="Rohan"/>
       <unitPlacement unitType="Legolas" territory="Eastfold" quantity="1" owner="Rohan"/>
@@ -2681,7 +2682,7 @@
       <unitPlacement unitType="fortifications" territory="Lorien" quantity="3" owner="Elves"/>
       <unitPlacement unitType="ents" territory="Fangorn" quantity="6" owner="Elves"/>
       <unitPlacement unitType="Treebeard" territory="Fangorn" quantity="1" owner="Elves"/>
-      <unitPlacement unitType="Gandalf the White" territory="E. Emnet" quantity="1" owner="Elves"/>    
+      <unitPlacement unitType="Gandalf the White" territory="E. Emnet" quantity="1" owner="Rohan"/>    
       <unitPlacement unitType="ents" territory="E. Mirkwood" quantity="1" owner="Elves"/>
       <unitPlacement unitType="ents" territory="W. Mirkwood" quantity="1" owner="Elves"/>
       <unitPlacement unitType="ents" territory="N. Mirkwood" quantity="1" owner="Elves"/>
@@ -2730,6 +2731,8 @@
       <unitPlacement unitType="undead" territory="Paths of the Dead" quantity="10" owner="Gondor"/>
       <unitPlacement unitType="King of the Dead" territory="Paths of the Dead" quantity="1" owner="Gondor"/>
       <unitPlacement unitType="spearInfantry" territory="Belfalas" quantity="1" owner="Gondor"/>
+      <unitPlacement unitType="spearInfantry" territory="N. Ithilien" quantity="1" owner="Gondor"/>
+      <unitPlacement unitType="spearInfantry" territory="S. Ithilien" quantity="1" owner="Gondor"/>
       <unitPlacement unitType="galleon" territory="Lefnui" quantity="2" owner="Gondor"/>
       <unitPlacement unitType="galleon" territory="Morthond" quantity="3" owner="Gondor"/>
       <unitPlacement unitType="caravel" territory="Gilrain" quantity="2" owner="Gondor"/>
@@ -2797,7 +2800,7 @@
       <unitPlacement unitType="Saruman" territory="Isengard" quantity="1" owner="Saruman"/>
       <unitPlacement unitType="castle" territory="Rhun" quantity="1" owner="Rhun"/>
       <unitPlacement unitType="fortifications" territory="Rhun" quantity="6" owner="Rhun"/>
-      <unitPlacement unitType="spearInfantry" territory="Rhun" quantity="9" owner="Rhun"/>
+      <unitPlacement unitType="spearInfantry" territory="Rhun" quantity="8" owner="Rhun"/>
       <unitPlacement unitType="chariotArchers" territory="N. Rhun" quantity="3" owner="Rhun"/>
       <unitPlacement unitType="spearInfantry" territory="N. Rhun" quantity="6" owner="Rhun"/>
       <unitPlacement unitType="warChariot" territory="N. Rhun" quantity="3" owner="Rhun"/>
@@ -2849,12 +2852,12 @@
       <unitPlacement unitType="castle" territory="Lonely Mtn." quantity="1" owner="Dwarves"/>
       <unitPlacement unitType="Thorin III" territory="Lonely Mtn." quantity="1" owner="Dwarves"/>
       <unitPlacement unitType="Dain" territory="Lonely Mtn." quantity="1" owner="Dwarves"/>
-      <unitPlacement unitType="fortifications" territory="Lonely Mtn." quantity="10" owner="Dwarves"/>
+      <unitPlacement unitType="fortifications" territory="Lonely Mtn." quantity="12" owner="Dwarves"/>
       <unitPlacement unitType="axeInfantry" territory="Lonely Mtn." quantity="4" owner="Dwarves"/>
       <unitPlacement unitType="axeInfantry" territory="Iron Hills" quantity="4" owner="Dwarves"/>
       <unitPlacement unitType="phalanx" territory="Iron Hills" quantity="2" owner="Dwarves"/>
       <unitPlacement unitType="castle" territory="Iron Hills" quantity="1" owner="Dwarves"/>
-      <unitPlacement unitType="fortifications" territory="Iron Hills" quantity="8" owner="Dwarves"/>
+      <unitPlacement unitType="fortifications" territory="Iron Hills" quantity="10" owner="Dwarves"/>
       <unitPlacement unitType="phalanx" territory="Lonely Mtn." quantity="2" owner="Dwarves"/>
       <unitPlacement unitType="spearInfantry" territory="Lake Town" quantity="5" owner="Dale"/>
       <unitPlacement unitType="archers" territory="Lake Town" quantity="2" owner="Dale"/>
@@ -2904,7 +2907,7 @@
     <resourceInitialize>
       <resourceGiven player="Saruman" resource="PUs" quantity="14"/>
       <resourceGiven player="Freefolk" resource="PUs" quantity="11"/>
-      <resourceGiven player="Mordor" resource="PUs" quantity="32"/>
+      <resourceGiven player="Mordor" resource="PUs" quantity="33"/>
       <resourceGiven player="Rohan" resource="PUs" quantity="19"/>
       <resourceGiven player="Goblins" resource="PUs" quantity="18"/>
       <resourceGiven player="Elves" resource="PUs" quantity="26"/>
