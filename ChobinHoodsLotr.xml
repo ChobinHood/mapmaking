@@ -1006,8 +1006,8 @@
       <result resourceOrUnit="corsairs" quantity="2"/>
     </productionRule>
     <productionRule name="buyTowerGuard">
-      <cost resource="PUs" quantity="5"/>
-      <result resourceOrUnit="towerGuard" quantity="1"/>
+      <cost resource="PUs" quantity="11"/>
+      <result resourceOrUnit="towerGuard" quantity="2"/>
     </productionRule>
     <productionRule name="buyLightCavalry">
       <cost resource="PUs" quantity="5"/>
@@ -1070,8 +1070,8 @@
       <result resourceOrUnit="urukhai" quantity="1"/>
     </productionRule>
     <productionRule name="buyTrolls">
-      <cost resource="PUs" quantity="6"/>
-      <result resourceOrUnit="trolls" quantity="1"/>
+      <cost resource="PUs" quantity="13"/>
+      <result resourceOrUnit="trolls" quantity="2"/>
     </productionRule>
     <productionRule name="buysiegeTower">
       <cost resource="PUs" quantity="7"/>
@@ -1194,8 +1194,8 @@
       <result resourceOrUnit="warWagon" quantity="1"/>
     </productionRule>
     <productionRule name="buyEnts">
-      <cost resource="PUs" quantity="7"/>
-      <result resourceOrUnit="ents" quantity="1"/>
+      <cost resource="PUs" quantity="13"/>
+      <result resourceOrUnit="ents" quantity="2"/>
     </productionRule>
     <productionRule name="buyUndead">
       <cost resource="PUs" quantity="2"/>
@@ -1714,7 +1714,7 @@
     <attachment name="unitAttachment" attachTo="towerGuard" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
       <option name="movement" value="1"/>
       <option name="transportCost" value="1"/>
-      <option name="attack" value="1"/>
+      <option name="attack" value="2"/>
       <option name="defense" value="4"/>
       <option name="artillerySupportable" value="true"/>
     </attachment>
@@ -1966,7 +1966,8 @@
       <option name="movement" value="1"/>
       <option name="transportCost" value="2"/>
       <option name="attack" value="4"/>
-      <option name="defense" value="3"/>
+      <option name="defense" value="4"/>
+      <option name="artillerySupportable" value="true"/>
     </attachment>
     <attachment name="unitAttachment" attachTo="siegeTower" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
       <option name="movement" value="1"/>
