@@ -2790,7 +2790,7 @@
       <unitPlacement unitType="tower" territory="Isengard" quantity="1" owner="Saruman"/>
       <unitPlacement unitType="fortifications" territory="Isengard" quantity="6" owner="Saruman"/>
       <unitPlacement unitType="orcs" territory="Isengard" quantity="2" owner="Saruman"/>
-      <unitPlacement unitType="urukhai" territory="Isengard" quantity="26" owner="Saruman"/>
+      <unitPlacement unitType="urukhai" territory="Isengard" quantity="28" owner="Saruman"/>
       <unitPlacement unitType="raiders" territory="S. Dunland" quantity="4" owner="Saruman"/>
       <unitPlacement unitType="raiders" territory="N. Dunland" quantity="2" owner="Saruman"/>
       <unitPlacement unitType="wargs" territory="Isengard" quantity="5" owner="Saruman"/>
