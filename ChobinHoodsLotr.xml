@@ -2758,7 +2758,7 @@
       <unitPlacement unitType="fortifications" territory="Barad Dur" quantity="6" owner="Mordor"/>
       <unitPlacement unitType="nazgul" territory="Barad Dur" quantity="5" owner="Mordor"/>
       <unitPlacement unitType="orcs" territory="Barad Dur" quantity="6" owner="Mordor"/>
-      <unitPlacement unitType="trolls" territory="Barad Dur" quantity="1" owner="Mordor"/>
+      <unitPlacement unitType="urukhai" territory="Barad Dur" quantity="3" owner="Mordor"/>
       <unitPlacement unitType="Gorbag" territory="Barad Dur" quantity="1" owner="Mordor"/>
       <unitPlacement unitType="Shagrat" territory="Barad Dur" quantity="1" owner="Mordor"/>
       <unitPlacement unitType="castle" territory="Udun" quantity="1" owner="Mordor"/>
@@ -2782,9 +2782,10 @@
       <unitPlacement unitType="tower" territory="Dol Goldur" quantity="1" owner="Mordor"/>
       <unitPlacement unitType="fortifications" territory="Dol Goldur" quantity="4" owner="Mordor"/>
       <unitPlacement unitType="nazgul" territory="Dol Goldur" quantity="3" owner="Mordor"/>
-      <unitPlacement unitType="orcs" territory="Dol Goldur" quantity="10" owner="Mordor"/>
+      <unitPlacement unitType="orcs" territory="Dol Goldur" quantity="8" owner="Mordor"/>
+      <unitPlacement unitType="urukhai" territory="Dol Goldur" quantity="4" owner="Mordor"/>
       <unitPlacement unitType="siegeTower" territory="Dol Goldur" quantity="2" owner="Mordor"/>
-      <unitPlacement unitType="trolls" territory="Dol Goldur" quantity="2" owner="Mordor"/>
+      <unitPlacement unitType="trolls" territory="Dol Goldur" quantity="1" owner="Mordor"/>
       <unitPlacement unitType="castle" territory="Isengard" quantity="1" owner="Saruman"/>
       <unitPlacement unitType="tower" territory="Isengard" quantity="1" owner="Saruman"/>
       <unitPlacement unitType="fortifications" territory="Isengard" quantity="6" owner="Saruman"/>
