@@ -563,7 +563,6 @@
     <connection t1="Misty Mtns." t2="Goblin Town"/>
     <connection t1="Misty Mtns. Peaks" t2="Moria"/>
     <connection t1="Misty Mtns. Peaks" t2="S. Caves"/>
-    <connection t1="S. Misty Mtns." t2="S. Caves"/>
     <connection t1="S. E. Misty Mtns." t2="Isengard"/>
     <connection t1="S. W. Misty Mtns." t2="Isengard"/>
     <connection t1="Andrast Mtns." t2="Andrast"/>
@@ -2797,7 +2796,7 @@
       <unitPlacement unitType="Saruman" territory="Isengard" quantity="1" owner="Saruman"/>
       <unitPlacement unitType="castle" territory="Rhun" quantity="1" owner="Rhun"/>
       <unitPlacement unitType="fortifications" territory="Rhun" quantity="6" owner="Rhun"/>
-      <unitPlacement unitType="spearInfantry" territory="Rhun" quantity="10" owner="Rhun"/>
+      <unitPlacement unitType="spearInfantry" territory="Rhun" quantity="12" owner="Rhun"/>
       <unitPlacement unitType="chariotArchers" territory="N. Rhun" quantity="3" owner="Rhun"/>
       <unitPlacement unitType="spearInfantry" territory="N. Rhun" quantity="8" owner="Rhun"/>
       <unitPlacement unitType="warChariot" territory="N. Rhun" quantity="3" owner="Rhun"/>
