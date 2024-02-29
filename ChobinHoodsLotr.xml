@@ -300,7 +300,6 @@
     <connection t1="Goblin Town" t2="Eregion"/>
     <connection t1="Goblin Town" t2="Drimrill Dale"/>
     <connection t1="Moria" t2="Eregion"/>
-    <connection t1="Moria" t2="S. Caves"/>
     <connection t1="Moria" t2="Drimrill Dale"/>
     <connection t1="Moria" t2="Celebran"/>
     <connection t1="S. Caves" t2="N. Dunland"/>
@@ -561,7 +560,9 @@
     <connection t1="N. Misty Mtns." t2="Rivendell"/>
     <connection t1="N. Misty Mtns." t2="Anduin West Bank"/>
     <connection t1="Misty Mtns." t2="Moria"/>
+    <connection t1="Misty Mtns." t2="Goblin Town"/>
     <connection t1="Misty Mtns. Peaks" t2="Moria"/>
+    <connection t1="Misty Mtns. Peaks" t2="S. Caves"/>
     <connection t1="S. Misty Mtns." t2="S. Caves"/>
     <connection t1="S. E. Misty Mtns." t2="Isengard"/>
     <connection t1="S. W. Misty Mtns." t2="Isengard"/>
@@ -2461,15 +2462,12 @@
     </attachment>
     <attachment name="territoryAttachment" attachTo="Misty Mtns." javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="0"/>
-      <option name="isImpassable" value="true"/>
     </attachment>
     <attachment name="territoryAttachment" attachTo="Misty Mtns. Peaks" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="0"/>
-      <option name="isImpassable" value="true"/>
     </attachment>
     <attachment name="territoryAttachment" attachTo="S. Misty Mtns." javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="0"/>
-      <option name="isImpassable" value="true"/>
     </attachment>
     <attachment name="territoryAttachment" attachTo="S. E. Misty Mtns." javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="0"/>
@@ -2747,7 +2745,7 @@
       <unitPlacement unitType="fortifications" territory="Helms Deep" quantity="10" owner="Rohan"/>
       <unitPlacement unitType="heavyCavalry" territory="E. Emnet" quantity="4" owner="Rohan"/>
       <unitPlacement unitType="lightCavalry" territory="Eastfold" quantity="1" owner="Rohan"/>
-      <unitPlacement unitType="spearInfantry" territory="Eastfold" quantity="2" owner="Rohan"/>
+      <unitPlacement unitType="spearInfantry" territory="Eastfold" quantity="1" owner="Rohan"/>
       <unitPlacement unitType="Theoden" territory="Eastfold" quantity="1" owner="Rohan"/>
       <unitPlacement unitType="Eomer" territory="E. Emnet" quantity="1" owner="Rohan"/>
       <unitPlacement unitType="Gamling" territory="Eastfold" quantity="1" owner="Rohan"/>
@@ -2791,12 +2789,11 @@
       <unitPlacement unitType="castle" territory="Isengard" quantity="1" owner="Saruman"/>
       <unitPlacement unitType="tower" territory="Isengard" quantity="1" owner="Saruman"/>
       <unitPlacement unitType="fortifications" territory="Isengard" quantity="6" owner="Saruman"/>
-      <unitPlacement unitType="orcs" territory="Isengard" quantity="3" owner="Saruman"/>
-      <unitPlacement unitType="urukhai" territory="Isengard" quantity="20" owner="Saruman"/>
-      <unitPlacement unitType="orcs" territory="S. Dunland" quantity="5" owner="Saruman"/>
-      <unitPlacement unitType="raiders" territory="S. Dunland" quantity="5" owner="Saruman"/>
-      <unitPlacement unitType="raiders" territory="N. Dunland" quantity="3" owner="Saruman"/>
-      <unitPlacement unitType="wargs" territory="Isengard" quantity="3" owner="Saruman"/>
+      <unitPlacement unitType="orcs" territory="Isengard" quantity="2" owner="Saruman"/>
+      <unitPlacement unitType="urukhai" territory="Isengard" quantity="26" owner="Saruman"/>
+      <unitPlacement unitType="raiders" territory="S. Dunland" quantity="4" owner="Saruman"/>
+      <unitPlacement unitType="raiders" territory="N. Dunland" quantity="2" owner="Saruman"/>
+      <unitPlacement unitType="wargs" territory="Isengard" quantity="5" owner="Saruman"/>
       <unitPlacement unitType="Saruman" territory="Isengard" quantity="1" owner="Saruman"/>
       <unitPlacement unitType="castle" territory="Rhun" quantity="1" owner="Rhun"/>
       <unitPlacement unitType="fortifications" territory="Rhun" quantity="6" owner="Rhun"/>
