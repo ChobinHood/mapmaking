@@ -2613,7 +2613,6 @@
       <territoryOwner territory="Dol Goldur" owner="Mordor"/>
       <territoryOwner territory="Central Mordor" owner="Mordor"/>
       <territoryOwner territory="Nurn" owner="Mordor"/>
-      <territoryOwner territory="Dagorlad" owner="Mordor"/>
       <territoryOwner territory="Barad Dur" owner="Mordor"/>
       <territoryOwner territory="Isengard" owner="Saruman"/>
       <territoryOwner territory="S. Dunland" owner="Saruman"/>
@@ -2904,7 +2903,7 @@
     <resourceInitialize>
       <resourceGiven player="Saruman" resource="PUs" quantity="14"/>
       <resourceGiven player="Freefolk" resource="PUs" quantity="11"/>
-      <resourceGiven player="Mordor" resource="PUs" quantity="33"/>
+      <resourceGiven player="Mordor" resource="PUs" quantity="32"/>
       <resourceGiven player="Rohan" resource="PUs" quantity="19"/>
       <resourceGiven player="Goblins" resource="PUs" quantity="18"/>
       <resourceGiven player="Elves" resource="PUs" quantity="26"/>
