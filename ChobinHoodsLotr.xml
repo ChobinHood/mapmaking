@@ -2687,10 +2687,10 @@
       <unitPlacement unitType="Radagast" territory="N. Mirkwood" quantity="1" owner="Elves"/>
       <unitPlacement unitType="Gwaihir" territory="N. Mirkwood" quantity="1" owner="Elves"/>
       <unitPlacement unitType="eagles" territory="W. Mirkwood" quantity="1" owner="Elves"/>
-      <unitPlacement unitType="hunters" territory="N. Mirkwood" quantity="2" owner="Elves"/>
+      <unitPlacement unitType="hunters" territory="N. Mirkwood" quantity="1" owner="Elves"/>
       <unitPlacement unitType="eagles" territory="E. Mirkwood" quantity="2" owner="Elves"/>
       <unitPlacement unitType="ents" territory="S. Mirkwood" quantity="1" owner="Elves"/>
-      <unitPlacement unitType="hunters" territory="S. Mirkwood" quantity="2" owner="Elves"/>
+      <unitPlacement unitType="hunters" territory="S. Mirkwood" quantity="1" owner="Elves"/>
       <!-- Gondor Lands -->
       <unitPlacement unitType="castle" territory="Minas Tirith" quantity="1" owner="Gondor"/>
       <unitPlacement unitType="tower" territory="Minas Tirith" quantity="4" owner="Gondor"/>
