@@ -580,7 +580,6 @@
     <connection t1="Sea of Nurn" t2="Nurn"/>
     <connection t1="Rhun Hills" t2="S. Rhun"/>
     <connection t1="Iron Hills" t2="Withered Heath"/>
-    <connection t1="Iron Hills" t2="N. Dale"/>
     <connection t1="Mtns. of Mirkwood" t2="N. Mirkwood"/>
   </map>
   <resourceList>
@@ -2532,9 +2531,9 @@
       <option name="objectiveValue" value="5"/>
       <option name="alliedOwnershipTerritories" value="Rivendell:Lorien:High Mirkwood" count="3"/>
 	</attachment>
-<attachment name="objectiveAttachment_Goblins_1_Rings_of_Power_(Hold Rivendell, Lorien + High Mirkwood - 5 each)" attachTo="Goblins" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
+<attachment name="objectiveAttachment_Goblins_1_Rings_of_Power_(Hold Rivendell + Lorien - 5 each)" attachTo="Goblins" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
       <option name="objectiveValue" value="5"/>
-      <option name="alliedOwnershipTerritories" value="Rivendell:Lorien:High Mirkwood" count="each"/>
+      <option name="alliedOwnershipTerritories" value="Rivendell:Lorien" count="each"/>
 	</attachment>
 <attachment name="objectiveAttachment_Goblins_2_Cave_Systems_(Goblin Town, S. Caves +Moria - 5)" attachTo="Goblins" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
       <option name="objectiveValue" value="5"/>
@@ -2665,8 +2664,8 @@
       <unitPlacement unitType="Legolas" territory="Eastfold" quantity="1" owner="Rohan"/>
       <unitPlacement unitType="Gimli" territory="Eastfold" quantity="1" owner="Rohan"/>
       <unitPlacement unitType="castle" territory="High Mirkwood" quantity="1" owner="Elves"/>
-      <unitPlacement unitType="tower" territory="High Mirkwood" quantity="1" owner="Elves"/>
-      <unitPlacement unitType="fortifications" territory="High Mirkwood" quantity="2" owner="Elves"/>
+      <unitPlacement unitType="tower" territory="High Mirkwood" quantity="2" owner="Elves"/>
+      <unitPlacement unitType="fortifications" territory="High Mirkwood" quantity="3" owner="Elves"/>
       <unitPlacement unitType="Thranduil" territory="High Mirkwood" quantity="1" owner="Elves"/>
       <unitPlacement unitType="Tauriel" territory="High Mirkwood" quantity="1" owner="Elves"/> 
       <unitPlacement unitType="hunters" territory="High Mirkwood" quantity="3" owner="Elves"/>
@@ -2853,6 +2852,7 @@
       <unitPlacement unitType="Dain" territory="Lonely Mtn." quantity="1" owner="Dwarves"/>
       <unitPlacement unitType="fortifications" territory="Lonely Mtn." quantity="12" owner="Dwarves"/>
       <unitPlacement unitType="axeInfantry" territory="Lonely Mtn." quantity="4" owner="Dwarves"/>
+      <unitPlacement unitType="xbowInfantry" territory="Lonely Mtn." quantity="3" owner="Dwarves"/>
       <unitPlacement unitType="axeInfantry" territory="Iron Hills" quantity="4" owner="Dwarves"/>
       <unitPlacement unitType="phalanx" territory="Iron Hills" quantity="2" owner="Dwarves"/>
       <unitPlacement unitType="castle" territory="Iron Hills" quantity="1" owner="Dwarves"/>
