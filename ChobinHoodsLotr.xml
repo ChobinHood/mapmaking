@@ -2807,22 +2807,22 @@
       <unitPlacement unitType="castle" territory="City of Corsairs" quantity="1" owner="Haradrim"/>
       <unitPlacement unitType="fortifications" territory="City of Corsairs" quantity="4" owner="Haradrim"/>
       <unitPlacement unitType="corsairs" territory="City of Corsairs" quantity="3" owner="Haradrim"/>
-      <unitPlacement unitType="spearInfantry" territory="City of Corsairs" quantity="4" owner="Haradrim"/>
+      <unitPlacement unitType="spearInfantry" territory="City of Corsairs" quantity="3" owner="Haradrim"/>
       <unitPlacement unitType="corsairs" territory="Umbar" quantity="2" owner="Haradrim"/>
       <unitPlacement unitType="spearInfantry" territory="Umbar" quantity="2" owner="Haradrim"/>
-      <unitPlacement unitType="oliphant" territory="Umbar" quantity="2" owner="Haradrim"/>
+      <unitPlacement unitType="oliphant" territory="Umbar" quantity="1" owner="Haradrim"/>
       <unitPlacement unitType="castle" territory="Umbar" quantity="1" owner="Haradrim"/>
       <unitPlacement unitType="fortifications" territory="Umbar" quantity="3" owner="Haradrim"/>
-      <unitPlacement unitType="spearInfantry" territory="N. Haradwaith" quantity="4" owner="Haradrim"/>
+      <unitPlacement unitType="spearInfantry" territory="N. Haradwaith" quantity="2" owner="Haradrim"/>
       <unitPlacement unitType="oliphant" territory="N. Haradwaith" quantity="2" owner="Haradrim"/>
-      <unitPlacement unitType="spearInfantry" territory="Harad Road" quantity="2" owner="Haradrim"/>
+      <unitPlacement unitType="spearInfantry" territory="Harad Road" quantity="1" owner="Haradrim"/>
       <unitPlacement unitType="oliphant" territory="Harad Road" quantity="1" owner="Haradrim"/>
       <unitPlacement unitType="caravel" territory="Bay of Harad" quantity="2" owner="Haradrim"/>
       <unitPlacement unitType="galleon" territory="Bay of Harad" quantity="2" owner="Haradrim"/>
       <unitPlacement unitType="galleon" territory="Harnen" quantity="3" owner="Haradrim"/>
       <unitPlacement unitType="caravel" territory="Umbar Peninsula Coast" quantity="2" owner="Haradrim"/>
-      <unitPlacement unitType="spearInfantry" territory="Khand" quantity="6" owner="Haradrim"/>
-      <unitPlacement unitType="raiderCavalry" territory="S. Khand" quantity="5" owner="Haradrim"/>
+      <unitPlacement unitType="spearInfantry" territory="Khand" quantity="4" owner="Haradrim"/>
+      <unitPlacement unitType="raiderCavalry" territory="S. Khand" quantity="4" owner="Haradrim"/>
       <unitPlacement unitType="castle" territory="Khand" quantity="1" owner="Haradrim"/>
       <unitPlacement unitType="fortifications" territory="Khand" quantity="2" owner="Haradrim"/>
       <!-- Goblin Lands -->
