@@ -4066,17 +4066,17 @@
 		<productionFrontier name="AmericansFrontierBonusNew">
 			<frontierRules name="buyInfantry"/>
 			<frontierRules name="buyElite"/>
-			<frontierRules name="buyMarine"/>
+			<!--<frontierRules name="buyMarine"/>-->
 			<frontierRules name="buyArtillery2"/>
 			<frontierRules name="buyArmoredCar2"/>
 			<frontierRules name="buyTank"/><!--
 			<frontierRules name="buyHeavyTank"/>-->
-			<!--<frontierRules name="buyMot.Inf"/>-->
+			<frontierRules name="buyMot.Inf"/>
 			<frontierRules name="buyMech.Inf"/><!--
 			<frontierRules name="buyMech.Rocket"/>-->
 			<frontierRules name="buyFighter"/>
 			<frontierRules name="buyAdv.Fighter"/>
-			<frontierRules name="buyStuka"/>-->
+			<!--<frontierRules name="buyStuka"/>-->
 			<!--<frontierRules name="buyJetFighter"/>-->
 			<!--<frontierRules name="buyL.Fighter"/>-->
 			<frontierRules name="buyBomber"/>
@@ -4097,21 +4097,20 @@
 			<frontierRules name="buyGrain Farm"/>
 		</productionFrontier>
 
-
-		<playerProduction player="Germans" frontier="NeutralFrontier"/>
-		<playerProduction player="Russians" frontier="NeutralFrontier"/>
-		<playerProduction player="Italians" frontier="NeutralFrontier"/>
-		<playerProduction player="French" frontier="NeutralFrontier"/>
-		<playerProduction player="British" frontier="NeutralFrontier"/>
-		<playerProduction player="Americans" frontier="NeutralFrontier"/>
-		<playerProduction player="Finns" frontier="NeutralFrontier"/>
-		<playerProduction player="Romanians" frontier="NeutralFrontier"/>
-		<playerProduction player="Chinese" frontier="NeutralFrontier"/>
-		<playerProduction player="Thai" frontier="NeutralFrontier"/>
-		<playerProduction player="Dutch" frontier="NeutralFrontier"/>
-		<playerProduction player="Yamamoto" frontier="NeutralFrontier"/>
-		<playerProduction player="Hisaichi" frontier="NeutralFrontier"/>
-		<playerProduction player="Anzac" frontier="NeutralFrontier"/>
+		<playerProduction player="Germans" frontier="AmericansFrontierBonusNew"/>
+		<playerProduction player="Russians" frontier="AmericansFrontierBonusNew"/>
+		<playerProduction player="Italians" frontier="AmericansFrontierBonusNew"/>
+		<playerProduction player="French" frontier="AmericansFrontierBonusNew"/>
+		<playerProduction player="British" frontier="AmericansFrontierBonusNew"/>
+		<playerProduction player="Americans" frontier="AmericansFrontierBonusNew"/>
+		<playerProduction player="Finns" frontier="AmericansFrontierBonusNew"/>
+		<playerProduction player="Romanians" frontier="AmericansFrontierBonusNew"/>
+		<playerProduction player="Chinese" frontier="AmericansFrontierBonusNew"/>
+		<playerProduction player="Thai" frontier="AmericansFrontierBonusNew"/>
+		<playerProduction player="Dutch" frontier="AmericansFrontierBonusNew"/>
+		<playerProduction player="Yamamoto" frontier="AmericansFrontierBonusNew"/>
+		<playerProduction player="Hisaichi" frontier="AmericansFrontierBonusNew"/>
+		<playerProduction player="Anzac" frontier="AmericansFrontierBonusNew"/>
 
 		<playerRepair player="Germans" frontier="repair"/>
 		<playerRepair player="Russians" frontier="repair"/>
@@ -7997,6 +7996,7 @@
 			<unitPlacement unitType="Bunker" territory="San Francisco" quantity="2" owner="Americans"/>
 			<unitPlacement unitType="Artillery" territory="San Francisco" quantity="2" owner="Americans"/>
 			<unitPlacement unitType="Tank" territory="San Francisco" quantity="1" owner="Americans"/>
+			<unitPlacement unitType="Fighter" territory="San Francisco" quantity="1" owner="Americans"/>
 			<unitPlacement unitType="Factory" territory="San Francisco" quantity="1" owner="Americans"/>
 			<unitPlacement unitType="AAGun" territory="San Francisco" quantity="1" owner="Americans"/>
 			<unitPlacement unitType="Infantry" territory="North Central USA" quantity="2"/>
@@ -8020,10 +8020,10 @@
 			<unitPlacement unitType="Factory" territory="Pearl Harbor" quantity="1" owner="Americans"/>
 			<unitPlacement unitType="AAGun" territory="Pearl Harbor" quantity="1" owner="Americans"/>
 			<unitPlacement unitType="Infantry" territory="Palmyra" quantity="1"/>
-			<unitPlacement unitType="Infantry" territory="Washington" quantity="5" owner="Americans"/>
-			<unitPlacement unitType="Artillery" territory="Washington" quantity="1" owner="Americans"/>
+			<unitPlacement unitType="Infantry" territory="Washington" quantity="6" owner="Americans"/>
+			<unitPlacement unitType="Artillery" territory="Washington" quantity="2" owner="Americans"/>
 			<unitPlacement unitType="Bunker" territory="Washington" quantity="4" owner="Americans"/>
-			<unitPlacement unitType="Fighter" territory="Washington" quantity="1" owner="Americans"/>
+			<unitPlacement unitType="Fighter" territory="Washington" quantity="2" owner="Americans"/>
 			<unitPlacement unitType="Factory" territory="Washington" quantity="1" owner="Americans"/>
 			<unitPlacement unitType="AAGun" territory="Washington" quantity="1" owner="Americans"/>
 			<unitPlacement unitType="Infantry" territory="Northeast USA" quantity="4"/>
