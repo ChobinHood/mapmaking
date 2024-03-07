@@ -7356,7 +7356,6 @@
 		<attachment name="playerAttachment" attachTo="Finns" javaClass="games.strategy.triplea.attachments.PlayerAttachment" type="player">
 			<option name="retainCapitalProduceNumber" value="0"/>
 		</attachment>
-		</attachment>
 		<attachment name="playerAttachment" attachTo="British" javaClass="games.strategy.triplea.attachments.PlayerAttachment" type="player">
 			<option name="retainCapitalProduceNumber" value="0"/>
 		</attachment>
@@ -7377,7 +7376,6 @@
 		</attachment>
 		<attachment name="playerAttachment" attachTo="Yamamoto" javaClass="games.strategy.triplea.attachments.PlayerAttachment" type="player">
 			<option name="retainCapitalProduceNumber" value="0"/>
-		</attachment>
 		</attachment>
 		<attachment name="playerAttachment" attachTo="Thai" javaClass="games.strategy.triplea.attachments.PlayerAttachment" type="player">
 			<option name="retainCapitalProduceNumber" value="0"/>
