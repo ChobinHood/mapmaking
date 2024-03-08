@@ -7511,11 +7511,11 @@
 			<unitPlacement unitType="AAGun" territory="East Prussia" quantity="1" owner="Germans"/>
 			<unitPlacement unitType="Infantry" territory="Pomerania" quantity="2"/>
 			<unitPlacement unitType="Infantry" territory="Saxony" quantity="3"/>
-			<unitPlacement unitType="Infantry" territory="Berlin" quantity="11" owner="Germans"/>
+			<unitPlacement unitType="Infantry" territory="Berlin" quantity="12" owner="Germans"/>
 			<unitPlacement unitType="Artillery" territory="Berlin" quantity="5" owner="Germans"/>
 			<unitPlacement unitType="Bunker" territory="Berlin" quantity="4" owner="Germans"/>
 			<unitPlacement unitType="Tank" territory="Berlin" quantity="4" owner="Germans"/>
-			<unitPlacement unitType="Fighter" territory="Berlin" quantity="3" owner="Germans"/>
+			<unitPlacement unitType="Fighter" territory="Berlin" quantity="2" owner="Germans"/>
 			<unitPlacement unitType="Factory" territory="Berlin" quantity="1" owner="Germans"/>
 			<unitPlacement unitType="Bomber" territory="Berlin" quantity="2" owner="Germans"/>
 			<unitPlacement unitType="AAGun" territory="Berlin" quantity="1" owner="Germans"/>
@@ -7598,8 +7598,8 @@
 			<unitPlacement unitType="Infantry" territory="New South Wales" quantity="1"/>
 			<unitPlacement unitType="Infantry" territory="Kamchatka" quantity="1"/>
 			<unitPlacement unitType="Infantry" territory="Latvia" quantity="2"/>
-			<unitPlacement unitType="Infantry" territory="Leningrad" quantity="5" owner="Russians"/>
-			<unitPlacement unitType="Artillery" territory="Leningrad" quantity="2" owner="Russians"/>
+			<unitPlacement unitType="Infantry" territory="Leningrad" quantity="6" owner="Russians"/>
+			<unitPlacement unitType="Artillery" territory="Leningrad" quantity="1" owner="Russians"/>
 			<unitPlacement unitType="Fighter" territory="Leningrad" quantity="1" owner="Russians"/>
 			<unitPlacement unitType="Bunker" territory="Leningrad" quantity="2" owner="Russians"/>
 			<unitPlacement unitType="Factory" territory="Leningrad" quantity="1" owner="Russians"/>
@@ -7756,13 +7756,13 @@
 			<unitPlacement unitType="Infantry" territory="Suiyuan" quantity="2"/>
 			<unitPlacement unitType="Infantry" territory="Kwangtung" quantity="1"/>
 			<unitPlacement unitType="Infantry" territory="E.Qinghai" quantity="1"/>
-			<unitPlacement unitType="Infantry" territory="Hupeh" quantity="3"/>
+			<unitPlacement unitType="Infantry" territory="Hupeh" quantity="2"/>
 			<unitPlacement unitType="Infantry" territory="Shanghai" quantity="8" owner="Chinese"/>
-			<unitPlacement unitType="Artillery" territory="Shanghai" quantity="2" owner="Chinese"/>
+			<unitPlacement unitType="Artillery" territory="Shanghai" quantity="1" owner="Chinese"/>
 			<unitPlacement unitType="Bunker" territory="Shanghai" quantity="2" owner="Chinese"/>
 			<unitPlacement unitType="Factory" territory="Shanghai" quantity="1" owner="Chinese"/>
 			<unitPlacement unitType="Infantry" territory="E.Sinkiang" quantity="1"/>
-			<unitPlacement unitType="Infantry" territory="Urumqi" quantity="5" owner="Chinese"/>
+			<unitPlacement unitType="Infantry" territory="Urumqi" quantity="6" owner="Chinese"/>
 			<unitPlacement unitType="Artillery" territory="Urumqi" quantity="2" owner="Chinese"/>
 			<unitPlacement unitType="Bunker" territory="Urumqi" quantity="2" owner="Chinese"/>
 			<unitPlacement unitType="Factory" territory="Urumqi" quantity="1" owner="Chinese"/>
@@ -7773,16 +7773,16 @@
 			<unitPlacement unitType="Infantry" territory="Ningsia" quantity="2"/>
 			<unitPlacement unitType="Infantry" territory="Kiangsi" quantity="2"/>
 			<unitPlacement unitType="Infantry" territory="Chahar" quantity="1"/>
-			<unitPlacement unitType="Infantry" territory="Szechwan" quantity="8" owner="Chinese"/>
+			<unitPlacement unitType="Infantry" territory="Szechwan" quantity="6" owner="Chinese"/>
 			<unitPlacement unitType="Artillery" territory="Szechwan" quantity="2" owner="Chinese"/>
 			<unitPlacement unitType="Bunker" territory="Szechwan" quantity="2" owner="Chinese"/>
 			<unitPlacement unitType="Factory" territory="Szechwan" quantity="1" owner="Chinese"/>
 			<unitPlacement unitType="Infantry" territory="Yunnan" quantity="3"/>
 			<unitPlacement unitType="Infantry" territory="Hunan" quantity="2"/>
-			<unitPlacement unitType="Infantry" territory="Anhwei" quantity="1"/>
+			<unitPlacement unitType="Infantry" territory="Anhwei" quantity="2"/>
 			<unitPlacement unitType="Infantry" territory="C.Sinkiang" quantity="1"/>
-			<unitPlacement unitType="Infantry" territory="Hsining" quantity="7" owner="Chinese"/>
-			<unitPlacement unitType="Artillery" territory="Hsining" quantity="1" owner="Chinese"/>
+			<unitPlacement unitType="Infantry" territory="Hsining" quantity="8" owner="Chinese"/>
+			<unitPlacement unitType="Artillery" territory="Hsining" quantity="2" owner="Chinese"/>
 			<unitPlacement unitType="Bunker" territory="Hsining" quantity="4" owner="Chinese"/>
 			<unitPlacement unitType="Factory" territory="Hsining" quantity="1" owner="Chinese"/>
 			<unitPlacement unitType="AAGun" territory="Hsining" quantity="1" owner="Chinese"/>
@@ -8422,7 +8422,7 @@
 			<boolean/>
 		</property>
 
-		<property name="Neutral Flyover Allowed" value="false" editable="true">
+		<property name="Neutral Flyover Allowed" value="true" editable="true">
 			<boolean/>
 		</property>
 
