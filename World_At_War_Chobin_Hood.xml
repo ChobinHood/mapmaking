@@ -7511,7 +7511,7 @@
 			<unitPlacement unitType="AAGun" territory="East Prussia" quantity="1" owner="Germans"/>
 			<unitPlacement unitType="Infantry" territory="Pomerania" quantity="3"/>
 			<unitPlacement unitType="Infantry" territory="Saxony" quantity="3"/>
-			<unitPlacement unitType="Infantry" territory="Berlin" quantity="9" owner="Germans"/>
+			<unitPlacement unitType="Infantry" territory="Berlin" quantity="10" owner="Germans"/>
 			<unitPlacement unitType="Artillery" territory="Berlin" quantity="4" owner="Germans"/>
 			<unitPlacement unitType="Bunker" territory="Berlin" quantity="4" owner="Germans"/>
 			<unitPlacement unitType="Tank" territory="Berlin" quantity="4" owner="Germans"/>
@@ -7525,8 +7525,8 @@
 			<unitPlacement unitType="Infantry" territory="Brandenburg" quantity="2"/>
 			<unitPlacement unitType="Infantry" territory="Austria" quantity="4"/>
 			<unitPlacement unitType="Infantry" territory="Bavaria" quantity="3"/>
-			<unitPlacement unitType="Infantry" territory="Hamburg" quantity="7" owner="Germans"/>
-			<unitPlacement unitType="Artillery" territory="Hamburg" quantity="3" owner="Germans"/>
+			<unitPlacement unitType="Infantry" territory="Hamburg" quantity="8 owner="Germans"/>
+			<unitPlacement unitType="Artillery" territory="Hamburg" quantity="4" owner="Germans"/>
 			<unitPlacement unitType="Tank" territory="Hamburg" quantity="2" owner="Germans"/>
 			<unitPlacement unitType="Fighter" territory="Hamburg" quantity="2" owner="Germans"/>
 			<unitPlacement unitType="Bunker" territory="Hamburg" quantity="2" owner="Germans"/>
@@ -7644,9 +7644,9 @@
 			<unitPlacement unitType="Bunker" territory="Rome" quantity="4" owner="Italians"/>
 			<unitPlacement unitType="Factory" territory="Rome" quantity="1" owner="Italians"/>
 			<unitPlacement unitType="AAGun" territory="Rome" quantity="1" owner="Italians"/>
-			<unitPlacement unitType="Infantry" territory="Italian East Africa" quantity="7" owner="Italians"/>
+			<unitPlacement unitType="Infantry" territory="Italian East Africa" quantity="8" owner="Italians"/>
 			<unitPlacement unitType="Tank" territory="Italian East Africa" quantity="2" owner="Italians"/>
-			<unitPlacement unitType="Artillery" territory="Italian East Africa" quantity="2" owner="Italians"/>
+			<unitPlacement unitType="Artillery" territory="Italian East Africa" quantity="3" owner="Italians"/>
 			<unitPlacement unitType="Bunker" territory="Italian East Africa" quantity="2" owner="Italians"/>
 			<unitPlacement unitType="Factory" territory="Italian East Africa" quantity="1" owner="Italians"/>
 			<unitPlacement unitType="Infantry" territory="Lombardy" quantity="5"/>
@@ -7677,8 +7677,8 @@
 			<unitPlacement unitType="Factory" territory="Paris" quantity="1" owner="French"/>
 			<unitPlacement unitType="AAGun" territory="Paris" quantity="1" owner="French"/>
 			<unitPlacement unitType="Infantry" territory="Burgundy" quantity="2"/>
-			<unitPlacement unitType="Infantry" territory="Aquitaine" quantity="6" owner="French"/>
-			<unitPlacement unitType="Artillery" territory="Aquitaine" quantity="3" owner="French"/>
+			<unitPlacement unitType="Infantry" territory="Aquitaine" quantity="7" owner="French"/>
+			<unitPlacement unitType="Artillery" territory="Aquitaine" quantity="1" owner="French"/>
 			<unitPlacement unitType="Factory" territory="Aquitaine" quantity="1" owner="French"/>
 			<unitPlacement unitType="Tank" territory="Aquitaine" quantity="1" owner="French"/>
 			<unitPlacement unitType="Bunker" territory="Aquitaine" quantity="2" owner="French"/>
@@ -7696,7 +7696,7 @@
 			<unitPlacement unitType="Infantry" territory="Keewatin" quantity="1"/>
 			<unitPlacement unitType="Infantry" territory="S.French Indochina" quantity="2"/>
 			<unitPlacement unitType="Infantry" territory="Mauritania" quantity="1"/>
-			<unitPlacement unitType="Infantry" territory="E.Morocco" quantity="7" owner="French"/>
+			<unitPlacement unitType="Infantry" territory="E.Morocco" quantity="6" owner="French"/>
 			<unitPlacement unitType="Bunker" territory="E.Morocco" quantity="2" owner="French"/>
 			<unitPlacement unitType="Artillery" territory="E.Morocco" quantity="3" owner="French"/>
 			<unitPlacement unitType="Factory" territory="E.Morocco" quantity="1" owner="French"/>
@@ -7704,7 +7704,7 @@
 			<unitPlacement unitType="Infantry" territory="Syria" quantity="2"/>
 			<unitPlacement unitType="Infantry" territory="W.Morocco" quantity="2"/>
 			<unitPlacement unitType="Infantry" territory="Churchill" quantity="6" owner="British"/>
-			<unitPlacement unitType="Artillery" territory="Churchill" quantity="2" owner="British"/>
+			<unitPlacement unitType="Artillery" territory="Churchill" quantity="3" owner="British"/>
 			<unitPlacement unitType="Bunker" territory="Churchill" quantity="2" owner="British"/>
 			<unitPlacement unitType="Fighter" territory="Churchill" quantity="2" owner="British"/>
 			<unitPlacement unitType="Factory" territory="Churchill" quantity="1" owner="British"/>
@@ -7714,14 +7714,14 @@
 			<unitPlacement unitType="Infantry" territory="S.Tunisia" quantity="1"/>
 			<unitPlacement unitType="Infantry" territory="French Sudan" quantity="1"/>
 			<unitPlacement unitType="Infantry" territory="Madagascar" quantity="1"/>
-			<unitPlacement unitType="Infantry" territory="Tunis" quantity="6" owner="French"/>
-			<unitPlacement unitType="Artillery" territory="Tunis" quantity="2" owner="French"/>
+			<unitPlacement unitType="Infantry" territory="Tunis" quantity="5" owner="French"/>
+			<unitPlacement unitType="Artillery" territory="Tunis" quantity="1" owner="French"/>
 			<unitPlacement unitType="Tank" territory="Tunis" quantity="1" owner="French"/>
 			<unitPlacement unitType="Bunker" territory="Tunis" quantity="2" owner="French"/>
 			<unitPlacement unitType="Factory" territory="Tunis" quantity="1" owner="French"/>
 			<unitPlacement unitType="Infantry" territory="Tokyo" quantity="7" owner="Yamamoto"/>
 			<unitPlacement unitType="Bunker" territory="Tokyo" quantity="4" owner="Yamamoto"/>
-			<unitPlacement unitType="Artillery" territory="Tokyo" quantity="3" owner="Yamamoto"/>
+			<unitPlacement unitType="Artillery" territory="Tokyo" quantity="2" owner="Yamamoto"/>
 			<unitPlacement unitType="Tank" territory="Tokyo" quantity="1" owner="Yamamoto"/>
 			<unitPlacement unitType="Fighter" territory="Tokyo" quantity="2" owner="Yamamoto"/>
 			<unitPlacement unitType="Bomber" territory="Tokyo" quantity="1" owner="Yamamoto"/>
@@ -7757,8 +7757,8 @@
 			<unitPlacement unitType="Infantry" territory="Kwangtung" quantity="1"/>
 			<unitPlacement unitType="Infantry" territory="E.Qinghai" quantity="1"/>
 			<unitPlacement unitType="Infantry" territory="Hupeh" quantity="3"/>
-			<unitPlacement unitType="Infantry" territory="Shanghai" quantity="7" owner="Chinese"/>
-			<unitPlacement unitType="Artillery" territory="Shanghai" quantity="1" owner="Chinese"/>
+			<unitPlacement unitType="Infantry" territory="Shanghai" quantity="8" owner="Chinese"/>
+			<unitPlacement unitType="Artillery" territory="Shanghai" quantity="2" owner="Chinese"/>
 			<unitPlacement unitType="Bunker" territory="Shanghai" quantity="2" owner="Chinese"/>
 			<unitPlacement unitType="Factory" territory="Shanghai" quantity="1" owner="Chinese"/>
 			<unitPlacement unitType="Infantry" territory="E.Sinkiang" quantity="1"/>
@@ -7773,7 +7773,7 @@
 			<unitPlacement unitType="Infantry" territory="Ningsia" quantity="2"/>
 			<unitPlacement unitType="Infantry" territory="Kiangsi" quantity="2"/>
 			<unitPlacement unitType="Infantry" territory="Chahar" quantity="1"/>
-			<unitPlacement unitType="Infantry" territory="Szechwan" quantity="6" owner="Chinese"/>
+			<unitPlacement unitType="Infantry" territory="Szechwan" quantity="8" owner="Chinese"/>
 			<unitPlacement unitType="Artillery" territory="Szechwan" quantity="2" owner="Chinese"/>
 			<unitPlacement unitType="Bunker" territory="Szechwan" quantity="2" owner="Chinese"/>
 			<unitPlacement unitType="Factory" territory="Szechwan" quantity="1" owner="Chinese"/>
@@ -7787,7 +7787,7 @@
 			<unitPlacement unitType="Factory" territory="Hsining" quantity="1" owner="Chinese"/>
 			<unitPlacement unitType="AAGun" territory="Hsining" quantity="1" owner="Chinese"/>
 			<unitPlacement unitType="Fighter" territory="Hsining" quantity="1" owner="Chinese"/>
-			<unitPlacement unitType="Infantry" territory="Liaoning" quantity="6" owner="Yamamoto"/>
+			<unitPlacement unitType="Infantry" territory="Liaoning" quantity="5" owner="Yamamoto"/>
 			<unitPlacement unitType="Artillery" territory="Liaoning" quantity="1" owner="Yamamoto"/>
 			<unitPlacement unitType="Bunker" territory="Liaoning" quantity="2" owner="Yamamoto"/>
 			<unitPlacement unitType="Factory" territory="Liaoning" quantity="1" owner="Yamamoto"/>
@@ -7797,7 +7797,7 @@
 			<unitPlacement unitType="Infantry" territory="Shantung" quantity="3"/>
 			<unitPlacement unitType="Infantry" territory="Formosa" quantity="2"/>
 			<unitPlacement unitType="Infantry" territory="Korea" quantity="3"/>
-			<unitPlacement unitType="Infantry" territory="Changchun" quantity="8" owner="Yamamoto"/>
+			<unitPlacement unitType="Infantry" territory="Changchun" quantity="6" owner="Yamamoto"/>
 			<unitPlacement unitType="Artillery" territory="Changchun" quantity="2" owner="Yamamoto"/>
 			<unitPlacement unitType="Bunker" territory="Changchun" quantity="4" owner="Yamamoto"/>
 			<unitPlacement unitType="Tank" territory="Changchun" quantity="2" owner="Yamamoto"/>
@@ -7810,7 +7810,7 @@
 			<unitPlacement unitType="Infantry" territory="New Valley" quantity="1"/><!--
 			<unitPlacement unitType="Bunker" territory="Rhodes" quantity="1" owner="British"/>-->
 			<unitPlacement unitType="Infantry" territory="Assam" quantity="2"/>
-			<unitPlacement unitType="Infantry" territory="Vancouver" quantity="5" owner="British"/>
+			<unitPlacement unitType="Infantry" territory="Vancouver" quantity="6" owner="British"/>
 			<unitPlacement unitType="Artillery" territory="Vancouver" quantity="2" owner="British"/>
 			<unitPlacement unitType="Factory" territory="Vancouver" quantity="1" owner="British"/>
 			<unitPlacement unitType="Bunker" territory="Vancouver" quantity="2" owner="British"/>
@@ -7832,7 +7832,7 @@
 			<unitPlacement unitType="Infantry" territory="Yukon" quantity="1"/>
 			<unitPlacement unitType="Infantry" territory="Ontario" quantity="2"/>
 			<unitPlacement unitType="Infantry" territory="Nigeria" quantity="3"/>
-			<unitPlacement unitType="Infantry" territory="Dover" quantity="6" owner="British"/>
+			<unitPlacement unitType="Infantry" territory="Dover" quantity="5" owner="British"/>
 			<unitPlacement unitType="Artillery" territory="Dover" quantity="2" owner="British"/>
 			<unitPlacement unitType="Bunker" territory="Dover" quantity="2" owner="British"/>
 			<unitPlacement unitType="Factory" territory="Dover" quantity="1" owner="British"/>
@@ -7869,10 +7869,11 @@
 			<unitPlacement unitType="Infantry" territory="Manchester" quantity="3"/>
 			<unitPlacement unitType="Infantry" territory="Nubia" quantity="1"/>
 			<unitPlacement unitType="Infantry" territory="Kenya" quantity="1"/>
-			<unitPlacement unitType="Infantry" territory="Delhi" quantity="7" owner="British"/>
+			<unitPlacement unitType="Infantry" territory="Delhi" quantity="6" owner="British"/>
 			<unitPlacement unitType="Bunker" territory="Delhi" quantity="2" owner="British"/>
 			<unitPlacement unitType="Factory" territory="Delhi" quantity="1" owner="British"/>
-			<unitPlacement unitType="Artillery" territory="Delhi" quantity="3" owner="British"/>
+			<unitPlacement unitType="Artillery" territory="Delhi" quantity="2" owner="British"/>
+			<unitPlacement unitType="Tank" territory="Delhi" quantity="1" owner="British"/>
 			<unitPlacement unitType="Infantry" territory="Aden" quantity="2"/>
 			<unitPlacement unitType="Infantry" territory="Madras" quantity="6" owner="British"/>
 			<unitPlacement unitType="Bunker" territory="Madras" quantity="2" owner="British"/>
@@ -7882,8 +7883,8 @@
 			<unitPlacement unitType="Factory" territory="Madras" quantity="1" owner="British"/>
 			<unitPlacement unitType="AAGun" territory="Madras" quantity="1" owner="British"/>
 			<unitPlacement unitType="Infantry" territory="Malta" quantity="1"/>
-			<unitPlacement unitType="Infantry" territory="Montreal" quantity="5" owner="French"/>
-			<unitPlacement unitType="Artillery" territory="Montreal" quantity="2" owner="French"/>
+			<unitPlacement unitType="Infantry" territory="Montreal" quantity="7" owner="French"/>
+			<unitPlacement unitType="Artillery" territory="Montreal" quantity="3" owner="French"/>
 			<unitPlacement unitType="Bunker" territory="Montreal" quantity="4" owner="French"/>
 			<unitPlacement unitType="Factory" territory="Montreal" quantity="1" owner="French"/>
 			<unitPlacement unitType="Fighter" territory="Montreal" quantity="1" owner="French"/>
@@ -7949,8 +7950,8 @@
 			<unitPlacement unitType="Bunker" territory="Townsville" quantity="1"/>
 			<unitPlacement unitType="Infantry" territory="Guadalcanal" quantity="1"/>
 			<unitPlacement unitType="Infantry" territory="New Ireland" quantity="1"/>
-			<unitPlacement unitType="Infantry" territory="Bucharest" quantity="8" owner="Romanians"/>
-			<unitPlacement unitType="Artillery" territory="Bucharest" quantity="3" owner="Romanians"/>
+			<unitPlacement unitType="Infantry" territory="Bucharest" quantity="6" owner="Romanians"/>
+			<unitPlacement unitType="Artillery" territory="Bucharest" quantity="2" owner="Romanians"/>
 			<unitPlacement unitType="Bunker" territory="Bucharest" quantity="4" owner="Romanians"/>
 			<unitPlacement unitType="Tank" territory="Bucharest" quantity="2" owner="Romanians"/>
 			<unitPlacement unitType="Fighter" territory="Bucharest" quantity="2" owner="Romanians"/>
@@ -8036,7 +8037,7 @@
 			<unitPlacement unitType="Infantry" territory="Northwest USA" quantity="2"/>
 			<unitPlacement unitType="Infantry" territory="Mindanao" quantity="1"/>
 			<unitPlacement unitType="Infantry" territory="Canarians" quantity="1"/>
-			<unitPlacement unitType="Infantry" territory="Cape Town" quantity="7" owner="British"/>
+			<unitPlacement unitType="Infantry" territory="Cape Town" quantity="6" owner="British"/>
 			<unitPlacement unitType="Artillery" territory="Cape Town" quantity="2" owner="British"/>
 			<unitPlacement unitType="Bunker" territory="Cape Town" quantity="2" owner="British"/>
 			<unitPlacement unitType="Factory" territory="Cape Town" quantity="1" owner="British"/>
@@ -8054,7 +8055,7 @@
 			<unitPlacement unitType="Infantry" territory="Eastern Mongolia" quantity="2"/>
 			<unitPlacement unitType="Infantry" territory="Nordland" quantity="1"/>
 			<unitPlacement unitType="Infantry" territory="Gobi Altai" quantity="1"/>
-			<unitPlacement unitType="Infantry" territory="Stockholm" quantity="8" owner="Finns"/>
+			<unitPlacement unitType="Infantry" territory="Stockholm" quantity="7" owner="Finns"/>
 			<unitPlacement unitType="Artillery" territory="Stockholm" quantity="3" owner="Finns"/>
 			<unitPlacement unitType="Tank" territory="Stockholm" quantity="1" owner="Finns"/>
 			<unitPlacement unitType="Bunker" territory="Stockholm" quantity="2" owner="Finns"/>
@@ -8127,7 +8128,7 @@
 			<unitPlacement unitType="Infantry" territory="Izmir" quantity="2"/>
 			<unitPlacement unitType="Infantry" territory="S.Saudi Arabia" quantity="2"/>
 			<unitPlacement unitType="Infantry" territory="Mozambique" quantity="1"/>
-			<unitPlacement unitType="Infantry" territory="Istanbul" quantity="3"/>
+			<unitPlacement unitType="Infantry" territory="Istanbul" quantity="2"/>
 			<unitPlacement unitType="Infantry" territory="Venezuela" quantity="3"/>
 			<unitPlacement unitType="Infantry" territory="Sikang" quantity="4"/>
 			<unitPlacement unitType="Infantry" territory="Netherlands" quantity="4"/>
@@ -8205,7 +8206,6 @@
 			<unitPlacement unitType="Destroyer" territory="85 Sea Zone" quantity="1" owner="Yamamoto"/>
 			<unitPlacement unitType="Submarine" territory="85 Sea Zone" quantity="1" owner="Yamamoto"/>
 			<unitPlacement unitType="Transport" territory="85 Sea Zone" quantity="1" owner="Yamamoto"/>
-			<unitPlacement unitType="Cruiser" territory="85 Sea Zone" quantity="1" owner="Yamamoto"/>
 
 			<unitPlacement unitType="Submarine" territory="84 Sea Zone" quantity="2" owner="Yamamoto"/>
 			<unitPlacement unitType="Cruiser" territory="84 Sea Zone" quantity="1" owner="Yamamoto"/>
