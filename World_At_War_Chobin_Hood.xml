@@ -5363,7 +5363,7 @@
 			<option name="production" value="1"/>
 		</attachment>
 		<attachment name="territoryAttachment" attachTo="Northeast USA" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
-			<option name="production" value="5"/>
+			<option name="production" value="4"/>
 		</attachment>
 		<attachment name="territoryAttachment" attachTo="Kauai" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
 			<option name="production" value="1"/>
@@ -7542,7 +7542,7 @@
 			<unitPlacement unitType="Infantry" territory="Karaganda" quantity="1"/>
 			<unitPlacement unitType="Infantry" territory="Evenkia" quantity="1"/>
 			<unitPlacement unitType="Infantry" territory="Novosibirsk" quantity="2"/>
-			<unitPlacement unitType="Infantry" territory="Lithuania" quantity="2"/>
+			<unitPlacement unitType="Infantry" territory="Lithuania" quantity="1"/>
 			<unitPlacement unitType="Infantry" territory="Arkhangelsk" quantity="3"/>
 			<unitPlacement unitType="Infantry" territory="Koryakia" quantity="1"/>
 			<unitPlacement unitType="Infantry" territory="Palawan" quantity="1"/>
@@ -7616,7 +7616,7 @@
 			<unitPlacement unitType="Factory" territory="Sibirsky" quantity="1" owner="Russians"/>
 			<unitPlacement unitType="AAGun" territory="Sibirsky" quantity="1" owner="Russians"/>
 			<unitPlacement unitType="Infantry" territory="Bulun" quantity="1"/>
-			<unitPlacement unitType="Infantry" territory="Estonia" quantity="2"/>
+			<unitPlacement unitType="Infantry" territory="Estonia" quantity="1"/>
 			<unitPlacement unitType="Infantry" territory="Smolensk" quantity="1"/>
 			<unitPlacement unitType="Infantry" territory="Salekhard" quantity="1"/>
 			<unitPlacement unitType="Infantry" territory="Tula" quantity="1"/>
@@ -7703,7 +7703,7 @@
 			<unitPlacement unitType="AAGun" territory="E.Morocco" quantity="1" owner="French"/>
 			<unitPlacement unitType="Infantry" territory="Syria" quantity="2"/>
 			<unitPlacement unitType="Infantry" territory="W.Morocco" quantity="2"/>
-			<unitPlacement unitType="Infantry" territory="Churchill" quantity="3" owner="British"/>
+			<unitPlacement unitType="Infantry" territory="Churchill" quantity="4" owner="British"/>
 			<unitPlacement unitType="Artillery" territory="Churchill" quantity="1" owner="British"/>
 			<unitPlacement unitType="Bunker" territory="Churchill" quantity="2" owner="British"/>
 			<unitPlacement unitType="Fighter" territory="Churchill" quantity="2" owner="British"/>
@@ -7882,8 +7882,8 @@
 			<unitPlacement unitType="Factory" territory="Madras" quantity="1" owner="British"/>
 			<unitPlacement unitType="AAGun" territory="Madras" quantity="1" owner="British"/>
 			<unitPlacement unitType="Infantry" territory="Malta" quantity="1"/>
-			<unitPlacement unitType="Infantry" territory="Montreal" quantity="7" owner="French"/>
-			<unitPlacement unitType="Artillery" territory="Montreal" quantity="3" owner="French"/>
+			<unitPlacement unitType="Infantry" territory="Montreal" quantity="6" owner="French"/>
+			<unitPlacement unitType="Artillery" territory="Montreal" quantity="2" owner="French"/>
 			<unitPlacement unitType="Bunker" territory="Montreal" quantity="4" owner="French"/>
 			<unitPlacement unitType="Factory" territory="Montreal" quantity="1" owner="French"/>
 			<unitPlacement unitType="Fighter" territory="Montreal" quantity="1" owner="French"/>
