@@ -7475,7 +7475,7 @@
 			<territoryOwner territory="Urumqi" owner="Chinese"/>
 			<territoryOwner territory="Hsining" owner="Chinese"/>
 			<territoryOwner territory="Shanghai" owner="Chinese"/>
-			<territoryOwner territory="Szechwan" owner="Chinese"/>
+			<territoryOwner territory="Suiyuan" owner="Chinese"/>
 			<territoryOwner territory="Changchun" owner="Yamamoto"/>
 			<territoryOwner territory="Liaoning" owner="Yamamoto"/>
 			<territoryOwner territory="Madras" owner="British"/>
@@ -7753,7 +7753,9 @@
 			<unitPlacement unitType="Infantry" territory="Peleliu" quantity="1"/>
 			<unitPlacement unitType="Infantry" territory="Shansi" quantity="1"/>
 			<unitPlacement unitType="Infantry" territory="Kweichow" quantity="1"/>
-			<unitPlacement unitType="Infantry" territory="Suiyuan" quantity="2"/>
+			<unitPlacement unitType="Infantry" territory="Szechwan" quantity="3"/>
+			<unitPlacement unitType="Bunker" territory="Szechwan" quantity="1"/>
+			<unitPlacement unitType="Factory" territory="Szechwan" quantity="1"/>
 			<unitPlacement unitType="Infantry" territory="Kwangtung" quantity="1"/>
 			<unitPlacement unitType="Infantry" territory="E.Qinghai" quantity="1"/>
 			<unitPlacement unitType="Infantry" territory="Hupeh" quantity="2"/>
@@ -7773,11 +7775,11 @@
 			<unitPlacement unitType="Infantry" territory="Ningsia" quantity="2"/>
 			<unitPlacement unitType="Infantry" territory="Kiangsi" quantity="2"/>
 			<unitPlacement unitType="Infantry" territory="Chahar" quantity="1"/>
-			<unitPlacement unitType="Infantry" territory="Szechwan" quantity="6" owner="Chinese"/>
-			<unitPlacement unitType="Artillery" territory="Szechwan" quantity="1" owner="Chinese"/>
-			<unitPlacement unitType="Bunker" territory="Szechwan" quantity="2" owner="Chinese"/>
-			<unitPlacement unitType="Factory" territory="Szechwan" quantity="1" owner="Chinese"/>
-			<unitPlacement unitType="Infantry" territory="Yunnan" quantity="3"/>
+			<unitPlacement unitType="Infantry" territory="Suiyuan" quantity="8" owner="Chinese"/>
+			<unitPlacement unitType="Artillery" territory="Suiyuan" quantity="3" owner="Chinese"/>
+			<unitPlacement unitType="Bunker" territory="Suiyuan" quantity="2" owner="Chinese"/>
+			<unitPlacement unitType="Factory" territory="Suiyuan" quantity="1" owner="Chinese"/>
+			<unitPlacement unitType="Infantry" territory="Yunnan" quantity="2"/>
 			<unitPlacement unitType="Infantry" territory="Hunan" quantity="2"/>
 			<unitPlacement unitType="Infantry" territory="Anhwei" quantity="1"/>
 			<unitPlacement unitType="Infantry" territory="C.Sinkiang" quantity="1"/>
@@ -7991,7 +7993,7 @@
 			<unitPlacement unitType="AAGun" territory="Bangkok" quantity="1" owner="Thai"/>
 			<unitPlacement unitType="Infantry" territory="New Caledonia" quantity="1"/>
 			<unitPlacement unitType="Infantry" territory="Colombia" quantity="2"/>
-			<unitPlacement unitType="Infantry" territory="San Francisco" quantity="6" owner="Americans"/>
+			<unitPlacement unitType="Infantry" territory="San Francisco" quantity="4" owner="Americans"/>
 			<unitPlacement unitType="Bunker" territory="San Francisco" quantity="2" owner="Americans"/>
 			<unitPlacement unitType="Artillery" territory="San Francisco" quantity="2" owner="Americans"/>
 			<unitPlacement unitType="Tank" territory="San Francisco" quantity="1" owner="Americans"/>
@@ -8224,7 +8226,7 @@
 			<resourceGiven player="Italians" resource="PUs" quantity="18"/>
 			<resourceGiven player="French" resource="PUs" quantity="23"/>                     
 			<resourceGiven player="Yamamoto" resource="PUs" quantity="20"/>
-			<resourceGiven player="Chinese" resource="PUs" quantity="15"/>
+			<resourceGiven player="Chinese" resource="PUs" quantity="14"/>
 			<resourceGiven player="British" resource="PUs" quantity="29"/>                       
 			<resourceGiven player="Anzac" resource="PUs" quantity="12"/>
 			<resourceGiven player="Finns" resource="PUs" quantity="10"/>
