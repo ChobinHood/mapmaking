@@ -7525,7 +7525,7 @@
 			<unitPlacement unitType="Infantry" territory="Brandenburg" quantity="2"/>
 			<unitPlacement unitType="Infantry" territory="Austria" quantity="4"/>
 			<unitPlacement unitType="Infantry" territory="Bavaria" quantity="3"/>
-			<unitPlacement unitType="Infantry" territory="Hamburg" quantity="8 owner="Germans"/>
+			<unitPlacement unitType="Infantry" territory="Hamburg" quantity="8" owner="Germans"/>
 			<unitPlacement unitType="Artillery" territory="Hamburg" quantity="4" owner="Germans"/>
 			<unitPlacement unitType="Tank" territory="Hamburg" quantity="2" owner="Germans"/>
 			<unitPlacement unitType="Fighter" territory="Hamburg" quantity="2" owner="Germans"/>
