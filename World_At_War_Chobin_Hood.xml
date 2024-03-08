@@ -8130,7 +8130,7 @@
 			<unitPlacement unitType="Infantry" territory="Istanbul" quantity="2"/>
 			<unitPlacement unitType="Infantry" territory="Venezuela" quantity="3"/>
 			<unitPlacement unitType="Infantry" territory="Sikang" quantity="4"/>
-			<unitPlacement unitType="Infantry" territory="Netherlands" quantity="4"/>
+			<unitPlacement unitType="Infantry" territory="Netherlands" quantity="5"/>
 			<unitPlacement unitType="Factory" territory="Netherlands" quantity="1"/>
 			<unitPlacement unitType="Bunker" territory="Netherlands" quantity="1"/>
 			<unitPlacement unitType="Artillery" territory="Moscow" quantity="3" owner="Russians"/>
