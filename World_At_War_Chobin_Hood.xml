@@ -7509,7 +7509,7 @@
 			<unitPlacement unitType="Bomber" territory="East Prussia" quantity="1" owner="Germans"/>
 			<unitPlacement unitType="Artillery" territory="East Prussia" quantity="4" owner="Germans"/>
 			<unitPlacement unitType="AAGun" territory="East Prussia" quantity="1" owner="Germans"/>
-			<unitPlacement unitType="Infantry" territory="Pomerania" quantity="3"/>
+			<unitPlacement unitType="Infantry" territory="Pomerania" quantity="2"/>
 			<unitPlacement unitType="Infantry" territory="Saxony" quantity="3"/>
 			<unitPlacement unitType="Infantry" territory="Berlin" quantity="10" owner="Germans"/>
 			<unitPlacement unitType="Artillery" territory="Berlin" quantity="4" owner="Germans"/>
