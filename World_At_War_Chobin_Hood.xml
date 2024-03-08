@@ -5363,7 +5363,7 @@
 			<option name="production" value="1"/>
 		</attachment>
 		<attachment name="territoryAttachment" attachTo="Northeast USA" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
-			<option name="production" value="6"/>
+			<option name="production" value="5"/>
 		</attachment>
 		<attachment name="territoryAttachment" attachTo="Kauai" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
 			<option name="production" value="1"/>
@@ -7519,14 +7519,14 @@
 			<unitPlacement unitType="Factory" territory="Berlin" quantity="1" owner="Germans"/>
 			<unitPlacement unitType="Bomber" territory="Berlin" quantity="2" owner="Germans"/>
 			<unitPlacement unitType="AAGun" territory="Berlin" quantity="1" owner="Germans"/>
-			<unitPlacement unitType="Infantry" territory="Rhine" quantity="5"/>
+			<unitPlacement unitType="Infantry" territory="Rhine" quantity="4"/>
 			<unitPlacement unitType="Infantry" territory="El Agheila" quantity="2"/>
 			<unitPlacement unitType="Infantry" territory="Bohemia" quantity="4"/>
 			<unitPlacement unitType="Infantry" territory="Brandenburg" quantity="2"/>
 			<unitPlacement unitType="Infantry" territory="Austria" quantity="4"/>
 			<unitPlacement unitType="Infantry" territory="Bavaria" quantity="3"/>
 			<unitPlacement unitType="Infantry" territory="Hamburg" quantity="8" owner="Germans"/>
-			<unitPlacement unitType="Artillery" territory="Hamburg" quantity="4" owner="Germans"/>
+			<unitPlacement unitType="Artillery" territory="Hamburg" quantity="3" owner="Germans"/>
 			<unitPlacement unitType="Tank" territory="Hamburg" quantity="2" owner="Germans"/>
 			<unitPlacement unitType="Fighter" territory="Hamburg" quantity="2" owner="Germans"/>
 			<unitPlacement unitType="Bunker" territory="Hamburg" quantity="2" owner="Germans"/>
@@ -7804,7 +7804,6 @@
 			<unitPlacement unitType="Fighter" territory="Changchun" quantity="2" owner="Yamamoto"/>
 			<unitPlacement unitType="Factory" territory="Changchun" quantity="1" owner="Yamamoto"/>
 			<unitPlacement unitType="AAGun" territory="Changchun" quantity="1" owner="Yamamoto"/>
-			<unitPlacement unitType="Bomber" territory="Changchun" quantity="1" owner="Yamamoto"/>
 			<unitPlacement unitType="Infantry" territory="Heilungchiang" quantity="2"/>
 			<unitPlacement unitType="Infantry" territory="British Borneo" quantity="1"/>
 			<unitPlacement unitType="Infantry" territory="New Valley" quantity="1"/><!--
@@ -8028,7 +8027,7 @@
 			<unitPlacement unitType="Fighter" territory="Washington" quantity="1" owner="Americans"/>
 			<unitPlacement unitType="Factory" territory="Washington" quantity="1" owner="Americans"/>
 			<unitPlacement unitType="AAGun" territory="Washington" quantity="1" owner="Americans"/>
-			<unitPlacement unitType="Infantry" territory="Northeast USA" quantity="4"/>
+			<unitPlacement unitType="Infantry" territory="Northeast USA" quantity="5"/>
 			<unitPlacement unitType="Infantry" territory="Kauai" quantity="1"/>
 			<unitPlacement unitType="Infantry" territory="Midway" quantity="1"/>
 			<unitPlacement unitType="Infantry" territory="Manila" quantity="3"/>
