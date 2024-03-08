@@ -2111,11 +2111,11 @@
 		<alliance player="Yamamoto" alliance="Co-prosperity Sphere"/>
 		<alliance player="Chinese" alliance="Comintern"/>
 		<alliance player="British" alliance="Allies"/>
-		<alliance player="Anzac" alliance="Allies"/>
+		<alliance player="Anzac" alliance="Pacific Treaty"/>
 		<alliance player="Finns" alliance="Axis"/>
 		<alliance player="Romanians" alliance="Third Rome"/>
 		<alliance player="Thai" alliance="Co-prosperity Sphere"/>
-		<alliance player="Americans" alliance="Pax Americana"/>
+		<alliance player="Americans" alliance="Pacific Treaty"/>
 	</playerList>
 
 	<unitList>
@@ -2207,91 +2207,93 @@
 
 			<step name="americansBidPlace" delegate="placeBid" player="Americans" maxRunCount="1"/>
 			<step name="americansBid" delegate="bid" player="Americans" maxRunCount="1"/>
-
+			
+                        <step name="germansPurchase" delegate="purchase" player="Germans"/>
 			<step name="germansCombatMove" delegate="move" player="Germans"/>					
 			<step name="germansBattle" delegate="battle" player="Germans"/>
 			<step name="germansNonCombatMove" delegate="move" player="Germans" display="Non Combat Move"/>            
-			<step name="germansPurchase" delegate="purchase" player="Germans"/>
 			<step name="germansPlace" delegate="place" player="Germans"/>                     
 			<step name="germansEndTurn" delegate="endTurn" player="Germans"/>
 
+			<step name="finnsPurchase" delegate="purchase" player="Finns"/>
 			<step name="finnsCombatMove" delegate="move" player="Finns"/>
 			<step name="finnsBattle" delegate="battle" player="Finns"/>
 			<step name="finnsNonCombatMove" delegate="move" player="Finns" display="Non Combat Move"/>       
-			<step name="finnsPurchase" delegate="purchase" player="Finns"/>
 			<step name="finnsPlace" delegate="place" player="Finns"/>                      
 			<step name="finnsEndTurn" delegate="endTurn" player="Finns"/>
-			
+
+			<step name="RussiansPurchase" delegate="purchase" player="Russians"/>
 			<step name="RussiansCombatMove" delegate="move" player="Russians"/>
 			<step name="RussiansBattle" delegate="battle" player="Russians"/>
 			<step name="RussiansNonCombatMove" delegate="move" player="Russians" display="Non Combat Move"/>    
-			<step name="RussiansPurchase" delegate="purchase" player="Russians"/>
 			<step name="RussiansPlace" delegate="place" player="Russians"/>                       
 			<step name="RussiansEndTurn" delegate="endTurn" player="Russians"/>
 
+			<step name="chinesePurchase" delegate="purchase" player="Chinese"/>
 			<step name="chineseCombatMove" delegate="move" player="Chinese"/>
 			<step name="chineseBattle" delegate="battle" player="Chinese"/>
 			<step name="chineseNonCombatMove" delegate="move" player="Chinese" display="Non Combat Move"/>    
-			<step name="chinesePurchase" delegate="purchase" player="Chinese"/>
 			<step name="chinesePlace" delegate="place" player="Chinese"/>                        
 			<step name="chineseEndTurn" delegate="endTurn" player="Chinese"/>
 
+			<step name="italiansPurchase" delegate="purchase" player="Italians"/>
 			<step name="italiansCombatMove" delegate="move" player="Italians"/>
 			<step name="italiansBattle" delegate="battle" player="Italians"/>
 			<step name="italiansNonCombatMove" delegate="move" player="Italians" display="Non Combat Move"/>    
-			<step name="italiansPurchase" delegate="purchase" player="Italians"/>
 			<step name="italiansPlace" delegate="place" player="Italians"/>                        
 			<step name="italiansEndTurn" delegate="endTurn" player="Italians"/>
 
+			<step name="romaniansPurchase" delegate="purchase" player="Romanians"/>
 			<step name="romaniansCombatMove" delegate="move" player="Romanians"/>
 			<step name="romaniansBattle" delegate="battle" player="Romanians"/>
 			<step name="romaniansNonCombatMove" delegate="move" player="Romanians" display="Non Combat Move"/>      
-			<step name="romaniansPurchase" delegate="purchase" player="Romanians"/>
 			<step name="romaniansPlace" delegate="place" player="Romanians"/>                        
 			<step name="romaniansEndTurn" delegate="endTurn" player="Romanians"/>
 
+			<step name="britishPurchase" delegate="purchase" player="British"/>
 			<step name="britishCombatMove" delegate="move" player="British"/>
 			<step name="britishBattle" delegate="battle" player="British"/>
 			<step name="britishNonCombatMove" delegate="move" player="British" display="Non Combat Move"/>                  
-			<step name="britishPurchase" delegate="purchase" player="British"/>
 			<step name="britishPlace" delegate="place" player="British"/>                       
 			<step name="britishEndTurn" delegate="endTurn" player="British"/>
 
+			<step name="frenchPurchase" delegate="purchase" player="French"/>
 			<step name="frenchCombatMove" delegate="move" player="French"/>
 			<step name="frenchBattle" delegate="battle" player="French"/>
 			<step name="frenchNonCombatMove" delegate="move" player="French" display="Non Combat Move"/>     
-			<step name="frenchPurchase" delegate="purchase" player="French"/>
 			<step name="frenchPlace" delegate="place" player="French"/>                       
 			<step name="frenchEndTurn" delegate="endTurn" player="French"/>
 
-			<step name="anzacCombatMove" delegate="move" player="Anzac"/>		
-			<step name="anzacBattle" delegate="battle" player="Anzac"/>
-			<step name="anzacNonCombatMove" delegate="move" player="Anzac" display="Non Combat Move"/>  
-			<step name="anzacPurchase" delegate="purchase" player="Anzac"/>		
-			<step name="anzacPlace" delegate="place" player="Anzac"/>                        
-			<step name="anzacEndTurn" delegate="endTurn" player="Anzac"/>
-
-			<step name="yamamotoCombatMove" delegate="move" player="Yamamoto"/>
-			<step name="yamamotoBattle" delegate="battle" player="Yamamoto"/>
-			<step name="yamamotoNonCombatMove" delegate="move" player="Yamamoto" display="Non Combat Move"/>     
-			<step name="yamamotoPurchase" delegate="purchase" player="Yamamoto"/>
-			<step name="yamamotoPlace" delegate="place" player="Yamamoto"/>
-			<step name="yamamotoEndTurn" delegate="endTurn" player="Yamamoto"/>
-
-			<step name="thaiCombatMove" delegate="move" player="Thai"/>
-			<step name="thaiBattle" delegate="battle" player="Thai"/>
-			<step name="thaiNonCombatMove" delegate="move" player="Thai" display="Non Combat Move"/>   
-			<step name="thaiPurchase" delegate="purchase" player="Thai"/>
-			<step name="thaiPlace" delegate="place" player="Thai"/>                      
-			<step name="thaiEndTurn" delegate="endTurn" player="Thai"/>
-
-			<step name="americansCombatMove" delegate="move" player="Americans"/>
 			<step name="americansPurchase" delegate="purchase" player="Americans"/>
+			<step name="americansCombatMove" delegate="move" player="Americans"/>
 			<step name="americansBattle" delegate="battle" player="Americans"/>
 			<step name="americansNonCombatMove" delegate="move" player="Americans" display="Non Combat Move"/>                        
 			<step name="americansPlace" delegate="place" player="Americans"/>                        
 			<step name="americansEndTurn" delegate="endTurn" player="Americans"/>						
+
+			<step name="anzacPurchase" delegate="purchase" player="Anzac"/>	
+			<step name="anzacCombatMove" delegate="move" player="Anzac"/>		
+			<step name="anzacBattle" delegate="battle" player="Anzac"/>
+			<step name="anzacNonCombatMove" delegate="move" player="Anzac" display="Non Combat Move"/>  
+			<step name="anzacPlace" delegate="place" player="Anzac"/>                        
+			<step name="anzacEndTurn" delegate="endTurn" player="Anzac"/>
+
+			<step name="yamamotoPurchase" delegate="purchase" player="Yamamoto"/>
+			<step name="yamamotoCombatMove" delegate="move" player="Yamamoto"/>
+			<step name="yamamotoBattle" delegate="battle" player="Yamamoto"/>
+			<step name="yamamotoNonCombatMove" delegate="move" player="Yamamoto" display="Non Combat Move"/>     
+			<step name="yamamotoPlace" delegate="place" player="Yamamoto"/>
+			<step name="yamamotoEndTurn" delegate="endTurn" player="Yamamoto"/>
+
+			<step name="thaiPurchase" delegate="purchase" player="Thai"/>
+			<step name="thaiCombatMove" delegate="move" player="Thai"/>
+			<step name="thaiBattle" delegate="battle" player="Thai"/>
+			<step name="thaiNonCombatMove" delegate="move" player="Thai" display="Non Combat Move"/>   
+			<step name="thaiPlace" delegate="place" player="Thai"/>                      
+			<step name="thaiEndTurn" delegate="endTurn" player="Thai"/>
 			<step name="endRoundStep" delegate="endRound"/>
+
+	
 		</sequence>
 	</gamePlay>
 
@@ -4496,7 +4498,7 @@
 			<option name="production" value="1"/>
 		</attachment>
 		<attachment name="territoryAttachment" attachTo="Sverdlovsk" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
-			<option name="production" value="5"/>
+			<option name="production" value="4"/>
 			<!--<option name="victoryCity" value="1"/>-->
 		</attachment>
 		<attachment name="territoryAttachment" attachTo="Kuybyshev" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
@@ -7453,6 +7455,7 @@
 		<ownerInitialize>
 			<territoryOwner territory="Berlin" owner="Germans"/>
 			<territoryOwner territory="East Prussia" owner="Germans"/>
+			<territoryOwner territory="Hamburg" owner="Germans"/>
 			<territoryOwner territory="Sverdlovsk" owner="Russians"/>
 			<territoryOwner territory="Sibirsky" owner="Russians"/>
 			<territoryOwner territory="Moscow" owner="Russians"/>
@@ -7525,6 +7528,7 @@
 			<unitPlacement unitType="Infantry" territory="Hamburg" quantity="7" owner="Germans"/>
 			<unitPlacement unitType="Artillery" territory="Hamburg" quantity="3" owner="Germans"/>
 			<unitPlacement unitType="Tank" territory="Hamburg" quantity="2" owner="Germans"/>
+			<unitPlacement unitType="Fighter" territory="Hamburg" quantity="2" owner="Germans"/>
 			<unitPlacement unitType="Bunker" territory="Hamburg" quantity="2" owner="Germans"/>
 			<unitPlacement unitType="Factory" territory="Hamburg" quantity="1" owner="Germans"/>
 			<unitPlacement unitType="Infantry" territory="Vladivostok" quantity="6" owner="Russians"/>
@@ -7564,7 +7568,8 @@
 			<unitPlacement unitType="Infantry" territory="Semipalatinsk" quantity="1"/>
 			<unitPlacement unitType="Infantry" territory="Stalingrad" quantity="5" owner="Russians"/>
 			<unitPlacement unitType="Tank" territory="Stalingrad" quantity="1" owner="Russians"/>
-			<unitPlacement unitType="Artillery" territory="Stalingrad" quantity="2" owner="Russians"/>
+			<unitPlacement unitType="Artillery" territory="Stalingrad" quantity="1" owner="Russians"/>
+			<unitPlacement unitType="Fighter" territory="Stalingrad" quantity="1" owner="Russians"/>
 			<unitPlacement unitType="Bunker" territory="Stalingrad" quantity="1" owner="Russians"/>
 			<unitPlacement unitType="Factory" territory="Stalingrad" quantity="1" owner="Russians"/>
 			<unitPlacement unitType="Infantry" territory="Komi" quantity="1"/>
@@ -7593,8 +7598,9 @@
 			<unitPlacement unitType="Infantry" territory="New South Wales" quantity="1"/>
 			<unitPlacement unitType="Infantry" territory="Kamchatka" quantity="2"/>
 			<unitPlacement unitType="Infantry" territory="Latvia" quantity="2"/>
-			<unitPlacement unitType="Infantry" territory="Leningrad" quantity="6" owner="Russians"/>
+			<unitPlacement unitType="Infantry" territory="Leningrad" quantity="5" owner="Russians"/>
 			<unitPlacement unitType="Artillery" territory="Leningrad" quantity="2" owner="Russians"/>
+			<unitPlacement unitType="Fighter" territory="Leningrad" quantity="1" owner="Russians"/>
 			<unitPlacement unitType="Bunker" territory="Leningrad" quantity="2" owner="Russians"/>
 			<unitPlacement unitType="Factory" territory="Leningrad" quantity="1" owner="Russians"/>
 			<unitPlacement unitType="Infantry" territory="Odessa" quantity="1"/>
@@ -8216,18 +8222,18 @@
 			<unitPlacement unitType="Destroyer" territory="24 Sea Zone" quantity="2" owner="Finns"/>
 		</unitInitialize>
 		<resourceInitialize>
-			<resourceGiven player="Germans" resource="PUs" quantity="24"/>
-			<resourceGiven player="Russians" resource="PUs" quantity="22"/>
-			<resourceGiven player="Italians" resource="PUs" quantity="14"/>
-			<resourceGiven player="French" resource="PUs" quantity="15"/>                     
-			<resourceGiven player="Yamamoto" resource="PUs" quantity="10"/>
-			<resourceGiven player="Chinese" resource="PUs" quantity="10"/>
-			<resourceGiven player="British" resource="PUs" quantity="20"/>                       
-			<resourceGiven player="Anzac" resource="PUs" quantity="10"/>
+			<resourceGiven player="Germans" resource="PUs" quantity="26"/>
+			<resourceGiven player="Russians" resource="PUs" quantity="33"/>
+			<resourceGiven player="Italians" resource="PUs" quantity="18"/>
+			<resourceGiven player="French" resource="PUs" quantity="23"/>                     
+			<resourceGiven player="Yamamoto" resource="PUs" quantity="20"/>
+			<resourceGiven player="Chinese" resource="PUs" quantity="15"/>
+			<resourceGiven player="British" resource="PUs" quantity="29"/>                       
+			<resourceGiven player="Anzac" resource="PUs" quantity="12"/>
 			<resourceGiven player="Finns" resource="PUs" quantity="10"/>
 			<resourceGiven player="Romanians" resource="PUs" quantity="9"/>                        
-			<resourceGiven player="Thai" resource="PUs" quantity="6"/>
-			<resourceGiven player="Americans" resource="PUs" quantity="23"/>
+			<resourceGiven player="Thai" resource="PUs" quantity="9"/>
+			<resourceGiven player="Americans" resource="PUs" quantity="26"/>
 		</resourceInitialize>
 	</initialize>
 
