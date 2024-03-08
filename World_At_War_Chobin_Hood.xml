@@ -7727,7 +7727,7 @@
 			<unitPlacement unitType="Infantry" territory="Kwangtung" quantity="1"/>
 			<unitPlacement unitType="Infantry" territory="E.Qinghai" quantity="1"/>
 			<unitPlacement unitType="Infantry" territory="Hupeh" quantity="3"/>
-			<unitPlacement unitType="Infantry" territory="Shanghai" quantity="7" owner="Chinese">
+			<unitPlacement unitType="Infantry" territory="Shanghai" quantity="7" owner="Chinese"/>
 			<unitPlacement unitType="Bunker" territory="Shanghai" quantity="2" owner="Chinese"/>
 			<unitPlacement unitType="Factory" territory="Shanghai" quantity="1" owner="Chinese"/>
 			<unitPlacement unitType="Infantry" territory="E.Sinkiang" quantity="1" owner="Chinese"/>
@@ -8042,7 +8042,7 @@
 			<unitPlacement unitType="Infantry" territory="Central America" quantity="1"/>
 			<unitPlacement unitType="Infantry" territory="Liberia" quantity="1"/>
 			<unitPlacement unitType="Infantry" territory="Galapagos" quantity="1"/>
-			<unitPlacement unitType="Infantry" territory="French Equatorial Africa"/>
+			<unitPlacement unitType="Infantry" territory="French Equatorial Africa" quantity="1"/>
 			<unitPlacement unitType="Infantry" territory="N.Tunisia" quantity="1"/>
 			<unitPlacement unitType="Infantry" territory="Ankara" quantity="2"/>
 			<unitPlacement unitType="Bunker" territory="Ankara" quantity="1"/>
@@ -8181,9 +8181,6 @@
 			<unitPlacement unitType="Cruiser" territory="24 Sea Zone" quantity="2" owner="Finns"/>
 			<unitPlacement unitType="Transport" territory="24 Sea Zone" quantity="2" owner="Finns"/>
 			<unitPlacement unitType="Destroyer" territory="24 Sea Zone" quantity="2" owner="Finns"/>
-
-
-
 		</unitInitialize>
 		<resourceInitialize>
 			<resourceGiven player="Germans" resource="PUs" quantity="24"/>
