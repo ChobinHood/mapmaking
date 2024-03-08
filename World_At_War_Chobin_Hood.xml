@@ -8019,7 +8019,7 @@
 			<unitPlacement unitType="Artillery" territory="Pearl Harbor" quantity="3" owner="Americans"/>
 			<unitPlacement unitType="Bunker" territory="Pearl Harbor" quantity="2" owner="Americans"/>
 			<unitPlacement unitType="Tank" territory="Pearl Harbor" quantity="1" owner="Americans"/>
-			<unitPlacement unitType="Fighter" territory="Pearl Harbor" quantity="3" owner="Americans"/>
+			<unitPlacement unitType="Fighter" territory="Pearl Harbor" quantity="2" owner="Americans"/>
 			<unitPlacement unitType="Factory" territory="Pearl Harbor" quantity="1" owner="Americans"/>
 			<unitPlacement unitType="AAGun" territory="Pearl Harbor" quantity="1" owner="Americans"/>
 			<unitPlacement unitType="Infantry" territory="Palmyra" quantity="1"/>
