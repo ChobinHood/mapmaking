@@ -7596,7 +7596,7 @@
 			<unitPlacement unitType="Infantry" territory="Western Australia" quantity="1"/>
 			<unitPlacement unitType="Infantry" territory="South Australia" quantity="1"/>
 			<unitPlacement unitType="Infantry" territory="New South Wales" quantity="1"/>
-			<unitPlacement unitType="Infantry" territory="Kamchatka" quantity="2"/>
+			<unitPlacement unitType="Infantry" territory="Kamchatka" quantity="1"/>
 			<unitPlacement unitType="Infantry" territory="Latvia" quantity="2"/>
 			<unitPlacement unitType="Infantry" territory="Leningrad" quantity="5" owner="Russians"/>
 			<unitPlacement unitType="Artillery" territory="Leningrad" quantity="2" owner="Russians"/>
@@ -7620,7 +7620,7 @@
 			<unitPlacement unitType="Infantry" territory="Smolensk" quantity="1"/>
 			<unitPlacement unitType="Infantry" territory="Salekhard" quantity="1"/>
 			<unitPlacement unitType="Infantry" territory="Tula" quantity="1"/>
-			<unitPlacement unitType="Infantry" territory="N.Sakhalin" quantity="2"/>
+			<unitPlacement unitType="Infantry" territory="N.Sakhalin" quantity="1"/>
 			<unitPlacement unitType="Infantry" territory="Bratsk" quantity="1"/>
 			<unitPlacement unitType="Infantry" territory="Georgia" quantity="2"/>
 			<unitPlacement unitType="Infantry" territory="Chimkent" quantity="1"/>
@@ -7806,7 +7806,7 @@
 			<unitPlacement unitType="AAGun" territory="Changchun" quantity="1" owner="Yamamoto"/>
 			<unitPlacement unitType="Bomber" territory="Changchun" quantity="1" owner="Yamamoto"/>
 			<unitPlacement unitType="Infantry" territory="Heilungchiang" quantity="2"/>
-			<unitPlacement unitType="Infantry" territory="British Borneo" quantity="2"/>
+			<unitPlacement unitType="Infantry" territory="British Borneo" quantity="1"/>
 			<unitPlacement unitType="Infantry" territory="New Valley" quantity="1"/><!--
 			<unitPlacement unitType="Bunker" territory="Rhodes" quantity="1" owner="British"/>-->
 			<unitPlacement unitType="Infantry" territory="Assam" quantity="2"/>
@@ -7859,7 +7859,7 @@
 			<unitPlacement unitType="Infantry" territory="Mysore" quantity="1"/>
 			<unitPlacement unitType="Infantry" territory="Ceylon" quantity="1"/>
 			<unitPlacement unitType="Infantry" territory="Rajputana" quantity="1"/>
-			<unitPlacement unitType="Infantry" territory="Kiev" quantity="3"/>
+			<unitPlacement unitType="Infantry" territory="Kiev" quantity="2"/>
 			<unitPlacement unitType="Infantry" territory="Yaroslavl" quantity="2"/>
 			<unitPlacement unitType="Infantry" territory="Kirov" quantity="1"/>
 			<unitPlacement unitType="Infantry" territory="Saratov" quantity="2"/>
@@ -7969,7 +7969,7 @@
 			<unitPlacement unitType="Infantry" territory="West Borneo" quantity="2"/>
 			<unitPlacement unitType="Infantry" territory="Hollandia" quantity="2"/>
 			<unitPlacement unitType="Infantry" territory="Soembawa" quantity="1"/>
-			<unitPlacement unitType="Infantry" territory="East And South Borneo" quantity="2"/>
+			<unitPlacement unitType="Infantry" territory="East And South Borneo" quantity="1"/>
 			<unitPlacement unitType="Infantry" territory="Sumatra" quantity="2"/>
 			<unitPlacement unitType="Infantry" territory="Banjarmasin" quantity="3"/>
 			<unitPlacement unitType="Bunker" territory="Banjarmasin" quantity="1"/>
@@ -8045,7 +8045,7 @@
 			<unitPlacement unitType="AAGun" territory="Cape Town" quantity="1" owner="British"/>
 			<unitPlacement unitType="Infantry" territory="Afghanistan" quantity="4"/>
 			<unitPlacement unitType="Infantry" territory="W.Mexico" quantity="2"/>
-			<unitPlacement unitType="Infantry" territory="Krakow" quantity="3"/>
+			<unitPlacement unitType="Infantry" territory="Krakow" quantity="2"/>
 			<unitPlacement unitType="Infantry" territory="Warsaw" quantity="3"/>
 			<unitPlacement unitType="Bunker" territory="Warsaw" quantity="1"/>
 			<unitPlacement unitType="Factory" territory="Warsaw" quantity="1"/>
@@ -8112,7 +8112,7 @@
 			<unitPlacement unitType="Infantry" territory="Denmark" quantity="2"/>
 			<unitPlacement unitType="Infantry" territory="Navarre" quantity="2"/>
 			<unitPlacement unitType="Infantry" territory="Serbia" quantity="2"/>
-			<unitPlacement unitType="Infantry" territory="S.Sakhalin" quantity="2"/>
+			<unitPlacement unitType="Infantry" territory="S.Sakhalin" quantity="1"/>
 			<unitPlacement unitType="Infantry" territory="Valencia" quantity="2"/>
 			<unitPlacement unitType="Infantry" territory="Khobdo" quantity="1"/>
 			<unitPlacement unitType="Infantry" territory="Galicia" quantity="2"/>
