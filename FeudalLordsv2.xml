@@ -1711,7 +1711,7 @@
 			<result resourceOrUnit="man_at_arms" quantity="1"/>
 		</productionRule>
 		<productionRule name="buy_knight">
-			<cost resource="PUs" quantity="12"/>
+			<cost resource="PUs" quantity="9"/>
 			<result resourceOrUnit="knight" quantity="1"/>
 		</productionRule>
 		<productionRule name="buy_horseman">
@@ -2051,16 +2051,15 @@
 			<option name="defense" value="4"/>
 		</attachment>
 		<attachment name="unitAttachment" attachTo="longbowman" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
-			<option name="isInfrastructure" value="true"/>
 		        <!--<option name="destroyedWhenCapturedBy" value="BY:Byzantium:Seljuk:Jerusalem:Fatimid:Almoravid:Leon:Aragon:Aquitania:France:England:Scotland:PapalState:Sicily:Venice:Austria:Hungary:Poland:Bohemia:Brandenburg:Denmark:Sweden:Kiev:Novgorod:Cumania:Bulgaria"/>-->
 			<option name="movement" value="2"/>
 			<option name="transportCost" value="1"/>
 			<option name="attack" value="3"/>
-			<option name="defense" value="5"/>
+			<option name="defense" value="6"/>
 			
 			<option name="targetsAA" value="man_at_arms:skirmisher:pikeman:longbowman:horseman:knight"/>
 			<option name="typeAA" value="volley"/>
-			<option name="attackAA" value="5"/>
+			<option name="attackAA" value="6"/>
 			<option name="offensiveAttackAA" value="3"/>
 			<option name="isAAforCombatOnly" value="true"/>
 			<option name="mayOverStackAA" value="true"/>
@@ -2071,18 +2070,18 @@
 		<attachment name="unitAttachment" attachTo="knight" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
 			<option name="movement" value="3"/>
 			<option name="transportCost" value="3"/>
-			<option name="attack" value="10"/>
+			<option name="attack" value="9"/>
 			<option name="defense" value="7"/>
 			<!--<option name="hitPoints" value="2"/>-->
 			
 			<option name="targetsAA" value="skirmisher:man_at_arms:longbowman:pikeman:horseman:knight"/>
 			<option name="typeAA" value="charge"/>
-			<option name="attackAA" value="7"/>
+			<option name="attackAA" value="8"/>
 			<option name="offensiveAttackAA" value="10"/>
 			<option name="isAAforCombatOnly" value="true"/>
 			<option name="mayOverStackAA" value="true"/>
 			<option name="damageableAA" value="true"/>
-			<option name="maxAAattacks" value="2"/>
+			<option name="maxAAattacks" value="1"/>
 			<option name="maxRoundsAA" value="1"/>
 		</attachment>
 		
@@ -2107,7 +2106,7 @@
 		</attachment>
 		
 		<attachment name="supportAttachment_skirmisher_skirmish" attachTo="skirmisher" javaClass="games.strategy.triplea.attachments.UnitSupportAttachment" type="unitType">
-			<option name="unitType" value="skirmisher:man_at_arms:pikeman:horseman:knight" />
+			<option name="unitType" value="skirmisher:man_at_arms:pikeman" />
 			<option name="faction" value="enemy" />
 			<option name="side" value="offence:defence" />
 			<option name="dice" value="strength" />
