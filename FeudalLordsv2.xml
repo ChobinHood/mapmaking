@@ -1699,7 +1699,7 @@
 	</gamePlay>
 	<production>
 		<productionRule name="buy_castle">
-			<cost resource="PUs" quantity="20"/>
+			<cost resource="PUs" quantity="30"/>
 			<result resourceOrUnit="castle" quantity="1"/>
 		</productionRule>
 		<productionRule name="buy_skirmisher">
@@ -2046,11 +2046,11 @@
 			<option name="movement" value="2"/>
 			<option name="transportCost" value="1"/>
 			<option name="attack" value="3"/>
-			<option name="defense" value="6"/>
+			<option name="defense" value="5"/>
 			
 			<option name="targetsAA" value="man_at_arms:skirmisher:pikeman:longbowman:horseman:knight"/>
 			<option name="typeAA" value="volley"/>
-			<option name="attackAA" value="6"/>
+			<option name="attackAA" value="5"/>
 			<option name="offensiveAttackAA" value="3"/>
 			<option name="isAAforCombatOnly" value="true"/>
 			<option name="mayOverStackAA" value="true"/>
@@ -2124,7 +2124,7 @@
 			<option name="faction" value="enemy" />
 			<option name="side" value="defence" />
 			<option name="dice" value="strength" />
-			<option name="bonus" value="-3" />
+			<option name="bonus" value="-2" />
 			<option name="number" value="18" />
 			<option name="bonusType" value="battlements" />
 			<option name="impArtTech" value="false" />
