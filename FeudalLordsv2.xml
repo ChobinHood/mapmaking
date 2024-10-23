@@ -2014,7 +2014,7 @@
 			<option name="canProduceXUnits" value="-1"/>
 			<option name="isFactory" value="true"/>
 			<option name="defense" value="10"/>
-			<option name="destroyedWhenCapturedBy" value="Byzantium:Seljuk:Jerusalem:Fatimid:Almoravid:Leon:Aragon:Aquitania:France:England:Scotland:PapalState:Sicily:Venice:Austria:Hungary:Poland:Bohemia:Brandenburg:Denmark:Sweden:Kiev:Novgorod:Cumania:Bulgaria"/>
+			<option name="whenCapturedChangesInto" value="any:any:true:castle:1"/>
 			
 		</attachment>
 		<attachment name="unitAttachment" attachTo="skirmisher" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
