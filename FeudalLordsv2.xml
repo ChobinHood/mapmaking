@@ -2019,7 +2019,7 @@
 			
 			<option name="hitPoints" value="2"/>
 			<option name="defense" value="10"/>
-			<option name="destroyedWhenCapturedBy" value="Bulgaria:Cumania:Novgorod:Kiev:Sweden:Denmark:Brandengurg:Bohemia:Poland:Hungary:Austria:Venice:Sicily:PapalState:Scotland:England:France:Aquitania:Aragon:Leon:Almoravid:Fatimid:Jerusalem:Seljuk:Byzantium"/>
+			<option name="destroyedWhenCapturedBy" value="Byzantium:Seljuk:Jerusalem:Fatimid:Almoravid:Leon:Aragon:Aquitania:France:England:Scotland:PapalState:Sicily:Venice:Austria:Hungary:Poland:Bohemia:Brandenburg:Denmark:Sweden:Kiev:Novgorod:Cumania:Bulgaria"/>
 			
 			<option name="isConstruction" value="true"/>
 			<option name="constructionType" value="castle"/>
