@@ -1703,7 +1703,7 @@
 			<result resourceOrUnit="castle" quantity="1"/>
 		</productionRule>
 		<productionRule name="buy_skirmisher">
-			<cost resource="PUs" quantity="4"/>
+			<cost resource="PUs" quantity="3"/>
 			<result resourceOrUnit="skirmisher" quantity="1"/>
 		</productionRule>
 		<productionRule name="buy_man_at_arms">
@@ -1711,11 +1711,11 @@
 			<result resourceOrUnit="man_at_arms" quantity="1"/>
 		</productionRule>
 		<productionRule name="buy_knight">
-			<cost resource="PUs" quantity="12"/>
+			<cost resource="PUs" quantity="11"/>
 			<result resourceOrUnit="knight" quantity="1"/>
 		</productionRule>
 		<productionRule name="buy_horseman">
-			<cost resource="PUs" quantity="9"/>
+			<cost resource="PUs" quantity="8"/>
 			<result resourceOrUnit="horseman" quantity="1"/>
 		</productionRule>
 		<productionRule name="buy_longbowman">
@@ -2027,30 +2027,30 @@
 			<option name="movement" value="4"/>
 			<option name="transportCost" value="3"/>
 			<option name="attack" value="5"/>
-			<option name="defense" value="4"/>
+			<option name="defense" value="3"/>
 		</attachment>
 		<attachment name="unitAttachment" attachTo="man_at_arms" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
 			<option name="movement" value="2"/>
 			<option name="transportCost" value="1"/>
-			<option name="attack" value="6"/>
+			<option name="attack" value="7"/>
 			<option name="defense" value="7"/>
 		</attachment>
 		<attachment name="unitAttachment" attachTo="pikeman" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
 			<option name="movement" value="2"/>
 			<option name="transportCost" value="1"/>
 			<option name="attack" value="2"/>
-			<option name="defense" value="4"/>
+			<option name="defense" value="5"/>
 		</attachment>
 		<attachment name="unitAttachment" attachTo="longbowman" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
 		        <!--<option name="destroyedWhenCapturedBy" value="BY:Byzantium:Seljuk:Jerusalem:Fatimid:Almoravid:Leon:Aragon:Aquitania:France:England:Scotland:PapalState:Sicily:Venice:Austria:Hungary:Poland:Bohemia:Brandenburg:Denmark:Sweden:Kiev:Novgorod:Cumania:Bulgaria"/>-->
 			<option name="movement" value="2"/>
 			<option name="transportCost" value="1"/>
 			<option name="attack" value="3"/>
-			<option name="defense" value="5"/>
+			<option name="defense" value="6"/>
 			
 			<option name="targetsAA" value="man_at_arms:skirmisher:pikeman:longbowman:horseman:knight"/>
 			<option name="typeAA" value="volley"/>
-			<option name="attackAA" value="5"/>
+			<option name="attackAA" value="6"/>
 			<option name="offensiveAttackAA" value="3"/>
 			<option name="isAAforCombatOnly" value="true"/>
 			<option name="mayOverStackAA" value="true"/>
