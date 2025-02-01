@@ -1715,7 +1715,7 @@
 			<result resourceOrUnit="knight" quantity="1"/>
 		</productionRule>
 		<productionRule name="buy_horseman">
-			<cost resource="PUs" quantity="8"/>
+			<cost resource="PUs" quantity="9"/>
 			<result resourceOrUnit="horseman" quantity="4"/>
 		</productionRule>
 		<productionRule name="buy_longbowman">
