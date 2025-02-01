@@ -1716,7 +1716,7 @@
 		</productionRule>
 		<productionRule name="buy_horseman">
 			<cost resource="PUs" quantity="9"/>
-			<result resourceOrUnit="horseman" quantity="4"/>
+			<result resourceOrUnit="horseman" quantity="1"/>
 		</productionRule>
 		<productionRule name="buy_longbowman">
 			<cost resource="PUs" quantity="6"/>
@@ -2026,7 +2026,7 @@
 		<attachment name="unitAttachment" attachTo="horseman" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
 			<option name="movement" value="4"/>
 			<option name="transportCost" value="3"/>
-			<option name="attack" value="6"/>
+			<option name="attack" value="5"/>
 			<option name="defense" value="4"/>
 		</attachment>
 		<attachment name="unitAttachment" attachTo="man_at_arms" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
