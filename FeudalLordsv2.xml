@@ -2251,7 +2251,18 @@
 			<option name="defense" value="3"/>
 		</attachment>
 		
-		<attachment name="supportAttachment_pikeman_spearwall" attachTo="pikeman:swisspikeman" javaClass="games.strategy.triplea.attachments.UnitSupportAttachment" type="unitType">
+		<attachment name="supportAttachment_pikeman_spearwall" attachTo="pikeman" javaClass="games.strategy.triplea.attachments.UnitSupportAttachment" type="unitType">
+			<option name="unitType" value="knight:berbercavalry:hussar:cataphract" />
+			<option name="faction" value="enemy" />
+			<option name="side" value="offence:defence" />
+			<option name="dice" value="strength" />
+			<option name="bonus" value="-5" />
+			<option name="number" value="1" />
+			<option name="bonusType" value="spearwall" />
+			<option name="impArtTech" value="false" />
+			<option name="players" value="Byzantium:Seljuk:Jerusalem:Fatimid:Almoravid:Leon:Aragon:Aquitania:France:England:Scotland:PapalState:Sicily:Venice:Austria:Hungary:Poland:Bohemia:Brandenburg:Denmark:Sweden:Kiev:Novgorod:Cumania:Bulgaria" />
+		</attachment>
+		<attachment name="supportAttachment_pikeman_spearwall" attachTo="swisspikeman" javaClass="games.strategy.triplea.attachments.UnitSupportAttachment" type="unitType">
 			<option name="unitType" value="knight:berbercavalry:hussar:cataphract" />
 			<option name="faction" value="enemy" />
 			<option name="side" value="offence:defence" />
@@ -2263,7 +2274,7 @@
 			<option name="players" value="Byzantium:Seljuk:Jerusalem:Fatimid:Almoravid:Leon:Aragon:Aquitania:France:England:Scotland:PapalState:Sicily:Venice:Austria:Hungary:Poland:Bohemia:Brandenburg:Denmark:Sweden:Kiev:Novgorod:Cumania:Bulgaria" />
 		</attachment>
 		
-		<attachment name="supportAttachment_skirmisher_skirmish" attachTo="skirmisher:tribesman" javaClass="games.strategy.triplea.attachments.UnitSupportAttachment" type="unitType">
+		<attachment name="supportAttachment_skirmisher_skirmish" attachTo="skirmisher" javaClass="games.strategy.triplea.attachments.UnitSupportAttachment" type="unitType">
 			<option name="unitType" value="man_at_arms:skirmisher:pikeman:tribesman:swisspikeman:crusader" />
 			<option name="faction" value="enemy" />
 			<option name="side" value="offence:defence" />
@@ -2274,7 +2285,41 @@
 			<option name="impArtTech" value="false" />
 			<option name="players" value="Byzantium:Seljuk:Jerusalem:Fatimid:Almoravid:Leon:Aragon:Aquitania:France:England:Scotland:PapalState:Sicily:Venice:Austria:Hungary:Poland:Bohemia:Brandenburg:Denmark:Sweden:Kiev:Novgorod:Cumania:Bulgaria" />
 		</attachment>
-		<attachment name="supportAttachment_horseman_skirmish" attachTo="horseman:horsearcher:camelrider" javaClass="games.strategy.triplea.attachments.UnitSupportAttachment" type="unitType">
+		<attachment name="supportAttachment_skirmisher_skirmish" attachTo="tribesman" javaClass="games.strategy.triplea.attachments.UnitSupportAttachment" type="unitType">
+			<option name="unitType" value="man_at_arms:skirmisher:pikeman:tribesman:swisspikeman:crusader" />
+			<option name="faction" value="enemy" />
+			<option name="side" value="offence:defence" />
+			<option name="dice" value="strength" />
+			<option name="bonus" value="-1" />
+			<option name="number" value="1" />
+			<option name="bonusType" value="skirmish" />
+			<option name="impArtTech" value="false" />
+			<option name="players" value="Byzantium:Seljuk:Jerusalem:Fatimid:Almoravid:Leon:Aragon:Aquitania:France:England:Scotland:PapalState:Sicily:Venice:Austria:Hungary:Poland:Bohemia:Brandenburg:Denmark:Sweden:Kiev:Novgorod:Cumania:Bulgaria" />
+		</attachment>
+		
+		<attachment name="supportAttachment_horseman_skirmish" attachTo="horseman" javaClass="games.strategy.triplea.attachments.UnitSupportAttachment" type="unitType">
+			<option name="unitType" value="man_at_arms:skirmisher:pikeman:longbowman:horseman:knight:bowman:tribesman:swisspikeman:camelrider:horsearcher:berbercavalry:crusader:hussar:cataphract" />
+			<option name="faction" value="enemy" />
+			<option name="side" value="offence:defence" />
+			<option name="dice" value="strength" />
+			<option name="bonus" value="-2" />
+			<option name="number" value="1" />
+			<option name="bonusType" value="skirmish" />
+			<option name="impArtTech" value="false" />
+			<option name="players" value="Byzantium:Seljuk:Jerusalem:Fatimid:Almoravid:Leon:Aragon:Aquitania:France:England:Scotland:PapalState:Sicily:Venice:Austria:Hungary:Poland:Bohemia:Brandenburg:Denmark:Sweden:Kiev:Novgorod:Cumania:Bulgaria" />
+		</attachment>
+		<attachment name="supportAttachment_horseman_skirmish" attachTo="horsearcher" javaClass="games.strategy.triplea.attachments.UnitSupportAttachment" type="unitType">
+			<option name="unitType" value="man_at_arms:skirmisher:pikeman:longbowman:horseman:knight:bowman:tribesman:swisspikeman:camelrider:horsearcher:berbercavalry:crusader:hussar:cataphract" />
+			<option name="faction" value="enemy" />
+			<option name="side" value="offence:defence" />
+			<option name="dice" value="strength" />
+			<option name="bonus" value="-2" />
+			<option name="number" value="1" />
+			<option name="bonusType" value="skirmish" />
+			<option name="impArtTech" value="false" />
+			<option name="players" value="Byzantium:Seljuk:Jerusalem:Fatimid:Almoravid:Leon:Aragon:Aquitania:France:England:Scotland:PapalState:Sicily:Venice:Austria:Hungary:Poland:Bohemia:Brandenburg:Denmark:Sweden:Kiev:Novgorod:Cumania:Bulgaria" />
+		</attachment>
+		<attachment name="supportAttachment_horseman_skirmish" attachTo="camelrider" javaClass="games.strategy.triplea.attachments.UnitSupportAttachment" type="unitType">
 			<option name="unitType" value="man_at_arms:skirmisher:pikeman:longbowman:horseman:knight:bowman:tribesman:swisspikeman:camelrider:horsearcher:berbercavalry:crusader:hussar:cataphract" />
 			<option name="faction" value="enemy" />
 			<option name="side" value="offence:defence" />
