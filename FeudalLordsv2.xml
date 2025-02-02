@@ -1763,7 +1763,7 @@
 		</productionRule>
 		<productionRule name="buy_bowman">
 			<cost resource="PUs" quantity="5"/>
-			<result resourceOrUnit="lbowman" quantity="1"/>
+			<result resourceOrUnit="bowman" quantity="1"/>
 		</productionRule>
 		<productionRule name="buy_pikeman">
 			<cost resource="PUs" quantity="4"/>
