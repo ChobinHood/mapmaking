@@ -3899,7 +3899,7 @@
             <unitPlacement unitType="galley" territory="Mediterranean Sea 5" quantity="2" owner="Fatimid"/>
             <unitPlacement unitType="galea" territory="Mediterranean Sea 11" quantity="2" owner="Sicily"/>
             <unitPlacement unitType="skirmisher" territory="Mercia" quantity="1" owner="England"/>
-            <unitPlacement unitType="bowman" territory="Mercia" quantity="2" owner="England"/>
+            <unitPlacement unitType="longbowman" territory="Mercia" quantity="2" owner="England"/>
             <unitPlacement unitType="man_at_arms" territory="Milan" quantity="1" />
             <unitPlacement unitType="bowman" territory="Milan" quantity="1" />
             <unitPlacement unitType="castle" territory="Milan" quantity="1" />
