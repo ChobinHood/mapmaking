@@ -1727,7 +1727,7 @@
 		</productionRule>
 		<productionRule name="buy_crusader">
 			<cost resource="PUs" quantity="6"/>
-			<result resourceOrUnit="crusade" quantity="1"/>
+			<result resourceOrUnit="crusader" quantity="1"/>
 		</productionRule>
 		<productionRule name="buy_knight">
 			<cost resource="PUs" quantity="9"/>
