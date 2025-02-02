@@ -3989,7 +3989,7 @@
             <unitPlacement unitType="crusader" territory="Roma" quantity="1" owner="PapalState"/>
             <unitPlacement unitType="knight" territory="Roma" quantity="1" owner="PapalState"/>
             <unitPlacement unitType="castle" territory="Roma" quantity="1" owner="PapalState"/>
-            <unitPlacement unitType="crusadr" territory="Romagna" quantity="1" owner="PapalState"/>
+            <unitPlacement unitType="crusader" territory="Romagna" quantity="1" owner="PapalState"/>
             <unitPlacement unitType="pikeman" territory="Romagna" quantity="1" owner="PapalState"/>
             <unitPlacement unitType="bowman" territory="Romagna" quantity="1" owner="PapalState"/>
             <unitPlacement unitType="pikeman" territory="Ryazan" quantity="1" />
