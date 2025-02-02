@@ -1504,12 +1504,23 @@
 	<unitList>
 		<unit name="castle"/>
 		<unit name="skirmisher"/>
+		<unit name="tribesman"/>
 		<unit name="man_at_arms"/>
+		<unit name="crusader"/>
 		<unit name="horseman"/>
+		<unit name="horsearcher"/>
+		<unit name="camelrider"/>
 		<unit name="knight"/>
+		<unit name="cataphract"/>
+		<unit name="berbercavalry"/>
+		<unit name="hussar"/>
+		<unit name="bowman"/>
 		<unit name="longbowman"/>
+		<unit name="swisspikeman"/>
 		<unit name="pikeman"/>
+		<unit name="galea"/>
 		<unit name="galley"/>
+		<unit name="longship"/>
 	</unitList>
 	<gamePlay>
 		<delegate name="initDelegate" javaClass="games.strategy.triplea.delegate.InitializationDelegate" display="Initializing Delegates"/>
