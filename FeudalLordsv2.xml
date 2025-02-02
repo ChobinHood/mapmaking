@@ -3813,7 +3813,7 @@
             <unitPlacement unitType="skirmisher" territory="Friesland" quantity="2" />
             <unitPlacement unitType="man_at_arms" territory="Friesland" quantity="1" />
             <unitPlacement unitType="horseman" territory="Friesland" quantity="1" />
-            <unitPlacement unitType="tribseman" territory="Galloway" quantity="3" owner="Scotland"/>
+            <unitPlacement unitType="tribesman" territory="Galloway" quantity="3" owner="Scotland"/>
             <unitPlacement unitType="swisspikeman" territory="Gascogne" quantity="1" owner="Aquitania"/>
             <unitPlacement unitType="bowman" territory="Gascogne" quantity="1" owner="Aquitania"/>
             <unitPlacement unitType="pikeman" territory="Genoa" quantity="1" />
