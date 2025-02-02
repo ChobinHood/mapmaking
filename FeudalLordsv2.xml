@@ -1706,38 +1706,82 @@
 			<cost resource="PUs" quantity="3"/>
 			<result resourceOrUnit="skirmisher" quantity="1"/>
 		</productionRule>
+		<productionRule name="buy_tribesman">
+			<cost resource="PUs" quantity="3"/>
+			<result resourceOrUnit="tribesman" quantity="1"/>
+		</productionRule>
 		<productionRule name="buy_man_at_arms">
 			<cost resource="PUs" quantity="6"/>
 			<result resourceOrUnit="man_at_arms" quantity="1"/>
+		</productionRule>
+		<productionRule name="buy_crusader">
+			<cost resource="PUs" quantity="6"/>
+			<result resourceOrUnit="crusade" quantity="1"/>
 		</productionRule>
 		<productionRule name="buy_knight">
 			<cost resource="PUs" quantity="9"/>
 			<result resourceOrUnit="knight" quantity="1"/>
 		</productionRule>
+		<productionRule name="buy_berbercavalry">
+			<cost resource="PUs" quantity="7"/>
+			<result resourceOrUnit="berbercavalry" quantity="1"/>
+		</productionRule>
+		<productionRule name="buy_cataphract">
+			<cost resource="PUs" quantity="10"/>
+			<result resourceOrUnit="cataphract" quantity="1"/>
+		</productionRule>
+		<productionRule name="buy_hussar">
+			<cost resource="PUs" quantity="9"/>
+			<result resourceOrUnit="hussar" quantity="1"/>
+		</productionRule>
 		<productionRule name="buy_horseman">
 			<cost resource="PUs" quantity="6"/>
 			<result resourceOrUnit="horseman" quantity="1"/>
 		</productionRule>
+		<productionRule name="buy_horsearcher">
+			<cost resource="PUs" quantity="6"/>
+			<result resourceOrUnit="horsearcher" quantity="1"/>
+		</productionRule>
+		<productionRule name="buy_camelrider">
+			<cost resource="PUs" quantity="6"/>
+			<result resourceOrUnit="camelrider" quantity="1"/>
+		</productionRule>
 		<productionRule name="buy_longbowman">
-			<cost resource="PUs" quantity="5"/>
+			<cost resource="PUs" quantity="6"/>
 			<result resourceOrUnit="longbowman" quantity="1"/>
+		</productionRule>
+		<productionRule name="buy_bowman">
+			<cost resource="PUs" quantity="5"/>
+			<result resourceOrUnit="lbowman" quantity="1"/>
 		</productionRule>
 		<productionRule name="buy_pikeman">
 			<cost resource="PUs" quantity="4"/>
 			<result resourceOrUnit="pikeman" quantity="1"/>
 		</productionRule>
+		<productionRule name="buy_swisspikeman">
+			<cost resource="PUs" quantity="5"/>
+			<result resourceOrUnit="swisspikeman" quantity="1"/>
+		</productionRule>
 		<productionRule name="buy_galley">
 			<cost resource="PUs" quantity="13"/>
 			<result resourceOrUnit="galley" quantity="1"/>
+		</productionRule>
+		<productionRule name="buy_galea">
+			<cost resource="PUs" quantity="13"/>
+			<result resourceOrUnit="galea" quantity="1"/>
+		</productionRule>
+		<productionRule name="buy_longship">
+			<cost resource="PUs" quantity="10"/>
+			<result resourceOrUnit="longship" quantity="1"/>
 		</productionRule>
 		
 		<productionFrontier name="ByzantiumFrontier">
 			<frontierRules name="buy_skirmisher"/>
 			<frontierRules name="buy_man_at_arms"/>
 			<frontierRules name="buy_pikeman"/>
-			<frontierRules name="buy_longbowman"/>
+			<frontierRules name="buy_bowman"/>
 			<frontierRules name="buy_horseman"/>
-			<frontierRules name="buy_knight"/>
+			<frontierRules name="buy_cataphract"/>
 			<frontierRules name="buy_galley"/>
 			<frontierRules name="buy_castle"/>
 		</productionFrontier>
@@ -1745,17 +1789,17 @@
 			<frontierRules name="buy_skirmisher"/>
 			<frontierRules name="buy_man_at_arms"/>
 			<frontierRules name="buy_pikeman"/>
-			<frontierRules name="buy_longbowman"/>
-			<frontierRules name="buy_horseman"/>
+			<frontierRules name="buy_bowman"/>
+			<frontierRules name="buy_camelrider"/>
 			<frontierRules name="buy_knight"/>
 			<frontierRules name="buy_galley"/>
 			<frontierRules name="buy_castle"/>
 		</productionFrontier>
 		<productionFrontier name="JerusalemFrontier">
 			<frontierRules name="buy_skirmisher"/>
-			<frontierRules name="buy_man_at_arms"/>
+			<frontierRules name="buy_crusader"/>
 			<frontierRules name="buy_pikeman"/>
-			<frontierRules name="buy_longbowman"/>
+			<frontierRules name="buy_bowman"/>
 			<frontierRules name="buy_horseman"/>
 			<frontierRules name="buy_knight"/>
 			<frontierRules name="buy_galley"/>
@@ -1765,8 +1809,8 @@
 			<frontierRules name="buy_skirmisher"/>
 			<frontierRules name="buy_man_at_arms"/>
 			<frontierRules name="buy_pikeman"/>
-			<frontierRules name="buy_longbowman"/>
-			<frontierRules name="buy_horseman"/>
+			<frontierRules name="buy_bowman"/>
+			<frontierRules name="buy_camelrider"/>
 			<frontierRules name="buy_knight"/>
 			<frontierRules name="buy_galley"/>
 			<frontierRules name="buy_castle"/>
@@ -1775,17 +1819,17 @@
 			<frontierRules name="buy_skirmisher"/>
 			<frontierRules name="buy_man_at_arms"/>
 			<frontierRules name="buy_pikeman"/>
-			<frontierRules name="buy_longbowman"/>
+			<frontierRules name="buy_bowman"/>
 			<frontierRules name="buy_horseman"/>
-			<frontierRules name="buy_knight"/>
+			<frontierRules name="buy_berbercavalry"/>
 			<frontierRules name="buy_galley"/>
 			<frontierRules name="buy_castle"/>
 		</productionFrontier>
 		<productionFrontier name="LeonFrontier">
 			<frontierRules name="buy_skirmisher"/>
-			<frontierRules name="buy_man_at_arms"/>
+			<frontierRules name="buy_crusader"/>
 			<frontierRules name="buy_pikeman"/>
-			<frontierRules name="buy_longbowman"/>
+			<frontierRules name="buy_bowman"/>
 			<frontierRules name="buy_horseman"/>
 			<frontierRules name="buy_knight"/>
 			<frontierRules name="buy_galley"/>
@@ -1793,9 +1837,9 @@
 		</productionFrontier>
 		<productionFrontier name="AragonFrontier">
 			<frontierRules name="buy_skirmisher"/>
-			<frontierRules name="buy_man_at_arms"/>
+			<frontierRules name="buy_crusader"/>
 			<frontierRules name="buy_pikeman"/>
-			<frontierRules name="buy_longbowman"/>
+			<frontierRules name="buy_bowman"/>
 			<frontierRules name="buy_horseman"/>
 			<frontierRules name="buy_knight"/>
 			<frontierRules name="buy_galley"/>
@@ -1804,8 +1848,8 @@
 		<productionFrontier name="AquitaniaFrontier">
 			<frontierRules name="buy_skirmisher"/>
 			<frontierRules name="buy_man_at_arms"/>
-			<frontierRules name="buy_pikeman"/>
-			<frontierRules name="buy_longbowman"/>
+			<frontierRules name="buy_swisspikeman"/>
+			<frontierRules name="buy_bowman"/>
 			<frontierRules name="buy_horseman"/>
 			<frontierRules name="buy_knight"/>
 			<frontierRules name="buy_galley"/>
@@ -1814,8 +1858,8 @@
 		<productionFrontier name="FranceFrontier">
 			<frontierRules name="buy_skirmisher"/>
 			<frontierRules name="buy_man_at_arms"/>
-			<frontierRules name="buy_pikeman"/>
-			<frontierRules name="buy_longbowman"/>
+			<frontierRules name="buy_swisspikeman"/>
+			<frontierRules name="buy_bowman"/>
 			<frontierRules name="buy_horseman"/>
 			<frontierRules name="buy_knight"/>
 			<frontierRules name="buy_galley"/>
@@ -1832,10 +1876,10 @@
 			<frontierRules name="buy_castle"/>
 		</productionFrontier>
 		<productionFrontier name="ScotlandFrontier">
-			<frontierRules name="buy_skirmisher"/>
+			<frontierRules name="buy_tribesman"/>
 			<frontierRules name="buy_man_at_arms"/>
 			<frontierRules name="buy_pikeman"/>
-			<frontierRules name="buy_longbowman"/>
+			<frontierRules name="buy_bowman"/>
 			<frontierRules name="buy_horseman"/>
 			<frontierRules name="buy_knight"/>
 			<frontierRules name="buy_galley"/>
@@ -1843,9 +1887,9 @@
 		</productionFrontier>
 		<productionFrontier name="PapalStateFrontier">
 			<frontierRules name="buy_skirmisher"/>
-			<frontierRules name="buy_man_at_arms"/>
+			<frontierRules name="buy_crusader"/>
 			<frontierRules name="buy_pikeman"/>
-			<frontierRules name="buy_longbowman"/>
+			<frontierRules name="buy_bowman"/>
 			<frontierRules name="buy_horseman"/>
 			<frontierRules name="buy_knight"/>
 			<frontierRules name="buy_galley"/>
@@ -1855,27 +1899,27 @@
 			<frontierRules name="buy_skirmisher"/>
 			<frontierRules name="buy_man_at_arms"/>
 			<frontierRules name="buy_pikeman"/>
-			<frontierRules name="buy_longbowman"/>
+			<frontierRules name="buy_bowman"/>
 			<frontierRules name="buy_horseman"/>
 			<frontierRules name="buy_knight"/>
-			<frontierRules name="buy_galley"/>
+			<frontierRules name="buy_galea"/>
 			<frontierRules name="buy_castle"/>
 		</productionFrontier>
 		<productionFrontier name="VeniceFrontier">
 			<frontierRules name="buy_skirmisher"/>
 			<frontierRules name="buy_man_at_arms"/>
 			<frontierRules name="buy_pikeman"/>
-			<frontierRules name="buy_longbowman"/>
+			<frontierRules name="buy_bowman"/>
 			<frontierRules name="buy_horseman"/>
 			<frontierRules name="buy_knight"/>
-			<frontierRules name="buy_galley"/>
+			<frontierRules name="buy_galea"/>
 			<frontierRules name="buy_castle"/>
 		</productionFrontier>
 		<productionFrontier name="AustriaFrontier">
 			<frontierRules name="buy_skirmisher"/>
 			<frontierRules name="buy_man_at_arms"/>
-			<frontierRules name="buy_pikeman"/>
-			<frontierRules name="buy_longbowman"/>
+			<frontierRules name="buy_swisspikeman"/>
+			<frontierRules name="buy_bowman"/>
 			<frontierRules name="buy_horseman"/>
 			<frontierRules name="buy_knight"/>
 			<frontierRules name="buy_galley"/>
@@ -1885,8 +1929,8 @@
 			<frontierRules name="buy_skirmisher"/>
 			<frontierRules name="buy_man_at_arms"/>
 			<frontierRules name="buy_pikeman"/>
-			<frontierRules name="buy_longbowman"/>
-			<frontierRules name="buy_horseman"/>
+			<frontierRules name="buy_bowman"/>
+			<frontierRules name="buy_horsearcher"/>
 			<frontierRules name="buy_knight"/>
 			<frontierRules name="buy_galley"/>
 			<frontierRules name="buy_castle"/>
@@ -1895,9 +1939,9 @@
 			<frontierRules name="buy_skirmisher"/>
 			<frontierRules name="buy_man_at_arms"/>
 			<frontierRules name="buy_pikeman"/>
-			<frontierRules name="buy_longbowman"/>
+			<frontierRules name="buy_bowman"/>
 			<frontierRules name="buy_horseman"/>
-			<frontierRules name="buy_knight"/>
+			<frontierRules name="buy_hussar"/>
 			<frontierRules name="buy_galley"/>
 			<frontierRules name="buy_castle"/>
 		</productionFrontier>
@@ -1905,17 +1949,17 @@
 			<frontierRules name="buy_skirmisher"/>
 			<frontierRules name="buy_man_at_arms"/>
 			<frontierRules name="buy_pikeman"/>
-			<frontierRules name="buy_longbowman"/>
+			<frontierRules name="buy_bowman"/>
 			<frontierRules name="buy_horseman"/>
-			<frontierRules name="buy_knight"/>
+			<frontierRules name="buy_hussar"/>
 			<frontierRules name="buy_galley"/>
 			<frontierRules name="buy_castle"/>
 		</productionFrontier>
 		<productionFrontier name="BrandenburgFrontier">
 			<frontierRules name="buy_skirmisher"/>
-			<frontierRules name="buy_man_at_arms"/>
+			<frontierRules name="buy_crusader"/>
 			<frontierRules name="buy_pikeman"/>
-			<frontierRules name="buy_longbowman"/>
+			<frontierRules name="buy_bowman"/>
 			<frontierRules name="buy_horseman"/>
 			<frontierRules name="buy_knight"/>
 			<frontierRules name="buy_galley"/>
@@ -1925,28 +1969,28 @@
 			<frontierRules name="buy_skirmisher"/>
 			<frontierRules name="buy_man_at_arms"/>
 			<frontierRules name="buy_pikeman"/>
-			<frontierRules name="buy_longbowman"/>
+			<frontierRules name="buy_bowman"/>
 			<frontierRules name="buy_horseman"/>
 			<frontierRules name="buy_knight"/>
-			<frontierRules name="buy_galley"/>
+			<frontierRules name="buy_longship"/>
 			<frontierRules name="buy_castle"/>
 		</productionFrontier>
 		<productionFrontier name="SwedenFrontier">
 			<frontierRules name="buy_skirmisher"/>
 			<frontierRules name="buy_man_at_arms"/>
 			<frontierRules name="buy_pikeman"/>
-			<frontierRules name="buy_longbowman"/>
+			<frontierRules name="buy_bowman"/>
 			<frontierRules name="buy_horseman"/>
 			<frontierRules name="buy_knight"/>
-			<frontierRules name="buy_galley"/>
+			<frontierRules name="buy_longship"/>
 			<frontierRules name="buy_castle"/>
 		</productionFrontier>
 		<productionFrontier name="KievFrontier">
 			<frontierRules name="buy_skirmisher"/>
 			<frontierRules name="buy_man_at_arms"/>
 			<frontierRules name="buy_pikeman"/>
-			<frontierRules name="buy_longbowman"/>
-			<frontierRules name="buy_horseman"/>
+			<frontierRules name="buy_bowman"/>
+			<frontierRules name="buy_horsearcher"/>
 			<frontierRules name="buy_knight"/>
 			<frontierRules name="buy_galley"/>
 			<frontierRules name="buy_castle"/>
@@ -1955,8 +1999,8 @@
 			<frontierRules name="buy_skirmisher"/>
 			<frontierRules name="buy_man_at_arms"/>
 			<frontierRules name="buy_pikeman"/>
-			<frontierRules name="buy_longbowman"/>
-			<frontierRules name="buy_horseman"/>
+			<frontierRules name="buy_bowman"/>
+			<frontierRules name="buy_horsearcher"/>
 			<frontierRules name="buy_knight"/>
 			<frontierRules name="buy_galley"/>
 			<frontierRules name="buy_castle"/>
@@ -1965,8 +2009,8 @@
 			<frontierRules name="buy_skirmisher"/>
 			<frontierRules name="buy_man_at_arms"/>
 			<frontierRules name="buy_pikeman"/>
-			<frontierRules name="buy_longbowman"/>
-			<frontierRules name="buy_horseman"/>
+			<frontierRules name="buy_bowman"/>
+			<frontierRules name="buy_horsearcher"/>
 			<frontierRules name="buy_knight"/>
 			<frontierRules name="buy_galley"/>
 			<frontierRules name="buy_castle"/>
@@ -1975,9 +2019,9 @@
 			<frontierRules name="buy_skirmisher"/>
 			<frontierRules name="buy_man_at_arms"/>
 			<frontierRules name="buy_pikeman"/>
-			<frontierRules name="buy_longbowman"/>
+			<frontierRules name="buy_bowman"/>
 			<frontierRules name="buy_horseman"/>
-			<frontierRules name="buy_knight"/>
+			<frontierRules name="buy_cataphract"/>
 			<frontierRules name="buy_galley"/>
 			<frontierRules name="buy_castle"/>
 		</productionFrontier>
@@ -2023,16 +2067,40 @@
 			<option name="attack" value="2"/>
 			<option name="defense" value="2"/>
 		</attachment>
+		<attachment name="unitAttachment" attachTo="tribesman" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+			<option name="movement" value="2"/>
+			<option name="transportCost" value="1"/>
+			<option name="attack" value="2"/>
+			<option name="defense" value="3"/>
+		</attachment>
 		<attachment name="unitAttachment" attachTo="horseman" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
 			<option name="movement" value="4"/>
 			<option name="transportCost" value="3"/>
 			<option name="attack" value="5"/>
 			<option name="defense" value="3"/>
 		</attachment>
+		<attachment name="unitAttachment" attachTo="horsearcher" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+			<option name="movement" value="4"/>
+			<option name="transportCost" value="3"/>
+			<option name="attack" value="6"/>
+			<option name="defense" value="3"/>
+		</attachment>
+		<attachment name="unitAttachment" attachTo="camelrider" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+			<option name="movement" value="3"/>
+			<option name="transportCost" value="3"/>
+			<option name="attack" value="5"/>
+			<option name="defense" value="5"/>
+		</attachment>
 		<attachment name="unitAttachment" attachTo="man_at_arms" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
 			<option name="movement" value="2"/>
 			<option name="transportCost" value="1"/>
 			<option name="attack" value="6"/>
+			<option name="defense" value="6"/>
+		</attachment>
+		<attachment name="unitAttachment" attachTo="crusader" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+			<option name="movement" value="2"/>
+			<option name="transportCost" value="1"/>
+			<option name="attack" value="7"/>
 			<option name="defense" value="6"/>
 		</attachment>
 		<attachment name="unitAttachment" attachTo="pikeman" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
@@ -2041,14 +2109,37 @@
 			<option name="attack" value="2"/>
 			<option name="defense" value="4"/>
 		</attachment>
+		<attachment name="unitAttachment" attachTo="swisspikeman" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+			<option name="movement" value="2"/>
+			<option name="transportCost" value="1"/>
+			<option name="attack" value="3"/>
+			<option name="defense" value="6"/>
+		</attachment>
 		<attachment name="unitAttachment" attachTo="longbowman" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+		        <!--<option name="destroyedWhenCapturedBy" value="BY:Byzantium:Seljuk:Jerusalem:Fatimid:Almoravid:Leon:Aragon:Aquitania:France:England:Scotland:PapalState:Sicily:Venice:Austria:Hungary:Poland:Bohemia:Brandenburg:Denmark:Sweden:Kiev:Novgorod:Cumania:Bulgaria"/>-->
+			<option name="movement" value="2"/>
+			<option name="transportCost" value="1"/>
+			<option name="attack" value="4"/>
+			<option name="defense" value="6"/>
+			
+			<option name="targetsAA" value="man_at_arms:skirmisher:pikeman:longbowman:horseman:knight:bowman:tribesman:swisspikeman:camelrider:horsearcher:berbercavalry:crusader:hussar:cataphract"/>
+			<option name="typeAA" value="volley"/>
+			<option name="attackAA" value="7"/>
+			<option name="offensiveAttackAA" value="5"/>
+			<option name="isAAforCombatOnly" value="true"/>
+			<option name="mayOverStackAA" value="true"/>
+			<option name="damageableAA" value="true"/>
+			<option name="maxAAattacks" value="1"/>
+			<option name="maxRoundsAA" value="1"/>
+		</attachment>
+		<attachment name="unitAttachment" attachTo="bowman" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
 		        <!--<option name="destroyedWhenCapturedBy" value="BY:Byzantium:Seljuk:Jerusalem:Fatimid:Almoravid:Leon:Aragon:Aquitania:France:England:Scotland:PapalState:Sicily:Venice:Austria:Hungary:Poland:Bohemia:Brandenburg:Denmark:Sweden:Kiev:Novgorod:Cumania:Bulgaria"/>-->
 			<option name="movement" value="2"/>
 			<option name="transportCost" value="1"/>
 			<option name="attack" value="3"/>
 			<option name="defense" value="5"/>
 			
-			<option name="targetsAA" value="man_at_arms:skirmisher:pikeman:longbowman:horseman:knight"/>
+			<option name="targetsAA" value="man_at_arms:skirmisher:pikeman:longbowman:horseman:knight:bowman:tribesman:swisspikeman:camelrider:horsearcher:berbercavalry:crusader:hussar:cataphract"/>
 			<option name="typeAA" value="volley"/>
 			<option name="attackAA" value="6"/>
 			<option name="offensiveAttackAA" value="4"/>
@@ -2065,10 +2156,61 @@
 			<option name="defense" value="7"/>
 			<!--<option name="hitPoints" value="2"/>-->
 			
-			<option name="targetsAA" value="skirmisher:man_at_arms:longbowman:pikeman:horseman:knight"/>
+			<option name="targetsAA" value="man_at_arms:skirmisher:pikeman:longbowman:horseman:knight:bowman:tribesman:swisspikeman:camelrider:horsearcher:berbercavalry:crusader:hussar:cataphract"/>
 			<option name="typeAA" value="charge"/>
 			<option name="attackAA" value="7"/>
 			<option name="offensiveAttackAA" value="10"/>
+			<option name="isAAforCombatOnly" value="true"/>
+			<option name="mayOverStackAA" value="true"/>
+			<option name="damageableAA" value="true"/>
+			<option name="maxAAattacks" value="1"/>
+			<option name="maxRoundsAA" value="1"/>
+		</attachment>
+		<attachment name="unitAttachment" attachTo="hussar" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+			<option name="movement" value="3"/>
+			<option name="transportCost" value="3"/>
+			<option name="attack" value="10"/>
+			<option name="defense" value="7"/>
+			<!--<option name="hitPoints" value="2"/>-->
+			
+			<option name="targetsAA" value="man_at_arms:skirmisher:pikeman:longbowman:horseman:knight:bowman:tribesman:swisspikeman:camelrider:horsearcher:berbercavalry:crusader:hussar:cataphract"/>
+			<option name="typeAA" value="charge"/>
+			<option name="attackAA" value="8"/>
+			<option name="offensiveAttackAA" value="11"/>
+			<option name="isAAforCombatOnly" value="true"/>
+			<option name="mayOverStackAA" value="true"/>
+			<option name="damageableAA" value="true"/>
+			<option name="maxAAattacks" value="1"/>
+			<option name="maxRoundsAA" value="1"/>
+		</attachment>
+		<attachment name="unitAttachment" attachTo="cataphract" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+			<option name="movement" value="3"/>
+			<option name="transportCost" value="3"/>
+			<option name="attack" value="10"/>
+			<option name="defense" value="9"/>
+			<!--<option name="hitPoints" value="2"/>-->
+			
+			<option name="targetsAA" value="man_at_arms:skirmisher:pikeman:longbowman:horseman:knight:bowman:tribesman:swisspikeman:camelrider:horsearcher:berbercavalry:crusader:hussar:cataphract"/>
+			<option name="typeAA" value="charge"/>
+			<option name="attackAA" value="9"/>
+			<option name="offensiveAttackAA" value="10"/>
+			<option name="isAAforCombatOnly" value="true"/>
+			<option name="mayOverStackAA" value="true"/>
+			<option name="damageableAA" value="true"/>
+			<option name="maxAAattacks" value="1"/>
+			<option name="maxRoundsAA" value="1"/>
+		</attachment>
+		<attachment name="unitAttachment" attachTo="berbercavalry" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+			<option name="movement" value="3"/>
+			<option name="transportCost" value="3"/>
+			<option name="attack" value="9"/>
+			<option name="defense" value="5"/>
+			<!--<option name="hitPoints" value="2"/>-->
+			
+			<option name="targetsAA" value="man_at_arms:skirmisher:pikeman:longbowman:horseman:knight:bowman:tribesman:swisspikeman:camelrider:horsearcher:berbercavalry:crusader:hussar:cataphract"/>
+			<option name="typeAA" value="charge"/>
+			<option name="attackAA" value="5"/>
+			<option name="offensiveAttackAA" value="9"/>
 			<option name="isAAforCombatOnly" value="true"/>
 			<option name="mayOverStackAA" value="true"/>
 			<option name="damageableAA" value="true"/>
@@ -2081,11 +2223,25 @@
 			<option name="isSea" value="true"/>
 			<option name="transportCapacity" value="3"/>
 			<option name="attack" value="5"/>
+			<option name="defense" value="5"/>
+		</attachment>
+		<attachment name="unitAttachment" attachTo="galea" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+			<option name="movement" value="2"/>
+			<option name="isSea" value="true"/>
+			<option name="transportCapacity" value="3"/>
+			<option name="attack" value="6"/>
 			<option name="defense" value="6"/>
 		</attachment>
+		<attachment name="unitAttachment" attachTo="longship" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+			<option name="movement" value="2"/>
+			<option name="isSea" value="true"/>
+			<option name="transportCapacity" value="3"/>
+			<option name="attack" value="5"/>
+			<option name="defense" value="3"/>
+		</attachment>
 		
-		<attachment name="supportAttachment_pikeman_spearwall" attachTo="pikeman" javaClass="games.strategy.triplea.attachments.UnitSupportAttachment" type="unitType">
-			<option name="unitType" value="knight" />
+		<attachment name="supportAttachment_pikeman_spearwall" attachTo="pikeman:swisspikeman" javaClass="games.strategy.triplea.attachments.UnitSupportAttachment" type="unitType">
+			<option name="unitType" value="knight:berbercavalry:hussar:cataphract" />
 			<option name="faction" value="enemy" />
 			<option name="side" value="offence:defence" />
 			<option name="dice" value="strength" />
@@ -2096,8 +2252,8 @@
 			<option name="players" value="Byzantium:Seljuk:Jerusalem:Fatimid:Almoravid:Leon:Aragon:Aquitania:France:England:Scotland:PapalState:Sicily:Venice:Austria:Hungary:Poland:Bohemia:Brandenburg:Denmark:Sweden:Kiev:Novgorod:Cumania:Bulgaria" />
 		</attachment>
 		
-		<attachment name="supportAttachment_skirmisher_skirmish" attachTo="skirmisher" javaClass="games.strategy.triplea.attachments.UnitSupportAttachment" type="unitType">
-			<option name="unitType" value="skirmisher:man_at_arms:pikeman" />
+		<attachment name="supportAttachment_skirmisher_skirmish" attachTo="skirmisher:tribesman" javaClass="games.strategy.triplea.attachments.UnitSupportAttachment" type="unitType">
+			<option name="unitType" value="man_at_arms:skirmisher:pikeman:tribesman:swisspikeman:crusader" />
 			<option name="faction" value="enemy" />
 			<option name="side" value="offence:defence" />
 			<option name="dice" value="strength" />
@@ -2107,8 +2263,8 @@
 			<option name="impArtTech" value="false" />
 			<option name="players" value="Byzantium:Seljuk:Jerusalem:Fatimid:Almoravid:Leon:Aragon:Aquitania:France:England:Scotland:PapalState:Sicily:Venice:Austria:Hungary:Poland:Bohemia:Brandenburg:Denmark:Sweden:Kiev:Novgorod:Cumania:Bulgaria" />
 		</attachment>
-		<attachment name="supportAttachment_horseman_skirmish" attachTo="horseman" javaClass="games.strategy.triplea.attachments.UnitSupportAttachment" type="unitType">
-			<option name="unitType" value="skirmisher:man_at_arms:pikeman:horseman:knight:longbowman" />
+		<attachment name="supportAttachment_horseman_skirmish" attachTo="horseman:horsearcher:camelrider" javaClass="games.strategy.triplea.attachments.UnitSupportAttachment" type="unitType">
+			<option name="unitType" value="man_at_arms:skirmisher:pikeman:longbowman:horseman:knight:bowman:tribesman:swisspikeman:camelrider:horsearcher:berbercavalry:crusader:hussar:cataphract" />
 			<option name="faction" value="enemy" />
 			<option name="side" value="offence:defence" />
 			<option name="dice" value="strength" />
@@ -3440,7 +3596,7 @@
         <unitInitialize>
             <unitPlacement unitType="skirmisher" territory="Abkhazia" quantity="1" />
             <unitPlacement unitType="knight" territory="Acre" quantity="1" owner="Jerusalem"/>
-            <unitPlacement unitType="galley" territory="Adriatic Sea 3" quantity="3" owner="Venice"/>
+            <unitPlacement unitType="galea" territory="Adriatic Sea 3" quantity="3" owner="Venice"/>
             <unitPlacement unitType="horseman" territory="Alania" quantity="4" />
             <unitPlacement unitType="skirmisher" territory="Alexandria" quantity="1" owner="Fatimid"/>
             <unitPlacement unitType="man_at_arms" territory="Alexandria" quantity="2" owner="Fatimid"/>
@@ -3449,7 +3605,7 @@
             <unitPlacement unitType="skirmisher" territory="Ancona" quantity="2" owner="PapalState"/>
             <unitPlacement unitType="skirmisher" territory="Ankara" quantity="2" owner="Seljuk"/>
             <unitPlacement unitType="man_at_arms" territory="Ankara" quantity="1" owner="Seljuk"/>
-            <unitPlacement unitType="horseman" territory="Ankara" quantity="1" owner="Seljuk"/>
+            <unitPlacement unitType="camelrider" territory="Ankara" quantity="1" owner="Seljuk"/>
             <unitPlacement unitType="castle" territory="Ankara" quantity="1" owner="Seljuk"/>
             <unitPlacement unitType="man_at_arms" territory="Antioch" quantity="2" owner="Jerusalem"/>
             <unitPlacement unitType="castle" territory="Antioch" quantity="1" owner="Jerusalem"/>
@@ -3459,23 +3615,23 @@
             <unitPlacement unitType="man_at_arms" territory="Aquitania" quantity="1" owner="Aquitania"/>
             <unitPlacement unitType="knight" territory="Aquitania" quantity="1" owner="Aquitania"/>
             <unitPlacement unitType="castle" territory="Aquitania" quantity="1" owner="Aquitania"/>
-            <unitPlacement unitType="man_at_arms" territory="Aragon" quantity="3" owner="Aragon"/>
+            <unitPlacement unitType="crusader" territory="Aragon" quantity="3" owner="Aragon"/>
             <unitPlacement unitType="knight" territory="Aragon" quantity="1" owner="Aragon"/>
             <unitPlacement unitType="castle" territory="Aragon" quantity="1" owner="Aragon"/>
             <unitPlacement unitType="knight" territory="Armenia" quantity="1" />
             <unitPlacement unitType="skirmisher" territory="Athens" quantity="1" owner="Byzantium"/>
-            <unitPlacement unitType="longbowman" territory="Athens" quantity="1" owner="Byzantium"/>
+            <unitPlacement unitType="bowman" territory="Athens" quantity="1" owner="Byzantium"/>
             <unitPlacement unitType="skirmisher" territory="Austria" quantity="2" owner="Austria"/>
-            <unitPlacement unitType="pikeman" territory="Austria" quantity="1" owner="Austria"/>
+            <unitPlacement unitType="swisspikeman" territory="Austria" quantity="1" owner="Austria"/>
             <unitPlacement unitType="castle" territory="Austria" quantity="1" owner="Austria"/>
-            <unitPlacement unitType="horseman" territory="Bachka" quantity="1" owner="Hungary"/>
+            <unitPlacement unitType="horsearcher" territory="Bachka" quantity="1" owner="Hungary"/>
             <unitPlacement unitType="skirmisher" territory="Badajoz" quantity="1" />
             <unitPlacement unitType="skirmisher" territory="Baghdad" quantity="2" owner="Seljuk"/>
-            <unitPlacement unitType="longbowman" territory="Baghdad" quantity="2" owner="Seljuk"/>
+            <unitPlacement unitType="bowman" territory="Baghdad" quantity="2" owner="Seljuk"/>
             <unitPlacement unitType="castle" territory="Baghdad" quantity="1" owner="Seljuk"/>
             <unitPlacement unitType="skirmisher" territory="Baleares" quantity="1" />
-            <unitPlacement unitType="galley" territory="Baltic Sea 4" quantity="3" owner="Sweden"/>
-            <unitPlacement unitType="longbowman" territory="Banat" quantity="1" />
+            <unitPlacement unitType="longship" territory="Baltic Sea 4" quantity="3" owner="Sweden"/>
+            <unitPlacement unitType="bowman" territory="Banat" quantity="1" />
             <unitPlacement unitType="horseman" territory="Bashkiria" quantity="2" />
             <unitPlacement unitType="skirmisher" territory="Bavaria" quantity="2" />
             <unitPlacement unitType="knight" territory="Bavaria" quantity="1" />
@@ -3488,40 +3644,40 @@
             <unitPlacement unitType="skirmisher" territory="Bergslagen" quantity="2" />
             <unitPlacement unitType="horseman" territory="Bessarabia" quantity="3" />
             <unitPlacement unitType="skirmisher" territory="Blois" quantity="1" owner="France"/>
-            <unitPlacement unitType="pikeman" territory="Blois" quantity="1" owner="France"/>
-            <unitPlacement unitType="longbowman" territory="Blois" quantity="1" owner="France"/>
+            <unitPlacement unitType="swisspikeman" territory="Blois" quantity="1" owner="France"/>
+            <unitPlacement unitType="bowman" territory="Blois" quantity="1" owner="France"/>
             <unitPlacement unitType="knight" territory="Blois" quantity="1" owner="France"/>
             <unitPlacement unitType="man_at_arms" territory="Bohemia" quantity="2" owner="Bohemia"/>
             <unitPlacement unitType="horseman" territory="Bohemia" quantity="2" owner="Bohemia"/>
-            <unitPlacement unitType="knight" territory="Bohemia" quantity="1" owner="Bohemia"/>
+            <unitPlacement unitType="hussar" territory="Bohemia" quantity="1" owner="Bohemia"/>
             <unitPlacement unitType="castle" territory="Bohemia" quantity="1" owner="Bohemia"/>
             <unitPlacement unitType="man_at_arms" territory="Bosnia" quantity="1" />
             <unitPlacement unitType="horseman" territory="Bosnia" quantity="1" />
             <unitPlacement unitType="man_at_arms" territory="Brabant" quantity="2" />
             <unitPlacement unitType="skirmisher" territory="Brandenburg" quantity="2" owner="Brandenburg"/>
-            <unitPlacement unitType="man_at_arms" territory="Brandenburg" quantity="1" owner="Brandenburg"/>
+            <unitPlacement unitType="crusader" territory="Brandenburg" quantity="1" owner="Brandenburg"/>
             <unitPlacement unitType="knight" territory="Brandenburg" quantity="1" owner="Brandenburg"/>
             <unitPlacement unitType="castle" territory="Brandenburg" quantity="1" owner="Brandenburg"/>
             <unitPlacement unitType="man_at_arms" territory="Bremen" quantity="2" />
             <unitPlacement unitType="pikeman" territory="Bremen" quantity="2" />
             <unitPlacement unitType="castle" territory="Bremen" quantity="1" />
             <unitPlacement unitType="man_at_arms" territory="Britanny" quantity="1" />
-            <unitPlacement unitType="longbowman" territory="Britanny" quantity="1" />
+            <unitPlacement unitType="bowman" territory="Britanny" quantity="1" />
             <unitPlacement unitType="knight" territory="Britanny" quantity="1" />
-            <unitPlacement unitType="longbowman" territory="Brunswick" quantity="1" owner="Brandenburg"/>
+            <unitPlacement unitType="bowman" territory="Brunswick" quantity="1" owner="Brandenburg"/>
             <unitPlacement unitType="man_at_arms" territory="Buda" quantity="2" owner="Hungary"/>
             <unitPlacement unitType="castle" territory="Buda" quantity="1" owner="Hungary"/>
             <unitPlacement unitType="man_at_arms" territory="Bulgaria" quantity="2" owner="Bulgaria"/>
-            <unitPlacement unitType="knight" territory="Bulgaria" quantity="1" owner="Bulgaria"/>
+            <unitPlacement unitType="cataphract" territory="Bulgaria" quantity="2" owner="Bulgaria"/>
             <unitPlacement unitType="castle" territory="Bulgaria" quantity="1" owner="Bulgaria"/>
             <unitPlacement unitType="man_at_arms" territory="Burgundy" quantity="1" />
-            <unitPlacement unitType="longbowman" territory="Burgundy" quantity="1" />
+            <unitPlacement unitType="bowman" territory="Burgundy" quantity="1" />
             <unitPlacement unitType="castle" territory="Burgundy" quantity="1" />
             <unitPlacement unitType="man_at_arms" territory="Bythinia" quantity="1" owner="Byzantium"/>
             <unitPlacement unitType="horseman" territory="Calabria" quantity="1" owner="Sicily"/>
             <unitPlacement unitType="man_at_arms" territory="Carniola" quantity="2" />
             <unitPlacement unitType="knight" territory="Carniola" quantity="1" />
-            <unitPlacement unitType="man_at_arms" territory="Castile" quantity="3" owner="Leon"/>
+            <unitPlacement unitType="crusader" territory="Castile" quantity="3" owner="Leon"/>
             <unitPlacement unitType="knight" territory="Castile" quantity="1" owner="Leon"/>
             <unitPlacement unitType="castle" territory="Castile" quantity="1" owner="Leon"/>
             <unitPlacement unitType="skirmisher" territory="Catalonia" quantity="1" owner="Aragon"/>
@@ -3534,7 +3690,7 @@
             <unitPlacement unitType="castle" territory="Cherson" quantity="1" owner="Byzantium"/>
             <unitPlacement unitType="man_at_arms" territory="Cilicia" quantity="2" />
             <unitPlacement unitType="pikeman" territory="Cilicia" quantity="1" />
-            <unitPlacement unitType="longbowman" territory="Cilicia" quantity="1" />
+            <unitPlacement unitType="bowman" territory="Cilicia" quantity="1" />
             <unitPlacement unitType="skirmisher" territory="Circassia" quantity="1" />
             <unitPlacement unitType="horseman" territory="Circassia" quantity="1" />
             <unitPlacement unitType="man_at_arms" territory="Cologne" quantity="2" />
@@ -3542,7 +3698,7 @@
             <unitPlacement unitType="knight" territory="Connaught" quantity="1" />
             <unitPlacement unitType="castle" territory="Constantinople" quantity="1" owner="Byzantium"/>
             <unitPlacement unitType="skirmisher" territory="Constantinople" quantity="2" owner="Byzantium"/>
-            <unitPlacement unitType="knight" territory="Constantinople" quantity="1" owner="Byzantium"/>
+            <unitPlacement unitType="cataphract" territory="Constantinople" quantity="1" owner="Byzantium"/>
             <unitPlacement unitType="skirmisher" territory="Cordoba" quantity="4" owner="Almoravid"/>
             <unitPlacement unitType="man_at_arms" territory="Cordoba" quantity="2" owner="Almoravid"/>
             <unitPlacement unitType="castle" territory="Cordoba" quantity="1" owner="Almoravid"/>
@@ -3552,19 +3708,19 @@
             <unitPlacement unitType="skirmisher" territory="Crete" quantity="1" owner="Venice"/>
             <unitPlacement unitType="horseman" territory="Crimea" quantity="2" />
             <unitPlacement unitType="man_at_arms" territory="Croatia" quantity="1" />
-            <unitPlacement unitType="longbowman" territory="Croatia" quantity="1" />
+            <unitPlacement unitType="bowman" territory="Croatia" quantity="1" />
             <unitPlacement unitType="knight" territory="Croatia" quantity="1" />
             <unitPlacement unitType="castle" territory="Croatia" quantity="1" />
             <unitPlacement unitType="skirmisher" territory="Cumania" quantity="2" owner="Cumania"/>
             <unitPlacement unitType="castle" territory="Cumania" quantity="1" owner="Cumania"/>
-            <unitPlacement unitType="horseman" territory="Cumania" quantity="2" owner="Cumania"/>
-            <unitPlacement unitType="longbowman" territory="Cyprus" quantity="1" />
+            <unitPlacement unitType="horsearcher" territory="Cumania" quantity="2" owner="Cumania"/>
+            <unitPlacement unitType="bowman" territory="Cyprus" quantity="1" />
             <unitPlacement unitType="skirmisher" territory="Cyreneica" quantity="2" owner="Fatimid"/>
-            <unitPlacement unitType="longbowman" territory="Cyreneica" quantity="1" owner="Fatimid"/>
+            <unitPlacement unitType="bowman" territory="Cyreneica" quantity="1" owner="Fatimid"/>
             <unitPlacement unitType="man_at_arms" territory="Dalmatia" quantity="1" owner="Venice"/>
             <unitPlacement unitType="skirmisher" territory="Damascus" quantity="2" />
             <unitPlacement unitType="man_at_arms" territory="Damascus" quantity="1" />
-            <unitPlacement unitType="longbowman" territory="Damascus" quantity="1" />
+            <unitPlacement unitType="bowman" territory="Damascus" quantity="1" />
             <unitPlacement unitType="castle" territory="Damascus" quantity="1" />
             <unitPlacement unitType="skirmisher" territory="Dauphine" quantity="1" />
             <unitPlacement unitType="man_at_arms" territory="Dauphine" quantity="1" />
@@ -3581,39 +3737,39 @@
             <unitPlacement unitType="castle" territory="Essex" quantity="1" owner="England"/>
             <unitPlacement unitType="longbowman" territory="Essex" quantity="2" owner="England"/>
             <unitPlacement unitType="man_at_arms" territory="Estonia" quantity="1" />
-            <unitPlacement unitType="longbowman" territory="Faiyum" quantity="1" />
+            <unitPlacement unitType="bowman" territory="Faiyum" quantity="1" />
             <unitPlacement unitType="horseman" territory="Faiyum" quantity="1" />
-            <unitPlacement unitType="longbowman" territory="Fez" quantity="2" />
+            <unitPlacement unitType="bowman" territory="Fez" quantity="2" />
             <unitPlacement unitType="horseman" territory="Fez" quantity="2" />
-            <unitPlacement unitType="horseman" territory="Fezzan" quantity="1" owner="Fatimid"/>
-            <unitPlacement unitType="skirmisher" territory="Fife" quantity="1" owner="Scotland"/>
+            <unitPlacement unitType="camelrider" territory="Fezzan" quantity="1" owner="Fatimid"/>
+            <unitPlacement unitType="tribesman" territory="Fife" quantity="1" owner="Scotland"/>
             <unitPlacement unitType="man_at_arms" territory="Fife" quantity="1" owner="Scotland"/>
             <unitPlacement unitType="pikeman" territory="Fife" quantity="2" owner="Scotland"/>
             <unitPlacement unitType="castle" territory="Fife" quantity="1" owner="Scotland"/>
             <unitPlacement unitType="skirmisher" territory="Finnland" quantity="1" />
             <unitPlacement unitType="skirmisher" territory="Flanders" quantity="1" />
             <unitPlacement unitType="man_at_arms" territory="Flanders" quantity="1" />
-            <unitPlacement unitType="longbowman" territory="Flanders" quantity="1" />
+            <unitPlacement unitType="bowman" territory="Flanders" quantity="1" />
             <unitPlacement unitType="castle" territory="Flanders" quantity="1" />
             <unitPlacement unitType="skirmisher" territory="Florence" quantity="1" />
             <unitPlacement unitType="man_at_arms" territory="Florence" quantity="1" />
-            <unitPlacement unitType="longbowman" territory="Florence" quantity="2" />
+            <unitPlacement unitType="bowman" territory="Florence" quantity="2" />
             <unitPlacement unitType="skirmisher" territory="Friesland" quantity="2" />
             <unitPlacement unitType="man_at_arms" territory="Friesland" quantity="1" />
             <unitPlacement unitType="horseman" territory="Friesland" quantity="1" />
-            <unitPlacement unitType="skirmisher" territory="Galloway" quantity="3" owner="Scotland"/>
-            <unitPlacement unitType="pikeman" territory="Gascogne" quantity="1" owner="Aquitania"/>
-            <unitPlacement unitType="longbowman" territory="Gascogne" quantity="1" owner="Aquitania"/>
+            <unitPlacement unitType="tribseman" territory="Galloway" quantity="3" owner="Scotland"/>
+            <unitPlacement unitType="swisspikeman" territory="Gascogne" quantity="1" owner="Aquitania"/>
+            <unitPlacement unitType="bowman" territory="Gascogne" quantity="1" owner="Aquitania"/>
             <unitPlacement unitType="pikeman" territory="Genoa" quantity="1" />
-            <unitPlacement unitType="longbowman" territory="Genoa" quantity="2" />
+            <unitPlacement unitType="bowman" territory="Genoa" quantity="2" />
             <unitPlacement unitType="knight" territory="Genoa" quantity="1" />
             <unitPlacement unitType="man_at_arms" territory="Georgia" quantity="1" />
-            <unitPlacement unitType="longbowman" territory="Georgia" quantity="1" />
+            <unitPlacement unitType="bowman" territory="Georgia" quantity="1" />
             <unitPlacement unitType="skirmisher" territory="Gothland" quantity="2" owner="Sweden"/>
             <unitPlacement unitType="skirmisher" territory="Gotland" quantity="1" />
             <unitPlacement unitType="skirmisher" territory="Granada" quantity="1" owner="Almoravid"/>
             <unitPlacement unitType="skirmisher" territory="Gwynedd" quantity="1" />
-            <unitPlacement unitType="longbowman" territory="Gwynedd" quantity="1" />
+            <unitPlacement unitType="bowman" territory="Gwynedd" quantity="1" />
             <unitPlacement unitType="pikeman" territory="Haleb" quantity="1" />
             <unitPlacement unitType="knight" territory="Haleb" quantity="1" />
             <unitPlacement unitType="castle" territory="Haleb" quantity="1" />
@@ -3621,34 +3777,34 @@
             <unitPlacement unitType="skirmisher" territory="Halycz" quantity="1" />
             <unitPlacement unitType="man_at_arms" territory="Halycz" quantity="1" />
             <unitPlacement unitType="castle" territory="Halycz" quantity="1" />
-            <unitPlacement unitType="longbowman" territory="Hebrides" quantity="1" />
+            <unitPlacement unitType="bowman" territory="Hebrides" quantity="1" />
             <unitPlacement unitType="horseman" territory="Hejaz" quantity="2" />
             <unitPlacement unitType="skirmisher" territory="Highlands" quantity="3" />
             <unitPlacement unitType="man_at_arms" territory="Holland" quantity="2" />
             <unitPlacement unitType="pikeman" territory="Holland" quantity="1" />
             <unitPlacement unitType="knight" territory="Holland" quantity="1" />
             <unitPlacement unitType="man_at_arms" territory="Holstein" quantity="1" />
-            <unitPlacement unitType="longbowman" territory="Holstein" quantity="2" />
+            <unitPlacement unitType="bowman" territory="Holstein" quantity="2" />
             <unitPlacement unitType="skirmisher" territory="Homs" quantity="3" />
             <unitPlacement unitType="man_at_arms" territory="Isfahan" quantity="1" owner="Seljuk"/>
-            <unitPlacement unitType="longbowman" territory="Isfahan" quantity="2" owner="Seljuk"/>
+            <unitPlacement unitType="bowman" territory="Isfahan" quantity="2" owner="Seljuk"/>
             <unitPlacement unitType="skirmisher" territory="Jerusalem" quantity="1" owner="Jerusalem"/>
-            <unitPlacement unitType="man_at_arms" territory="Jerusalem" quantity="2" owner="Jerusalem"/>
+            <unitPlacement unitType="crusader" territory="Jerusalem" quantity="2" owner="Jerusalem"/>
             <unitPlacement unitType="knight" territory="Jerusalem" quantity="1" owner="Jerusalem"/>
             <unitPlacement unitType="castle" territory="Jerusalem" quantity="1" owner="Jerusalem"/>
             <unitPlacement unitType="skirmisher" territory="Karelia" quantity="1" />
-            <unitPlacement unitType="longbowman" territory="Karelia" quantity="1" />
+            <unitPlacement unitType="bowman" territory="Karelia" quantity="1" />
             <unitPlacement unitType="galley" territory="Kattegat" quantity="3" owner="Denmark"/>
-            <unitPlacement unitType="horseman" territory="Khazaria" quantity="1" owner="Cumania"/>
+            <unitPlacement unitType="horsearcher" territory="Khazaria" quantity="1" owner="Cumania"/>
             <unitPlacement unitType="man_at_arms" territory="Khundzia" quantity="2" owner="Cumania"/>
-            <unitPlacement unitType="longbowman" territory="Khundzia" quantity="1" owner="Cumania"/>
+            <unitPlacement unitType="bowman" territory="Khundzia" quantity="1" owner="Cumania"/>
             <unitPlacement unitType="man_at_arms" territory="Kiev" quantity="1" owner="Kiev"/>
-            <unitPlacement unitType="horseman" territory="Kiev" quantity="2" owner="Kiev"/>
+            <unitPlacement unitType="horsearcher" territory="Kiev" quantity="2" owner="Kiev"/>
             <unitPlacement unitType="knight" territory="Kiev" quantity="1" owner="Kiev"/>
             <unitPlacement unitType="castle" territory="Kiev" quantity="1" owner="Kiev"/>
             <unitPlacement unitType="skirmisher" territory="Krakow" quantity="1" owner="Poland"/>
             <unitPlacement unitType="man_at_arms" territory="Krakow" quantity="1" owner="Poland"/>
-            <unitPlacement unitType="longbowman" territory="Krakow" quantity="1" owner="Poland"/>
+            <unitPlacement unitType="bowman" territory="Krakow" quantity="1" owner="Poland"/>
             <unitPlacement unitType="castle" territory="Krakow" quantity="1" owner="Poland"/>
             <unitPlacement unitType="skirmisher" territory="La Mancha" quantity="2" />
             <unitPlacement unitType="knight" territory="La Mancha" quantity="1" />
@@ -3657,20 +3813,20 @@
             <unitPlacement unitType="man_at_arms" territory="Leinster" quantity="1" />
             <unitPlacement unitType="pikeman" territory="Leinster" quantity="1" />
             <unitPlacement unitType="skirmisher" territory="Leon" quantity="2" owner="Leon"/>
-            <unitPlacement unitType="longbowman" territory="Leon" quantity="1" owner="Leon"/>
+            <unitPlacement unitType="bowman" territory="Leon" quantity="1" owner="Leon"/>
             <unitPlacement unitType="castle" territory="Leon" quantity="1" owner="Leon"/>
             <unitPlacement unitType="skirmisher" territory="Lesser Armenia" quantity="1" owner="Seljuk"/>
             <unitPlacement unitType="man_at_arms" territory="Lithuania" quantity="1" />
             <unitPlacement unitType="knight" territory="Lithuania" quantity="1" />
             <unitPlacement unitType="pikeman" territory="Little Burgundy" quantity="1" />
-            <unitPlacement unitType="longbowman" territory="Little Burgundy" quantity="1" />
+            <unitPlacement unitType="bowman" territory="Little Burgundy" quantity="1" />
             <unitPlacement unitType="man_at_arms" territory="Livonia" quantity="2" />
             <unitPlacement unitType="man_at_arms" territory="Loiranne" quantity="2" />
             <unitPlacement unitType="knight" territory="Loiranne" quantity="1" />
             <unitPlacement unitType="castle" territory="Loiranne" quantity="1" />
             <unitPlacement unitType="skirmisher" territory="Lubeck" quantity="1" />
             <unitPlacement unitType="man_at_arms" territory="Lubeck" quantity="1" />
-            <unitPlacement unitType="longbowman" territory="Lubeck" quantity="1" />
+            <unitPlacement unitType="bowman" territory="Lubeck" quantity="1" />
             <unitPlacement unitType="castle" territory="Lubeck" quantity="1" />
             <unitPlacement unitType="skirmisher" territory="Lubusz" quantity="1" />
             <unitPlacement unitType="skirmisher" territory="Luxenburg" quantity="2" />
@@ -3685,27 +3841,27 @@
             <unitPlacement unitType="skirmisher" territory="Mecklenburg" quantity="2" owner="Brandenburg"/>
             <unitPlacement unitType="galley" territory="Mediterranean Sea 3" quantity="2" owner="Jerusalem"/>
             <unitPlacement unitType="galley" territory="Mediterranean Sea 5" quantity="2" owner="Fatimid"/>
-            <unitPlacement unitType="galley" territory="Mediterranean Sea 11" quantity="2" owner="Sicily"/>
+            <unitPlacement unitType="galea" territory="Mediterranean Sea 11" quantity="2" owner="Sicily"/>
             <unitPlacement unitType="skirmisher" territory="Mercia" quantity="1" owner="England"/>
-            <unitPlacement unitType="longbowman" territory="Mercia" quantity="2" owner="England"/>
+            <unitPlacement unitType="bowman" territory="Mercia" quantity="2" owner="England"/>
             <unitPlacement unitType="man_at_arms" territory="Milan" quantity="1" />
-            <unitPlacement unitType="longbowman" territory="Milan" quantity="1" />
+            <unitPlacement unitType="bowman" territory="Milan" quantity="1" />
             <unitPlacement unitType="castle" territory="Milan" quantity="1" />
             <unitPlacement unitType="skirmisher" territory="Minsk" quantity="1" />
-            <unitPlacement unitType="longbowman" territory="Minsk" quantity="1" />
+            <unitPlacement unitType="bowman" territory="Minsk" quantity="1" />
             <unitPlacement unitType="man_at_arms" territory="Moldavia" quantity="1" />
-            <unitPlacement unitType="longbowman" territory="Moldavia" quantity="1" />
+            <unitPlacement unitType="bowman" territory="Moldavia" quantity="1" />
             <unitPlacement unitType="skirmisher" territory="Mordvia" quantity="2" />
             <unitPlacement unitType="man_at_arms" territory="Morocco" quantity="2" />
             <unitPlacement unitType="longbowman" territory="Morocco" quantity="1" />
-            <unitPlacement unitType="horseman" territory="Mosul" quantity="2" owner="Seljuk"/>
+            <unitPlacement unitType="camelrider" territory="Mosul" quantity="2" owner="Seljuk"/>
             <unitPlacement unitType="castle" territory="Mosul" quantity="1" owner="Seljuk"/>
             <unitPlacement unitType="skirmisher" territory="Muenster" quantity="1" />
             <unitPlacement unitType="man_at_arms" territory="Muenster" quantity="1" />
             <unitPlacement unitType="pikeman" territory="Muenster" quantity="1" />
             <unitPlacement unitType="skirmisher" territory="Munster" quantity="2" />
             <unitPlacement unitType="man_at_arms" territory="Murcia" quantity="1" />
-            <unitPlacement unitType="longbowman" territory="Murcia" quantity="1" />
+            <unitPlacement unitType="bowman" territory="Murcia" quantity="1" />
             <unitPlacement unitType="horseman" territory="Murcia" quantity="1" />
             <unitPlacement unitType="man_at_arms" territory="Murom" quantity="1" />
             <unitPlacement unitType="skirmisher" territory="Muscovy" quantity="1" />
@@ -3718,7 +3874,7 @@
             <unitPlacement unitType="skirmisher" territory="Nassau" quantity="2" />
             <unitPlacement unitType="pikeman" territory="Nassau" quantity="1" />
             <unitPlacement unitType="man_at_arms" territory="Navarra" quantity="1" />
-            <unitPlacement unitType="longbowman" territory="Navarra" quantity="1" />
+            <unitPlacement unitType="bowman" territory="Navarra" quantity="1" />
             <unitPlacement unitType="man_at_arms" territory="Normandy" quantity="1" owner="England"/>
             <unitPlacement unitType="longbowman" territory="Normandy" quantity="1" owner="England"/>
             <unitPlacement unitType="knight" territory="Normandy" quantity="1" owner="England"/>
@@ -3728,8 +3884,8 @@
             <unitPlacement unitType="longbowman" territory="Northumbria" quantity="2" />
             <unitPlacement unitType="castle" territory="Novgorod" quantity="1" owner="Novgorod"/>
             <unitPlacement unitType="skirmisher" territory="Novgorod" quantity="3" owner="Novgorod"/>
-            <unitPlacement unitType="longbowman" territory="Novgorod" quantity="2" owner="Novgorod"/>
-            <unitPlacement unitType="horseman" territory="Novgorod" quantity="2" owner="Novgorod"/>
+            <unitPlacement unitType="bowman" territory="Novgorod" quantity="2" owner="Novgorod"/>
+            <unitPlacement unitType="horsearcher" territory="Novgorod" quantity="2" owner="Novgorod"/>
             <unitPlacement unitType="skirmisher" territory="Novgorod Seversk" quantity="2" />
             <unitPlacement unitType="man_at_arms" territory="Nurnburg" quantity="1" />
             <unitPlacement unitType="pikeman" territory="Nurnburg" quantity="1" />
@@ -3746,17 +3902,17 @@
             <unitPlacement unitType="man_at_arms" territory="Paris" quantity="1" owner="France"/>
             <unitPlacement unitType="knight" territory="Paris" quantity="1" owner="France"/>
             <unitPlacement unitType="man_at_arms" territory="Pereyaslavl" quantity="1" />
-            <unitPlacement unitType="longbowman" territory="Pereyaslavl" quantity="1" />
+            <unitPlacement unitType="bowman" territory="Pereyaslavl" quantity="1" />
             <unitPlacement unitType="skirmisher" territory="Pergamon" quantity="2" owner="Byzantium"/>
             <unitPlacement unitType="man_at_arms" territory="Pergamon" quantity="1" owner="Byzantium"/>
-            <unitPlacement unitType="knight" territory="Pergamon" quantity="1" owner="Byzantium"/>
+            <unitPlacement unitType="cataphract" territory="Pergamon" quantity="1" owner="Byzantium"/>
             <unitPlacement unitType="skirmisher" territory="Podlasie" quantity="1" />
             <unitPlacement unitType="skirmisher" territory="Poitou" quantity="2" />
-            <unitPlacement unitType="longbowman" territory="Polotsk" quantity="1" />
+            <unitPlacement unitType="bowman" territory="Polotsk" quantity="1" />
             <unitPlacement unitType="horseman" territory="Polotsk" quantity="1" />
-            <unitPlacement unitType="horseman" territory="Polovtsy" quantity="1" owner="Cumania"/>
+            <unitPlacement unitType="horsearcher" territory="Polovtsy" quantity="1" owner="Cumania"/>
             <unitPlacement unitType="skirmisher" territory="Pomeralia" quantity="2" />
-            <unitPlacement unitType="longbowman" territory="Pomeralia" quantity="1" />
+            <unitPlacement unitType="bowman" territory="Pomeralia" quantity="1" />
             <unitPlacement unitType="skirmisher" territory="Porto" quantity="2" />
             <unitPlacement unitType="castle" territory="Porto" quantity="1" />
             <unitPlacement unitType="skirmisher" territory="Pressburg" quantity="2" owner="Hungary"/>
@@ -3768,22 +3924,22 @@
             <unitPlacement unitType="man_at_arms" territory="Pskov" quantity="1" />
             <unitPlacement unitType="horseman" territory="Pskov" quantity="1" />
             <unitPlacement unitType="skirmisher" territory="Quairah" quantity="3" owner="Fatimid"/>
-            <unitPlacement unitType="longbowman" territory="Quairah" quantity="1" owner="Fatimid"/>
+            <unitPlacement unitType="bowman" territory="Quairah" quantity="1" owner="Fatimid"/>
             <unitPlacement unitType="castle" territory="Quairah" quantity="1" owner="Fatimid"/>
             <unitPlacement unitType="skirmisher" territory="Ragusa" quantity="1" />
             <unitPlacement unitType="man_at_arms" territory="Ragusa" quantity="1" />
-            <unitPlacement unitType="longbowman" territory="Ragusa" quantity="1" />
+            <unitPlacement unitType="bowman" territory="Ragusa" quantity="1" />
             <unitPlacement unitType="knight" territory="Rhodes" quantity="1" />
-            <unitPlacement unitType="man_at_arms" territory="Roma" quantity="1" owner="PapalState"/>
+            <unitPlacement unitType="crusader" territory="Roma" quantity="1" owner="PapalState"/>
             <unitPlacement unitType="knight" territory="Roma" quantity="1" owner="PapalState"/>
             <unitPlacement unitType="castle" territory="Roma" quantity="1" owner="PapalState"/>
-            <unitPlacement unitType="man_at_arms" territory="Romagna" quantity="1" owner="PapalState"/>
+            <unitPlacement unitType="crusadr" territory="Romagna" quantity="1" owner="PapalState"/>
             <unitPlacement unitType="pikeman" territory="Romagna" quantity="1" owner="PapalState"/>
-            <unitPlacement unitType="longbowman" territory="Romagna" quantity="1" owner="PapalState"/>
+            <unitPlacement unitType="bowman" territory="Romagna" quantity="1" owner="PapalState"/>
             <unitPlacement unitType="pikeman" territory="Ryazan" quantity="1" />
             <unitPlacement unitType="horseman" territory="Ryazan" quantity="1" />
             <unitPlacement unitType="skirmisher" territory="Sardinia" quantity="1" />
-            <unitPlacement unitType="longbowman" territory="Sardinia" quantity="1" />
+            <unitPlacement unitType="bowman" territory="Sardinia" quantity="1" />
             <unitPlacement unitType="skirmisher" territory="Savoy" quantity="2" />
             <unitPlacement unitType="pikeman" territory="Savoy" quantity="1" />
             <unitPlacement unitType="man_at_arms" territory="Saxony" quantity="1" />
@@ -3792,7 +3948,7 @@
             <unitPlacement unitType="galley" territory="Sea of Marmara" quantity="2" owner="Byzantium"/>
             <unitPlacement unitType="horseman" territory="Sevilla" quantity="1" owner="Almoravid"/>
             <unitPlacement unitType="skirmisher" territory="Shetland" quantity="1" />
-            <unitPlacement unitType="longbowman" territory="Shirvan" quantity="1" />
+            <unitPlacement unitType="bowman" territory="Shirvan" quantity="1" />
             <unitPlacement unitType="skirmisher" territory="Sicily" quantity="2" owner="Sicily"/>
             <unitPlacement unitType="castle" territory="Sicily" quantity="1" owner="Sicily"/>
             <unitPlacement unitType="skirmisher" territory="Silesia" quantity="3" owner="Bohemia"/>
@@ -3800,7 +3956,7 @@
             <unitPlacement unitType="castle" territory="Silesia" quantity="1" owner="Bohemia"/>
             <unitPlacement unitType="skirmisher" territory="Sinai" quantity="1" />
             <unitPlacement unitType="man_at_arms" territory="Sinai" quantity="1" />
-            <unitPlacement unitType="horseman" territory="Siwa" quantity="1" owner="Fatimid"/>
+            <unitPlacement unitType="camelrider" territory="Siwa" quantity="1" owner="Fatimid"/>
             <unitPlacement unitType="castle" territory="Sjaelland" quantity="1" owner="Denmark"/>
             <unitPlacement unitType="skirmisher" territory="Sjaelland" quantity="2" owner="Denmark"/>
             <unitPlacement unitType="man_at_arms" territory="Sjaelland" quantity="2" owner="Denmark"/>
@@ -3809,7 +3965,7 @@
             <unitPlacement unitType="man_at_arms" territory="Skane" quantity="1" owner="Denmark"/>
             <unitPlacement unitType="skirmisher" territory="Smolensk" quantity="1" />
             <unitPlacement unitType="horseman" territory="Smolensk" quantity="1" />
-            <unitPlacement unitType="horseman" territory="Somogy" quantity="1" owner="Hungary"/>
+            <unitPlacement unitType="horsearcher" territory="Somogy" quantity="1" owner="Hungary"/>
             <unitPlacement unitType="skirmisher" territory="Stockholm" quantity="2" owner="Sweden"/>
             <unitPlacement unitType="man_at_arms" territory="Stockholm" quantity="2" owner="Sweden"/>
             <unitPlacement unitType="castle" territory="Stockholm" quantity="1" owner="Sweden"/>
@@ -3822,41 +3978,41 @@
             <unitPlacement unitType="skirmisher" territory="Swabia" quantity="1" owner="Austria"/>
             <unitPlacement unitType="man_at_arms" territory="Swabia" quantity="1" owner="Austria"/>
             <unitPlacement unitType="man_at_arms" territory="Syria" quantity="1" />
-            <unitPlacement unitType="longbowman" territory="Syria" quantity="1" />
+            <unitPlacement unitType="bowman" territory="Syria" quantity="1" />
             <unitPlacement unitType="horseman" territory="Syria" quantity="2" />
             <unitPlacement unitType="skirmisher" territory="Syrmia" quantity="2" />
             <unitPlacement unitType="pikeman" territory="Syrmia" quantity="1" />
             <unitPlacement unitType="man_at_arms" territory="Tabarestan" quantity="1" />
             <unitPlacement unitType="pikeman" territory="Tabarestan" quantity="1" />
-            <unitPlacement unitType="longbowman" territory="Tabarestan" quantity="1" />
+            <unitPlacement unitType="bowman" territory="Tabarestan" quantity="1" />
             <unitPlacement unitType="skirmisher" territory="Tabriz" quantity="1" owner="Seljuk"/>
             <unitPlacement unitType="skirmisher" territory="Tafilalt" quantity="2" />
             <unitPlacement unitType="horseman" territory="Tafilalt" quantity="1" />
             <unitPlacement unitType="man_at_arms" territory="Tangiers" quantity="1" />
-            <unitPlacement unitType="longbowman" territory="Tangiers" quantity="1" />
+            <unitPlacement unitType="bowman" territory="Tangiers" quantity="1" />
             <unitPlacement unitType="castle" territory="Tangiers" quantity="1" />
             <unitPlacement unitType="skirmisher" territory="Thrace" quantity="3" owner="Bulgaria"/>
             <unitPlacement unitType="skirmisher" territory="Thuringia" quantity="2" />
             <unitPlacement unitType="man_at_arms" territory="Tmutarakan" quantity="2" owner="Kiev"/>
             <unitPlacement unitType="castle" territory="Tmutarakan" quantity="1" owner="Kiev"/>
-            <unitPlacement unitType="longbowman" territory="Toledo" quantity="1" />
+            <unitPlacement unitType="bowman" territory="Toledo" quantity="1" />
             <unitPlacement unitType="knight" territory="Toledo" quantity="1" />
             <unitPlacement unitType="castle" territory="Toledo" quantity="1" />
             <unitPlacement unitType="skirmisher" territory="Toulouse" quantity="1" />
             <unitPlacement unitType="man_at_arms" territory="Toulouse" quantity="1" />
-            <unitPlacement unitType="longbowman" territory="Toulouse" quantity="1" />
+            <unitPlacement unitType="bowman" territory="Toulouse" quantity="1" />
             <unitPlacement unitType="castle" territory="Toulouse" quantity="1" />
-            <unitPlacement unitType="horseman" territory="Transtisa" quantity="2" owner="Hungary"/>
+            <unitPlacement unitType="horsearcher" territory="Transtisa" quantity="2" owner="Hungary"/>
             <unitPlacement unitType="skirmisher" territory="Transylvania" quantity="3" owner="Hungary"/>
             <unitPlacement unitType="man_at_arms" territory="Trebizond" quantity="1" owner="Byzantium"/>
-            <unitPlacement unitType="longbowman" territory="Trebizond" quantity="1" owner="Byzantium"/>
+            <unitPlacement unitType="bowman" territory="Trebizond" quantity="1" owner="Byzantium"/>
             <unitPlacement unitType="castle" territory="Trebizond" quantity="1" owner="Byzantium"/>
             <unitPlacement unitType="pikeman" territory="Trier" quantity="1" />
-            <unitPlacement unitType="longbowman" territory="Trier" quantity="2" />
+            <unitPlacement unitType="bowman" territory="Trier" quantity="2" />
             <unitPlacement unitType="skirmisher" territory="Tripolitania" quantity="2" owner="Fatimid"/>
             <unitPlacement unitType="castle" territory="Tripolitania" quantity="1" owner="Fatimid"/>
             <unitPlacement unitType="pikeman" territory="Trondheim" quantity="1" />
-            <unitPlacement unitType="longbowman" territory="Tunis" quantity="1" owner="Almoravid"/>
+            <unitPlacement unitType="bowman" territory="Tunis" quantity="1" owner="Almoravid"/>
             <unitPlacement unitType="horseman" territory="Tunis" quantity="1" owner="Almoravid"/>
             <unitPlacement unitType="castle" territory="Tunis" quantity="1" owner="Almoravid"/>
             <unitPlacement unitType="galley" territory="Tyrrhenian Sea 3" quantity="2" owner="PapalState"/>
@@ -3878,18 +4034,18 @@
             <unitPlacement unitType="skirmisher" territory="Vladimir" quantity="1" />
             <unitPlacement unitType="man_at_arms" territory="Vladimir" quantity="1" />
             <unitPlacement unitType="man_at_arms" territory="Volga Bulgaria" quantity="2" />
-            <unitPlacement unitType="longbowman" territory="Volga Bulgaria" quantity="1" />
+            <unitPlacement unitType="bowman" territory="Volga Bulgaria" quantity="1" />
             <unitPlacement unitType="skirmisher" territory="Volhynia" quantity="1" />
             <unitPlacement unitType="man_at_arms" territory="Volhynia" quantity="1" />
             <unitPlacement unitType="man_at_arms" territory="Wales" quantity="1" />
-            <unitPlacement unitType="longbowman" territory="Wales" quantity="1" />
+            <unitPlacement unitType="bowman" territory="Wales" quantity="1" />
             <unitPlacement unitType="man_at_arms" territory="Wallachia" quantity="3" />
             <unitPlacement unitType="pikeman" territory="Wallachia" quantity="1" />
             <unitPlacement unitType="knight" territory="Wallachia" quantity="1" />
             <unitPlacement unitType="castle" territory="Wallachia" quantity="1" />
             <unitPlacement unitType="man_at_arms" territory="Wielkopolska" quantity="1" owner="Poland"/>
             <unitPlacement unitType="horseman" territory="Wielkopolska" quantity="2" owner="Poland"/>
-            <unitPlacement unitType="knight" territory="Wielkopolska" quantity="1" owner="Poland"/>
+            <unitPlacement unitType="hussar" territory="Wielkopolska" quantity="1" owner="Poland"/>
             <unitPlacement unitType="castle" territory="Wielkopolska" quantity="1" owner="Poland"/>
             <unitPlacement unitType="man_at_arms" territory="Zeta" quantity="1" />
             <unitPlacement unitType="skirmisher" territory="Jordan" quantity="1" />
