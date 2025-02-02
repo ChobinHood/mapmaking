@@ -1774,15 +1774,15 @@
 			<result resourceOrUnit="swisspikeman" quantity="1"/>
 		</productionRule>
 		<productionRule name="buy_galley">
-			<cost resource="PUs" quantity="13"/>
+			<cost resource="PUs" quantity="12"/>
 			<result resourceOrUnit="galley" quantity="1"/>
 		</productionRule>
 		<productionRule name="buy_galea">
-			<cost resource="PUs" quantity="13"/>
+			<cost resource="PUs" quantity="12"/>
 			<result resourceOrUnit="galea" quantity="1"/>
 		</productionRule>
 		<productionRule name="buy_longship">
-			<cost resource="PUs" quantity="10"/>
+			<cost resource="PUs" quantity="8"/>
 			<result resourceOrUnit="longship" quantity="1"/>
 		</productionRule>
 		
@@ -2089,30 +2089,35 @@
 			<option name="transportCost" value="3"/>
 			<option name="attack" value="5"/>
 			<option name="defense" value="3"/>
+			<option name="canBlitz" value="true"/>
 		</attachment>
 		<attachment name="unitAttachment" attachTo="horsearcher" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
 			<option name="movement" value="4"/>
 			<option name="transportCost" value="3"/>
 			<option name="attack" value="6"/>
 			<option name="defense" value="3"/>
+			<option name="canBlitz" value="true"/>
 		</attachment>
 		<attachment name="unitAttachment" attachTo="camelrider" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
 			<option name="movement" value="3"/>
 			<option name="transportCost" value="3"/>
 			<option name="attack" value="5"/>
 			<option name="defense" value="5"/>
+			<option name="canBlitz" value="true"/>
 		</attachment>
 		<attachment name="unitAttachment" attachTo="man_at_arms" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
 			<option name="movement" value="2"/>
 			<option name="transportCost" value="1"/>
-			<option name="attack" value="6"/>
+			<option name="attack" value="5"/>
 			<option name="defense" value="6"/>
+			<option name="artillerySupportable" value="true"/>
 		</attachment>
 		<attachment name="unitAttachment" attachTo="crusader" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
 			<option name="movement" value="2"/>
 			<option name="transportCost" value="1"/>
-			<option name="attack" value="7"/>
+			<option name="attack" value="6"/>
 			<option name="defense" value="6"/>
+			<option name="artillerySupportable" value="true"/>
 		</attachment>
 		<attachment name="unitAttachment" attachTo="pikeman" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
 			<option name="movement" value="2"/>
@@ -2132,23 +2137,7 @@
 			<option name="transportCost" value="1"/>
 			<option name="attack" value="4"/>
 			<option name="defense" value="6"/>
-			
-			<option name="targetsAA" value="man_at_arms:skirmisher:pikeman:longbowman:horseman:knight:bowman:tribesman:swisspikeman:camelrider:horsearcher:berbercavalry:crusader:hussar:cataphract"/>
-			<option name="typeAA" value="volley"/>
-			<option name="attackAA" value="7"/>
-			<option name="offensiveAttackAA" value="5"/>
-			<option name="isAAforCombatOnly" value="true"/>
-			<option name="mayOverStackAA" value="true"/>
-			<option name="damageableAA" value="true"/>
-			<option name="maxAAattacks" value="1"/>
-			<option name="maxRoundsAA" value="1"/>
-		</attachment>
-		<attachment name="unitAttachment" attachTo="bowman" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
-		        <!--<option name="destroyedWhenCapturedBy" value="BY:Byzantium:Seljuk:Jerusalem:Fatimid:Almoravid:Leon:Aragon:Aquitania:France:England:Scotland:PapalState:Sicily:Venice:Austria:Hungary:Poland:Bohemia:Brandenburg:Denmark:Sweden:Kiev:Novgorod:Cumania:Bulgaria"/>-->
-			<option name="movement" value="2"/>
-			<option name="transportCost" value="1"/>
-			<option name="attack" value="3"/>
-			<option name="defense" value="5"/>
+			<option name="artillery" value="true"/> 
 			
 			<option name="targetsAA" value="man_at_arms:skirmisher:pikeman:longbowman:horseman:knight:bowman:tribesman:swisspikeman:camelrider:horsearcher:berbercavalry:crusader:hussar:cataphract"/>
 			<option name="typeAA" value="volley"/>
@@ -2160,13 +2149,35 @@
 			<option name="maxAAattacks" value="1"/>
 			<option name="maxRoundsAA" value="1"/>
 		</attachment>
+		
+		<attachment name="unitAttachment" attachTo="bowman" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+		        <!--<option name="destroyedWhenCapturedBy" value="BY:Byzantium:Seljuk:Jerusalem:Fatimid:Almoravid:Leon:Aragon:Aquitania:France:England:Scotland:PapalState:Sicily:Venice:Austria:Hungary:Poland:Bohemia:Brandenburg:Denmark:Sweden:Kiev:Novgorod:Cumania:Bulgaria"/>-->
+			<option name="movement" value="2"/>
+			<option name="transportCost" value="1"/>
+			<option name="attack" value="3"/>
+			<option name="defense" value="5"/>
+			<option name="artillery" value="true"/> 
+			
+			<option name="targetsAA" value="man_at_arms:skirmisher:pikeman:longbowman:horseman:knight:bowman:tribesman:swisspikeman:camelrider:horsearcher:berbercavalry:crusader:hussar:cataphract"/>
+			<option name="typeAA" value="volley"/>
+			<option name="attackAA" value="5"/>
+			<option name="offensiveAttackAA" value="3"/>
+			<option name="isAAforCombatOnly" value="true"/>
+			<option name="mayOverStackAA" value="true"/>
+			<option name="damageableAA" value="true"/>
+			<option name="maxAAattacks" value="1"/>
+			<option name="maxRoundsAA" value="1"/>
+		</attachment>
+		
 		<attachment name="unitAttachment" attachTo="knight" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
 			<option name="movement" value="3"/>
 			<option name="transportCost" value="3"/>
 			<option name="attack" value="10"/>
 			<option name="defense" value="7"/>
-			<!--<option name="hitPoints" value="2"/>-->
-			
+			<option name="receivesAbilityWhenWith" value="canBlitz:horsearcher"/>
+			<option name="receivesAbilityWhenWith" value="canBlitz:camelrider"/>
+			<option name="receivesAbilityWhenWith" value="canBlitz:horseman"/>
+			<!--<option name="hitPoints" value="2"/>-->	
 			<option name="targetsAA" value="man_at_arms:skirmisher:pikeman:longbowman:horseman:knight:bowman:tribesman:swisspikeman:camelrider:horsearcher:berbercavalry:crusader:hussar:cataphract"/>
 			<option name="typeAA" value="charge"/>
 			<option name="attackAA" value="7"/>
@@ -2177,13 +2188,16 @@
 			<option name="maxAAattacks" value="1"/>
 			<option name="maxRoundsAA" value="1"/>
 		</attachment>
+		
 		<attachment name="unitAttachment" attachTo="hussar" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
 			<option name="movement" value="3"/>
 			<option name="transportCost" value="3"/>
 			<option name="attack" value="10"/>
 			<option name="defense" value="7"/>
+			<option name="receivesAbilityWhenWith" value="canBlitz:horsearcher"/>
+			<option name="receivesAbilityWhenWith" value="canBlitz:camelrider"/>
+			<option name="receivesAbilityWhenWith" value="canBlitz:horseman"/>
 			<!--<option name="hitPoints" value="2"/>-->
-			
 			<option name="targetsAA" value="man_at_arms:skirmisher:pikeman:longbowman:horseman:knight:bowman:tribesman:swisspikeman:camelrider:horsearcher:berbercavalry:crusader:hussar:cataphract"/>
 			<option name="typeAA" value="charge"/>
 			<option name="attackAA" value="8"/>
@@ -2194,13 +2208,16 @@
 			<option name="maxAAattacks" value="1"/>
 			<option name="maxRoundsAA" value="1"/>
 		</attachment>
+		
 		<attachment name="unitAttachment" attachTo="cataphract" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
 			<option name="movement" value="3"/>
 			<option name="transportCost" value="3"/>
 			<option name="attack" value="10"/>
 			<option name="defense" value="8"/>
+			<option name="receivesAbilityWhenWith" value="canBlitz:horsearcher"/>
+			<option name="receivesAbilityWhenWith" value="canBlitz:camelrider"/>
+			<option name="receivesAbilityWhenWith" value="canBlitz:horseman"/>
 			<!--<option name="hitPoints" value="2"/>-->
-			
 			<option name="targetsAA" value="man_at_arms:skirmisher:pikeman:longbowman:horseman:knight:bowman:tribesman:swisspikeman:camelrider:horsearcher:berbercavalry:crusader:hussar:cataphract"/>
 			<option name="typeAA" value="charge"/>
 			<option name="attackAA" value="8"/>
@@ -2216,8 +2233,10 @@
 			<option name="transportCost" value="3"/>
 			<option name="attack" value="9"/>
 			<option name="defense" value="6"/>
-			<!--<option name="hitPoints" value="2"/>-->
-			
+			<option name="receivesAbilityWhenWith" value="canBlitz:horsearcher"/>
+			<option name="receivesAbilityWhenWith" value="canBlitz:camelrider"/>
+			<option name="receivesAbilityWhenWith" value="canBlitz:horseman"/>
+			<!--<option name="hitPoints" value="2"/>-->		
 			<option name="targetsAA" value="man_at_arms:skirmisher:pikeman:longbowman:horseman:knight:bowman:tribesman:swisspikeman:camelrider:horsearcher:berbercavalry:crusader:hussar:cataphract"/>
 			<option name="typeAA" value="charge"/>
 			<option name="attackAA" value="6"/>
@@ -2244,10 +2263,10 @@
 			<option name="defense" value="6"/>
 		</attachment>
 		<attachment name="unitAttachment" attachTo="longship" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
-			<option name="movement" value="2"/>
+			<option name="movement" value="3"/>
 			<option name="isSea" value="true"/>
-			<option name="transportCapacity" value="3"/>
-			<option name="attack" value="5"/>
+			<option name="transportCapacity" value="2"/>
+			<option name="attack" value="4"/>
 			<option name="defense" value="3"/>
 		</attachment>
 		
@@ -3663,7 +3682,7 @@
             <unitPlacement unitType="man_at_arms" territory="Ankara" quantity="1" owner="Seljuk"/>
             <unitPlacement unitType="camelrider" territory="Ankara" quantity="1" owner="Seljuk"/>
             <unitPlacement unitType="castle" territory="Ankara" quantity="1" owner="Seljuk"/>
-            <unitPlacement unitType="man_at_arms" territory="Antioch" quantity="2" owner="Jerusalem"/>
+            <unitPlacement unitType="crusader" territory="Antioch" quantity="2" owner="Jerusalem"/>
             <unitPlacement unitType="castle" territory="Antioch" quantity="1" owner="Jerusalem"/>
             <unitPlacement unitType="skirmisher" territory="Antioch" quantity="2" owner="Jerusalem"/>
             <unitPlacement unitType="skirmisher" territory="Apulia" quantity="1" owner="Sicily"/>
@@ -3686,7 +3705,7 @@
             <unitPlacement unitType="bowman" territory="Baghdad" quantity="2" owner="Seljuk"/>
             <unitPlacement unitType="castle" territory="Baghdad" quantity="1" owner="Seljuk"/>
             <unitPlacement unitType="skirmisher" territory="Baleares" quantity="1" />
-            <unitPlacement unitType="longship" territory="Baltic Sea 4" quantity="3" owner="Sweden"/>
+            <unitPlacement unitType="longship" territory="Baltic Sea 4" quantity="5" owner="Sweden"/>
             <unitPlacement unitType="bowman" territory="Banat" quantity="1" />
             <unitPlacement unitType="horseman" territory="Bashkiria" quantity="2" />
             <unitPlacement unitType="skirmisher" territory="Bavaria" quantity="2" />
@@ -3850,7 +3869,7 @@
             <unitPlacement unitType="castle" territory="Jerusalem" quantity="1" owner="Jerusalem"/>
             <unitPlacement unitType="skirmisher" territory="Karelia" quantity="1" />
             <unitPlacement unitType="bowman" territory="Karelia" quantity="1" />
-            <unitPlacement unitType="galley" territory="Kattegat" quantity="3" owner="Denmark"/>
+            <unitPlacement unitType="longship" territory="Kattegat" quantity="5" owner="Denmark"/>
             <unitPlacement unitType="horsearcher" territory="Khazaria" quantity="1" owner="Cumania"/>
             <unitPlacement unitType="man_at_arms" territory="Khundzia" quantity="2" owner="Cumania"/>
             <unitPlacement unitType="bowman" territory="Khundzia" quantity="1" owner="Cumania"/>
