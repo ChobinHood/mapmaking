@@ -2352,7 +2352,7 @@
 		</attachment>
 		
 		<attachment name="supportAttachment_castle_battlements" attachTo="castle" javaClass="games.strategy.triplea.attachments.UnitSupportAttachment" type="unitType">
-			<option name="unitType" value="man_at_arms:skirmisher:pikeman:longbowman:bowman:tribesman:swisspikeman:crusader:" />
+			<option name="unitType" value="man_at_arms:skirmisher:pikeman:longbowman:bowman:tribesman:swisspikeman:crusader" />
 			<option name="faction" value="enemy" />
 			<option name="side" value="defence" />
 			<option name="dice" value="strength" />
