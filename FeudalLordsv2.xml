@@ -1710,7 +1710,7 @@
 	</gamePlay>
 	<production>
 		<productionRule name="buy_castle">
-			<cost resource="PUs" quantity="30"/>
+			<cost resource="PUs" quantity="26"/>
 			<result resourceOrUnit="castle" quantity="1"/>
 		</productionRule>
 		<productionRule name="buy_skirmisher">
@@ -1734,7 +1734,7 @@
 			<result resourceOrUnit="knight" quantity="1"/>
 		</productionRule>
 		<productionRule name="buy_berbercavalry">
-			<cost resource="PUs" quantity="7"/>
+			<cost resource="PUs" quantity="8"/>
 			<result resourceOrUnit="berbercavalry" quantity="1"/>
 		</productionRule>
 		<productionRule name="buy_cataphract">
@@ -1758,7 +1758,7 @@
 			<result resourceOrUnit="camelrider" quantity="1"/>
 		</productionRule>
 		<productionRule name="buy_longbowman">
-			<cost resource="PUs" quantity="6"/>
+			<cost resource="PUs" quantity="5"/>
 			<result resourceOrUnit="longbowman" quantity="1"/>
 		</productionRule>
 		<productionRule name="buy_bowman">
@@ -2088,18 +2088,18 @@
 			<option name="movement" value="4"/>
 			<option name="transportCost" value="3"/>
 			<option name="attack" value="5"/>
-			<option name="defense" value="3"/>
+			<option name="defense" value="4"/>
 			<option name="canBlitz" value="true"/>
 		</attachment>
 		<attachment name="unitAttachment" attachTo="horsearcher" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
 			<option name="movement" value="4"/>
 			<option name="transportCost" value="3"/>
 			<option name="attack" value="6"/>
-			<option name="defense" value="3"/>
+			<option name="defense" value="4"/>
 			<option name="canBlitz" value="true"/>
 		</attachment>
 		<attachment name="unitAttachment" attachTo="camelrider" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
-			<option name="movement" value="3"/>
+			<option name="movement" value="4"/>
 			<option name="transportCost" value="3"/>
 			<option name="attack" value="5"/>
 			<option name="defense" value="5"/>
@@ -2108,14 +2108,14 @@
 		<attachment name="unitAttachment" attachTo="man_at_arms" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
 			<option name="movement" value="2"/>
 			<option name="transportCost" value="1"/>
-			<option name="attack" value="5"/>
+			<option name="attack" value="6"/>
 			<option name="defense" value="6"/>
 			<option name="artillerySupportable" value="true"/>
 		</attachment>
 		<attachment name="unitAttachment" attachTo="crusader" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
 			<option name="movement" value="2"/>
 			<option name="transportCost" value="1"/>
-			<option name="attack" value="6"/>
+			<option name="attack" value="7"/>
 			<option name="defense" value="6"/>
 			<option name="artillerySupportable" value="true"/>
 		</attachment>
@@ -2136,12 +2136,12 @@
 			<option name="movement" value="2"/>
 			<option name="transportCost" value="1"/>
 			<option name="attack" value="4"/>
-			<option name="defense" value="6"/>
-			<option name="artillery" value="true"/> 
+			<option name="defense" value="7"/>
+			<!--<option name="artillery" value="true"/>--> 
 			
 			<option name="targetsAA" value="man_at_arms:skirmisher:pikeman:longbowman:horseman:knight:bowman:tribesman:swisspikeman:camelrider:horsearcher:berbercavalry:crusader:hussar:cataphract"/>
 			<option name="typeAA" value="volley"/>
-			<option name="attackAA" value="6"/>
+			<option name="attackAA" value="7"/>
 			<option name="offensiveAttackAA" value="4"/>
 			<option name="isAAforCombatOnly" value="true"/>
 			<option name="mayOverStackAA" value="true"/>
@@ -2156,7 +2156,8 @@
 			<option name="transportCost" value="1"/>
 			<option name="attack" value="3"/>
 			<option name="defense" value="5"/>
-			<option name="artillery" value="true"/> 
+			<!--<option name="artillery" value="true"/>-->
+			
 			
 			<option name="targetsAA" value="man_at_arms:skirmisher:pikeman:longbowman:horseman:knight:bowman:tribesman:swisspikeman:camelrider:horsearcher:berbercavalry:crusader:hussar:cataphract"/>
 			<option name="typeAA" value="volley"/>
@@ -2173,14 +2174,14 @@
 			<option name="movement" value="3"/>
 			<option name="transportCost" value="3"/>
 			<option name="attack" value="10"/>
-			<option name="defense" value="7"/>
-			<option name="receivesAbilityWhenWith" value="canBlitz:horsearcher"/>
+			<option name="defense" value="8"/>
+			<!--<option name="receivesAbilityWhenWith" value="canBlitz:horsearcher"/>
 			<option name="receivesAbilityWhenWith" value="canBlitz:camelrider"/>
-			<option name="receivesAbilityWhenWith" value="canBlitz:horseman"/>
+			<option name="receivesAbilityWhenWith" value="canBlitz:horseman"/>-->
 			<!--<option name="hitPoints" value="2"/>-->	
 			<option name="targetsAA" value="man_at_arms:skirmisher:pikeman:longbowman:horseman:knight:bowman:tribesman:swisspikeman:camelrider:horsearcher:berbercavalry:crusader:hussar:cataphract"/>
 			<option name="typeAA" value="charge"/>
-			<option name="attackAA" value="7"/>
+			<option name="attackAA" value="8"/>
 			<option name="offensiveAttackAA" value="10"/>
 			<option name="isAAforCombatOnly" value="true"/>
 			<option name="mayOverStackAA" value="true"/>
@@ -2192,11 +2193,11 @@
 		<attachment name="unitAttachment" attachTo="hussar" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
 			<option name="movement" value="3"/>
 			<option name="transportCost" value="3"/>
-			<option name="attack" value="10"/>
-			<option name="defense" value="7"/>
-			<option name="receivesAbilityWhenWith" value="canBlitz:horsearcher"/>
+			<option name="attack" value="11"/>
+			<option name="defense" value="8"/>
+			<!--<option name="receivesAbilityWhenWith" value="canBlitz:horsearcher"/>
 			<option name="receivesAbilityWhenWith" value="canBlitz:camelrider"/>
-			<option name="receivesAbilityWhenWith" value="canBlitz:horseman"/>
+			<option name="receivesAbilityWhenWith" value="canBlitz:horseman"/>-->
 			<!--<option name="hitPoints" value="2"/>-->
 			<option name="targetsAA" value="man_at_arms:skirmisher:pikeman:longbowman:horseman:knight:bowman:tribesman:swisspikeman:camelrider:horsearcher:berbercavalry:crusader:hussar:cataphract"/>
 			<option name="typeAA" value="charge"/>
@@ -2213,10 +2214,10 @@
 			<option name="movement" value="3"/>
 			<option name="transportCost" value="3"/>
 			<option name="attack" value="10"/>
-			<option name="defense" value="8"/>
-			<option name="receivesAbilityWhenWith" value="canBlitz:horsearcher"/>
+			<option name="defense" value="9"/>
+			<!--<option name="receivesAbilityWhenWith" value="canBlitz:horsearcher"/>
 			<option name="receivesAbilityWhenWith" value="canBlitz:camelrider"/>
-			<option name="receivesAbilityWhenWith" value="canBlitz:horseman"/>
+			<option name="receivesAbilityWhenWith" value="canBlitz:horseman"/>-->
 			<!--<option name="hitPoints" value="2"/>-->
 			<option name="targetsAA" value="man_at_arms:skirmisher:pikeman:longbowman:horseman:knight:bowman:tribesman:swisspikeman:camelrider:horsearcher:berbercavalry:crusader:hussar:cataphract"/>
 			<option name="typeAA" value="charge"/>
@@ -2231,16 +2232,16 @@
 		<attachment name="unitAttachment" attachTo="berbercavalry" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
 			<option name="movement" value="3"/>
 			<option name="transportCost" value="3"/>
-			<option name="attack" value="9"/>
-			<option name="defense" value="6"/>
-			<option name="receivesAbilityWhenWith" value="canBlitz:horsearcher"/>
+			<option name="attack" value="10"/>
+			<option name="defense" value="7"/>
+			<!--<option name="receivesAbilityWhenWith" value="canBlitz:horsearcher"/>
 			<option name="receivesAbilityWhenWith" value="canBlitz:camelrider"/>
-			<option name="receivesAbilityWhenWith" value="canBlitz:horseman"/>
+			<option name="receivesAbilityWhenWith" value="canBlitz:horseman"/>-->
 			<!--<option name="hitPoints" value="2"/>-->		
 			<option name="targetsAA" value="man_at_arms:skirmisher:pikeman:longbowman:horseman:knight:bowman:tribesman:swisspikeman:camelrider:horsearcher:berbercavalry:crusader:hussar:cataphract"/>
 			<option name="typeAA" value="charge"/>
-			<option name="attackAA" value="6"/>
-			<option name="offensiveAttackAA" value="9"/>
+			<option name="attackAA" value="7"/>
+			<option name="offensiveAttackAA" value="10"/>
 			<option name="isAAforCombatOnly" value="true"/>
 			<option name="mayOverStackAA" value="true"/>
 			<option name="damageableAA" value="true"/>
@@ -2351,12 +2352,23 @@
 		</attachment>
 		
 		<attachment name="supportAttachment_castle_battlements" attachTo="castle" javaClass="games.strategy.triplea.attachments.UnitSupportAttachment" type="unitType">
-			<option name="unitType" value="skirmisher:man_at_arms:longbowman:horseman:knight:pikeman" />
+			<option name="unitType" value="man_at_arms:skirmisher:pikeman:longbowman:bowman:tribesman:swisspikeman:crusader:" />
 			<option name="faction" value="enemy" />
 			<option name="side" value="defence" />
 			<option name="dice" value="strength" />
-			<option name="bonus" value="-2" />
-			<option name="number" value="18" />
+			<option name="bonus" value="-1" />
+			<option name="number" value="40" />
+			<option name="bonusType" value="battlements" />
+			<option name="impArtTech" value="false" />
+			<option name="players" value="Byzantium:Seljuk:Jerusalem:Fatimid:Almoravid:Leon:Aragon:Aquitania:France:England:Scotland:PapalState:Sicily:Venice:Austria:Hungary:Poland:Bohemia:Brandenburg:Denmark:Sweden:Kiev:Novgorod:Cumania:Bulgaria" />
+		</attachment>
+		<attachment name="supportAttachment_castle_battlements" attachTo="castle" javaClass="games.strategy.triplea.attachments.UnitSupportAttachment" type="unitType">
+			<option name="unitType" value="hussar:cataphract:camelrider:horsearcher:horseman:knight" />
+			<option name="faction" value="enemy" />
+			<option name="side" value="defence" />
+			<option name="dice" value="strength" />
+			<option name="bonus" value="-3" />
+			<option name="number" value="40" />
 			<option name="bonusType" value="battlements" />
 			<option name="impArtTech" value="false" />
 			<option name="players" value="Byzantium:Seljuk:Jerusalem:Fatimid:Almoravid:Leon:Aragon:Aquitania:France:England:Scotland:PapalState:Sicily:Venice:Austria:Hungary:Poland:Bohemia:Brandenburg:Denmark:Sweden:Kiev:Novgorod:Cumania:Bulgaria" />
