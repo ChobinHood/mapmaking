@@ -1710,7 +1710,7 @@
 	</gamePlay>
 	<production>
 		<productionRule name="buy_castle">
-			<cost resource="PUs" quantity="26"/>
+			<cost resource="PUs" quantity="28"/>
 			<result resourceOrUnit="castle" quantity="1"/>
 		</productionRule>
 		<productionRule name="buy_skirmisher">
@@ -2356,24 +2356,23 @@
 			<option name="faction" value="enemy" />
 			<option name="side" value="defence" />
 			<option name="dice" value="strength" />
-			<option name="bonus" value="-1" />
-			<option name="number" value="40" />
+			<option name="bonus" value="-2" />
+			<option name="number" value="18" />
 			<option name="bonusType" value="battlements" />
 			<option name="impArtTech" value="false" />
 			<option name="players" value="Byzantium:Seljuk:Jerusalem:Fatimid:Almoravid:Leon:Aragon:Aquitania:France:England:Scotland:PapalState:Sicily:Venice:Austria:Hungary:Poland:Bohemia:Brandenburg:Denmark:Sweden:Kiev:Novgorod:Cumania:Bulgaria" />
 		</attachment>
-		<attachment name="supportAttachment_castle_battlements" attachTo="castle" javaClass="games.strategy.triplea.attachments.UnitSupportAttachment" type="unitType">
+		<attachment name="supportAttachment_castle_walls" attachTo="castle" javaClass="games.strategy.triplea.attachments.UnitSupportAttachment" type="unitType">
 			<option name="unitType" value="hussar:cataphract:camelrider:horsearcher:horseman:knight" />
 			<option name="faction" value="enemy" />
 			<option name="side" value="defence" />
 			<option name="dice" value="strength" />
 			<option name="bonus" value="-3" />
-			<option name="number" value="40" />
+			<option name="number" value="99" />
 			<option name="bonusType" value="walls" />
 			<option name="impArtTech" value="false" />
 			<option name="players" value="Byzantium:Seljuk:Jerusalem:Fatimid:Almoravid:Leon:Aragon:Aquitania:France:England:Scotland:PapalState:Sicily:Venice:Austria:Hungary:Poland:Bohemia:Brandenburg:Denmark:Sweden:Kiev:Novgorod:Cumania:Bulgaria" />
 		</attachment>
-		
 		
 		<attachment name="territoryAttachment" attachTo="Bordeaux" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
 			<option name="production" value="6"/>
