@@ -2582,7 +2582,7 @@
 			<option name="production" value="3"/>
 		</attachment>
 		<attachment name="territoryAttachment" attachTo="Bulgaria" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
-			<option name="production" value="4"/>
+			<option name="production" value="5"/>
 			<option name="capital" value="Bulgaria"/>
 		</attachment>
 		<attachment name="territoryAttachment" attachTo="Munster" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
@@ -3753,6 +3753,7 @@
             <unitPlacement unitType="bowman" territory="Brunswick" quantity="1" owner="Brandenburg"/>
             <unitPlacement unitType="man_at_arms" territory="Buda" quantity="2" owner="Hungary"/>
             <unitPlacement unitType="castle" territory="Buda" quantity="1" owner="Hungary"/>
+	    <unitPlacement unitType="skirmisher" territory="Bulgaria" quantity="2" owner="Bulgaria"/>
             <unitPlacement unitType="man_at_arms" territory="Bulgaria" quantity="2" owner="Bulgaria"/>
             <unitPlacement unitType="cataphract" territory="Bulgaria" quantity="2" owner="Bulgaria"/>
             <unitPlacement unitType="castle" territory="Bulgaria" quantity="1" owner="Bulgaria"/>
