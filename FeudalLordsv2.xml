@@ -2287,7 +2287,7 @@
 			<option name="faction" value="enemy" />
 			<option name="side" value="offence:defence" />
 			<option name="dice" value="strength" />
-			<option name="bonus" value="-5" />
+			<option name="bonus" value="-6" />
 			<option name="number" value="1" />
 			<option name="bonusType" value="spearwall" />
 			<option name="impArtTech" value="false" />
@@ -2357,7 +2357,7 @@
 			<option name="side" value="defence" />
 			<option name="dice" value="strength" />
 			<option name="bonus" value="-2" />
-			<option name="number" value="18" />
+			<option name="number" value="24" />
 			<option name="bonusType" value="battlements" />
 			<option name="impArtTech" value="false" />
 			<option name="players" value="Byzantium:Seljuk:Jerusalem:Fatimid:Almoravid:Leon:Aragon:Aquitania:France:England:Scotland:PapalState:Sicily:Venice:Austria:Hungary:Poland:Bohemia:Brandenburg:Denmark:Sweden:Kiev:Novgorod:Cumania:Bulgaria" />
@@ -2368,7 +2368,7 @@
 			<option name="side" value="defence" />
 			<option name="dice" value="strength" />
 			<option name="bonus" value="-3" />
-			<option name="number" value="99" />
+			<option name="number" value="-1" />
 			<option name="bonusType" value="walls" />
 			<option name="impArtTech" value="false" />
 			<option name="players" value="Byzantium:Seljuk:Jerusalem:Fatimid:Almoravid:Leon:Aragon:Aquitania:France:England:Scotland:PapalState:Sicily:Venice:Austria:Hungary:Poland:Bohemia:Brandenburg:Denmark:Sweden:Kiev:Novgorod:Cumania:Bulgaria" />
