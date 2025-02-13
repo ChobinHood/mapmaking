@@ -2129,7 +2129,7 @@
 			<option name="movement" value="2"/>
 			<option name="transportCost" value="1"/>
 			<option name="attack" value="3"/>
-			<option name="defense" value="5"/>
+			<option name="defense" value="6"/>
 		</attachment>
 		<attachment name="unitAttachment" attachTo="longbowman" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
 		        <!--<option name="destroyedWhenCapturedBy" value="BY:Byzantium:Seljuk:Jerusalem:Fatimid:Almoravid:Leon:Aragon:Aquitania:France:England:Scotland:PapalState:Sicily:Venice:Austria:Hungary:Poland:Bohemia:Brandenburg:Denmark:Sweden:Kiev:Novgorod:Cumania:Bulgaria"/>-->
@@ -2287,7 +2287,7 @@
 			<option name="faction" value="enemy" />
 			<option name="side" value="offence:defence" />
 			<option name="dice" value="strength" />
-			<option name="bonus" value="-6" />
+			<option name="bonus" value="-5" />
 			<option name="number" value="1" />
 			<option name="bonusType" value="spearwall" />
 			<option name="impArtTech" value="false" />
