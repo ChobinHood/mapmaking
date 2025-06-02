@@ -2149,6 +2149,8 @@
 		<unit name="Bunker"/>
 		<unit name="Grain Farm"/>
 		<unit name="AAGun"/>
+		<unit name="Air base"/>
+		<unit name="Naval base"/>
 		<unit name="Factory"/><!--
 		<unit name="Lancaster"/>
 		<unit name="NakajimaG5N"/>
