@@ -8483,6 +8483,7 @@
     </property>
     <property name="Two HitPoint Units Require Repair Facilities" value="true" editable="true">
       <boolean/>
+	     </property>
 		<property name="Shore Bombard Per Ground Unit Restricted" value="false" editable="true">
 			<boolean/>
 		</property>
