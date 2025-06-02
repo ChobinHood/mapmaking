@@ -4416,7 +4416,7 @@
       <option name="canBeDamaged" value="true"/>
       <option name="maxDamage" value="6"/>
       <option name="maxOperationalDamage" value="2"/>
-      <option name="repairsUnits" value="battleship:carrier"/>
+      <option name="repairsUnits" value="Battleship"/>
       <option name="isConstruction" value="true"/>
       <option name="constructionType" value="harbour_structure"/>
       <option name="constructionsPerTerrPerTypePerTurn" value="1"/>
@@ -8475,14 +8475,14 @@
 			<boolean/>
 		</property> 
 
-		<property name="Units Repair Hits End Turn" value="true" editable="true">
-			<boolean/>
-		</property>
-
-		<property name="Units Repair Hits Start Turn" value="false" editable="true">
-			<boolean/>
-		</property>
-
+		<property name="Units Repair Hits End Turn" value="false" editable="false">
+      <boolean/>
+    </property>
+    <property name="Units Repair Hits Start Turn" value="true" editable="false">
+      <boolean/>
+    </property>
+    <property name="Two HitPoint Units Require Repair Facilities" value="true" editable="true">
+      <boolean/>
 		<property name="Shore Bombard Per Ground Unit Restricted" value="false" editable="true">
 			<boolean/>
 		</property>
