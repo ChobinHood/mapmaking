@@ -2466,8 +2466,8 @@
       </repairRule>
                 <repairFrontier name="repair">
                 	<repairRules name="repairFactory"/>
-			<repairRule name="repairNaval base">
-			<repairRule name="repairAir base">
+			<repairRules name="repairNaval base">
+			<repairRules name="repairAir base">
                 </repairFrontier>
 		
 
