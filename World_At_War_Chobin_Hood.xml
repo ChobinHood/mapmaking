@@ -4442,7 +4442,7 @@
     </attachment>
 		
 		<attachment name="supportAttachment_bunker_buster" attachTo="Bunker" javaClass="games.strategy.triplea.attachments.UnitSupportAttachment" type="unitType">
-			<option name="unitType" value="tank" />
+			<option name="unitType" value="Tank" />
 			<option name="faction" value="enemy" />
 			<option name="side" value="offence:defence" />
 			<option name="dice" value="strength" />
