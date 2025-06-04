@@ -2210,87 +2210,99 @@
 			<step name="americansBidPlace" delegate="placeBid" player="Americans" maxRunCount="1"/>
 			<step name="americansBid" delegate="bid" player="Americans" maxRunCount="1"/>
 			
-                        <step name="germansPurchase" delegate="purchase" player="Germans"/>
+                        
 			<step name="germansCombatMove" delegate="move" player="Germans"/>					
 			<step name="germansBattle" delegate="battle" player="Germans"/>
-			<step name="germansNonCombatMove" delegate="move" player="Germans" display="Non Combat Move"/>            
+			<step name="germansNonCombatMove" delegate="move" player="Germans" display="Non Combat Move"/>
+			<step name="germansPurchase" delegate="purchase" player="Germans"/>
 			<step name="germansPlace" delegate="place" player="Germans"/>                     
 			<step name="germansEndTurn" delegate="endTurn" player="Germans"/>
 
-			<step name="finnsPurchase" delegate="purchase" player="Finns"/>
+			
 			<step name="finnsCombatMove" delegate="move" player="Finns"/>
 			<step name="finnsBattle" delegate="battle" player="Finns"/>
 			<step name="finnsNonCombatMove" delegate="move" player="Finns" display="Non Combat Move"/>       
+			<step name="finnsPurchase" delegate="purchase" player="Finns"/>
 			<step name="finnsPlace" delegate="place" player="Finns"/>                      
 			<step name="finnsEndTurn" delegate="endTurn" player="Finns"/>
 
-			<step name="RussiansPurchase" delegate="purchase" player="Russians"/>
+			
 			<step name="RussiansCombatMove" delegate="move" player="Russians"/>
 			<step name="RussiansBattle" delegate="battle" player="Russians"/>
 			<step name="RussiansNonCombatMove" delegate="move" player="Russians" display="Non Combat Move"/>    
+			<step name="RussiansPurchase" delegate="purchase" player="Russians"/>
 			<step name="RussiansPlace" delegate="place" player="Russians"/>                       
 			<step name="RussiansEndTurn" delegate="endTurn" player="Russians"/>
 
-			<step name="chinesePurchase" delegate="purchase" player="Chinese"/>
+			
 			<step name="chineseCombatMove" delegate="move" player="Chinese"/>
 			<step name="chineseBattle" delegate="battle" player="Chinese"/>
 			<step name="chineseNonCombatMove" delegate="move" player="Chinese" display="Non Combat Move"/>    
+			<step name="chinesePurchase" delegate="purchase" player="Chinese"/>
 			<step name="chinesePlace" delegate="place" player="Chinese"/>                        
 			<step name="chineseEndTurn" delegate="endTurn" player="Chinese"/>
 
-			<step name="italiansPurchase" delegate="purchase" player="Italians"/>
+			
 			<step name="italiansCombatMove" delegate="move" player="Italians"/>
 			<step name="italiansBattle" delegate="battle" player="Italians"/>
 			<step name="italiansNonCombatMove" delegate="move" player="Italians" display="Non Combat Move"/>    
+			<step name="italiansPurchase" delegate="purchase" player="Italians"/>
 			<step name="italiansPlace" delegate="place" player="Italians"/>                        
 			<step name="italiansEndTurn" delegate="endTurn" player="Italians"/>
 
-			<step name="romaniansPurchase" delegate="purchase" player="Romanians"/>
+			
 			<step name="romaniansCombatMove" delegate="move" player="Romanians"/>
 			<step name="romaniansBattle" delegate="battle" player="Romanians"/>
-			<step name="romaniansNonCombatMove" delegate="move" player="Romanians" display="Non Combat Move"/>      
+			<step name="romaniansNonCombatMove" delegate="move" player="Romanians" display="Non Combat Move"/>  
+			<step name="romaniansPurchase" delegate="purchase" player="Romanians"/>
 			<step name="romaniansPlace" delegate="place" player="Romanians"/>                        
 			<step name="romaniansEndTurn" delegate="endTurn" player="Romanians"/>
 
-			<step name="britishPurchase" delegate="purchase" player="British"/>
+			
 			<step name="britishCombatMove" delegate="move" player="British"/>
 			<step name="britishBattle" delegate="battle" player="British"/>
-			<step name="britishNonCombatMove" delegate="move" player="British" display="Non Combat Move"/>                  
+			<step name="britishNonCombatMove" delegate="move" player="British" display="Non Combat Move"/>
+			<step name="britishPurchase" delegate="purchase" player="British"/>
 			<step name="britishPlace" delegate="place" player="British"/>                       
 			<step name="britishEndTurn" delegate="endTurn" player="British"/>
 
-			<step name="frenchPurchase" delegate="purchase" player="French"/>
+			
 			<step name="frenchCombatMove" delegate="move" player="French"/>
 			<step name="frenchBattle" delegate="battle" player="French"/>
-			<step name="frenchNonCombatMove" delegate="move" player="French" display="Non Combat Move"/>     
+			<step name="frenchNonCombatMove" delegate="move" player="French" display="Non Combat Move"/> 
+			<step name="frenchPurchase" delegate="purchase" player="French"/>
 			<step name="frenchPlace" delegate="place" player="French"/>                       
 			<step name="frenchEndTurn" delegate="endTurn" player="French"/>
 
-			<step name="americansPurchase" delegate="purchase" player="Americans"/>
+			
 			<step name="americansCombatMove" delegate="move" player="Americans"/>
 			<step name="americansBattle" delegate="battle" player="Americans"/>
-			<step name="americansNonCombatMove" delegate="move" player="Americans" display="Non Combat Move"/>                        
+			<step name="americansNonCombatMove" delegate="move" player="Americans" display="Non Combat Move"/>           
+			<step name="americansPurchase" delegate="purchase" player="Americans"/>
 			<step name="americansPlace" delegate="place" player="Americans"/>                        
 			<step name="americansEndTurn" delegate="endTurn" player="Americans"/>						
 
-			<step name="anzacPurchase" delegate="purchase" player="Anzac"/>	
+			
 			<step name="anzacCombatMove" delegate="move" player="Anzac"/>		
 			<step name="anzacBattle" delegate="battle" player="Anzac"/>
 			<step name="anzacNonCombatMove" delegate="move" player="Anzac" display="Non Combat Move"/>  
+			<step name="anzacPurchase" delegate="purchase" player="Anzac"/>	
 			<step name="anzacPlace" delegate="place" player="Anzac"/>                        
 			<step name="anzacEndTurn" delegate="endTurn" player="Anzac"/>
 
-			<step name="yamamotoPurchase" delegate="purchase" player="Yamamoto"/>
+			
 			<step name="yamamotoCombatMove" delegate="move" player="Yamamoto"/>
 			<step name="yamamotoBattle" delegate="battle" player="Yamamoto"/>
-			<step name="yamamotoNonCombatMove" delegate="move" player="Yamamoto" display="Non Combat Move"/>     
+			<step name="yamamotoNonCombatMove" delegate="move" player="Yamamoto" display="Non Combat Move"/> 
+			<step name="yamamotoPurchase" delegate="purchase" player="Yamamoto"/>
 			<step name="yamamotoPlace" delegate="place" player="Yamamoto"/>
 			<step name="yamamotoEndTurn" delegate="endTurn" player="Yamamoto"/>
 
-			<step name="thaiPurchase" delegate="purchase" player="Thai"/>
+			
 			<step name="thaiCombatMove" delegate="move" player="Thai"/>
 			<step name="thaiBattle" delegate="battle" player="Thai"/>
-			<step name="thaiNonCombatMove" delegate="move" player="Thai" display="Non Combat Move"/>   
+			<step name="thaiNonCombatMove" delegate="move" player="Thai" display="Non Combat Move"/>
+			<step name="thaiPurchase" delegate="purchase" player="Thai"/>
 			<step name="thaiPlace" delegate="place" player="Thai"/>                      
 			<step name="thaiEndTurn" delegate="endTurn" player="Thai"/>
 			<step name="endRoundStep" delegate="endRound"/>
