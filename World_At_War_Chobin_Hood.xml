@@ -7554,7 +7554,6 @@
 			<territoryOwner territory="Sverdlovsk" owner="Russians"/>
 			<territoryOwner territory="Sibirsky" owner="Russians"/>
 			<territoryOwner territory="Moscow" owner="Russians"/>
-			<territoryOwner territory="Vladivostok" owner="Russians"/>
 			<territoryOwner territory="Stalingrad" owner="Russians"/>
 			<territoryOwner territory="Tashkent" owner="Russians"/>
 			<territoryOwner territory="Rome" owner="Italians"/>
@@ -7625,10 +7624,9 @@
 			<unitPlacement unitType="Fighter" territory="Hamburg" quantity="2" owner="Germans"/>
 			<unitPlacement unitType="Bunker" territory="Hamburg" quantity="2" owner="Germans"/>
 			<unitPlacement unitType="Factory" territory="Hamburg" quantity="1" owner="Germans"/>
-			<unitPlacement unitType="Infantry" territory="Vladivostok" quantity="4" owner="Russians"/>
-			<unitPlacement unitType="Artillery" territory="Vladivostok" quantity="1" owner="Russians"/>
-			<unitPlacement unitType="Bunker" territory="Vladivostok" quantity="2" owner="Russians"/>
-			<unitPlacement unitType="Factory" territory="Vladivostok" quantity="1" owner="Russians"/>
+			<unitPlacement unitType="Infantry" territory="Vladivostok" quantity="4"/>
+			<unitPlacement unitType="Bunker" territory="Vladivostok" quantity="2"/>
+			<unitPlacement unitType="Factory" territory="Vladivostok" quantity="1"/>
 			<unitPlacement unitType="Infantry" territory="Penza" quantity="2"/>
 			<unitPlacement unitType="Infantry" territory="Okhotsk" quantity="1"/>
 			<unitPlacement unitType="Infantry" territory="Irkutsk" quantity="1"/>
@@ -7659,18 +7657,18 @@
 			<unitPlacement unitType="Infantry" territory="Vinnytsia" quantity="3"/>
 			<unitPlacement unitType="Infantry" territory="Gorky" quantity="2"/>
 			<unitPlacement unitType="Infantry" territory="Semipalatinsk" quantity="1"/>
-			<unitPlacement unitType="Infantry" territory="Stalingrad" quantity="5" owner="Russians"/>
+			<unitPlacement unitType="Infantry" territory="Stalingrad" quantity="6" owner="Russians"/>
 			<unitPlacement unitType="Tank" territory="Stalingrad" quantity="1" owner="Russians"/>
 			<unitPlacement unitType="Artillery" territory="Stalingrad" quantity="2" owner="Russians"/>
 			<unitPlacement unitType="Fighter" territory="Stalingrad" quantity="1" owner="Russians"/>
 			<unitPlacement unitType="Bunker" territory="Stalingrad" quantity="3" owner="Russians"/>
 			<unitPlacement unitType="Factory" territory="Stalingrad" quantity="1" owner="Russians"/>
 			<unitPlacement unitType="Infantry" territory="Komi" quantity="1"/>
-			<unitPlacement unitType="Infantry" territory="Sverdlovsk" quantity="5" owner="Russians"/>
+			<unitPlacement unitType="Infantry" territory="Sverdlovsk" quantity="6" owner="Russians"/>
 			<unitPlacement unitType="Bunker" territory="Sverdlovsk" quantity="2" owner="Russians"/>
 			<unitPlacement unitType="Tank" territory="Sverdlovsk" quantity="2" owner="Russians"/>
 			<unitPlacement unitType="Artillery" territory="Sverdlovsk" quantity="2" owner="Russians"/>
-			<unitPlacement unitType="Fighter" territory="Sverdlovsk" quantity="1" owner="Russians"/>
+			<unitPlacement unitType="Fighter" territory="Sverdlovsk" quantity="2" owner="Russians"/>
 			<unitPlacement unitType="Factory" territory="Sverdlovsk" quantity="1" owner="Russians"/>
 			<unitPlacement unitType="AAGun" territory="Sverdlovsk" quantity="1" owner="Russians"/>
 			<unitPlacement unitType="Infantry" territory="Kuybyshev" quantity="2"/>
@@ -7694,14 +7692,14 @@
 			<unitPlacement unitType="Bunker" territory="Leningrad" quantity="1"/>
 			<unitPlacement unitType="Factory" territory="Leningrad" quantity="1"/>
 			<unitPlacement unitType="Infantry" territory="Odessa" quantity="1"/>
-			<unitPlacement unitType="Infantry" territory="Tashkent" quantity="4" owner="Russians"/>
+			<unitPlacement unitType="Infantry" territory="Tashkent" quantity="5" owner="Russians"/>
 			<unitPlacement unitType="Artillery" territory="Tashkent" quantity="2" owner="Russians"/>
 			<unitPlacement unitType="Bunker" territory="Tashkent" quantity="2" owner="Russians"/>
 			<unitPlacement unitType="Factory" territory="Tashkent" quantity="1" owner="Russians"/>
-			<unitPlacement unitType="Infantry" territory="Sibirsky" quantity="4" owner="Russians"/>
-			<unitPlacement unitType="Artillery" territory="Sibirsky" quantity="1" owner="Russians"/>
+			<unitPlacement unitType="Infantry" territory="Sibirsky" quantity="5" owner="Russians"/>
+			<unitPlacement unitType="Artillery" territory="Sibirsky" quantity="2" owner="Russians"/>
 			<unitPlacement unitType="Bunker" territory="Sibirsky" quantity="2" owner="Russians"/>
-			<unitPlacement unitType="Tank" territory="Sibirsky" quantity="1" owner="Russians"/>
+			<unitPlacement unitType="Tank" territory="Sibirsky" quantity="2" owner="Russians"/>
 			<unitPlacement unitType="Fighter" territory="Sibirsky" quantity="1" owner="Russians"/>
 			<unitPlacement unitType="Factory" territory="Sibirsky" quantity="1" owner="Russians"/>
 			<unitPlacement unitType="AAGun" territory="Sibirsky" quantity="1" owner="Russians"/>
@@ -8227,7 +8225,7 @@
 			<unitPlacement unitType="Fighter" territory="Moscow" quantity="1" owner="Russians"/>
 			<unitPlacement unitType="AAGun" territory="Moscow" quantity="1" owner="Russians"/>
 			<unitPlacement unitType="Bunker" territory="Moscow" quantity="4" owner="Russians"/>
-			<unitPlacement unitType="Tank" territory="Moscow" quantity="1" owner="Russians"/>
+			<unitPlacement unitType="Tank" territory="Moscow" quantity="2" owner="Russians"/>
 			<unitPlacement unitType="Infantry" territory="Salvador" quantity="3"/>
 			<unitPlacement unitType="Bunker" territory="Salvador" quantity="1"/>
 			<unitPlacement unitType="Factory" territory="Salvador" quantity="1"/>
