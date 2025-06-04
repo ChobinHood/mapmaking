@@ -5336,7 +5336,7 @@
 			<option name="production" value="1"/>
 		</attachment>
 		<attachment name="territoryAttachment" attachTo="Sumatra" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
-			<option name="production" value="2"/>
+			<option name="production" value="3"/>
 		</attachment>
 		<attachment name="territoryAttachment" attachTo="Suriname" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
 			<option name="production" value="2"/>
@@ -5353,7 +5353,7 @@
 			<!--<option name="victoryCity" value="1"/>-->
 		</attachment>
 		<attachment name="territoryAttachment" attachTo="Celebes" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
-			<option name="production" value="2"/>
+			<option name="production" value="3"/>
 		</attachment>
 		<attachment name="territoryAttachment" attachTo="Tanimbar" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
 			<option name="production" value="1"/>
@@ -5362,7 +5362,7 @@
 			<option name="production" value="1"/>
 		</attachment>
 		<attachment name="territoryAttachment" attachTo="Java" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
-			<option name="production" value="3"/>
+			<option name="production" value="4"/>
 		</attachment>
 		<attachment name="territoryAttachment" attachTo="N.Thailand" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
 			<option name="production" value="3"/>
@@ -7570,7 +7570,7 @@
 			<territoryOwner territory="Shanghai" owner="Chinese"/>
 			<territoryOwner territory="Suiyuan" owner="Chinese"/>
 			<territoryOwner territory="Changchun" owner="Yamamoto"/>
-			<territoryOwner territory="Liaoning" owner="Yamamoto"/>
+			<territoryOwner territory="Kyushu" owner="Yamamoto"/>
 			<territoryOwner territory="Madras" owner="British"/>
 			<territoryOwner territory="Cape Town" owner="British"/>
 			<territoryOwner territory="London" owner="British"/>
@@ -7627,12 +7627,12 @@
 			<unitPlacement unitType="Infantry" territory="Vladivostok" quantity="4"/>
 			<unitPlacement unitType="Bunker" territory="Vladivostok" quantity="2"/>
 			<unitPlacement unitType="Factory" territory="Vladivostok" quantity="1"/>
-			<unitPlacement unitType="Infantry" territory="Penza" quantity="2"/>
+			<unitPlacement unitType="Infantry" territory="Penza" quantity="1"/>
 			<unitPlacement unitType="Infantry" territory="Okhotsk" quantity="1"/>
 			<unitPlacement unitType="Infantry" territory="Irkutsk" quantity="1"/>
 			<unitPlacement unitType="Infantry" territory="Karaganda" quantity="1"/>
 			<unitPlacement unitType="Infantry" territory="Evenkia" quantity="1"/>
-			<unitPlacement unitType="Infantry" territory="Novosibirsk" quantity="2"/>
+			<unitPlacement unitType="Infantry" territory="Novosibirsk" quantity="1"/>
 			<unitPlacement unitType="Infantry" territory="Lithuania" quantity="1"/>
 			<unitPlacement unitType="Infantry" territory="Arkhangelsk" quantity="3"/>
 			<unitPlacement unitType="Infantry" territory="Koryakia" quantity="1"/>
@@ -7655,7 +7655,7 @@
 			<unitPlacement unitType="Infantry" territory="Perm" quantity="1"/>
 			<unitPlacement unitType="Infantry" territory="Ufa" quantity="1"/>
 			<unitPlacement unitType="Infantry" territory="Vinnytsia" quantity="3"/>
-			<unitPlacement unitType="Infantry" territory="Gorky" quantity="2"/>
+			<unitPlacement unitType="Infantry" territory="Gorky" quantity="1"/>
 			<unitPlacement unitType="Infantry" territory="Semipalatinsk" quantity="1"/>
 			<unitPlacement unitType="Infantry" territory="Stalingrad" quantity="6" owner="Russians"/>
 			<unitPlacement unitType="Tank" territory="Stalingrad" quantity="1" owner="Russians"/>
@@ -7830,9 +7830,11 @@
 			<unitPlacement unitType="Infantry" territory="Saipan" quantity="1"/>
 			<unitPlacement unitType="Infantry" territory="Jaluit" quantity="2"/>
 			<unitPlacement unitType="Infantry" territory="Yap" quantity="1"/>
-			<unitPlacement unitType="Infantry" territory="Kyushu" quantity="3"/>
-			<unitPlacement unitType="Bunker" territory="Kyushu" quantity="1"/>
-			<unitPlacement unitType="Factory" territory="Kyushu" quantity="1"/>
+			<unitPlacement unitType="Infantry" territory="Kyushu" quantity="4" owner="Yamamoto"/>
+			<unitPlacement unitType="Artillery" territory="Kyushu" quantity="1" owner="Yamamoto"/>
+			<unitPlacement unitType="Fighter" territory="Kyushu" quantity="2" owner="Yamamoto"/>
+			<unitPlacement unitType="Bunker" territory="Kyushu" quantity="1" owner="Yamamoto"/>
+			<unitPlacement unitType="Factory" territory="Kyushu" quantity="1" owner="Yamamoto"/>
 			<unitPlacement unitType="Infantry" territory="Chubu" quantity="3"/>
 			<unitPlacement unitType="Infantry" territory="Fukien" quantity="1"/>
 			<unitPlacement unitType="Infantry" territory="Iturup" quantity="1"/>
@@ -7851,7 +7853,7 @@
 			<unitPlacement unitType="Factory" territory="Shanghai" quantity="1" owner="Chinese"/>
 			<unitPlacement unitType="Infantry" territory="E.Sinkiang" quantity="1"/>
 			<unitPlacement unitType="Infantry" territory="Urumqi" quantity="5" owner="Chinese"/>
-			<unitPlacement unitType="Artillery" territory="Urumqi" quantity="1" owner="Chinese"/>
+			<unitPlacement unitType="Artillery" territory="Urumqi" quantity="2" owner="Chinese"/>
 			<unitPlacement unitType="Bunker" territory="Urumqi" quantity="2" owner="Chinese"/>
 			<unitPlacement unitType="Factory" territory="Urumqi" quantity="1" owner="Chinese"/>
 			<unitPlacement unitType="AAGun" territory="Urumqi" quantity="1" owner="Chinese"/>
@@ -7862,23 +7864,22 @@
 			<unitPlacement unitType="Infantry" territory="Kiangsi" quantity="2"/>
 			<unitPlacement unitType="Infantry" territory="Chahar" quantity="1"/>
 			<unitPlacement unitType="Infantry" territory="Suiyuan" quantity="6" owner="Chinese"/>
-			<unitPlacement unitType="Artillery" territory="Suiyuan" quantity="1" owner="Chinese"/>
+			<unitPlacement unitType="Artillery" territory="Suiyuan" quantity="2" owner="Chinese"/>
 			<unitPlacement unitType="Bunker" territory="Suiyuan" quantity="2" owner="Chinese"/>
 			<unitPlacement unitType="Factory" territory="Suiyuan" quantity="1" owner="Chinese"/>
 			<unitPlacement unitType="Infantry" territory="Yunnan" quantity="2"/>
-			<unitPlacement unitType="Infantry" territory="Hunan" quantity="2"/>
+			<unitPlacement unitType="Infantry" territory="Hunan" quantity="1"/>
 			<unitPlacement unitType="Infantry" territory="Anhwei" quantity="1"/>
 			<unitPlacement unitType="Infantry" territory="C.Sinkiang" quantity="1"/>
 			<unitPlacement unitType="Infantry" territory="Hsining" quantity="6" owner="Chinese"/>
-			<unitPlacement unitType="Artillery" territory="Hsining" quantity="1" owner="Chinese"/>
+			<unitPlacement unitType="Artillery" territory="Hsining" quantity="2" owner="Chinese"/>
 			<unitPlacement unitType="Bunker" territory="Hsining" quantity="4" owner="Chinese"/>
 			<unitPlacement unitType="Factory" territory="Hsining" quantity="1" owner="Chinese"/>
 			<unitPlacement unitType="AAGun" territory="Hsining" quantity="1" owner="Chinese"/>
 			<unitPlacement unitType="Fighter" territory="Hsining" quantity="1" owner="Chinese"/>
-			<unitPlacement unitType="Infantry" territory="Liaoning" quantity="4" owner="Yamamoto"/>
-			<unitPlacement unitType="Artillery" territory="Liaoning" quantity="1" owner="Yamamoto"/>
-			<unitPlacement unitType="Bunker" territory="Liaoning" quantity="2" owner="Yamamoto"/>
-			<unitPlacement unitType="Factory" territory="Liaoning" quantity="1" owner="Yamamoto"/>
+			<unitPlacement unitType="Infantry" territory="Liaoning" quantity="3"/>
+			<unitPlacement unitType="Bunker" territory="Liaoning" quantity="1"/>
+			<unitPlacement unitType="Factory" territory="Liaoning" quantity="1"/>
 			<unitPlacement unitType="Infantry" territory="Kirin" quantity="2"/>
 			<unitPlacement unitType="Infantry" territory="Peking" quantity="3"/>
 			<unitPlacement unitType="Infantry" territory="Hulunbuir" quantity="2"/>
@@ -7935,7 +7936,7 @@
 			<unitPlacement unitType="Infantry" territory="Scotland" quantity="2"/>
 			<unitPlacement unitType="Infantry" territory="Trucial Coast" quantity="1"/>
 			<unitPlacement unitType="Infantry" territory="Canadian Prairies" quantity="1"/>
-			<unitPlacement unitType="Infantry" territory="Calcutta" quantity="2"/>
+			<unitPlacement unitType="Infantry" territory="Calcutta" quantity="1"/>
 			<unitPlacement unitType="Infantry" territory="Punjab" quantity="2"/>
 			<unitPlacement unitType="Infantry" territory="Quebec" quantity="1"/>
 			<unitPlacement unitType="Infantry" territory="South Atlantic USA" quantity="3"/>
@@ -8057,14 +8058,14 @@
 			<unitPlacement unitType="Infantry" territory="Hollandia" quantity="2"/>
 			<unitPlacement unitType="Infantry" territory="Soembawa" quantity="1"/>
 			<unitPlacement unitType="Infantry" territory="East And South Borneo" quantity="1"/>
-			<unitPlacement unitType="Infantry" territory="Sumatra" quantity="2"/>
+			<unitPlacement unitType="Infantry" territory="Sumatra" quantity="3"/>
 			<unitPlacement unitType="Infantry" territory="Banjarmasin" quantity="3"/>
 			<unitPlacement unitType="Bunker" territory="Banjarmasin" quantity="1"/>
 			<unitPlacement unitType="Factory" territory="Banjarmasin" quantity="1"/>
-			<unitPlacement unitType="Infantry" territory="Celebes" quantity="1"/>
+			<unitPlacement unitType="Infantry" territory="Celebes" quantity="2"/>
 			<unitPlacement unitType="Infantry" territory="Tanimbar" quantity="1"/>
 			<unitPlacement unitType="Infantry" territory="Merauke" quantity="2"/>
-			<unitPlacement unitType="Infantry" territory="Java" quantity="3"/>
+			<unitPlacement unitType="Infantry" territory="Java" quantity="4"/>
 			<unitPlacement unitType="Bunker" territory="N.Thailand" quantity="2" owner="Thai"/>
 			<unitPlacement unitType="Infantry" territory="N.Thailand" quantity="5" owner="Thai"/>
 			<unitPlacement unitType="Factory" territory="N.Thailand" quantity="1" owner="Thai"/>
@@ -8115,10 +8116,10 @@
 			<unitPlacement unitType="Fighter" territory="Washington" quantity="1" owner="Americans"/>
 			<unitPlacement unitType="Factory" territory="Washington" quantity="1" owner="Americans"/>
 			<unitPlacement unitType="AAGun" territory="Washington" quantity="1" owner="Americans"/>
-			<unitPlacement unitType="Infantry" territory="Northeast USA" quantity="5"/>
+			<unitPlacement unitType="Infantry" territory="Northeast USA" quantity="4"/>
 			<unitPlacement unitType="Infantry" territory="Kauai" quantity="1"/>
 			<unitPlacement unitType="Infantry" territory="Midway" quantity="1"/>
-			<unitPlacement unitType="Infantry" territory="Manila" quantity="3"/>
+			<unitPlacement unitType="Infantry" territory="Manila" quantity="1"/>
 			<unitPlacement unitType="Infantry" territory="Kermandec" quantity="1"/>
 			<unitPlacement unitType="Infantry" territory="Guam" quantity="1"/>
 			<unitPlacement unitType="Infantry" territory="Northwest USA" quantity="2"/>
