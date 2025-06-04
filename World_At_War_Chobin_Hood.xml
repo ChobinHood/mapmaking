@@ -5179,7 +5179,7 @@
 			<option name="production" value="1"/>
 		</attachment>
 		<attachment name="territoryAttachment" attachTo="Montreal" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
-			<option name="production" value="3"/>
+			<option name="production" value="4"/>
 			<!--<option name="victoryCity" value="1"/>-->
 		</attachment>
 		<attachment name="territoryAttachment" attachTo="London" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
@@ -7747,7 +7747,7 @@
 			<unitPlacement unitType="Bunker" territory="Tobruk" quantity="2" owner="Italians"/>
 		        <unitPlacement unitType="Factory" territory="Tobruk" quantity="1" owner="Italians"/>
 			<unitPlacement unitType="Infantry" territory="Tuscany" quantity="2"/>
-			<unitPlacement unitType="Infantry" territory="Venetia" quantity="4" owner="Italians"/>
+			<unitPlacement unitType="Infantry" territory="Venetia" quantity="5" owner="Italians"/>
 			<unitPlacement unitType="Factory" territory="Venetia" quantity="1" owner="Italians"/>
 			<unitPlacement unitType="Bunker" territory="Venetia" quantity="2" owner="Italians"/>
 			<unitPlacement unitType="Tank" territory="Venetia" quantity="1" owner="Italians"/>
@@ -7972,10 +7972,10 @@
 			<unitPlacement unitType="AAGun" territory="Madras" quantity="1" owner="British"/>
 			<unitPlacement unitType="Infantry" territory="Malta" quantity="1"/>
 			<unitPlacement unitType="Infantry" territory="Montreal" quantity="5" owner="French"/>
-			<unitPlacement unitType="Artillery" territory="Montreal" quantity="1" owner="French"/>
+			<unitPlacement unitType="Artillery" territory="Montreal" quantity="2" owner="French"/>
 			<unitPlacement unitType="Bunker" territory="Montreal" quantity="4" owner="French"/>
 			<unitPlacement unitType="Factory" territory="Montreal" quantity="1" owner="French"/>
-			<unitPlacement unitType="Fighter" territory="Montreal" quantity="1" owner="French"/>
+			<unitPlacement unitType="Fighter" territory="Montreal" quantity="2" owner="French"/>
 			<unitPlacement unitType="Infantry" territory="London" quantity="4" owner="British"/>
 			<unitPlacement unitType="Artillery" territory="London" quantity="1" owner="British"/>
 			<unitPlacement unitType="Tank" territory="London" quantity="1" owner="British"/>
@@ -8088,8 +8088,8 @@
 			<unitPlacement unitType="Factory" territory="San Francisco" quantity="1" owner="Americans"/>
 			<unitPlacement unitType="AAGun" territory="San Francisco" quantity="1" owner="Americans"/>
 			<unitPlacement unitType="Infantry" territory="North Central USA" quantity="2"/>
-			<unitPlacement unitType="Infantry" territory="Davao" quantity="3" owner="Americans"/>
-			<unitPlacement unitType="Artillery" territory="Davao" quantity="1" owner="Americans"/>
+			<unitPlacement unitType="Infantry" territory="Davao" quantity="4" owner="Americans"/>
+			<unitPlacement unitType="Artillery" territory="Davao" quantity="2" owner="Americans"/>
 			<unitPlacement unitType="Fighter" territory="Davao" quantity="2" owner="Americans"/>
 			<unitPlacement unitType="Factory" territory="Davao" quantity="1" owner="Americans"/>
 			<unitPlacement unitType="Bunker" territory="Davao" quantity="2" owner="Americans"/>
